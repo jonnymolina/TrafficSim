@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TMC_SCRIPT SYSTEM "script.dtd">
+
+<TMC_SCRIPT title="Demo Script">
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:00:00</TIME_INDEX>
+		<INCIDENT LogNum="101">Rolled Bread Truck</INCIDENT>
+		
+		<CAD_DATA>
+			<HEADER_INFO>
+				<Type>1179</Type>
+				<Beat>14-13</Beat>
+				<TruncLoc>NB405 AT SAND CYN</TruncLoc>
+				<FullLoc>NB405 AT SAND CYN</FullLoc>
+			</HEADER_INFO>
+		</CAD_DATA>		
+		
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:00:00</TIME_INDEX>
+		<INCIDENT LogNum="101">Rolled Bread Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>ENRT FROM NB 55 AT MACARTHUR</DETAIL>	
+				<UNIT UnitNum="14-13" Status="ENRT" Primary="true" Active="true"/>
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>		 	
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:03:00</TIME_INDEX>
+		<INCIDENT LogNum="101">Rolled Bread Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>14-13 10-97 1125, EMS 10-97, TRK VS VEH, #3,4 LNS BLCKD</DETAIL>	
+				<UNIT UnitNum="14-13" Status="1097" Primary="true" Active="true"/>
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:04:00</TIME_INDEX>
+		<INCIDENT LogNum="101">Rolled Bread Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>14-7 ENRT FROM SB 405 AT BROOKHURST </DETAIL>
+				<UNIT UnitNum="14-7" Status="ENRT" Primary="false" Active="true"/>
+				<UNIT UnitNum="14-21" Status="ENRT" Primary="false" Active="true"/>
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:05:00</TIME_INDEX>
+		<INCIDENT LogNum="101">Rolled Bread Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>REQ DOT TO REMOVE BREAD SPILLED IN SB LANES</DETAIL>					
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>				
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:07:00</TIME_INDEX>
+		<INCIDENT LogNum="101">Rolled Bread Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>14-7 REQ ROT 1185</DETAIL>		
+				<UNIT UnitNum="14-7" Status="1097" Primary="false" Active="true"/>			
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>					
+
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:09:00</TIME_INDEX>
+		<INCIDENT LogNum="101">Rolled Bread Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>10-39 COLLEGE OAK FOR BIG RIG AND CYCLE FOR ROT</DETAIL>		
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>		
+	</SCRIPT_EVENT>
+
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:11:00</TIME_INDEX>
+		<INCIDENT LogNum="101">Rolled Bread Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>14-21 1097 PROV 1184 TRF BACKING QUICKLY</DETAIL>		
+				<TOW Company="College Oak" ConfNum="(949)555-2990" PubNum="(949)555-5758" Beat=""/>
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+	</SCRIPT_EVENT>
+
+</TMC_SCRIPT>
