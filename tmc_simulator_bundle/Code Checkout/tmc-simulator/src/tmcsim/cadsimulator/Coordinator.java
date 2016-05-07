@@ -325,6 +325,23 @@ public class Coordinator extends UnicastRemoteObject
             public void run()
             {
                 simStatusPanelModel.setParamicsStatus(status);
+                
+                // bug fix show correct netowrk ID
+                if (status == PARAMICS_STATUS.LOADED)
+                {
+                    try
+                    {
+                        simStatusPanelModel
+                                .setParamicsNetworkLoaded(
+                                "" + getParamicsNetworkLoaded());
+                    }
+                    catch (RemoteException re)
+                    {
+                        coorLogger.logp(Level.SEVERE, "Coordinator", 
+                            "setParamicsStatus:run", "Unable to communicate with the " +
+                            "CAD Simulator.", re);
+                    }
+                }
 
                 if (managerInt != null)
                 {
