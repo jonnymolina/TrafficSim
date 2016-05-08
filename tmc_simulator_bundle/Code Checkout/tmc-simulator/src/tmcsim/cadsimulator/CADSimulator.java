@@ -22,6 +22,7 @@ import tmcsim.cadsimulator.managers.MediaManager;
 import tmcsim.cadsimulator.managers.ParamicsSimulationManager;
 import tmcsim.cadsimulator.managers.SimulationControlManager;
 import tmcsim.cadsimulator.viewer.MediaStatusPanel;
+import tmcsim.cadsimulator.viewer.model.CADSimulatorModel;
 import tmcsim.cadsimulator.viewer.model.SimulationStatusPanelModel;
 import tmcsim.common.SimulationException;
 import tmcsim.interfaces.CADViewer;
@@ -136,9 +137,6 @@ public class CADSimulator {
     /** Properties file for the CADSimulator. */
     private Properties cadSimulatorProperties;
     
-    /** The model for the Simulation Status Panel */
-    private SimulationStatusPanelModel simStatusPanelModel;
-    
 
     /**
      * Constructor.  Load the Properties file and initialize all CAD Simulator
@@ -170,17 +168,13 @@ public class CADSimulator {
         //CAD Simulator Socket Handler to begin to accept connections from CAD Clients.
         try
         {
-            MediaStatusPanel mediaStatusPanel = new MediaStatusPanel();
-            simStatusPanelModel = new SimulationStatusPanelModel();
+            CADSimulatorModel cadSimModel = new CADSimulatorModel();
 
-            theViewer = chooseUserInterface(
-                    cadSimulatorProperties.getProperty(
+            theViewer = chooseUserInterface(cadSimulatorProperties.getProperty(
                     CAD_PROPERTIES.USER_INTERFACE.name.trim()));
-            simStatusPanelModel.addObserver(theViewer);
-            theViewer.update(null, mediaStatusPanel);
-            theViewer.update(simStatusPanelModel, null);
+            cadSimModel.addObserver(theViewer);
 
-            theCoordinator = new Coordinator(simStatusPanelModel);
+            theCoordinator = new Coordinator(cadSimModel);
 
             startRegistry(Integer.parseInt(
                     cadSimulatorProperties.getProperty(
@@ -198,7 +192,7 @@ public class CADSimulator {
             theMediaMgr = new MediaManager(
                     cadSimulatorProperties.getProperty(
                     CAD_PROPERTIES.MEDIA_PROP_FILE.name),
-                    theATMSMgr, mediaStatusPanel);
+                    theATMSMgr, cadSimModel);
 
             theParamicsSimMgr = new ParamicsSimulationManager(
                     cadSimulatorProperties.getProperty(

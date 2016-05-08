@@ -33,6 +33,10 @@ public class CADSimulatorViewer extends JFrame implements CADViewer
      * Panel to display simulation information.
      */
     private SimulationStatusPanel simulationPanel;
+    /**
+     * Panel to display the media information.
+     */
+    private MediaStatusPanel mediaStatusPanel;
 
     /**
      * Constructor.
@@ -79,9 +83,11 @@ public class CADSimulatorViewer extends JFrame implements CADViewer
     private void initComponents()
     {
         simulationPanel = new SimulationStatusPanel();
-
+        mediaStatusPanel = new MediaStatusPanel();
+        
         cadSimTabbedPane = new JTabbedPane();
         cadSimTabbedPane.addTab("Status", simulationPanel);
+        cadSimTabbedPane.addTab("Media", mediaStatusPanel);
 
         add(cadSimTabbedPane);
 
@@ -112,38 +118,44 @@ public class CADSimulatorViewer extends JFrame implements CADViewer
     @Override
     public void setVisible(boolean state)
     {
-        super.setVisible(state);
-        this.addWindowListener(new WindowListener()
+        // set initial state of gui view
+        if (state)
         {
-            public void windowClosed(WindowEvent e)
+            update(new SimulationStatusPanelModel(), null);
+            this.addWindowListener(new WindowListener()
             {
-            }
+                public void windowClosed(WindowEvent e)
+                {
+                }
 
-            public void windowOpened(WindowEvent e)
-            {
-            }
+                public void windowOpened(WindowEvent e)
+                {
+                }
 
-            public void windowIconified(WindowEvent e)
-            {
-            }
+                public void windowIconified(WindowEvent e)
+                {
+                }
 
-            public void windowDeiconified(WindowEvent e)
-            {
-            }
+                public void windowDeiconified(WindowEvent e)
+                {
+                }
 
-            public void windowActivated(WindowEvent e)
-            {
-            }
+                public void windowActivated(WindowEvent e)
+                {
+                }
 
-            public void windowDeactivated(WindowEvent e)
-            {
-            }
+                public void windowDeactivated(WindowEvent e)
+                {
+                }
 
-            public void windowClosing(WindowEvent e)
-            {
-                System.exit(0);
-            }
-        });
+                public void windowClosing(WindowEvent e)
+                {
+                    System.exit(0);
+                }
+            });
+        }
+        super.setVisible(state);
+        
     }
 
     /**
@@ -156,23 +168,10 @@ public class CADSimulatorViewer extends JFrame implements CADViewer
     @Override
     public void update(Observable obs, Object obj)
     {
-        // should only be called once upon initialization
-        if (obj instanceof MediaStatusPanel
-                && cadSimTabbedPane.indexOfTab("Media") < 0)
-        {
-            cadSimTabbedPane.addTab("Media", (MediaStatusPanel) obj);
-        }
         // updates the status panel tab
-        else if (obs instanceof SimulationStatusPanelModel)
+        if (obs instanceof SimulationStatusPanelModel)
         {
-            SimulationStatusPanelModel panelModel = (SimulationStatusPanelModel) obs;
-
-            simulationPanel.setTerminalsConnected(panelModel.getNumClientsConnected());
-            simulationPanel.setSimManagerStatus(panelModel.isSimManagerConnected());
-            simulationPanel.setTime(panelModel.getTimeSegment());
-            simulationPanel.setParamicsStatus(panelModel.getParamicsStatus());
-            simulationPanel.setScriptStatus(panelModel.getScriptStatus());
-            simulationPanel.setParamicsNetworkLoaded(panelModel.getNetworkLoaded());
+            simulationPanel.refresh((SimulationStatusPanelModel) obs);
         }
     }
 }

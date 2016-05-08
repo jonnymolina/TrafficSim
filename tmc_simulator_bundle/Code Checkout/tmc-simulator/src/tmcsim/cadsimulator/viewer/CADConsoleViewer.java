@@ -122,7 +122,11 @@ public class CADConsoleViewer implements CADViewer
     @Override
     public void setVisible(boolean state)
     {
-
+        // print out initial state of console view
+        if (state)
+        {
+            update(new SimulationStatusPanelModel(), null);
+        }
     }
 
     /**
@@ -145,7 +149,7 @@ public class CADConsoleViewer implements CADViewer
             System.out.println("Status                      : "
                     + scriptStatusToString(simulationPanel.getScriptStatus()));
             System.out.println("Connected CAD Terminals     : "
-                    + simulationPanel.getNumClientsConnected());
+                    + simulationPanel.getNumClients());
             
             String simManagerConnected = "No";
             // check for sim manager connection
@@ -164,13 +168,9 @@ public class CADConsoleViewer implements CADViewer
             }
             System.out.println("Connected to Paramics       : "
                     + paramicsStatus);
-            String networkLoad = "";
-            // check for existing network
-            if (simulationPanel.getNetworkLoaded() != null)
-            {
-                networkLoad = simulationPanel.getNetworkLoaded();
-            }
-            System.out.println("Network Loaded              : " + networkLoad);
+
+            System.out.println("Network Loaded              : " 
+                    + simulationPanel.getNetworkLoaded());
             printInfoErrorMessages();
         }
     }

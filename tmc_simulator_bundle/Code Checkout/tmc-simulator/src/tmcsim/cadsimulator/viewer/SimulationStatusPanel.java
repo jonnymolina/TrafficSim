@@ -19,6 +19,8 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
+import tmcsim.cadsimulator.viewer.model.CADSimulatorModel;
+import tmcsim.cadsimulator.viewer.model.SimulationStatusPanelModel;
 
 import tmcsim.common.CADEnums.PARAMICS_STATUS;
 import tmcsim.common.CADEnums.SCRIPT_STATUS;
@@ -126,7 +128,7 @@ public class SimulationStatusPanel extends JPanel
      *
      * @param connection True if simulation manager is connected, false if not.
      */
-    public void setSimManagerStatus(boolean connection)
+    private void setSimManagerStatus(boolean connection)
     {
         if (connection)
         {
@@ -145,7 +147,7 @@ public class SimulationStatusPanel extends JPanel
      *
      * @param seconds Long value of current time
      */
-    public void setTime(long seconds)
+    private void setTime(long seconds)
     {
         String time = new String();
         long timeSegment;
@@ -234,7 +236,7 @@ public class SimulationStatusPanel extends JPanel
      * </tbody>
      * </table>
      */
-    public void setScriptStatus(SCRIPT_STATUS newStatus)
+    private void setScriptStatus(SCRIPT_STATUS newStatus)
     {
         // set status depending on script status
         switch (newStatus)
@@ -273,7 +275,7 @@ public class SimulationStatusPanel extends JPanel
      * @param newStatus The status denoting whether a connection has been made or
      * dropped.
      */
-    public void setParamicsStatus(PARAMICS_STATUS newStatus)
+    private void setParamicsStatus(PARAMICS_STATUS newStatus)
     {
 
         switch (newStatus)
@@ -292,17 +294,10 @@ public class SimulationStatusPanel extends JPanel
      *
      * @param networkID Unique ID for Paramics network that has been loaded.
      */
-    public void setParamicsNetworkLoaded(String networkID)
+    private void setParamicsNetworkLoaded(String networkID)
     {
         // Set text to None for no network
-        if (networkID == null)
-        {
-            networkLoadedTF.setText("");
-        }
-        else
-        {
-            networkLoadedTF.setText(networkID);
-        }
+        networkLoadedTF.setText(networkID);
     }
 
     /**
@@ -310,7 +305,7 @@ public class SimulationStatusPanel extends JPanel
      *
      * @param connectedClients number of connected CAD clients
      */
-    public void setTerminalsConnected(int connectedClients)
+    private void setTerminalsConnected(int connectedClients)
     {
         termConnectedTF.setText(String.valueOf(connectedClients));
     }
@@ -455,6 +450,21 @@ public class SimulationStatusPanel extends JPanel
                 "Error Messages"));
 
     }
+    
+    /**
+     * Updates all fields in this class from the CADSimulatorModel.
+     * @param simModel models the CADSimulator
+     */
+    public void refresh(SimulationStatusPanelModel simModel)
+    {
+        setTerminalsConnected(simModel.getNumClients());
+        setSimManagerStatus(simModel.isSimManagerConnected());
+        setTime(simModel.getTimeSegment());
+        setParamicsStatus(simModel.getParamicsStatus());
+        setScriptStatus(simModel.getScriptStatus());
+        setParamicsNetworkLoaded(simModel.getNetworkLoaded());
+    }
+    
     /**
      * Count of how many CAD clients have connected.
      */

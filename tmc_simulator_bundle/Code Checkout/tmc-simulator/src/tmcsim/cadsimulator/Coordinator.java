@@ -29,6 +29,7 @@ import tmcsim.cadsimulator.managers.IncidentManager;
 import tmcsim.cadsimulator.managers.MediaManager;
 import tmcsim.cadsimulator.managers.ParamicsSimulationManager;
 import tmcsim.cadsimulator.managers.SimulationControlManager;
+import tmcsim.cadsimulator.viewer.model.CADSimulatorModel;
 import tmcsim.cadsimulator.viewer.model.SimulationStatusPanelModel;
 import tmcsim.client.cadclientgui.CardfileReader;
 import tmcsim.client.cadclientgui.ScriptHandler;
@@ -92,18 +93,18 @@ public class Coordinator extends UnicastRemoteObject
     private static LinkedList<CADClientInterface> clientList;
     private static CADData cadData;
     private static CardfileData cardfileData;
-    private SimulationStatusPanelModel simStatusPanelModel;
+    private CADSimulatorModel cadSimModel;
 
     /**
      * Constructor. Call UnicastRemoteObject constructor and call initializeSimulation.
      *
+     * @param theCADSimModel models the CADSimulator
      * @throws RemoteException
      */
-    public Coordinator(SimulationStatusPanelModel statusPanelModel)
-            throws RemoteException
+    public Coordinator(CADSimulatorModel theCADSimModel) throws RemoteException
     {
         super();
-        simStatusPanelModel = statusPanelModel;
+        cadSimModel = theCADSimModel;
         clientList = new LinkedList<CADClientInterface>();
         cadData = new CADData();
         cardfileData = new CardfileData();
@@ -123,27 +124,27 @@ public class Coordinator extends UnicastRemoteObject
     public void registerForCallback(CADClientInterface client) throws RemoteException
     {
         clientList.add(client);
-        simStatusPanelModel.connectClient();
+        cadSimModel.connectClient();
     }
 
     public void unregisterForCallback(CADClientInterface client) throws RemoteException
     {
         clientList.remove(client);
-        simStatusPanelModel.disconnectClient();
+        cadSimModel.disconnectClient();
     }
 
     public void registerForCallback(SimulationManagerInterface simManInt) 
             throws RemoteException
     {
         managerInt = simManInt;
-        simStatusPanelModel.setSimManagerStatus(true);
+        cadSimModel.setSimManagerStatus(true);
     }
 
     public void unregisterForCallback(SimulationManagerInterface simManInt) 
             throws RemoteException
     {
         managerInt = null;
-        simStatusPanelModel.setSimManagerStatus(false);
+        cadSimModel.setSimManagerStatus(false);
     }
 
     public void startSimulation() throws RemoteException, ScriptException
@@ -212,7 +213,7 @@ public class Coordinator extends UnicastRemoteObject
         CADSimulator.theSoundPlayer.setAudioEnabled(false);
         CADSimulator.theSoundPlayer.deQueueAll();
 
-        simStatusPanelModel.setTime(0);
+        cadSimModel.setTime(0);
 
         setScriptStatus(SCRIPT_STATUS.SCRIPT_STOPPED_NOT_STARTED);
 
@@ -249,7 +250,7 @@ public class Coordinator extends UnicastRemoteObject
         {
             public void run()
             {
-                simStatusPanelModel.setTime(newSimTime);
+                cadSimModel.setTime(newSimTime);
 
                 if (managerInt != null)
                 {
@@ -261,7 +262,7 @@ public class Coordinator extends UnicastRemoteObject
                     {
                         //Simulation Manager has disappeared
                         managerInt = null;
-                        simStatusPanelModel.setSimManagerStatus(false);
+                        cadSimModel.setSimManagerStatus(false);
 
                         coorLogger.logp(
                             Level.SEVERE, "Coordinator", "gotoSimulationTime:run",
@@ -288,7 +289,7 @@ public class Coordinator extends UnicastRemoteObject
             public void run()
             {
 
-                simStatusPanelModel.setScriptStatus(status);
+                cadSimModel.setScriptStatus(status);
 
                 if (managerInt != null)
                 {
@@ -300,7 +301,7 @@ public class Coordinator extends UnicastRemoteObject
                     {
                         //Simulation Manager has disappeared
                         managerInt = null;
-                        simStatusPanelModel.setSimManagerStatus(false);
+                        cadSimModel.setSimManagerStatus(false);
 
                         coorLogger.logp(Level.SEVERE, "Coordinator", "setScriptStatus:run",
                                 "Connection to Simulation Manager has been dropped.", re);
@@ -324,14 +325,14 @@ public class Coordinator extends UnicastRemoteObject
         {
             public void run()
             {
-                simStatusPanelModel.setParamicsStatus(status);
+                cadSimModel.setParamicsStatus(status);
                 
                 // bug fix show correct netowrk ID
                 if (status == PARAMICS_STATUS.LOADED)
                 {
                     try
                     {
-                        simStatusPanelModel
+                        cadSimModel
                                 .setParamicsNetworkLoaded(
                                 "" + getParamicsNetworkLoaded());
                     }
@@ -353,7 +354,7 @@ public class Coordinator extends UnicastRemoteObject
                     {
                         //Simulation Manager has disappeared
                         managerInt = null;
-                        simStatusPanelModel.setSimManagerStatus(false);
+                        cadSimModel.setSimManagerStatus(false);
 
                         coorLogger.logp(
                             Level.SEVERE, "Coordinator", "setParamicsStatus:run",
@@ -388,7 +389,7 @@ public class Coordinator extends UnicastRemoteObject
         return CADSimulator.theParamicsSimMgr.getParamicsStatus();
     }
 
-    public int getParamicsNetworkLoaded() throws RemoteException
+        public int getParamicsNetworkLoaded() throws RemoteException
     {
         return CADSimulator.theParamicsSimMgr.getParamicsNetworkLoaded();
     }
@@ -433,7 +434,7 @@ public class Coordinator extends UnicastRemoteObject
             {
                 //Simulation Manager has disappeared
                 managerInt = null;
-                simStatusPanelModel.setSimManagerStatus(false);
+                cadSimModel.setSimManagerStatus(false);
 
                 coorLogger.logp(Level.SEVERE, "Coordinator", "deleteIncident",
                         "Connection to Simulation Manager has been dropped.", re);
@@ -468,7 +469,7 @@ public class Coordinator extends UnicastRemoteObject
             {
                 //Simulation Manager has disappeared
                 managerInt = null;
-                simStatusPanelModel.setSimManagerStatus(false);
+                cadSimModel.setSimManagerStatus(false);
 
                 coorLogger.logp(Level.SEVERE, "Coordinator", "addIncident",
                         "Connection to Simulation Manager has been dropped.", re);
@@ -634,7 +635,7 @@ public class Coordinator extends UnicastRemoteObject
             {
                 public void run()
                 {
-                    simStatusPanelModel.setTime(currentSimTime);
+                    cadSimModel.setTime(currentSimTime);
 
                     //send an update every 30 seconds
                     if (currentSimTime % 30 == 0)
@@ -653,7 +654,7 @@ public class Coordinator extends UnicastRemoteObject
                         {
                             //Simulation Manager has disappeared
                             managerInt = null;
-                            simStatusPanelModel.setSimManagerStatus(false);
+                            cadSimModel.setSimManagerStatus(false);
 
                             coorLogger.logp(
                                 Level.SEVERE, "Coordinator", "tick:run",
@@ -700,7 +701,7 @@ public class Coordinator extends UnicastRemoteObject
                     {
                         //Simulation Manager has disappeared
                         managerInt = null;
-                        simStatusPanelModel.setSimManagerStatus(false);
+                        cadSimModel.setSimManagerStatus(false);
 
                         coorLogger.logp(
                             Level.SEVERE, "Coordinator", "updateIncidents",
@@ -757,7 +758,7 @@ public class Coordinator extends UnicastRemoteObject
                     {
                         //Simulation Manager has disappeared
                         managerInt = null;
-                        simStatusPanelModel.setSimManagerStatus(false);
+                        cadSimModel.setSimManagerStatus(false);
 
                         coorLogger.logp(
                             Level.SEVERE, "Coordinator", "updateIncidents:run",

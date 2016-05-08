@@ -1,6 +1,8 @@
 package tmcsim.cadsimulator.viewer.model;
 
 import java.util.Observable;
+import tmcsim.cadsimulator.videocontrol.DVDStatusUpdate;
+import tmcsim.cadsimulator.videocontrol.DVDTitleUpdate;
 import tmcsim.common.CADEnums.PARAMICS_STATUS;
 import tmcsim.common.CADEnums.SCRIPT_STATUS;
 
@@ -46,7 +48,7 @@ public class SimulationStatusPanelModel extends Observable
         timeSegment = 0;
         paramicsStatus = PARAMICS_STATUS.DISCONNECTED;
         scriptStatus = SCRIPT_STATUS.NO_SCRIPT;
-        networkLoaded = null;
+        networkLoaded = "None";
     }
 
     /**
@@ -132,7 +134,7 @@ public class SimulationStatusPanelModel extends Observable
      * Get the current number of connected CAD clients.
      * @return the number of connected CAD clients
      */
-    public int getNumClientsConnected()
+    public int getNumClients()
     {
         return numClientsConnected;
     }

@@ -20,6 +20,7 @@ import tmcsim.cadsimulator.videocontrol.DVDStatusUpdate;
 import tmcsim.cadsimulator.videocontrol.DVDTitleUpdate;
 import tmcsim.cadsimulator.viewer.CADSimulatorViewer;
 import tmcsim.cadsimulator.viewer.MediaStatusPanel;
+import tmcsim.cadsimulator.viewer.model.CADSimulatorModel;
 import tmcsim.common.CCTVDirections;
 import tmcsim.common.CCTVInfo;
 
@@ -84,7 +85,7 @@ public class MediaManager implements Observer
     /**
      * Reference to the CADSimulatorViewer.
      */
-    private MediaStatusPanel medialPanel;
+    private CADSimulatorModel cadSimModel;
     /**
      * Properties object for the Media portion of the CAD.
      */
@@ -96,15 +97,15 @@ public class MediaManager implements Observer
      *
      * @param propertiesFile File path for target properties file.
      * @param theATMSManager ATMSManager object.
-     * @param theMediaPanel MediaStatusPanel object.
+     * @param theCadSimModel CADSimulatorModel for the CADSimulator.
      */
     public MediaManager(String propertiesFile, ATMSManager theATMSManager,
-            MediaStatusPanel theMediaPanel)
+            CADSimulatorModel theCadSimModel)
     {
         theDVD_DB = new DVDPlayerDB();
         theImage_DB = new StillImagesDB();
 
-        medialPanel = theMediaPanel;
+        cadSimModel = theCadSimModel;
 
         try
         {
@@ -194,12 +195,12 @@ public class MediaManager implements Observer
                         "Exception from DVD Controller.",
                         ((DVDStatusUpdate) arg).exception);
             }
-            medialPanel.updateDVDStatus((DVDStatusUpdate) arg);
+            cadSimModel.updateDVDStatus((DVDStatusUpdate) arg);
         }
         // update DVD title
         else if (arg instanceof DVDTitleUpdate)
         {
-            medialPanel.updateDVDTitle((DVDTitleUpdate) arg);
+            cadSimModel.updateDVDTitle((DVDTitleUpdate) arg);
         }
     }
 

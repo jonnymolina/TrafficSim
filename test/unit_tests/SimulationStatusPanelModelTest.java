@@ -41,7 +41,7 @@ public class SimulationStatusPanelModelTest extends TestCase
      */
     public void testDefaultState()
     {
-        assertEquals(0, statusModel.getNumClientsConnected());
+        assertEquals(0, statusModel.getNumClients());
         assertEquals(false, statusModel.isSimManagerConnected());
         assertEquals(0, statusModel.getTimeSegment());
         assertEquals(PARAMICS_STATUS.DISCONNECTED, statusModel.getParamicsStatus());
@@ -55,10 +55,10 @@ public class SimulationStatusPanelModelTest extends TestCase
     public void testConnectClient()
     {
         statusModel.connectClient();
-        assertEquals(1, statusModel.getNumClientsConnected());
+        assertEquals(1, statusModel.getNumClients());
         statusModel.connectClient();
         statusModel.connectClient();
-        assertEquals(3, statusModel.getNumClientsConnected());
+        assertEquals(3, statusModel.getNumClients());
         
         statusModel.addObserver(
             new Observer()
@@ -67,7 +67,7 @@ public class SimulationStatusPanelModelTest extends TestCase
                 public void update(Observable o, Object arg)
                 {
                     SimulationStatusPanelModel model = (SimulationStatusPanelModel)o;
-                    assertEquals(4, model.getNumClientsConnected());
+                    assertEquals(4, model.getNumClients());
                 }        
             }
         );
@@ -79,14 +79,14 @@ public class SimulationStatusPanelModelTest extends TestCase
      */
     public void testDisconnectClient()
     {
-        assertEquals(0, statusModel.getNumClientsConnected());
+        assertEquals(0, statusModel.getNumClients());
         statusModel.disconnectClient();
-        assertEquals(0, statusModel.getNumClientsConnected());
+        assertEquals(0, statusModel.getNumClients());
         statusModel.connectClient();
         statusModel.connectClient();
-        assertEquals(2, statusModel.getNumClientsConnected());
+        assertEquals(2, statusModel.getNumClients());
         statusModel.disconnectClient();
-        assertEquals(1, statusModel.getNumClientsConnected());
+        assertEquals(1, statusModel.getNumClients());
 
         statusModel.addObserver(
             new Observer()
@@ -95,7 +95,7 @@ public class SimulationStatusPanelModelTest extends TestCase
                 public void update(Observable o, Object arg)
                 {
                     SimulationStatusPanelModel model = (SimulationStatusPanelModel)o;
-                    assertEquals(0, statusModel.getNumClientsConnected());
+                    assertEquals(0, statusModel.getNumClients());
                 }        
             }
         );
