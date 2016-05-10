@@ -46,7 +46,7 @@ public class SimulationStatusPanelModelTest extends TestCase
         assertEquals(0, statusModel.getTimeSegment());
         assertEquals(PARAMICS_STATUS.DISCONNECTED, statusModel.getParamicsStatus());
         assertEquals(SCRIPT_STATUS.NO_SCRIPT, statusModel.getScriptStatus());
-        assertEquals(null, statusModel.getNetworkLoaded());
+        assertEquals("None", statusModel.getNetworkLoaded());
     }
 
     /**
@@ -193,7 +193,7 @@ public class SimulationStatusPanelModelTest extends TestCase
      */
     public void testSetParamicsNetworkLoaded()
     {
-        assertEquals(null, statusModel.getNetworkLoaded());
+        assertEquals("None", statusModel.getNetworkLoaded());
         statusModel.addObserver(
             new Observer()
             {

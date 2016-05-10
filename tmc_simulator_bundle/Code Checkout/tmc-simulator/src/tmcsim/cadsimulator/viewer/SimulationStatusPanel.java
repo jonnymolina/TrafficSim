@@ -19,7 +19,6 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.border.EtchedBorder;
 import javax.swing.border.TitledBorder;
-import tmcsim.cadsimulator.viewer.model.CADSimulatorModel;
 import tmcsim.cadsimulator.viewer.model.SimulationStatusPanelModel;
 
 import tmcsim.common.CADEnums.PARAMICS_STATUS;
@@ -56,10 +55,15 @@ public class SimulationStatusPanel extends JPanel
      */
     private class SimulatorErrorHandler extends Handler
     {
-        public void close() throws SecurityException
+        /**
+         * No implementation, only necessary to extend Handler.
+         */
+        public void close()
         {
         }
-
+        /**
+         * No implementation, only necessary to extend Handler.
+         */
         public void flush()
         {
         }
@@ -72,6 +76,7 @@ public class SimulationStatusPanel extends JPanel
                     + rec.getSourceMethodName() + " = "
                     + rec.getMessage());
 
+            // log info
             if (rec.getLevel() == Level.INFO)
             {
                 infoMessagesTA.setText(infoMessagesTA.getText()
@@ -114,13 +119,13 @@ public class SimulationStatusPanel extends JPanel
         // Project 2.2 added code (end)
 
 
-        CADSimulatorViewerBox = Box.createVerticalBox();
-        CADSimulatorViewerBox.add(simulationTimeAndStatusBox);
-        CADSimulatorViewerBox.add(additionalInfoBox);
-        CADSimulatorViewerBox.add(infoMessagesPane);
-        CADSimulatorViewerBox.add(errorMessagesPane);
+        cadSimulatorViewerBox = Box.createVerticalBox();
+        cadSimulatorViewerBox.add(simulationTimeAndStatusBox);
+        cadSimulatorViewerBox.add(additionalInfoBox);
+        cadSimulatorViewerBox.add(infoMessagesPane);
+        cadSimulatorViewerBox.add(errorMessagesPane);
 
-        add(CADSimulatorViewerBox);
+        add(cadSimulatorViewerBox);
     }
 
     /**
@@ -130,6 +135,7 @@ public class SimulationStatusPanel extends JPanel
      */
     private void setSimManagerStatus(boolean connection)
     {
+        // connected
         if (connection)
         {
             managerConnectedTF.setText("Yes");
@@ -178,25 +184,6 @@ public class SimulationStatusPanel extends JPanel
 
         simulationClockLabel.setText(time);
 
-    }
-
-    /**
-     * This method is called within the CADSimulator whenever an error occurs. The
-     * message is then displayed to the user in the "Error Messages" portion of the CAD
-     * Simulator Viewer. Invoke method with null parameter to clear messages.
-     *
-     * @param errorMessage String message that will be displayed
-     */
-    protected void displayError(String errorMessage)
-    {
-        if (errorMessage == null)
-        {
-            errorMessagesTA.setText("");
-        }
-        else
-        {
-            errorMessagesTA.append(errorMessage + "\n");
-        }
     }
 
     /**
@@ -277,7 +264,7 @@ public class SimulationStatusPanel extends JPanel
      */
     private void setParamicsStatus(PARAMICS_STATUS newStatus)
     {
-
+        // set text according to the status
         switch (newStatus)
         {
             case CONNECTED:
@@ -478,7 +465,7 @@ public class SimulationStatusPanel extends JPanel
     private Box managerConnectedBox;
     private Box paramicsConnectedBox;
     private Box networkLoadedBox;
-    private Box CADSimulatorViewerBox;
+    private Box cadSimulatorViewerBox;
     private Box simulationTimeAndStatusBox;
     private Box simulationStatusBox;
     private Box simulationTimeBox;

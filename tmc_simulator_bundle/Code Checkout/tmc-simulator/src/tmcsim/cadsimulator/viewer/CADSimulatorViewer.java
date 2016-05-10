@@ -62,6 +62,7 @@ public class CADSimulatorViewer extends JFrame implements CADViewer
      */
     protected void processEvent(AWTEvent evt)
     {
+        // check for closing window
         if (evt.getID() == WindowEvent.WINDOW_CLOSING)
         {
             int option = JOptionPane.showConfirmDialog(null,
@@ -69,7 +70,7 @@ public class CADSimulatorViewer extends JFrame implements CADViewer
                     + "simulation.  Do you wish to continue exiting?",
                     "Confirm Exit",
                     JOptionPane.YES_NO_OPTION);
-
+            // check for no option
             if (option != JOptionPane.NO_OPTION)
             {
                 System.exit(0);
@@ -104,6 +105,7 @@ public class CADSimulatorViewer extends JFrame implements CADViewer
         setPreferredSize(new Dimension(500, 575));
         pack();
         setResizable(false);
+        update(new SimulationStatusPanelModel(), null);
     }
     private JTabbedPane cadSimTabbedPane;
     private JMenuBar menubar;
@@ -118,42 +120,38 @@ public class CADSimulatorViewer extends JFrame implements CADViewer
     @Override
     public void setVisible(boolean state)
     {
-        // set initial state of gui view
-        if (state)
+
+        this.addWindowListener(new WindowListener()
         {
-            update(new SimulationStatusPanelModel(), null);
-            this.addWindowListener(new WindowListener()
+            public void windowClosed(WindowEvent e)
             {
-                public void windowClosed(WindowEvent e)
-                {
-                }
+            }
 
-                public void windowOpened(WindowEvent e)
-                {
-                }
+            public void windowOpened(WindowEvent e)
+            {
+            }
 
-                public void windowIconified(WindowEvent e)
-                {
-                }
+            public void windowIconified(WindowEvent e)
+            {
+            }
 
-                public void windowDeiconified(WindowEvent e)
-                {
-                }
+            public void windowDeiconified(WindowEvent e)
+            {
+            }
 
-                public void windowActivated(WindowEvent e)
-                {
-                }
+            public void windowActivated(WindowEvent e)
+            {
+            }
 
-                public void windowDeactivated(WindowEvent e)
-                {
-                }
+            public void windowDeactivated(WindowEvent e)
+            {
+            }
 
-                public void windowClosing(WindowEvent e)
-                {
-                    System.exit(0);
-                }
-            });
-        }
+            public void windowClosing(WindowEvent e)
+            {
+                System.exit(0);
+            }
+        });
         super.setVisible(state);
         
     }

@@ -114,7 +114,7 @@ public class CADSimulator {
     protected static CADViewer theViewer;
 
     /** Coordinator instance. */
-    protected static  Coordinator theCoordinator;
+    public static  Coordinator theCoordinator;
     
     /** SoundPlayer instance. */
     protected static  SoundPlayer theSoundPlayer = null;

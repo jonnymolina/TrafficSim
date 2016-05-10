@@ -19,7 +19,8 @@ public class MediaStatusPanelModel extends Observable
      */
     public void updateDVDStatus(DVDStatusUpdate update)
     {
-        
+        setChanged();
+        notifyObservers();
     }
     
     /**
@@ -31,5 +32,7 @@ public class MediaStatusPanelModel extends Observable
      */
     public void updateDVDTitle(DVDTitleUpdate update)
     {
+        setChanged();
+        notifyObservers();
     }
 }

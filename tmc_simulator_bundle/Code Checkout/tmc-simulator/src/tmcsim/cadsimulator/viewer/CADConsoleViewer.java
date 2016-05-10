@@ -1,5 +1,7 @@
 package tmcsim.cadsimulator.viewer;
 
+import java.io.PrintWriter;
+import java.io.Writer;
 import java.util.Observable;
 import java.util.logging.Handler;
 import java.util.logging.Level;
@@ -21,17 +23,8 @@ public class CADConsoleViewer implements CADViewer
     private SimulatorErrorHandler errorHandler;
     private StringBuffer infoMsgBuffer;
     private StringBuffer errorMsgBuffer;
-    
-    /**
-     * Instantiates this class. Logs errors from the tmcsim.cadsimulator package level.
-     */
-    public CADConsoleViewer()
-    {
-        errorHandler = new SimulatorErrorHandler();
-        Logger.getLogger("tmcsim.cadsimulator").addHandler(errorHandler);
-        infoMsgBuffer = new StringBuffer();
-        errorMsgBuffer = new StringBuffer();
-    }
+    private Writer initialWriter;
+    private PrintWriter out;
     
     /**
      * Logging Handler to listen for Information and Error
@@ -84,6 +77,57 @@ public class CADConsoleViewer implements CADViewer
             }
         }
     }
+    
+    /**
+     * Instantiates this class. Logs errors from the tmcsim.cadsimulator package level.
+     */
+    public CADConsoleViewer()
+    {
+        errorHandler = new SimulatorErrorHandler();
+        Logger.getLogger("tmcsim.cadsimulator").addHandler(errorHandler);
+        infoMsgBuffer = new StringBuffer();
+        errorMsgBuffer = new StringBuffer();
+        out = new PrintWriter(System.out);
+        simulationPanel = new SimulationStatusPanelModel();
+    }
+    
+    /**
+     * Redirect the printed output to the given writer. Assume setVisible(true) after
+     * setting the writer.
+     * @param writer the redirected writer
+     */
+    public void setWriter(Writer writer)
+    {
+        initialWriter = writer;
+        out = new PrintWriter(initialWriter);
+    }
+
+    /**
+     * Enables or disables this view.
+     * @param state true to enable, false to disable
+     */
+    @Override
+    public void setVisible(boolean state)
+    {
+        out.close();
+        // print out initial state of console view
+        if (state)
+        {
+            // start writing to the listed printwriter
+            if (initialWriter != null)
+            {
+                out = new PrintWriter(initialWriter);
+            }
+            // default
+            else
+            {
+                out = new PrintWriter(System.out);
+            }
+
+            update(simulationPanel, null);
+        }
+    }
+    
     private String formatTime(long seconds)
     {
         String time = new String();     
@@ -116,20 +160,6 @@ public class CADConsoleViewer implements CADViewer
     }
 
     /**
-     * Enables or disables this view.
-     * @param state true to enable, false to disable
-     */
-    @Override
-    public void setVisible(boolean state)
-    {
-        // print out initial state of console view
-        if (state)
-        {
-            update(new SimulationStatusPanelModel(), null);
-        }
-    }
-
-    /**
      * Updates this console view. Updates only if the obs parameter is of type
      * SimulationStatusPanelModel.
      * @param obs updates if instanceof SimulationStatusPanelModel
@@ -143,12 +173,12 @@ public class CADConsoleViewer implements CADViewer
         {
             simulationPanel = (SimulationStatusPanelModel) obs;
             
-            System.out.println("--- CAD Simulator ---");
-            System.out.println("Elapsed Simulation Time     : "
+            out.println("--- CAD Simulator ---");
+            out.println("Elapsed Simulation Time     : "
                     + formatTime(simulationPanel.getTimeSegment()));
-            System.out.println("Status                      : "
+            out.println("Status                      : "
                     + scriptStatusToString(simulationPanel.getScriptStatus()));
-            System.out.println("Connected CAD Terminals     : "
+            out.println("Connected CAD Terminals     : "
                     + simulationPanel.getNumClients());
             
             String simManagerConnected = "No";
@@ -157,7 +187,7 @@ public class CADConsoleViewer implements CADViewer
             {
                 simManagerConnected = "Yes";
             }
-            System.out.println("Simulation Manager Connected: "
+            out.println("Simulation Manager Connected: "
                     + simManagerConnected);
             
             String paramicsStatus = "No";
@@ -166,12 +196,13 @@ public class CADConsoleViewer implements CADViewer
             {
                 paramicsStatus = "Yes";
             }
-            System.out.println("Connected to Paramics       : "
+            out.println("Connected to Paramics       : "
                     + paramicsStatus);
 
-            System.out.println("Network Loaded              : " 
+            out.println("Network Loaded              : " 
                     + simulationPanel.getNetworkLoaded());
             printInfoErrorMessages();
+            out.flush();
         }
     }
     
@@ -207,25 +238,25 @@ public class CADConsoleViewer implements CADViewer
     
     private void printInfoErrorMessages()
     {
-        System.out.println("-- Info Messages --");
+        out.println("-- Info Messages --");
         // check for info msgs
         if (infoMsgBuffer.length() > 0)
         {
-            System.out.print(infoMsgBuffer.toString());
+            out.print(infoMsgBuffer.toString());
         }
         else
         {
-            System.out.println();
+            out.println();
         }
-        System.out.println("-- Error Messages --");
+        out.println("-- Error Messages --");
         // check for error msgs
         if (errorMsgBuffer.length() > 0)
         {
-            System.out.println(errorMsgBuffer.toString());
+            out.print(errorMsgBuffer.toString());
         }
         else
         {
-            System.out.println("\n");
+            out.println();
         }
     }
 

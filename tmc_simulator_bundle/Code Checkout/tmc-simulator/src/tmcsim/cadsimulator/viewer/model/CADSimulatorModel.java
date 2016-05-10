@@ -148,4 +148,4 @@ public class CADSimulatorModel
         simStatusPanelModel.addObserver(observer);
         mediaStatusPanelModel.addObserver(observer);
     }
- }
+}

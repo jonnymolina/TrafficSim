@@ -7,26 +7,37 @@ import javax.swing.AbstractAction;
 import tmcsim.cadsimulator.viewer.CADSimulatorViewer;
 
 /**
- * Abstract action to exit the CADSimulator. When the action is performed
- * the CADSimulatorView.closeViewer() method is called.
- *  
+ * Abstract action to exit the CADSimulator. When the action is performed the
+ * CADSimulatorView.closeViewer() method is called.
+ *
  * @author Matthew Cechini
- * @version 
+ * @version
  */
 @SuppressWarnings("serial")
-public class ExitAction extends AbstractAction {
-
-    /** Reference to the CADSimulatorViewer. */
+public class ExitAction extends AbstractAction
+{
+    /**
+     * Reference to the CADSimulatorViewer.
+     */
     private CADSimulatorViewer theViewer;
 
-    public ExitAction(CADSimulatorViewer viewer) {
+    /**
+     * Constructs an instance of this action class.
+     * @param viewer the referred view
+     */
+    public ExitAction(CADSimulatorViewer viewer)
+    {
         super("Exit");
-        
+
         theViewer = viewer;
     }
-    
-    public void actionPerformed(ActionEvent arg0) {     
+
+    /**
+     * Perform the closing action.
+     * @param arg0 the action event
+     */
+    public void actionPerformed(ActionEvent arg0)
+    {
         theViewer.closeViewer();
     }
-
 }

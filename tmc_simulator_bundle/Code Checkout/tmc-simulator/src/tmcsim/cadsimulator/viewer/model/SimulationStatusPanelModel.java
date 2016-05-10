@@ -1,8 +1,6 @@
 package tmcsim.cadsimulator.viewer.model;
 
 import java.util.Observable;
-import tmcsim.cadsimulator.videocontrol.DVDStatusUpdate;
-import tmcsim.cadsimulator.videocontrol.DVDTitleUpdate;
 import tmcsim.common.CADEnums.PARAMICS_STATUS;
 import tmcsim.common.CADEnums.SCRIPT_STATUS;
 
@@ -70,9 +68,9 @@ public class SimulationStatusPanelModel extends Observable
         if (numClientsConnected > 0)
         {
             numClientsConnected--;
-            setChanged();
-            notifyObservers();
         }
+        setChanged();
+        notifyObservers();
     }
     
     /**
@@ -80,7 +78,8 @@ public class SimulationStatusPanelModel extends Observable
      * @param connection true for connected, false otherwise
      */
     public void setSimManagerStatus(boolean connection)
-    {
+    {   
+        // check for change
         simManagerConnected = connection;
         setChanged();
         notifyObservers();
