@@ -332,9 +332,8 @@ public class Coordinator extends UnicastRemoteObject
                 {
                     try
                     {
-                        cadSimModel
-                                .setParamicsNetworkLoaded(
-                                "" + getParamicsNetworkLoaded());
+                        cadSimModel.setParamicsNetworkLoaded(
+                                    "" + getParamicsNetworkLoaded());
                     }
                     catch (RemoteException re)
                     {
@@ -389,7 +388,7 @@ public class Coordinator extends UnicastRemoteObject
         return CADSimulator.theParamicsSimMgr.getParamicsStatus();
     }
 
-        public int getParamicsNetworkLoaded() throws RemoteException
+    public int getParamicsNetworkLoaded() throws RemoteException
     {
         return CADSimulator.theParamicsSimMgr.getParamicsNetworkLoaded();
     }

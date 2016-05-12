@@ -346,10 +346,10 @@ public class CADSimulatorViewerTest extends TestCase
      */
     public void testErrorMessages()
     {
-        TextBox textBox = window.getTextBox("infoMessagesTA");
+        TextBox textBox = window.getTextBox("errorMessagesTA");
         UISpecAssert.assertTrue(textBox.textEquals(""));
         
-        kLogger.logp(Level.INFO, "CADSimulatorViewerTest", "testErrorMessages", 
+        kLogger.logp(Level.SEVERE, "CADSimulatorViewerTest", "testErrorMessages", 
                         "Should show as the first error msg");
         textBox = window.getTextBox("infoMessagesTA");
         UISpecAssert.assertTrue(
@@ -357,7 +357,7 @@ public class CADSimulatorViewerTest extends TestCase
                 "CADSimulatorViewerTest.testErrorMessages = " +
                 "Should show as the first error msg\n"));
         
-        kLogger.logp(Level.INFO, "CADSimulatorViewerTest", "testErrorMessages", 
+        kLogger.logp(Level.SEVERE, "CADSimulatorViewerTest", "testErrorMessages", 
                         "Should show as the second error msg");
         textBox = window.getTextBox("infoMessagesTA");
         UISpecAssert.assertTrue(
