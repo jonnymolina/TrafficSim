@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not modify titles. Note that these titles are not
+sent into the actual screen. If titles are to be modified,
+they need to be changed in CardfileHandler.java  -->
+
+
+
+<CARDFILE> 
+	<TAB title = "Coastal Division Units">
+		<CARDFILE_OBJ name = "Name" >
+			<ADDRESS>Address</ADDRESS>
+			<CITY>City</CITY>
+			<STATE>State</STATE>
+			<ZIP>Zip</ZIP>
+			<PHONE1>Phone1</PHONE1>
+			<PHONE2>Phone2</PHONE2>
+			<FAX>Fax</FAX>
+		</CARDFILE_OBJ>
+		
+		<CARDFILE_OBJ  name = "Name2" >
+			<ADDRESS>Address2</ADDRESS>
+			<CITY>City2</CITY>
+			<STATE>State2</STATE>
+			<ZIP>Zip2</ZIP>
+			<PHONE1>Phone12</PHONE1>
+			<PHONE2>Phone22</PHONE2>
+			<FAX>Fax2</FAX>
+		</CARDFILE_OBJ>
+		
+	</TAB>
+	
+	<TAB title = "Police/Sheriff/Coroner">
+	
+		<CARDFILE_OBJ  name = "Name" >
+			<ADDRESS>Address</ADDRESS>
+			<CITY>City</CITY>
+			<STATE>State</STATE>
+			<ZIP>Zip</ZIP>
+			<PHONE1>Phone1</PHONE1>
+			<PHONE2>Phone2</PHONE2>
+			<FAX>Fax</FAX>
+		</CARDFILE_OBJ>
+		
+	</TAB>
+	
+	<TAB title = "Courts">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Public Transportation">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "GG Other">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "MY Misc">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "SL Misc">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "VT Misc">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "CHP Offices">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "State Agencies/Facilities">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Government Officials">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Federal Agencies">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Fire/EMS">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Jails">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Hospitals/Med Centers">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Tow Companies">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "CalTrans">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "County Roads">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Utilities">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Animal Control">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Airports">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Credit Cards">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "GG Crisis Shelters">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Ranges">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Hotlines">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Hwy Patrols OOS">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Parks/Recreation">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Shelters">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "SL County Services">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "SL Resources">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Truck/Tire Repair">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "MCC Employees">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "Gate Access Codes">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "VT Call Signs">
+		
+		
+		
+	</TAB>
+	
+	<TAB title = "SLCC Employees">
+		
+		
+		
+	</TAB>
+
+</CARDFILE>
