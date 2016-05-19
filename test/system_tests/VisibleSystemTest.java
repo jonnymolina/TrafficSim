@@ -1,6 +1,17 @@
 package system_tests;
 
+import java.io.File;
+import java.io.PrintWriter;
 import java.util.concurrent.atomic.AtomicBoolean;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 import tmcsim.cadsimulator.*;
 import static junit.framework.Assert.fail;
 import org.uispec4j.Button;
@@ -10,6 +21,9 @@ import org.uispec4j.Trigger;
 import org.uispec4j.UISpecTestCase;
 import org.uispec4j.Window;
 import org.uispec4j.interception.WindowInterceptor;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import tmcsim.client.cadclientgui.enums.CADScriptTags;
 import tmcsim.paramicscommunicator.ParamicsCommunicator;
 import tmcsim.simulationmanager.SimulationManager;
 
@@ -28,7 +42,7 @@ public class VisibleSystemTest extends UISpecTestCase
      * Tests the interaction between CADSimulator, Simulation Manager, 
      * and Paramics Communicator.
      */
-    public void testSystem() throws InterruptedException
+    public void testSystem() throws InterruptedException, ParserConfigurationException, TransformerConfigurationException, TransformerException
     {
         Runnable runParamics = new Runnable() {
 
@@ -54,19 +68,19 @@ public class VisibleSystemTest extends UISpecTestCase
                             }
                         }
                     });
-                    
-                    while (!paramicsLock.get());
+                    Thread.sleep(7000);
+//                    while (!paramicsLock.get());
                     // Check for reader 1 tab
-                    paramicsLock.compareAndSet(true, false);
-                    Thread.sleep(1000);
+//                    paramicsLock.compareAndSet(true, false);
+//                    Thread.sleep(1000);
                     TabGroup tabs = paramicsWindow.getTabGroup("fileIOTabs");
                     tabs.selectTab("Reader 1");
                     assertTrue(tabs.getSelectedTab().isVisible());
-                    simManagerLock.compareAndSet(false, true);
+//                    simManagerLock.compareAndSet(false, true);
                     
-                    while (!paramicsLock.get());
+//                    while (!paramicsLock.get());
                     // Check for writer 1 tab
-                    Thread.sleep(1000);
+//                    Thread.sleep(1000);
                     tabs = paramicsWindow.getTabGroup("fileIOTabs");
                     tabs.selectTab("Writer 0");
                     assertTrue(tabs.getSelectedTab().isVisible());
@@ -101,7 +115,7 @@ public class VisibleSystemTest extends UISpecTestCase
                 }
             }
         });
-        
+        Thread.sleep(5000);
         // Test initial sim manager state
         TextBox textBox = simManagerWindow.getTextBox("simulationStatusText");
         assertTrue(textBox.textEquals("No Script"));
@@ -121,10 +135,8 @@ public class VisibleSystemTest extends UISpecTestCase
         assertTrue(textBox.textEquals("Connected"));
         button = simManagerWindow.getButton("loadParamicsNetworkButton");
         assertTrue(button.isEnabled());
-        paramicsLock.compareAndSet(false, true);
         
         // Load Network
-        while (!simManagerLock.get());
         Thread.sleep(1000);
         button = simManagerWindow.getButton("loadParamicsNetworkButton");
         button.click();
@@ -132,6 +144,66 @@ public class VisibleSystemTest extends UISpecTestCase
         assertTrue(textBox.textEquals("Sending Network ID"));
         button = simManagerWindow.getButton("loadParamicsNetworkButton");
         assertFalse(button.isEnabled());
-        paramicsLock.compareAndSet(false, true);
+        
+        // update file warming up
+        String paramicsStatusXML = "c:\\paramics_status.xml";
+        DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+        Document doc = docBuilder.newDocument();
+        
+        // root element
+        Element rootElement = doc.createElement("Paramics");
+        doc.appendChild(rootElement);
+
+        // Network_Status element
+        Element networkStatusElement = doc.createElement("Network_Status");
+        networkStatusElement.appendChild(doc.createTextNode("WARMING"));
+        rootElement.appendChild(networkStatusElement);
+
+        // time index
+        Element networIDElement = doc.createElement("Network_ID");
+        networIDElement.appendChild(doc.createTextNode("1"));
+        rootElement.appendChild(networIDElement);
+        
+        // write to xml file
+        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+        Transformer transformer = transformerFactory.newTransformer();
+        DOMSource source = new DOMSource(doc);
+        StreamResult result = new StreamResult(new File(paramicsStatusXML));
+        transformer.transform(source, result);
+        
+        Thread.sleep(5500);
+        textBox = simManagerWindow.getTextBox("paramicsStatusInfoLabel");
+        assertTrue(textBox.textEquals("Warming Up"));
+        
+//        // update file network 1 loaded
+//         docFactory = DocumentBuilderFactory.newInstance();
+//        DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+//        Document doc = docBuilder.newDocument();
+//        
+//        // root element
+//        Element rootElement = doc.createElement("Paramics");
+//        doc.appendChild(rootElement);
+//
+//        // Network_Status element
+//        Element networkStatusElement = doc.createElement("Network_Status");
+//        networkStatusElement.appendChild(doc.createTextNode("WARMING"));
+//        rootElement.appendChild(networkStatusElement);
+//
+//        // time index
+//        Element networIDElement = doc.createElement("Network_ID");
+//        networIDElement.appendChild(doc.createTextNode("1"));
+//        rootElement.appendChild(networIDElement);
+//        
+//        // write to xml file
+//        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+//        Transformer transformer = transformerFactory.newTransformer();
+//        DOMSource source = new DOMSource(doc);
+//        StreamResult result = new StreamResult(new File(paramicsStatusXML));
+//        transformer.transform(source, result);
+//        
+//        Thread.sleep(5500);
+//        textBox = simManagerWindow.getTextBox("paramicsStatusInfoLabel");
+//        assertTrue(textBox.textEquals("Warming Up"));
     }
 }
