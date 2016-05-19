@@ -173,6 +173,7 @@ public class ParamicsCommunicatorGUI extends JFrame implements Observer {
         /* End Add by Nathaniel Lehrer */
         
         fileIOTabs = new JTabbedPane();
+        fileIOTabs.setName("fileIOTabs");
         fileIOTabs.setAlignmentX(Box.CENTER_ALIGNMENT);
         fileIOTabs.setMinimumSize(new Dimension(420, 480));
         fileIOTabs.setPreferredSize(new Dimension(420, 480));

@@ -65,11 +65,12 @@ public class CADSimulatorViewer extends JFrame implements CADViewer
         // check for closing window
         if (evt.getID() == WindowEvent.WINDOW_CLOSING)
         {
-            int option = JOptionPane.showConfirmDialog(null,
-                    "Closing the CAD Simulator will stop the current "
-                    + "simulation.  Do you wish to continue exiting?",
-                    "Confirm Exit",
-                    JOptionPane.YES_NO_OPTION);
+//            int option = JOptionPane.showConfirmDialog(null,
+//                    "Closing the CAD Simulator will stop the current "
+//                    + "simulation.  Do you wish to continue exiting?",
+//                    "Confirm Exit",
+//                    JOptionPane.YES_NO_OPTION);
+            int option = JOptionPane.YES_NO_OPTION;
             // check for no option
             if (option != JOptionPane.NO_OPTION)
             {
@@ -120,7 +121,6 @@ public class CADSimulatorViewer extends JFrame implements CADViewer
     @Override
     public void setVisible(boolean state)
     {
-
         this.addWindowListener(new WindowListener()
         {
             public void windowClosed(WindowEvent e)

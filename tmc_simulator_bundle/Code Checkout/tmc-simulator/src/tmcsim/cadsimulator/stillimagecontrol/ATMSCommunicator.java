@@ -39,8 +39,17 @@ public class ATMSCommunicator {
         username   = user;
         password   = pwd;
         image_dir  = dir;
-        
-        plinkBaseCMD = "plink -l " + username + " -pw " + password + " " + viewerHost + " ";        
+        if (System.getProperty("os.name") != null
+                && System.getProperty("os.name").startsWith("Windows"))
+        {
+            plinkBaseCMD = "plink -l " + username + " -pw " + password 
+                    + " " + viewerHost + " ";
+        }
+        else
+        {
+            plinkBaseCMD = "date " + username + " -pw " + password 
+                    + " " + viewerHost + " ";
+        }
     }
     
     /**

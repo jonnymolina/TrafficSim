@@ -1,0 +1,5989 @@
+link 0 1 category 4 
+link 0 2870 barred 
+link 1 0 barred 
+link 1 2 category 4 
+link 2 3 category 4 
+link 2 1 barred 
+link 3 4 category 4 
+link 3 2 barred 
+link 4 5 category 4 
+link 4 3 barred 
+link 5 6 category 4 
+link 5 4 barred 
+link 6 7 category 4 
+link 6 5 barred 
+link 7 8 category 4 
+link 7 6 barred 
+link 8 9 category 4 
+link 8 7 barred 
+link 9 10 category 4 
+link 9 8 barred 
+link 10 11 category 4 
+link 10 9 barred 
+link 11 12 category 4 
+link 11 10 barred 
+link 12 55 category 8 
+link 12 52 category 4 
+link 12 11 barred 
+link 13 14 category 1 restriction 1 
+link 14 13 barred 
+link 14 15 category 1 restriction 1 
+link 15 16 category 1 restriction 1 
+link 15 14 barred 
+link 16 17 category 1 restriction 1 
+link 16 15 barred 
+link 17 18 category 1 restriction 1 
+link 17 16 barred 
+link 18 19 category 1 restriction 1 
+link 18 17 barred 
+link 19 20 category 1 restriction 1 
+link 19 18 barred 
+link 20 21 category 1 restriction 1 
+link 20 19 barred 
+link 21 22 category 1 restriction 1 
+link 21 20 barred 
+link 22 23 category 1 restriction 1 
+link 22 21 barred 
+link 23 24 category 1 restriction 1 
+link 23 22 barred 
+link 24 25 category 1 restriction 1 
+link 24 23 barred 
+link 25 51 category 1 restriction 1 
+link 25 24 barred 
+link 26 59 barred 
+link 26 27 category 1 restriction 1 
+link 27 26 barred 
+link 27 28 category 1 restriction 1 
+link 28 27 barred 
+link 28 29 category 1 restriction 1 
+link 29 28 barred 
+link 29 30 category 1 restriction 1 
+link 30 29 barred 
+link 30 31 category 1 restriction 1 
+link 31 30 barred 
+link 31 32 category 1 restriction 1 
+link 32 31 barred 
+link 32 33 category 1 restriction 1 
+link 33 32 barred 
+link 33 34 category 1 restriction 1 
+link 34 33 barred 
+link 34 35 category 1 restriction 1 
+link 35 34 barred 
+link 35 36 category 1 restriction 1 
+link 36 35 barred 
+link 36 37 category 1 restriction 1 
+link 37 36 barred 
+link 37 38 category 1 restriction 1 
+link 38 39 category 1 restriction 1 
+link 38 37 barred 
+link 39 38 barred 
+link 40 64 barred 
+link 40 41 category 4 
+link 41 40 barred 
+link 41 42 category 4 
+link 42 41 barred 
+link 42 43 category 4 
+link 43 42 barred 
+link 43 44 category 4 
+link 44 43 barred 
+link 44 45 category 4 
+link 45 44 barred 
+link 45 46 category 4 
+link 46 45 barred 
+link 46 47 category 4 
+link 47 46 barred 
+link 47 48 category 4 
+link 48 47 barred 
+link 48 49 category 4 
+link 49 48 barred 
+link 49 50 category 4 
+link 50 2869 category 4 
+link 50 49 barred 
+link 51 52 category 1 restriction 1 
+link 51 25 barred 
+link 52 53 category 5 lane restriction 1 on lane 5 
+link 52 51 barred 
+link 52 12 barred 
+link 53 54 category 5 lane restriction 1 on lane 5 
+link 53 52 barred 
+link 54 66 category 5 lane restriction 1 on lane 5 
+link 54 53 barred 
+link 55 2822 category 8 
+link 55 12 barred 
+link 56 88 barred 
+link 56 57 category 1 restriction 1 
+link 57 56 barred 
+link 57 58 category 1 restriction 1 
+link 58 57 barred 
+link 58 59 category 1 restriction 1 
+link 59 58 barred 
+link 59 26 category 1 restriction 1 
+link 60 87 barred 
+link 60 61 category 4 
+on-ramp count 1
+ramp from 105 length 196.3 ft left min time 1 move out distance 21.8 ft 
+link 61 60 barred 
+link 61 62 category 4 
+link 62 61 barred 
+link 62 63 category 4 
+link 63 62 barred 
+link 63 64 category 4 
+link 64 63 barred 
+link 64 40 category 4 
+on-ramp count 1
+ramp from 109 length 500.0 ft left min time 1 move out distance -2.9 ft 
+link 65 2822 barred 
+link 66 67 category 5 lane restriction 1 on lane 5 
+link 66 54 barred 
+link 67 68 category 4 
+link 67 70 category 1 restriction 1 
+link 67 66 barred 
+link 68 69 category 4 
+link 68 67 barred 
+link 69 82 category 4 
+link 69 68 barred 
+link 70 71 category 1 restriction 1 
+link 70 67 barred 
+link 71 72 category 1 restriction 1 
+link 71 70 barred 
+link 72 73 category 1 restriction 1 
+link 72 71 barred 
+link 73 74 category 1 restriction 1 
+link 73 72 barred 
+link 74 75 category 1 restriction 1 
+link 74 73 barred 
+link 75 135 category 1 restriction 1 
+link 75 74 barred 
+link 76 79 category 8 speed 30 mph arc centre #1 left 
+link 77 78 category 8 
+link 77 81 barred arc centre #1 
+link 78 82 category 8 
+link 78 77 barred 
+link 79 76 barred arc centre #1 
+link 79 80 category 8 speed 30 mph arc centre #1 left 
+link 80 81 category 8 speed 30 mph arc centre #1 left 
+link 80 79 barred arc centre #1 
+link 81 77 category 8 speed 30 mph arc centre #1 left 
+link 81 80 barred arc centre #1 
+link 82 83 category 5 
+on-ramp count 1
+ramp from 91 length 800.0 ft left min time 1 move out distance 200.0 ft 
+link 82 69 barred 
+link 82 78 barred 
+link 83 137 category 5 
+link 83 82 barred 
+link 84 93 barred 
+link 84 94 category 9 
+link 84 85 category 4 
+link 85 158 barred 
+link 85 84 barred 
+link 85 86 category 5 lane restriction 1 on lane 5 
+link 86 85 barred 
+link 86 87 category 5 lane restriction 1 on lane 5 
+link 87 86 barred 
+link 87 60 category 4 
+link 87 88 category 1 restriction 1 
+link 88 87 barred 
+link 88 56 category 1 restriction 1 
+link 89 90 category 9 
+link 89 2820 barred 
+link 90 91 category 8 type highway 
+link 90 89 barred 
+link 91 90 barred 
+link 92 111 barred 
+link 92 158 category 1 restriction 1 
+link 93 110 barred 
+link 93 84 category 5 
+link 94 84 barred 
+link 94 95 category 9 
+link 95 94 barred 
+link 95 96 category 9 arc centre #38 left 
+link 96 95 barred arc centre #38 
+link 96 97 category 10 
+link 97 96 barred 
+link 97 98 category 10 
+link 98 97 barred 
+link 98 99 category 10 
+link 99 98 barred 
+link 99 100 category 10 
+link 100 99 barred 
+link 101 102 category 9 
+link 102 106 category 9 speed 25 mph arc centre #39 left 
+link 102 101 barred 
+link 103 106 barred arc centre #39 
+link 103 104 category 8 
+link 104 103 barred 
+link 104 105 category 8 type highway 
+link 105 104 barred 
+link 106 102 barred arc centre #39 
+link 106 103 category 9 speed 25 mph arc centre #39 left 
+link 107 2821 barred 
+link 107 108 category 9 
+link 108 107 barred 
+link 108 109 category 8 type highway 
+link 109 108 barred 
+link 110 117 barred 
+link 110 93 category 5 
+link 111 128 barred 
+link 111 92 category 1 restriction 1 
+link 112 2825 barred 
+link 112 113 category 9 speed 35 mph arc centre #40 left 
+link 113 112 barred arc centre #40 
+link 113 120 category 9 
+link 114 119 barred 
+link 114 115 category 8 
+link 115 114 barred 
+link 115 118 category 8 type highway 
+link 116 121 barred 
+link 116 117 category 5 
+link 117 116 barred 
+link 117 110 category 5 
+on-ramp count 1
+ramp from 118 length 386.6 ft left min time 1 move out distance -9.0 ft 
+link 118 115 barred 
+link 119 120 barred 
+link 119 114 category 9 
+link 120 113 barred 
+link 120 119 category 9 
+link 121 122 barred 
+link 121 116 category 5 
+link 122 124 barred 
+link 122 123 barred 
+link 122 121 category 5 
+link 123 127 barred 
+link 123 122 category 8 
+link 124 131 barred 
+link 124 122 category 4 
+link 125 163 category 9 speed 25 mph arc centre #41 left 
+link 125 2824 barred 
+link 126 163 barred arc centre #41 
+link 126 127 category 8 
+link 127 126 barred 
+link 127 123 category 8 
+link 128 129 barred 
+link 128 111 category 1 restriction 1 
+link 129 130 barred 
+link 129 128 category 1 restriction 1 
+link 130 131 barred 
+link 130 129 category 1 restriction 1 
+link 131 132 barred 
+link 131 124 category 4 
+link 131 130 category 1 restriction 1 
+link 132 133 barred 
+link 132 131 category 5 lane restriction 1 on lane 5 
+link 133 134 barred 
+link 133 132 category 5 lane restriction 1 on lane 5 
+link 134 166 barred 
+link 134 165 barred 
+link 134 133 category 5 lane restriction 1 on lane 5 
+link 135 136 category 1 restriction 1 
+link 135 75 barred 
+link 136 138 category 1 restriction 1 
+link 136 135 barred 
+link 137 139 category 5 
+link 137 83 barred 
+link 138 149 category 1 restriction 1 
+link 138 136 barred 
+link 139 140 category 8 
+link 139 149 category 5 
+link 139 137 barred 
+link 140 141 category 8 
+link 140 139 barred 
+link 141 142 category 8 
+link 141 140 barred 
+link 142 143 category 9 
+link 142 141 barred 
+link 143 144 category 9 
+link 143 142 barred 
+link 144 145 category 10 
+link 144 143 barred 
+link 145 146 category 10 
+link 145 144 barred 
+link 146 147 category 10 
+link 146 145 barred 
+link 147 148 category 10 
+link 147 146 barred 
+link 148 147 barred 
+link 149 150 category 6 lane restriction 1 on lane 6 
+link 149 138 barred 
+link 149 139 barred 
+link 150 151 category 6 lane restriction 1 on lane 6 
+link 150 149 barred 
+link 151 152 category 6 lane restriction 1 on lane 6 
+link 151 150 barred 
+link 152 153 category 6 lane restriction 1 on lane 6 
+link 152 151 barred 
+link 153 160 category 5 
+link 153 159 category 1 restriction 1 
+link 153 152 barred 
+link 154 2823 barred 
+link 154 2923 category 9 speed 20 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #74 left 
+link 155 156 category 8 
+link 155 164 barred arc centre #74 
+link 156 157 category 8 type highway 
+link 156 155 barred 
+link 157 160 category 8 
+link 157 156 barred 
+link 158 92 barred 
+link 158 85 category 1 restriction 1 
+link 159 161 category 1 restriction 1 
+link 159 153 barred 
+link 160 162 category 6 
+link 160 153 barred 
+link 160 157 barred 
+link 161 183 category 1 restriction 1 
+link 161 159 barred 
+link 162 192 category 6 
+link 162 160 barred 
+link 163 125 barred arc centre #41 
+link 163 126 category 9 speed 25 mph arc centre #41 left 
+link 164 155 category 9 speed 20 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #74 left 
+link 164 2923 barred arc centre #74 
+link 165 167 barred 
+link 165 134 category 4 
+link 166 206 barred 
+link 166 134 category 1 restriction 1 
+link 167 168 barred 
+link 167 169 category 9 
+link 167 165 category 4 
+link 168 215 barred 
+link 168 167 category 6 
+link 169 167 barred 
+link 169 170 category 9 
+link 170 169 barred 
+link 170 171 category 9 
+link 171 170 barred 
+link 171 172 category 9 
+link 172 171 barred 
+link 172 173 category 9 
+link 173 172 barred 
+link 173 174 category 9 
+link 174 173 barred 
+link 174 175 category 9 
+link 175 174 barred 
+link 175 176 category 10 
+link 176 175 barred 
+link 176 177 category 10 
+link 177 176 barred 
+link 177 178 category 10 
+link 178 177 barred 
+link 178 179 category 10 
+link 179 178 barred 
+link 179 180 category 10 
+link 180 179 barred 
+link 180 181 category 10 
+link 181 180 barred 
+link 181 182 category 10 
+link 182 181 barred 
+link 183 184 category 1 restriction 1 
+link 183 161 barred 
+link 184 185 category 1 restriction 1 
+link 184 183 barred 
+link 185 186 category 1 restriction 1 
+link 185 184 barred 
+link 186 187 category 1 restriction 1 
+link 186 185 barred 
+link 187 188 category 1 restriction 1 
+link 187 186 barred 
+link 188 189 category 1 restriction 1 
+link 188 187 barred 
+link 189 190 category 1 restriction 1 
+link 189 188 barred 
+link 190 191 category 1 restriction 1 
+link 190 189 barred 
+link 191 222 category 1 restriction 1 
+link 191 190 barred 
+link 192 193 category 6 
+on-ramp count 1
+ramp from 205 length 200.0 ft left min time 1 move out distance 60.0 ft 
+link 192 162 barred 
+link 193 194 category 6 
+link 193 192 barred 
+link 194 195 category 6 
+link 194 193 barred 
+link 195 196 category 6 
+link 195 194 barred 
+link 196 197 category 6 
+link 196 195 barred 
+link 197 198 category 6 
+link 197 196 barred 
+link 198 199 category 6 
+link 198 197 barred 
+link 199 221 category 8 
+link 199 220 category 5 
+link 199 198 barred 
+link 200 201 category 9 
+link 201 202 category 9 speed 25 mph arc centre #116 left 
+link 201 200 barred 
+link 202 203 category 9 
+link 202 201 barred arc centre #116 
+link 203 204 category 8 
+link 203 202 barred 
+link 204 205 category 8 type highway 
+link 204 203 barred 
+link 205 204 barred 
+link 206 207 barred 
+link 206 166 category 1 restriction 1 
+link 207 208 barred 
+link 207 206 category 1 restriction 1 
+link 208 209 barred 
+link 208 207 category 1 restriction 1 
+link 209 210 barred 
+link 209 208 category 1 restriction 1 
+link 210 211 barred 
+link 210 209 category 1 restriction 1 
+link 211 214 barred 
+link 211 210 category 1 restriction 1 
+link 212 278 barred 
+link 212 213 category 1 restriction 1 
+link 213 212 barred 
+link 213 214 category 1 restriction 1 
+link 214 213 barred 
+link 214 211 category 1 restriction 1 
+link 215 216 barred 
+link 215 168 category 6 
+link 216 217 barred 
+link 216 215 category 6 
+link 217 218 barred 
+link 217 216 category 6 
+link 218 219 barred 
+link 218 217 category 6 
+link 219 277 barred 
+link 219 218 category 6 
+link 220 223 category 6 lane restriction 1 on lane 6 
+link 220 222 barred 
+link 220 199 barred 
+link 221 224 category 8 
+link 221 199 barred 
+link 222 220 category 1 restriction 1 
+link 222 191 barred 
+link 223 236 category 6 lane restriction 1 on lane 6 
+link 223 220 barred 
+link 224 225 category 8 
+link 224 221 barred 
+link 225 226 category 8 
+link 225 224 barred 
+link 226 227 category 8 
+link 226 225 barred 
+link 227 228 category 8 
+link 227 226 barred 
+link 228 229 category 9 
+link 228 227 barred 
+link 229 230 category 10 arc centre #132 
+link 229 228 barred 
+link 230 2827 category 10 
+link 230 229 barred arc centre #132 left 
+link 231 2827 barred 
+link 232 2826 barred 
+link 232 234 category 9 speed 20 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #133 left 
+link 233 235 category 8 
+link 233 234 barred arc centre #133 
+link 234 233 category 8 speed 20 mph arc centre #133 left 
+link 234 232 barred arc centre #133 
+link 235 238 category 8 
+link 235 233 barred 
+link 236 238 category 5 
+link 236 237 category 1 restriction 1 
+link 236 223 barred 
+link 237 247 category 1 restriction 1 
+link 237 236 barred 
+link 238 239 category 6 
+link 238 236 barred 
+link 238 235 barred 
+link 239 243 category 6 
+link 239 238 barred 
+link 240 241 category 9 speed 20 mph arc centre #150 left 
+link 240 2828 barred 
+link 241 242 category 9 
+link 241 240 barred arc centre #150 
+link 242 245 category 8 
+link 242 241 barred 
+link 243 244 category 6 
+on-ramp count 1
+ramp from 246 length 600.0 ft left min time 1 move out distance 4.1 ft 
+link 243 239 barred 
+link 244 291 category 6 headway factor 1.80 
+link 244 243 barred 
+link 245 246 category 8 type highway 
+link 245 242 barred 
+link 246 245 barred 
+link 247 248 category 1 restriction 1 
+link 247 237 barred 
+link 248 249 category 1 restriction 1 
+link 248 247 barred 
+link 249 250 category 2 speed 75 mph restriction 1 
+link 249 248 barred 
+link 250 283 category 2 speed 75 mph restriction 1 
+link 250 249 barred 
+link 251 287 barred 
+link 251 252 category 2 speed 75 mph restriction 1 
+link 252 251 barred 
+link 252 253 category 2 speed 75 mph restriction 1 
+link 253 252 barred 
+link 253 259 category 1 restriction 1 
+link 253 261 category 1 restriction 1 
+link 254 261 barred 
+link 254 255 category 1 restriction 1 
+link 255 254 barred 
+link 255 256 category 1 restriction 1 
+link 256 255 barred 
+link 256 274 category 1 restriction 1 
+link 257 288 barred 
+link 257 258 category 6 
+link 258 257 barred 
+link 258 260 category 9 
+link 258 259 category 5 
+link 259 253 barred 
+link 259 258 barred 
+link 259 262 category 6 lane restriction 1 on lane 6 
+link 260 258 barred 
+link 260 263 category 9 
+link 261 253 barred 
+link 261 254 category 1 restriction 1 
+link 262 259 barred 
+link 262 271 category 6 lane restriction 1 on lane 6 
+link 263 260 barred 
+link 263 264 category 10 
+link 264 263 barred 
+link 264 265 category 11 speed 30 mph arc centre #168 left 
+link 265 266 category 11 
+link 265 264 barred arc centre #168 
+link 266 2830 category 11 
+link 266 267 category 9 
+link 266 265 barred 
+link 267 266 barred 
+link 267 268 category 9 speed 30 mph arc centre #169 left 
+link 268 267 barred arc centre #169 
+link 268 269 category 8 
+link 269 268 barred 
+link 269 270 category 8 
+link 270 269 barred 
+link 270 275 category 8 
+link 271 262 barred 
+link 271 272 category 6 lane restriction 1 on lane 6 
+link 272 271 barred 
+link 272 273 category 6 lane restriction 1 on lane 6 
+link 273 272 barred 
+link 273 275 category 5 
+link 273 274 category 1 restriction 1 
+link 274 256 barred 
+link 274 273 barred 
+link 274 276 category 2 restriction 1 
+link 275 273 barred 
+link 275 270 barred 
+link 275 277 category 6 
+link 276 274 barred 
+link 276 278 category 2 speed 75 mph restriction 1 
+link 277 275 barred 
+link 277 219 category 6 
+on-ramp count 1
+ramp from 282 length 553.8 ft left min time 1 move out distance 200.0 ft 
+link 278 276 barred 
+link 278 212 category 1 restriction 1 
+link 279 2829 barred 
+link 279 280 category 9 speed 20 mph arc centre #184 left 
+link 280 279 barred arc centre #184 
+link 280 281 category 9 
+link 281 280 barred 
+link 281 282 category 8 type highway 
+link 282 281 barred 
+link 283 284 category 2 speed 75 mph restriction 1 
+link 283 250 barred 
+link 284 285 category 2 speed 75 mph restriction 1 
+link 284 283 barred 
+link 285 302 category 1 restriction 1 
+link 285 304 category 1 restriction 1 
+link 285 284 barred 
+link 286 317 barred 
+link 286 287 category 2 speed 75 mph restriction 1 
+link 287 286 barred 
+link 287 251 category 2 speed 75 mph restriction 1 
+link 288 289 barred 
+link 288 257 category 6 
+link 289 290 barred 
+link 289 288 category 6 
+link 290 326 barred 
+link 290 289 category 6 
+on-ramp count 1
+ramp from 316 length 600.0 ft left min time 1 move out distance 84.4 ft 
+link 291 292 category 7 headway factor 1.10 
+link 291 244 barred 
+link 292 296 category 7 headway factor 1.10 
+link 292 291 barred 
+link 293 298 category 9 
+link 293 294 barred 
+link 294 293 category 9 
+link 294 295 barred 
+link 295 294 category 8 
+link 295 296 barred 
+link 296 295 category 8 
+link 296 297 category 6 headway factor 1.10 
+link 296 292 barred 
+link 297 301 category 14 
+link 297 302 category 5 headway factor 1.10 
+link 297 296 barred 
+link 298 299 category 10 
+link 298 293 barred 
+link 299 2831 category 11 
+link 299 298 barred 
+link 300 2831 barred 
+link 301 310 category 14 
+link 301 297 barred 
+link 302 303 category 6 lane restriction 1 on lane 6 headway factor 1.10 
+link 302 285 barred 
+link 302 297 barred 
+link 303 308 category 6 lane restriction 1 on lane 6 headway factor 1.20 
+link 303 302 barred 
+link 304 305 category 1 restriction 1 
+link 304 285 barred 
+link 305 306 category 2 speed 75 mph restriction 1 
+link 305 304 barred 
+link 305 308 barred 
+link 306 307 category 2 speed 75 mph restriction 1 
+link 306 305 barred 
+link 307 346 category 2 speed 75 mph restriction 1 
+link 307 306 barred 
+link 308 309 category 5 headway factor 1.50 
+link 308 305 category 1 restriction 1 
+link 308 303 barred 
+link 309 341 category 6 headway factor 1.50 
+link 309 308 barred 
+link 310 383 category 14 
+link 310 301 barred 
+link 311 2834 barred 
+link 311 312 category 8 
+link 312 311 barred 
+link 312 313 category 9 
+link 313 312 barred 
+link 313 314 category 9 
+link 314 313 barred 
+link 314 315 category 9 
+link 315 314 barred 
+link 315 316 category 8 type highway 
+link 316 315 barred 
+link 317 320 barred 
+link 317 286 category 2 speed 75 mph restriction 1 
+link 318 356 barred 
+link 318 319 category 1 restriction 1 
+link 319 318 barred 
+link 319 324 barred 
+link 319 320 category 2 speed 75 mph restriction 1 
+link 320 319 barred 
+link 320 317 category 2 speed 75 mph restriction 1 
+link 321 330 category 9 speed 25 mph arc centre #234 left 
+link 321 2833 barred 
+link 322 330 barred arc centre #234 
+link 322 323 category 8 type highway 
+link 323 322 barred 
+link 324 327 barred 
+link 324 325 category 6 
+link 324 319 category 1 restriction 1 
+link 325 324 barred 
+link 325 326 category 6 
+link 326 325 barred 
+link 326 290 category 6 
+on-ramp count 1
+ramp from 323 length 600.0 ft left min time 1 move out distance 7.4 ft 
+link 327 355 barred 
+link 327 329 barred 
+link 327 324 category 7 lane restriction 1 on lane 7 
+link 328 338 barred 
+link 328 329 category 17 
+link 329 328 barred 
+link 329 327 category 17 
+link 330 321 barred arc centre #234 
+link 330 322 category 9 speed 25 mph arc centre #234 left 
+link 331 338 barred 
+link 331 332 category 9 
+link 332 331 barred 
+link 332 333 category 10 
+link 333 332 barred 
+link 333 334 category 11 
+link 334 333 barred 
+link 334 335 category 11 
+link 335 334 barred 
+link 335 336 category 12 
+link 336 335 barred 
+link 336 337 category 12 
+link 337 336 barred 
+link 338 339 barred 
+link 338 331 category 9 
+link 338 328 category 17 
+link 339 340 barred 
+link 339 338 category 3 speed 60 mph 
+link 340 414 barred 
+link 340 339 category 3 
+link 341 342 category 6 headway factor 1.50 
+link 341 309 barred 
+link 342 343 category 6 headway factor 1.50 
+link 342 341 barred 
+link 343 344 category 6 headway factor 1.50 
+link 343 342 barred 
+link 344 345 category 6 headway factor 1.50 
+link 344 343 barred 
+link 345 364 category 6 headway factor 1.50 
+link 345 344 barred 
+link 346 347 category 2 speed 75 mph restriction 1 
+link 346 307 barred 
+link 347 348 category 2 speed 75 mph restriction 1 
+link 347 346 barred 
+link 348 349 category 2 speed 75 mph restriction 1 
+link 348 347 barred 
+link 349 350 category 2 restriction 1 
+link 349 348 barred 
+link 350 359 category 2 speed 75 mph restriction 1 
+link 350 349 barred 
+link 351 352 barred 
+link 351 353 category 5 
+link 352 505 barred 
+link 352 351 category 6 
+link 353 354 barred 
+link 353 351 barred 
+link 353 355 category 6 
+link 354 357 barred 
+link 354 353 category 1 restriction 1 
+link 354 358 category 1 restriction 1 
+link 355 353 barred 
+link 355 327 category 6 
+link 356 358 barred 
+link 356 318 category 1 restriction 1 
+link 357 503 barred 
+link 357 354 category 2 speed 75 mph restriction 1 
+link 358 354 barred 
+link 358 356 category 1 restriction 1 
+link 359 360 category 2 speed 75 mph restriction 1 
+link 359 350 barred 
+link 360 361 category 2 speed 75 mph restriction 1 
+link 360 359 barred 
+link 361 2913 category 1 restriction 1 
+link 361 362 category 1 restriction 1 
+link 361 360 barred 
+link 362 363 category 1 restriction 1 
+link 362 361 barred 
+link 363 368 category 1 restriction 1 
+link 363 362 barred 
+link 364 365 category 6 headway factor 1.50 
+link 364 345 barred 
+link 365 366 category 6 headway factor 1.50 
+link 365 364 barred 
+link 366 367 category 6 force exit headway factor 1.50 
+link 366 365 barred 
+link 367 372 category 3 
+link 367 371 category 3 
+link 367 366 barred 
+link 368 369 category 1 restriction 1 
+link 368 500 category 1 restriction 1 
+link 368 363 barred 
+link 369 370 category 1 restriction 1 arc centre #267 
+link 369 368 category 1 
+link 370 507 category 1 restriction 1 
+link 370 506 barred 
+link 370 369 category 1 restriction 1 arc centre #267 left 
+link 371 468 category 3 
+link 371 367 barred 
+link 372 373 category 3 
+link 372 367 barred 
+link 373 374 category 3 
+link 373 372 barred 
+link 374 375 category 3 
+link 374 373 barred 
+link 375 376 category 3 
+link 375 374 barred 
+link 376 377 category 3 arc centre #273 
+link 376 375 barred 
+link 377 515 category 3 
+link 377 376 barred arc centre #273 left 
+link 378 379 category 3 
+link 378 515 barred 
+link 379 525 category 3 
+link 379 378 barred 
+link 380 381 category 9 arc centre #280 left 
+link 380 2832 barred 
+link 381 382 category 9 
+link 381 380 barred arc centre #280 
+link 382 383 category 9 
+link 382 381 barred 
+link 383 384 category 16 
+link 383 310 barred 
+link 383 382 barred 
+link 384 385 category 16 
+link 384 383 barred 
+link 385 386 category 16 
+link 385 384 barred 
+link 386 387 category 16 
+link 386 385 barred 
+link 387 388 category 16 
+link 387 386 barred 
+link 388 390 category 9 
+link 388 389 category 14 
+link 388 387 barred 
+link 389 391 category 14 
+link 389 388 barred 
+link 390 392 category 9 
+link 390 388 barred 
+link 391 395 category 14 
+on-ramp count 1
+ramp from 399 length 363.4 ft left min time 1 move out distance 200.0 ft 
+link 391 389 barred 
+link 392 393 category 9 arc centre #293 left 
+link 392 390 barred 
+link 393 392 barred arc centre #293 
+link 393 2835 category 10 
+link 394 2835 barred 
+link 395 396 category 14 
+link 395 391 barred 
+link 396 404 category 16 
+link 396 395 barred 
+link 396 402 barred 
+link 397 2836 barred 
+link 397 2894 category 9 speed 25 mph arc centre #294 left 
+link 398 399 category 8 type highway 
+link 398 2894 barred arc centre #294 
+link 399 398 barred 
+link 400 403 category 9 
+link 401 402 category 9 arc centre #298 left 
+link 401 403 barred 
+link 402 396 category 9 
+link 402 401 barred arc centre #298 
+link 403 401 category 9 
+link 403 400 barred 
+link 404 405 category 16 
+link 404 396 barred 
+link 405 406 category 14 
+link 405 409 category 14 arc centre #303 
+link 405 404 barred 
+link 406 407 category 14 
+link 406 405 barred 
+link 407 408 category 14 
+link 407 406 barred 
+link 408 410 category 14 
+link 408 407 barred 
+link 409 411 category 14 
+link 409 405 barred arc centre #303 left 
+link 410 482 category 14 
+link 410 408 barred 
+link 411 513 category 14 
+link 411 409 barred 
+link 412 2102 category 13 
+link 412 512 barred 
+link 413 415 barred 
+link 413 414 category 3 
+on-ramp count 2
+ramp from 421 length 600.0 ft left min time 1 move out distance 200.0 ft 
+ramp from 425 length 500.0 ft left min time 1 move out distance 9.7 ft 
+link 414 413 barred 
+link 414 340 category 3 
+link 415 437 barred 
+link 415 450 barred 
+link 415 413 category 3 
+link 416 417 category 8 
+link 417 416 barred 
+link 417 418 category 9 
+link 418 417 barred 
+link 418 419 category 9 arc centre #311 left 
+link 419 418 barred arc centre #311 
+link 419 420 category 9 
+link 420 419 barred 
+link 420 421 category 8 type highway 
+link 421 420 barred 
+link 422 2893 category 9 speed 25 mph arc centre #312 left 
+link 422 2837 barred 
+link 423 2893 barred arc centre #312 
+link 423 424 category 9 
+link 424 423 barred 
+link 424 425 category 8 type highway 
+link 425 424 barred 
+link 426 528 barred 
+link 426 427 category 4 
+link 427 426 barred 
+link 427 428 category 4 
+link 428 427 barred 
+link 428 429 category 4 
+link 429 428 barred 
+link 429 434 category 8 
+link 429 433 category 3 
+link 430 433 barred 
+link 430 431 category 3 
+link 431 430 barred 
+link 431 432 category 3 
+link 432 496 barred 
+link 432 431 barred 
+link 432 497 category 6 
+link 433 429 barred 
+link 433 430 category 3 
+link 434 429 barred 
+link 434 435 category 8 
+link 435 434 barred 
+link 435 436 category 8 
+link 436 435 barred 
+link 436 437 category 8 
+link 437 436 barred 
+link 437 415 category 8 
+link 438 531 barred 
+link 438 439 category 14 
+link 439 438 barred 
+link 439 440 category 14 
+link 440 439 barred 
+link 440 441 category 14 
+link 441 440 barred 
+link 441 442 category 14 
+link 442 441 barred 
+link 442 443 category 14 
+link 443 442 barred 
+link 443 444 category 14 
+link 444 443 barred 
+link 444 445 category 14 
+link 445 444 barred 
+link 445 451 category 8 
+link 445 446 category 14 
+link 446 445 barred 
+link 446 447 category 14 
+link 447 446 barred 
+link 447 448 category 14 
+link 448 447 barred 
+link 448 449 category 14 
+link 449 448 barred 
+link 449 450 category 14 
+link 450 449 barred 
+link 450 415 category 14 
+link 451 445 barred 
+link 451 452 category 8 
+link 452 451 barred 
+link 452 466 category 8 
+link 453 466 barred arc centre #324 
+link 453 454 category 9 
+link 454 453 barred 
+link 454 455 category 10 
+link 455 454 barred 
+link 455 2838 category 11 
+link 456 2838 barred 
+link 457 528 barred 
+link 457 458 category 8 
+link 458 457 barred 
+link 458 459 category 8 
+link 459 458 barred 
+link 459 460 category 8 
+link 460 459 barred 
+link 460 461 category 8 
+link 461 460 barred 
+link 461 462 category 8 
+link 462 461 barred 
+link 462 463 category 8 
+link 463 462 barred 
+link 463 464 category 8 
+link 464 463 barred 
+link 464 465 category 8 
+link 465 464 barred 
+link 465 466 category 8 
+link 466 452 barred 
+link 466 465 barred 
+link 466 453 category 9 arc centre #324 left 
+link 467 469 category 1 restriction 1 
+link 467 2912 barred 
+link 468 471 category 3 
+link 468 371 barred 
+link 469 470 category 1 restriction 1 
+link 469 467 barred 
+link 470 473 category 1 restriction 1 
+link 470 469 barred 
+link 471 472 category 3 
+link 471 468 barred 
+link 472 475 category 3 
+link 472 471 barred 
+link 473 474 category 1 restriction 1 
+link 473 470 barred 
+link 474 476 category 4 lane restriction 1 on lane 4 
+link 474 473 barred 
+link 474 475 barred 
+link 475 474 category 3 
+link 475 472 barred 
+link 476 477 category 3 
+link 476 478 category 1 restriction 1 
+link 476 474 barred 
+link 477 481 category 3 headway factor 1.05 
+link 477 476 barred 
+link 478 479 category 1 restriction 1 
+link 478 476 barred 
+link 479 480 category 1 restriction 1 
+link 479 478 barred 
+link 480 533 category 1 restriction 1 
+link 480 479 barred 
+link 481 486 category 4 headway factor 1.05 
+link 481 477 barred 
+link 481 485 barred 
+link 482 483 category 14 
+link 482 410 barred 
+link 483 484 category 14 
+link 483 482 barred 
+link 484 485 category 14 
+link 484 483 barred 
+link 485 481 category 14 
+link 485 484 barred 
+link 486 540 category 4 
+link 486 481 barred 
+link 487 529 barred 
+link 487 530 barred 
+link 487 488 category 4 lane restriction 1 on lane 4 
+link 488 487 barred 
+link 488 490 category 3 
+link 488 489 category 1 restriction 1 
+link 489 488 barred 
+link 489 491 category 1 restriction 1 
+link 490 488 barred 
+link 490 495 category 3 
+on-ramp count 1
+ramp from 570 length 300.5 ft left min time 1 move out distance 200.0 ft 
+link 491 489 barred 
+link 491 492 category 1 restriction 1 
+link 492 491 barred 
+link 492 493 category 1 restriction 1 
+link 493 492 barred 
+link 493 494 category 1 restriction 1 
+link 494 493 barred 
+link 494 498 category 1 restriction 1 
+link 495 490 barred 
+link 495 496 category 3 
+link 496 495 barred 
+link 496 432 category 3 
+link 497 432 barred 
+link 497 504 category 6 
+link 498 494 barred 
+link 498 499 category 1 restriction 1 
+link 499 498 barred 
+link 499 500 category 1 restriction 1 
+link 500 368 barred 
+link 500 499 barred 
+link 500 501 category 2 speed 75 mph restriction 1 
+link 501 500 barred 
+link 501 502 category 2 speed 75 mph restriction 1 
+link 502 501 barred 
+link 502 503 category 2 speed 75 mph restriction 1 
+link 503 502 barred 
+link 503 357 category 2 speed 75 mph restriction 1 
+link 504 497 barred 
+link 504 505 category 6 
+link 505 504 barred 
+link 505 352 category 6 
+link 506 509 barred 
+link 506 370 category 1 restriction 1 
+link 507 508 category 1 restriction 1 
+link 507 370 barred 
+link 508 510 category 1 restriction 1 
+link 508 507 barred 
+link 509 511 barred 
+link 509 506 category 1 restriction 1 
+link 510 2101 category 1 restriction 1 
+link 510 508 barred 
+link 511 2135 barred 
+link 511 509 category 1 restriction 1 
+link 512 514 category 8 
+link 512 412 category 14 
+link 512 513 barred 
+link 513 512 category 14 
+link 513 411 barred 
+link 514 2116 category 8 
+link 514 512 barred 
+link 515 516 category 8 
+link 515 378 category 3 
+link 515 377 barred 
+link 516 517 category 8 
+link 516 515 barred 
+link 517 518 category 8 
+link 517 516 barred 
+link 518 519 category 8 
+link 518 517 barred 
+link 519 520 category 8 
+link 519 518 barred 
+link 520 521 category 8 
+link 520 519 barred 
+link 521 522 category 8 
+link 521 520 barred 
+link 522 523 category 8 
+link 522 521 barred 
+link 523 524 category 8 
+link 523 522 barred 
+link 524 2116 category 8 
+link 524 523 barred 
+link 525 526 category 3 
+link 525 379 barred 
+link 526 2103 category 3 
+link 526 525 barred 
+link 527 2138 barred 
+link 527 528 category 5 
+link 528 527 barred 
+link 528 457 category 8 
+link 528 426 category 4 
+link 529 544 barred 
+link 529 487 category 1 restriction 1 
+link 530 532 barred 
+link 530 531 category 14 
+link 530 487 category 3 
+link 531 530 barred 
+link 531 438 category 14 
+link 532 549 barred 
+link 532 530 category 4 
+link 533 534 category 1 restriction 1 
+link 533 480 barred 
+link 534 535 category 1 restriction 1 
+link 534 533 barred 
+link 535 536 category 1 restriction 1 
+link 535 534 barred 
+link 536 537 category 1 restriction 1 
+link 536 535 barred 
+link 537 538 category 1 restriction 1 
+link 537 536 barred 
+link 538 539 category 1 restriction 1 
+link 538 537 barred 
+link 539 594 category 1 restriction 1 
+link 539 538 barred 
+link 540 571 category 8 
+link 540 542 category 4 
+link 540 486 barred 
+link 541 543 category 4 
+on-ramp count 1
+ramp from 579 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 541 542 barred 
+link 542 541 category 4 
+link 542 540 barred 
+link 543 585 category 5 
+link 543 541 barred 
+link 543 584 barred 
+link 544 545 barred 
+link 544 529 category 1 restriction 1 
+link 545 546 barred 
+link 545 544 category 1 restriction 1 
+link 546 547 barred 
+link 546 545 category 1 restriction 1 
+link 547 548 barred 
+link 547 546 category 1 restriction 1 
+link 548 552 barred 
+link 548 547 category 1 restriction 1 
+link 549 550 barred 
+link 549 532 category 4 
+link 550 551 barred 
+link 550 554 category 9 
+link 550 549 category 4 
+link 551 552 barred 
+link 551 550 category 5 
+link 552 553 barred 
+link 552 551 category 5 
+link 552 548 category 1 restriction 1 
+link 553 602 barred 
+link 553 608 barred 
+link 553 552 category 6 lane restriction 1 on lane 6 
+link 554 550 barred 
+link 554 555 category 8 
+link 554 556 category 8 
+link 555 554 barred 
+link 555 560 category 8 speed 20 mph arc centre #400 left 
+link 556 554 barred 
+link 556 557 category 9 
+link 557 556 barred 
+link 557 558 category 9 
+link 558 559 category 10 
+link 558 557 barred 
+link 559 558 barred 
+link 560 555 barred arc centre #400 
+link 561 562 category 9 speed 20 mph arc centre #419 left 
+link 562 561 barred arc centre #419 
+link 562 563 category 9 
+link 563 562 barred 
+link 563 564 category 9 
+link 564 563 barred 
+link 564 565 category 9 
+link 565 564 barred 
+link 565 566 category 8 
+link 566 565 barred 
+link 566 567 category 8 
+link 567 566 barred 
+link 567 568 category 8 
+link 568 567 barred 
+link 568 569 category 8 
+link 569 568 barred 
+link 569 570 category 8 type highway 
+link 570 569 barred 
+link 571 572 category 8 
+link 571 540 barred 
+link 572 574 category 9 
+link 572 571 barred 
+link 573 575 barred 
+link 573 576 category 10 
+link 574 575 category 9 
+link 574 572 barred 
+link 575 574 barred 
+link 575 573 category 10 
+link 576 573 barred 
+link 577 2671 barred 
+link 577 2672 category 9 speed 20 mph arc centre #429 left 
+link 578 579 category 8 type highway 
+link 578 2672 barred arc centre #429 
+link 579 578 barred 
+link 580 581 category 9 
+link 581 582 category 9 
+link 581 580 barred 
+link 582 583 category 9 arc centre #433 left 
+link 582 581 barred 
+link 583 584 category 9 
+link 583 582 barred arc centre #433 
+link 584 543 category 2 
+link 584 583 barred 
+link 585 586 category 5 
+link 585 543 barred 
+link 586 587 category 5 
+link 586 585 barred 
+link 587 588 category 5 
+link 587 586 barred 
+link 588 590 category 2 
+link 588 589 category 4 
+link 588 587 barred 
+link 589 591 category 4 
+link 589 588 barred 
+link 590 668 category 2 
+link 590 588 barred 
+link 591 592 category 4 
+link 591 589 barred 
+link 592 593 category 4 
+link 592 591 barred 
+link 593 709 category 5 lane restriction 1 on lane 5 
+link 593 598 barred 
+link 593 592 barred 
+link 594 595 category 1 restriction 1 
+link 594 539 barred 
+link 595 596 category 1 restriction 1 
+link 595 601 barred 
+link 595 594 barred 
+link 596 597 category 1 restriction 1 
+link 596 595 barred 
+link 597 598 category 1 restriction 1 
+link 597 596 barred 
+link 598 593 category 1 restriction 1 
+link 598 597 barred 
+link 599 600 category 1 restriction 4 
+link 599 2840 barred 
+link 600 601 category 1 restriction 4 
+link 600 599 barred 
+link 601 595 category 1 restriction 4 
+link 601 600 barred 
+link 602 603 barred 
+link 602 604 barred 
+link 602 553 category 5 lane restriction 1 on lane 5 
+link 603 606 barred 
+link 603 602 category 1 restriction 1 
+link 604 605 barred 
+link 604 602 category 4 
+link 605 621 barred 
+link 605 604 category 4 
+link 606 610 barred 
+link 606 603 category 1 restriction 1 
+link 607 676 barred 
+link 607 608 category 2 
+link 608 607 barred 
+link 608 553 category 2 
+link 609 614 barred 
+link 609 610 category 2 restriction 1 
+link 610 609 barred 
+link 610 606 category 1 restriction 1 
+link 610 611 category 1 restriction 4 
+link 611 610 barred 
+link 611 612 category 1 restriction 4 
+link 612 611 barred 
+link 612 613 category 2 restriction 4 
+link 613 612 barred 
+link 613 2839 category 2 restriction 4 
+link 614 615 barred 
+link 614 609 category 2 restriction 1 
+link 615 616 barred 
+link 615 614 category 1 restriction 1 
+link 616 617 barred 
+link 616 615 category 1 restriction 1 
+link 617 618 barred 
+link 617 616 category 1 restriction 1 
+link 618 619 barred 
+link 618 617 category 1 restriction 1 
+link 619 620 barred 
+link 619 618 category 1 restriction 1 
+link 620 766 barred 
+link 620 619 category 1 restriction 1 
+link 621 622 barred 
+link 621 605 category 5 
+link 622 623 barred 
+link 622 621 category 5 
+link 623 624 barred 
+link 623 622 category 5 
+link 624 625 barred 
+link 624 623 category 5 
+link 625 626 barred 
+link 625 624 category 5 
+link 626 753 barred 
+link 626 625 category 5 
+link 627 753 barred 
+link 627 628 category 2 
+link 628 627 barred 
+link 628 629 category 2 
+link 629 628 barred 
+link 629 630 category 2 
+link 630 629 barred 
+link 630 631 category 2 
+link 631 630 barred 
+link 631 632 category 8 
+link 631 643 category 2 
+link 632 631 barred 
+link 632 633 category 8 
+link 633 632 barred 
+link 633 634 category 8 
+link 634 635 category 8 
+link 634 633 barred 
+link 635 636 category 8 
+link 635 634 barred 
+link 636 637 category 8 
+link 636 635 barred 
+link 637 2496 category 8 
+link 637 636 barred 
+link 638 643 barred 
+link 638 644 category 2 
+link 639 644 barred 
+link 639 640 category 2 
+link 640 641 category 2 
+link 640 639 barred 
+link 641 642 category 2 
+link 641 640 barred 
+link 642 2486 category 2 
+link 642 641 barred 
+link 643 631 barred 
+link 643 638 category 2 
+link 644 638 barred 
+link 644 639 category 2 
+link 645 688 barred 
+link 645 646 category 2 
+link 646 645 barred 
+link 646 649 category 8 
+link 646 647 category 2 
+link 647 646 barred 
+link 647 655 category 2 
+link 648 2486 category 2 
+link 648 659 barred 
+link 649 650 category 8 
+link 649 646 barred 
+link 650 651 category 8 
+link 650 649 barred 
+link 651 652 category 8 
+link 651 650 barred 
+link 652 653 category 8 
+link 652 651 barred 
+link 653 654 category 8 
+link 653 652 barred 
+link 654 2496 category 8 
+link 654 653 barred 
+link 655 656 category 2 
+link 655 647 barred 
+link 656 657 category 2 
+link 656 655 barred 
+link 657 658 category 2 
+link 657 656 barred 
+link 658 659 category 2 
+link 658 657 barred 
+link 659 648 category 2 
+link 659 658 barred 
+link 660 2493 barred 
+link 660 2492 barred 
+link 660 661 category 3 
+link 661 660 barred 
+link 661 662 category 2 arc centre #462 
+link 662 663 category 2 
+link 662 661 barred arc centre #462 left 
+link 663 664 category 2 
+link 663 662 barred 
+link 664 713 category 2 
+link 664 663 barred 
+link 665 2495 barred 
+link 665 666 category 2 speed 60 mph arc centre #463 
+link 666 667 category 2 
+link 666 665 barred arc centre #463 left 
+link 667 690 category 2 
+on-ramp count 1
+ramp from 673 length 500.0 ft left min time 1 move out distance 114.0 ft 
+link 667 666 barred 
+link 668 669 category 2 
+link 668 590 barred 
+link 669 670 category 2 
+link 669 668 barred 
+link 670 671 category 2 
+link 670 669 barred 
+link 671 672 category 2 
+link 671 670 barred 
+link 672 673 category 17 
+link 672 671 barred 
+link 673 672 barred 
+link 674 689 barred 
+link 674 675 category 2 
+link 675 674 barred 
+link 675 676 category 2 arc centre #464 
+link 676 675 barred arc centre #464 left 
+link 676 607 category 2 
+link 677 678 category 3 
+link 677 2541 barred 
+link 678 679 category 2 
+link 678 680 category 2 
+link 678 677 barred 
+link 679 705 category 2 
+link 679 678 barred 
+link 680 681 category 2 
+link 680 678 barred 
+link 681 682 category 2 
+link 681 680 barred 
+link 682 683 category 2 
+link 682 681 barred 
+link 683 684 category 3 
+link 683 682 barred 
+link 684 685 category 3 
+link 684 683 barred 
+link 685 686 category 3 
+link 685 684 barred 
+link 686 687 category 3 
+link 686 685 barred 
+link 687 688 category 3 
+link 687 686 barred 
+link 688 689 category 2 
+link 688 645 category 2 
+link 688 687 barred 
+link 689 674 category 2 
+link 689 688 barred 
+link 690 691 category 2 
+link 690 667 barred 
+link 691 690 barred 
+link 691 692 category 2 
+link 692 691 barred 
+link 692 693 category 2 
+link 693 692 barred 
+link 693 694 category 2 
+link 694 693 barred 
+link 694 695 category 2 
+link 695 694 barred 
+link 695 696 category 2 
+link 696 695 barred 
+link 696 697 category 2 
+link 697 696 barred 
+link 697 698 category 2 
+link 698 697 barred 
+link 698 700 barred 
+link 698 699 category 3 
+link 699 698 barred 
+link 699 2504 category 3 
+link 700 703 barred 
+link 700 698 category 17 
+link 701 2895 barred arc centre #481 left 
+link 701 703 category 2 
+link 702 771 barred 
+link 702 2895 category 2 arc centre #481 
+link 703 701 barred 
+link 703 700 category 17 
+link 704 767 category 2 
+link 704 2896 barred arc centre #487 
+link 705 2896 category 2 arc centre #487 left 
+link 705 679 barred 
+link 706 714 category 2 
+link 706 713 barred 
+link 707 733 category 1 restriction 1 
+link 707 712 barred 
+link 708 715 category 6 
+link 708 714 barred 
+link 709 710 category 5 lane restriction 1 on lane 5 
+link 709 593 barred 
+link 710 711 category 5 lane restriction 1 on lane 5 
+link 710 709 barred 
+link 711 712 category 5 lane restriction 1 on lane 5 
+link 711 710 barred 
+link 712 714 category 4 
+link 712 707 category 1 restriction 1 
+link 712 711 barred 
+link 713 706 category 2 
+link 713 664 barred 
+link 714 708 category 6 
+link 714 712 barred 
+link 714 706 barred 
+link 715 716 category 6 
+link 715 708 barred 
+link 716 717 category 6 
+link 716 715 barred 
+link 717 718 category 6 
+link 717 716 barred 
+link 718 720 category 9 
+link 718 719 category 5 
+link 718 717 barred 
+link 719 723 category 5 
+link 719 718 barred 
+link 720 721 category 9 speed 25 mph arc centre #508 left 
+link 720 718 barred 
+link 721 720 barred arc centre #508 
+link 721 722 category 9 
+link 722 721 barred 
+link 723 724 category 6 lane restriction 1 on lane 6 
+link 723 728 barred 
+link 723 719 barred 
+link 724 725 category 6 lane restriction 1 on lane 6 
+link 724 723 barred 
+link 725 726 category 5 
+link 725 727 category 1 restriction 1 
+link 725 724 barred 
+link 726 734 category 5 
+on-ramp count 1
+ramp from 2675 length 500.0 ft left min time 1 move out distance 81.3 ft 
+link 726 725 barred 
+link 727 787 category 1 restriction 1 
+link 727 725 barred 
+link 728 723 category 1 restriction 1 
+link 728 729 barred 
+link 729 728 category 1 restriction 1 
+link 729 730 barred 
+link 730 729 category 1 restriction 1 
+link 730 731 barred 
+link 731 730 category 1 restriction 1 
+link 731 732 barred 
+link 732 731 category 1 restriction 1 
+link 732 733 barred 
+link 733 732 category 1 restriction 1 
+link 733 707 barred 
+link 734 772 category 5 
+link 734 726 barred 
+link 735 821 barred 
+link 735 739 category 5 
+link 736 743 barred 
+link 736 737 barred 
+link 736 738 category 6 lane restriction 1 on lane 6 
+link 737 739 barred 
+link 737 744 category 8 
+link 737 736 category 5 
+link 738 736 barred 
+link 738 754 category 6 lane restriction 1 on lane 6 
+link 739 735 barred 
+link 739 737 category 5 
+link 740 804 barred 
+link 740 741 category 1 restriction 1 
+link 741 740 barred 
+link 741 742 category 1 restriction 1 
+link 742 741 barred 
+link 742 743 category 1 restriction 1 
+link 743 742 barred 
+link 743 736 category 1 restriction 1 
+link 744 737 barred 
+link 744 2842 category 8 
+link 745 2842 barred 
+link 746 2841 barred 
+link 746 747 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 747 746 barred 
+link 747 748 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 748 747 barred 
+link 748 749 category 8 
+link 749 748 barred 
+link 749 750 category 8 
+link 750 760 barred 
+link 750 749 barred 
+link 750 751 category 6 
+link 751 750 barred 
+link 751 752 category 6 
+link 752 751 barred 
+link 752 753 category 6 
+link 753 752 barred 
+link 753 627 category 2 
+link 753 626 category 5 
+link 754 738 barred 
+link 754 755 category 6 lane restriction 1 on lane 6 
+link 755 754 barred 
+link 755 756 category 6 lane restriction 1 on lane 6 
+link 756 755 barred 
+link 756 757 category 5 
+link 756 758 category 1 restriction 1 
+link 757 756 barred 
+link 757 759 category 5 
+link 758 756 barred 
+link 758 761 category 1 restriction 1 
+link 759 757 barred 
+link 759 760 category 5 
+link 760 759 barred 
+link 760 750 category 5 
+link 761 758 barred 
+link 761 762 category 1 restriction 1 
+link 762 761 barred 
+link 762 763 category 1 restriction 1 
+link 763 762 barred 
+link 763 764 category 1 restriction 1 
+link 764 763 barred 
+link 764 765 category 1 restriction 1 
+link 765 764 barred 
+link 765 766 category 1 restriction 1 
+link 766 765 barred 
+link 766 620 category 1 restriction 1 
+link 767 768 category 17 
+link 767 704 barred 
+link 768 769 category 17 
+link 768 767 barred 
+link 769 770 category 17 
+link 769 768 barred 
+link 770 772 category 17 
+link 770 769 barred 
+link 771 809 barred 
+link 771 702 category 2 
+link 772 773 category 6 
+link 772 734 barred 
+link 772 770 barred 
+link 773 774 category 6 
+link 773 772 barred 
+link 774 775 category 6 
+link 774 773 barred 
+link 775 782 category 9 
+link 775 776 category 5 
+link 775 774 barred 
+link 776 786 category 6 lane restriction 1 on lane 6 
+link 776 790 barred 
+link 776 775 barred 
+link 777 778 category 5 
+link 777 779 category 1 restriction 1 
+link 777 786 barred 
+link 778 780 category 5 
+on-ramp count 1
+ramp from 799 length 600.0 ft left min time 1 move out distance 94.4 ft 
+link 778 777 barred 
+link 779 793 category 1 restriction 1 
+link 779 777 barred 
+link 780 781 category 5 
+on-ramp count 1
+ramp from 803 length 600.0 ft left min time 1 move out distance 191.3 ft 
+link 780 778 barred 
+link 781 791 category 5 
+link 781 780 barred 
+link 782 783 category 9 arc centre #598 left 
+link 782 775 barred 
+link 783 782 barred arc centre #598 
+link 783 784 category 9 
+link 784 785 category 10 speed 40 mph arc centre #599 
+link 784 783 barred 
+link 785 2845 category 10 
+link 785 784 barred arc centre #599 left 
+link 786 777 category 6 lane restriction 1 on lane 6 
+link 786 776 barred 
+link 787 788 category 1 restriction 1 
+link 787 727 barred 
+link 788 789 category 1 restriction 1 
+link 788 787 barred 
+link 789 790 category 1 restriction 1 
+link 789 788 barred 
+link 790 776 category 1 restriction 1 
+link 790 789 barred 
+link 791 792 category 5 
+link 791 781 barred 
+link 792 828 category 5 
+link 792 791 barred 
+link 793 794 category 1 restriction 1 
+link 793 779 barred 
+link 794 795 category 1 restriction 1 
+link 794 793 barred 
+link 795 796 category 1 restriction 1 
+link 795 794 barred 
+link 796 845 category 1 restriction 1 
+link 796 795 barred 
+link 797 2844 barred 
+link 797 2910 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #611 left 
+link 798 799 category 8 type highway 
+link 798 2911 barred arc centre #611 
+link 799 798 barred 
+link 800 801 category 8 
+link 800 2846 barred 
+link 801 802 category 9 speed 40 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #615 left 
+link 801 800 barred 
+link 802 803 category 8 type highway 
+link 802 801 barred arc centre #615 
+link 803 802 barred 
+link 804 805 barred 
+link 804 740 category 1 restriction 1 
+link 805 812 barred 
+link 805 806 category 5 
+link 805 804 category 1 restriction 1 
+link 806 805 barred 
+link 806 819 barred 
+link 806 807 category 6 
+link 807 806 barred 
+link 807 808 category 6 
+link 808 807 barred 
+link 808 821 category 6 
+link 809 821 barred 
+link 809 771 category 2 
+link 810 820 barred 
+link 810 813 category 8 
+link 810 812 category 5 
+link 811 824 barred 
+link 811 812 category 1 restriction 1 
+link 812 811 barred 
+link 812 810 barred 
+link 812 805 category 6 lane restriction 1 on lane 6 
+link 813 810 barred 
+link 813 814 category 8 
+link 814 813 barred 
+link 814 815 category 9 speed 30 mph arc centre #616 left 
+link 815 816 category 9 
+link 815 814 barred arc centre #616 
+link 816 2843 category 9 
+link 816 817 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 816 815 barred 
+link 817 816 barred 
+link 817 818 category 9 speed 30 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #617 left 
+link 818 817 barred arc centre #617 
+link 818 819 category 8 
+link 819 818 barred 
+link 819 806 category 8 
+link 820 827 barred 
+link 820 810 category 5 
+link 821 808 barred 
+link 821 809 category 2 
+link 821 735 category 5 
+link 822 883 barred 
+link 822 823 category 1 restriction 1 
+link 823 822 barred 
+link 823 824 category 1 restriction 1 
+link 824 823 barred 
+link 824 811 category 1 restriction 1 
+link 825 844 barred 
+link 825 826 category 5 
+link 826 825 barred 
+link 826 827 category 5 
+link 827 826 barred 
+link 827 820 category 5 
+link 828 829 category 5 
+link 828 792 barred 
+link 829 848 category 8 
+link 829 830 category 5 
+link 829 828 barred 
+link 830 831 category 5 
+link 830 829 barred 
+link 831 832 category 6 lane restriction 1 on lane 6 
+link 831 847 barred 
+link 831 830 barred 
+link 832 833 category 6 lane restriction 1 on lane 6 
+link 832 831 barred 
+link 833 834 category 6 lane restriction 1 on lane 6 
+link 833 832 barred 
+link 834 836 category 5 
+link 834 835 category 1 restriction 1 
+link 834 833 barred 
+link 835 888 category 1 restriction 1 
+link 835 834 barred 
+link 836 893 category 5 
+link 836 834 barred 
+link 837 838 category 8 
+link 838 837 barred 
+link 838 839 category 8 speed 30 mph arc centre #646 left 
+link 839 838 barred arc centre #646 
+link 839 852 category 8 
+link 840 852 barred 
+link 841 876 barred 
+link 841 842 category 5 
+link 842 841 barred 
+link 842 843 category 5 
+link 843 842 barred 
+link 843 844 category 5 
+link 844 843 barred 
+link 844 825 category 5 
+on-ramp count 1
+ramp from 840 length 600.0 ft left min time 1 move out distance 64.4 ft 
+link 845 846 category 1 restriction 1 
+link 845 796 barred 
+link 846 847 category 1 restriction 1 
+link 846 845 barred 
+link 847 831 category 1 restriction 1 
+link 847 846 barred 
+link 848 849 category 8 
+link 848 829 barred 
+link 849 850 category 9 
+link 849 848 barred 
+link 850 851 category 10 speed 25 mph arc centre #645 left 
+link 850 849 barred 
+link 851 850 barred arc centre #645 
+link 852 839 barred 
+link 852 840 category 8 type highway 
+link 853 855 category 8 speed 20 mph arc centre #649 left 
+link 854 855 category 8 
+link 855 858 category 9 speed 20 mph arc centre #648 left 
+link 855 854 barred 
+link 855 853 barred arc centre #649 
+link 856 857 category 8 
+link 856 858 barred 
+link 857 893 category 1 
+link 857 856 barred 
+link 858 856 category 9 
+link 858 855 barred arc centre #648 
+link 859 2679 category 8 speed 25 mph arc centre #656 left 
+link 859 2847 barred 
+link 860 2679 barred arc centre #656 
+link 860 861 category 8 type highway 
+link 861 860 barred 
+link 862 902 barred 
+link 862 863 category 8 
+link 863 862 barred 
+link 863 864 category 8 
+link 864 863 barred 
+link 864 865 category 8 
+link 865 864 barred 
+link 865 866 category 8 
+link 866 865 barred 
+link 866 867 category 9 
+link 867 866 barred 
+link 867 868 category 10 
+link 868 867 barred 
+link 868 869 category 10 
+link 869 868 barred 
+link 869 870 category 10 
+link 870 869 barred 
+link 870 871 category 10 
+link 871 870 barred 
+link 872 887 barred 
+link 872 902 barred 
+link 872 873 category 6 lane restriction 1 on lane 6 
+link 873 872 barred 
+link 873 874 category 6 lane restriction 1 on lane 6 
+link 874 873 barred 
+link 874 875 category 6 lane restriction 1 on lane 6 
+link 875 874 barred 
+link 875 876 category 6 lane restriction 1 on lane 6 
+link 876 875 barred 
+link 876 841 category 5 
+on-ramp count 1
+ramp from 861 length 396.4 ft left min time 1 move out distance 118.6 ft 
+link 876 877 category 1 restriction 1 
+link 877 876 barred 
+link 877 878 category 1 restriction 1 
+link 878 877 barred 
+link 878 879 category 1 restriction 1 
+link 879 878 barred 
+link 879 880 category 1 restriction 1 
+link 880 879 barred 
+link 880 881 category 1 restriction 1 
+link 881 880 barred 
+link 881 882 category 1 restriction 1 
+link 882 881 barred 
+link 882 883 category 1 restriction 1 
+link 883 882 barred 
+link 883 822 category 1 restriction 1 
+link 884 928 barred 
+link 884 885 category 1 restriction 1 
+link 885 884 barred 
+link 885 886 category 1 restriction 1 
+link 886 885 barred 
+link 886 887 category 1 restriction 1 
+link 887 886 barred 
+link 887 872 category 1 restriction 1 
+link 888 889 category 1 restriction 1 
+link 888 835 barred 
+link 889 890 category 1 restriction 1 
+link 889 888 barred 
+link 890 891 category 1 restriction 1 
+link 890 889 barred 
+link 891 892 category 1 restriction 1 
+link 891 890 barred 
+link 892 913 category 1 restriction 1 
+link 892 891 barred 
+link 893 894 category 6 
+link 893 836 barred 
+link 893 857 barred 
+link 894 895 category 6 
+link 894 893 barred 
+link 895 896 category 6 
+on-ramp count 1
+ramp from 907 length 461.3 ft left min time 1 move out distance 73.1 ft 
+link 895 894 barred 
+link 896 897 category 6 
+link 896 895 barred 
+link 897 908 category 8 
+link 897 913 category 5 
+link 897 896 barred 
+link 898 928 barred 
+link 898 942 barred 
+link 898 899 category 6 
+link 899 898 barred 
+link 899 900 category 6 
+on-ramp count 1
+ramp from 948 length 600.0 ft left min time 1 move out distance 196.3 ft 
+link 900 899 barred 
+link 900 901 category 6 
+link 901 900 barred 
+link 901 902 category 6 
+link 902 901 barred 
+link 902 862 category 8 
+link 902 872 category 5 
+link 903 2848 category 8 
+link 904 905 category 8 speed 25 mph arc centre #691 left 
+link 904 2848 barred 
+link 905 906 category 8 
+link 905 904 barred arc centre #691 
+link 906 907 category 8 type highway 
+link 906 905 barred 
+link 907 906 barred 
+link 908 909 category 9 arc centre #692 left 
+link 908 897 barred 
+link 909 910 category 10 
+link 909 908 barred arc centre #692 
+link 910 911 category 10 
+link 910 909 barred 
+link 911 910 barred 
+link 912 914 category 5 
+link 912 915 category 1 restriction 1 
+link 912 913 barred 
+link 913 912 category 6 lane restriction 1 on lane 6 
+link 913 892 barred 
+link 913 897 barred 
+link 914 916 category 6 
+link 914 912 barred 
+link 914 933 barred 
+link 915 935 category 1 restriction 1 
+link 915 912 barred 
+link 916 917 category 6 
+on-ramp count 1
+ramp from 940 length 600.0 ft left min time 1 move out distance 100.0 ft 
+link 916 914 barred 
+link 917 929 category 8 
+link 917 918 category 5 
+link 917 916 barred 
+link 918 919 category 5 
+link 918 917 barred 
+link 919 920 category 6 lane restriction 1 on lane 6 
+link 919 936 barred 
+link 919 918 barred 
+link 920 981 category 5 
+link 920 980 category 1 restriction 1 
+link 920 919 barred 
+link 921 978 barred 
+link 921 979 barred 
+link 921 922 category 6 lane restriction 1 on lane 6 
+link 922 921 barred 
+link 922 924 category 5 
+link 922 923 category 1 restriction 1 
+link 923 922 barred 
+link 923 926 category 1 restriction 1 
+link 924 922 barred 
+link 924 931 barred 
+link 924 925 category 6 
+link 925 924 barred 
+link 925 941 category 8 
+link 925 927 category 5 
+link 926 923 barred 
+link 926 927 category 1 restriction 1 
+link 927 926 barred 
+link 927 925 barred 
+link 927 928 category 6 lane restriction 1 on lane 6 
+link 928 927 barred 
+link 928 898 category 5 
+link 928 884 category 1 restriction 1 
+link 929 930 category 8 
+link 929 917 barred 
+link 930 955 category 9 speed 30 mph arc centre #794 left 
+link 930 929 barred 
+link 931 960 barred 
+link 931 924 category 8 
+link 932 2849 barred 
+link 932 2680 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #735 left 
+link 933 914 category 8 
+link 933 2680 barred arc centre #735 
+link 934 936 category 1 restriction 1 
+link 934 935 barred 
+link 935 934 category 1 restriction 1 
+link 935 915 barred 
+link 936 919 category 1 restriction 1 
+link 936 934 barred 
+link 937 938 category 9 speed 35 mph arc centre #744 left 
+link 937 2851 barred 
+link 938 939 category 9 
+link 938 937 barred arc centre #744 
+link 939 940 category 8 type highway 
+link 939 938 barred 
+link 940 939 barred 
+link 941 925 barred 
+link 941 949 category 8 
+link 942 944 barred 
+link 942 898 category 8 
+link 943 2681 category 8 speed 25 mph arc centre #783 left 
+link 943 2852 barred 
+link 944 2681 barred arc centre #783 
+link 944 942 category 8 
+link 945 2853 category 8 
+link 946 2853 barred 
+link 946 947 category 8 speed 35 mph arc centre #791 left 
+link 947 946 barred arc centre #791 
+link 947 2682 category 8 type highway 
+link 948 2682 barred 
+link 949 941 barred 
+link 949 950 category 8 
+link 950 949 barred 
+link 950 951 category 9 
+link 951 950 barred 
+link 951 952 category 9 
+link 952 951 barred 
+link 952 953 category 10 
+link 953 952 barred 
+link 953 954 category 10 
+link 954 953 barred 
+link 955 930 barred arc centre #794 
+link 955 956 category 10 speed 30 mph arc centre #795 left 
+link 956 955 barred arc centre #795 
+link 956 957 category 10 
+link 957 956 barred 
+link 958 959 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 959 2858 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #798 left 
+link 959 958 barred 
+link 960 2858 barred arc centre #798 
+link 960 931 category 8 
+link 961 976 barred 
+link 961 962 category 9 
+link 962 961 barred 
+link 962 963 category 9 
+link 963 962 barred 
+link 963 964 category 10 
+link 964 963 barred 
+link 964 965 category 10 
+link 965 964 barred 
+link 965 966 category 10 
+link 966 965 barred 
+link 967 968 category 9 
+link 968 969 category 10 speed 30 mph arc centre #799 
+link 968 975 barred arc centre #810 
+link 968 967 barred 
+link 969 970 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 969 968 barred arc centre #799 left 
+link 970 971 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 970 969 barred 
+link 971 972 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 971 970 barred 
+link 972 973 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 972 971 barred 
+link 973 974 category 8 
+link 973 972 barred 
+link 974 981 category 8 
+link 974 973 barred 
+link 975 968 category 8 speed 20 mph arc centre #810 left 
+link 976 977 barred 
+link 976 961 category 9 
+link 977 979 barred 
+link 977 976 category 9 
+link 978 987 barred 
+link 978 921 category 1 restriction 1 
+link 979 985 barred 
+link 979 977 category 9 
+link 979 921 category 5 
+link 980 984 category 1 restriction 1 
+link 980 920 barred 
+link 981 982 category 6 
+link 981 920 barred 
+link 981 974 barred 
+link 982 996 category 8 
+link 982 983 category 5 
+link 982 981 barred 
+link 983 1000 category 6 lane restriction 1 on lane 6 
+link 983 984 barred 
+link 983 982 barred 
+link 984 983 category 1 restriction 1 
+link 984 980 barred 
+link 985 987 barred 
+link 985 986 barred 
+link 985 979 category 6 
+link 986 990 barred 
+link 986 985 category 8 
+link 987 988 barred 
+link 987 985 category 5 
+link 987 978 category 1 restriction 1 
+link 988 1001 barred 
+link 988 987 category 6 lane restriction 1 on lane 6 
+link 989 2684 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 990 2684 barred 
+link 990 986 category 8 
+link 991 2860 barred 
+link 992 993 barred 
+link 992 2860 category 9 
+link 993 1006 barred 
+link 993 992 category 8 
+link 994 2859 barred 
+link 995 2859 category 9 
+link 995 996 barred 
+link 996 995 category 8 
+link 996 982 barred 
+link 997 1007 category 8 
+link 997 2683 barred 
+link 998 2683 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 1000 1003 category 6 lane restriction 1 on lane 6 
+link 1000 983 barred 
+link 1001 1002 barred 
+link 1001 988 category 6 lane restriction 1 on lane 6 
+link 1002 1032 barred 
+link 1002 1006 barred 
+link 1002 1001 category 6 lane restriction 1 on lane 6 
+link 1003 1007 category 5 
+link 1003 1004 category 1 restriction 1 
+link 1003 1000 barred 
+link 1004 1008 category 1 restriction 1 
+link 1004 1003 barred 
+link 1005 1012 barred 
+link 1005 1032 category 1 restriction 1 
+link 1006 1011 barred 
+link 1006 993 category 8 
+link 1006 1002 category 5 
+link 1007 1009 category 6 headway factor 0.80 
+link 1007 1003 barred 
+link 1007 997 barred 
+link 1008 1014 category 1 restriction 1 
+link 1008 1004 barred 
+link 1009 1010 category 6 headway factor 0.80 
+link 1009 1007 barred 
+link 1010 1013 category 6 headway factor 0.80 
+link 1010 1009 barred 
+link 1011 1016 barred 
+link 1011 1006 category 6 
+link 1012 1015 barred 
+link 1012 1005 category 1 restriction 1 
+link 1013 1017 category 6 headway factor 0.80 
+link 1013 1010 barred 
+link 1014 1030 category 1 restriction 1 
+link 1014 1008 barred 
+link 1015 1031 barred 
+link 1015 1012 category 1 restriction 1 
+link 1016 1019 barred 
+link 1016 1011 category 6 
+link 1017 1029 category 6 force exit headway factor 0.80 
+link 1017 1013 barred 
+link 1017 1034 barred 
+link 1018 1088 barred 
+link 1018 1019 category 4 
+on-ramp count 1
+ramp from 1083 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 1019 1018 barred 
+link 1019 1021 barred 
+link 1019 1016 category 6 
+link 1020 1036 barred 
+link 1020 1021 category 2 
+link 1021 1020 barred 
+link 1021 1022 category 8 
+link 1021 1019 category 2 
+link 1022 1021 barred 
+link 1022 1023 category 8 
+link 1023 1022 barred 
+link 1023 1028 barred 
+link 1023 1024 category 10 
+link 1024 1023 barred 
+link 1024 1025 category 10 
+link 1025 1024 barred 
+link 1026 1049 barred 
+link 1026 1027 category 8 
+link 1027 1026 barred 
+link 1027 1028 category 9 
+link 1028 1027 barred 
+link 1028 1023 category 9 
+link 1029 1099 category 6 force exit headway factor 0.80 
+link 1029 1017 barred 
+link 1030 1101 category 1 restriction 1 
+link 1030 1014 barred 
+link 1031 1088 barred 
+link 1031 1015 category 1 restriction 1 
+link 1032 1005 barred 
+link 1032 1002 category 1 restriction 1 
+link 1033 2685 category 9 
+link 1034 1017 category 8 
+link 1034 2685 barred 
+link 1036 1037 barred arc centre #919 left 
+link 1036 1020 category 2 
+link 1037 1036 category 2 arc centre #919 
+link 1037 1038 barred 
+link 1038 1037 category 2 
+link 1038 1395 barred 
+link 1038 1039 barred 
+link 1039 1038 category 2 
+link 1039 1040 barred 
+link 1040 1039 category 2 
+link 1040 1041 barred 
+link 1041 1040 category 2 
+link 1041 1042 barred 
+link 1042 1041 category 2 
+link 1042 1422 barred 
+link 1043 1090 barred 
+link 1043 1044 category 8 
+link 1044 1043 barred 
+link 1044 1045 category 8 
+link 1045 1044 barred 
+link 1045 1046 category 8 
+link 1046 1045 barred 
+link 1046 1047 category 8 
+link 1047 1046 barred 
+link 1047 1048 category 8 
+link 1048 1047 barred 
+link 1048 1049 category 8 
+link 1049 1048 barred 
+link 1049 1026 category 8 
+link 1050 1051 category 2 
+link 1050 1099 barred 
+link 1051 1396 category 2 speed 55 mph arc centre #922 left 
+link 1051 1050 barred 
+link 1052 1396 barred arc centre #922 
+link 1052 1063 category 2 
+link 1053 1396 barred 
+link 1053 1054 category 8 
+link 1054 1053 barred 
+link 1054 1055 category 8 
+link 1055 1054 barred 
+link 1055 1056 category 8 
+link 1056 1055 barred 
+link 1056 1060 category 8 
+link 1057 1384 barred 
+link 1057 1058 category 8 
+link 1058 1057 barred 
+link 1058 1059 category 8 
+link 1059 1058 barred 
+link 1059 1060 category 8 
+link 1060 1059 barred 
+link 1060 1056 barred 
+link 1060 1061 category 9 
+link 1061 1060 barred 
+link 1061 2700 category 10 
+link 1062 2700 barred 
+link 1063 1052 barred 
+link 1063 1064 category 2 
+link 1064 1063 barred 
+link 1064 1065 category 2 
+link 1065 1064 barred 
+link 1065 1066 category 2 
+link 1066 1065 barred 
+link 1066 1388 category 2 
+link 1067 1123 category 1 restriction 1 
+link 1067 1068 category 1 restriction 1 
+link 1068 1067 category 1 restriction 1 
+link 1068 1069 category 1 speed 65 mph restriction 1 arc centre #931 left 
+link 1069 1068 category 1 speed 65 mph restriction 1 arc centre #931 
+link 1069 1070 category 1 restriction 1 
+link 1070 1069 category 1 restriction 1 
+link 1070 1359 category 1 restriction 1 
+link 1070 1362 barred 
+link 1071 1072 category 2 
+link 1071 1380 barred 
+link 1072 1073 category 2 speed 65 mph arc centre #936 
+link 1072 1071 barred 
+link 1073 1074 category 2 
+link 1073 1072 barred arc centre #936 left 
+link 1074 1106 category 2 
+link 1074 1073 barred 
+link 1075 1076 category 17 
+link 1075 1100 barred 
+link 1076 2915 category 17 arc centre #939 left 
+link 1076 1075 barred 
+link 1077 2904 barred arc centre #939 
+link 1077 1078 category 17 
+link 1078 1077 barred 
+link 1079 1381 barred 
+link 1079 1080 category 17 
+link 1080 1079 barred 
+link 1080 1081 category 17 arc centre #945 left 
+link 1081 1080 barred arc centre #945 
+link 1081 1082 category 17 
+link 1082 1081 barred 
+link 1082 1083 category 17 
+link 1083 1082 barred 
+link 1084 1093 barred 
+link 1084 1085 category 2 
+link 1085 1084 barred 
+link 1085 1086 category 2 speed 60 mph arc centre #948 left 
+link 1086 1085 barred arc centre #948 
+link 1086 1087 category 2 
+link 1087 1086 barred 
+link 1087 1355 category 2 
+link 1088 1089 barred 
+link 1088 1018 category 4 
+link 1088 1031 category 1 restriction 1 
+link 1089 1092 barred 
+link 1089 1090 barred 
+link 1089 1088 category 5 lane restriction 1 on lane 5 
+link 1090 1091 barred 
+link 1090 1043 category 8 
+link 1090 1089 category 4 
+link 1091 1093 barred 
+link 1091 1090 category 5 
+link 1092 1109 barred 
+link 1092 1089 category 1 restriction 1 
+link 1093 1094 barred 
+link 1093 1084 category 2 force exit 
+link 1093 1091 category 5 
+link 1094 1096 barred arc centre #979 left 
+link 1094 1093 category 6 force exit headway factor 0.40 
+link 1095 1132 barred 
+link 1095 1096 category 6 headway factor 0.60 arc centre #979 
+link 1095 1108 category 1 restriction 1 
+link 1096 1095 barred arc centre #979 left 
+link 1096 1094 category 6 force exit headway factor 0.40 arc centre #979 
+on-ramp count 1
+ramp from 2914 length 500.0 ft left min time 1 move out distance 9.4 ft 
+link 1097 2686 category 9 
+link 1098 2686 barred 
+link 1098 2914 category 8 type highway 
+link 1099 1050 category 2 
+link 1099 1100 category 5 force exit headway factor 0.60 
+link 1099 1029 barred 
+link 1100 1075 category 17 
+link 1100 1103 category 4 force exit 
+link 1100 1099 barred 
+link 1101 1102 category 1 restriction 1 
+link 1101 1030 barred 
+link 1102 1103 category 1 restriction 1 
+link 1102 1101 barred 
+link 1103 1104 category 5 lane restriction 1 on lane 5 
+link 1103 1102 barred 
+link 1103 1100 barred 
+link 1104 1106 category 4 
+link 1104 1105 category 1 restriction 1 
+link 1104 1103 barred 
+link 1105 1110 category 1 restriction 1 arc centre #1024 left 
+link 1105 1104 barred 
+link 1106 1107 category 6 
+link 1106 1104 barred 
+link 1106 1074 barred 
+link 1107 1112 category 6 arc centre #1031 left 
+link 1107 1106 barred 
+link 1108 1095 barred 
+link 1108 1109 category 1 restriction 1 arc centre #1021 
+link 1109 1108 barred arc centre #1021 left 
+link 1109 1092 category 1 restriction 1 
+link 1110 1133 category 1 restriction 1 
+link 1110 1105 barred arc centre #1024 
+link 1111 1134 category 5 
+link 1111 1112 barred arc centre #1031 
+link 1112 1113 category 8 
+link 1112 1111 category 5 arc centre #1031 left 
+link 1112 1107 barred arc centre #1031 
+link 1113 1230 category 8 
+link 1113 1112 barred 
+link 1114 1124 category 1 restriction 1 
+link 1114 1115 category 1 restriction 1 
+link 1115 1114 category 1 restriction 1 
+link 1115 1116 category 1 restriction 1 
+link 1116 1115 category 1 restriction 1 
+link 1116 1117 category 1 restriction 1 
+link 1117 1116 category 1 restriction 1 
+link 1117 1118 category 1 restriction 1 
+link 1118 1117 category 1 restriction 1 
+link 1118 1119 category 1 restriction 1 
+link 1119 1118 category 1 restriction 1 
+link 1119 1120 category 1 restriction 1 
+link 1120 1119 category 1 restriction 1 
+link 1120 1121 category 1 restriction 1 
+link 1121 1120 category 1 restriction 1 
+link 1121 1122 category 1 restriction 1 
+link 1122 1121 category 1 restriction 1 
+link 1122 1123 category 1 restriction 1 
+link 1123 1122 category 1 restriction 1 
+link 1123 1067 category 1 restriction 1 
+link 1124 1131 category 1 restriction 1 
+link 1124 1114 category 1 restriction 1 
+link 1125 1163 category 1 restriction 1 
+link 1125 1127 barred 
+link 1126 1174 barred 
+link 1126 1173 category 2 speed 75 mph restriction 1 
+link 1126 1127 category 1 restriction 1 
+link 1127 1125 category 1 restriction 1 
+link 1127 1126 barred 
+link 1127 1128 category 1 restriction 1 
+link 1128 1127 category 1 restriction 1 
+link 1128 1129 category 1 restriction 1 
+link 1129 1128 category 1 restriction 1 
+link 1129 1130 category 1 restriction 1 
+link 1130 1129 category 1 restriction 1 
+link 1130 1131 category 1 restriction 1 
+link 1131 1130 category 1 restriction 1 
+link 1131 1124 category 1 restriction 1 
+link 1132 1153 barred 
+link 1132 1135 barred 
+link 1132 1095 category 6 lane restriction 1 on lane 6 headway factor 0.40 
+link 1133 1157 category 1 restriction 1 
+link 1133 1110 barred 
+link 1134 1142 category 5 
+link 1134 1111 barred 
+link 1135 1136 barred 
+link 1135 1132 category 5 headway factor 0.60 
+link 1136 1137 barred 
+link 1136 1135 category 5 headway factor 0.60 
+link 1137 1138 barred 
+link 1137 1136 category 5 headway factor 0.60 
+link 1138 1139 barred 
+link 1138 1137 category 5 headway factor 0.60 
+link 1139 1140 barred 
+link 1139 1226 category 9 
+link 1139 1138 category 5 headway factor 0.60 
+link 1140 1187 barred 
+link 1140 1139 category 6 
+link 1141 1144 category 5 
+link 1141 1142 barred 
+link 1142 1141 category 5 
+link 1142 1134 barred 
+link 1143 1145 category 6 
+link 1143 1144 barred 
+link 1143 1330 barred 
+link 1144 1143 category 5 
+link 1144 1141 barred 
+link 1145 1146 category 6 
+link 1145 1143 barred 
+link 1146 1147 category 6 
+link 1146 1145 barred 
+link 1147 1148 category 6 
+link 1147 1146 barred 
+link 1148 1149 category 6 
+link 1148 1147 barred 
+link 1149 1150 category 6 
+link 1149 1148 barred 
+link 1150 1155 category 8 
+link 1150 1154 category 5 
+link 1150 1149 barred 
+link 1151 1170 barred 
+link 1151 1152 category 1 restriction 1 
+link 1152 1151 barred 
+link 1152 1153 category 1 restriction 1 
+link 1153 1152 barred 
+link 1153 1132 category 1 restriction 1 
+link 1154 1271 category 5 
+link 1154 1150 barred 
+link 1155 1156 category 8 
+link 1155 1150 barred 
+link 1156 1239 category 9 
+link 1156 1155 barred 
+link 1157 1158 category 1 restriction 1 
+link 1157 1133 barred 
+link 1158 1159 category 1 restriction 1 
+link 1158 1157 barred 
+link 1159 1160 category 1 restriction 1 
+link 1159 1158 barred 
+link 1160 1161 category 1 restriction 1 
+link 1160 1159 barred 
+link 1161 1162 category 1 restriction 1 
+link 1161 1160 barred 
+link 1162 1163 category 1 restriction 1 
+link 1162 1161 barred 
+link 1163 1164 category 2 speed 75 mph restriction 1 
+link 1163 1125 barred 
+link 1163 1162 barred 
+link 1164 1165 category 2 speed 75 mph restriction 1 
+link 1164 1163 barred 
+link 1165 1166 category 2 speed 75 mph restriction 1 
+link 1165 1164 barred 
+link 1166 1168 category 2 speed 75 mph restriction 1 
+link 1166 1167 category 1 restriction 4 
+link 1166 1165 barred 
+link 1167 1182 category 1 restriction 4 
+link 1167 1166 barred 
+link 1168 1169 category 2 speed 75 mph restriction 1 
+link 1168 1166 barred 
+link 1169 1196 category 1 restriction 1 
+link 1169 1168 barred 
+link 1170 1171 barred 
+link 1170 1151 category 2 speed 75 mph restriction 1 
+link 1171 1172 barred 
+link 1171 1170 category 2 speed 75 mph restriction 1 
+link 1172 1173 barred 
+link 1172 1171 category 2 speed 75 mph restriction 1 
+link 1173 1126 barred 
+link 1173 1172 category 2 speed 75 mph restriction 1 
+link 1174 1175 barred 
+link 1174 1126 category 2 speed 75 mph restriction 1 
+link 1175 1176 barred 
+link 1175 1174 category 2 speed 75 mph restriction 1 
+link 1176 1177 barred 
+link 1176 1175 category 2 speed 75 mph restriction 1 
+link 1177 1178 barred 
+link 1177 1179 barred 
+link 1177 1176 category 2 speed 75 mph restriction 1 
+link 1178 1180 barred 
+link 1178 1177 category 1 restriction 4 
+link 1179 1183 barred 
+link 1179 1177 category 1 restriction 1 
+link 1180 1181 barred 
+link 1180 1178 category 1 restriction 4 
+link 1181 1190 barred 
+link 1181 1180 category 1 restriction 4 
+link 1182 1191 category 8 restriction 4 
+link 1182 1167 barred 
+link 1183 1212 barred 
+link 1183 1179 category 1 restriction 1 
+link 1184 1258 barred 
+link 1184 1250 barred 
+link 1184 1185 category 6 
+link 1185 1184 barred 
+link 1185 1186 category 6 
+link 1186 1185 barred 
+link 1186 1187 category 6 
+link 1187 1186 barred 
+link 1187 1140 category 6 
+link 1188 2862 barred 
+link 1188 1192 category 8 restriction 4 
+link 1189 1192 barred 
+link 1189 1190 category 8 restriction 4 
+link 1190 1189 barred 
+link 1190 1181 category 8 restriction 4 
+link 1191 1193 category 8 restriction 4 
+link 1191 1182 barred 
+link 1192 1188 barred 
+link 1192 1189 category 8 restriction 4 
+link 1193 1194 category 8 restriction 4 
+link 1193 1191 barred 
+link 1194 1195 category 8 restriction 4 
+link 1194 1193 barred 
+link 1195 2863 category 8 restriction 4 
+link 1195 1194 barred 
+link 1196 1197 category 1 restriction 1 
+link 1196 1169 barred 
+link 1197 1198 category 1 restriction 1 
+link 1197 1196 barred 
+link 1198 1199 category 1 restriction 1 
+link 1198 1197 barred 
+link 1199 1200 category 1 restriction 1 
+link 1199 1198 barred 
+link 1200 1201 category 1 restriction 1 
+link 1200 1199 barred 
+link 1201 1202 category 1 restriction 1 
+link 1201 1200 barred 
+link 1202 1203 category 1 restriction 1 
+link 1202 1201 barred 
+link 1203 1204 category 1 restriction 1 
+link 1203 1202 barred 
+link 1204 1205 category 1 restriction 1 
+link 1204 1203 barred 
+link 1205 1206 category 1 restriction 1 
+link 1205 1204 barred 
+link 1206 1207 category 1 restriction 1 
+link 1206 1205 barred 
+link 1207 1208 category 1 restriction 1 
+link 1207 1206 barred 
+link 1208 1209 category 1 restriction 1 
+link 1208 1207 barred 
+link 1209 1210 category 1 restriction 1 
+link 1209 1208 barred 
+link 1210 1211 category 1 restriction 1 
+link 1210 1209 barred 
+link 1211 1285 category 1 restriction 1 
+link 1211 1210 barred 
+link 1212 1213 barred 
+link 1212 1183 category 1 restriction 1 
+link 1213 1214 barred 
+link 1213 1212 category 1 restriction 1 
+link 1214 1215 barred 
+link 1214 1213 category 1 restriction 1 
+link 1215 1216 barred 
+link 1215 1214 category 1 restriction 1 
+link 1216 1217 barred 
+link 1216 1215 category 1 restriction 1 
+link 1217 1218 barred 
+link 1217 1216 category 1 restriction 1 
+link 1218 1219 barred 
+link 1218 1217 category 1 restriction 1 
+link 1219 1220 barred 
+link 1219 1218 category 1 restriction 1 
+link 1220 1221 barred 
+link 1220 1219 category 1 restriction 1 
+link 1221 1222 barred 
+link 1221 1220 category 1 restriction 1 
+link 1222 1223 barred 
+link 1222 1221 category 1 restriction 1 
+link 1223 1224 barred 
+link 1223 1222 category 1 restriction 1 
+link 1224 1225 barred 
+link 1224 1223 category 1 restriction 1 
+link 1225 2880 barred 
+link 1225 1224 category 1 restriction 1 
+link 1226 1139 barred 
+link 1226 1227 category 9 
+link 1227 1226 barred 
+link 1227 1228 category 10 
+link 1228 1227 barred 
+link 1228 1229 category 11 
+link 1229 1228 barred 
+link 1230 1231 category 9 
+link 1230 1113 barred 
+link 1231 1233 category 8 
+link 1231 1232 category 9 
+link 1231 1230 barred 
+link 1232 2874 category 9 speed 25 mph arc centre #1076 
+link 1232 1231 barred 
+link 1233 1234 category 8 
+link 1233 1231 barred 
+link 1234 1236 category 8 speed 20 mph arc centre #1075 left 
+link 1234 1235 category 8 
+link 1234 1233 barred 
+link 1235 1234 barred 
+link 1236 1234 barred arc centre #1075 
+link 1237 1238 category 9 
+link 1237 2874 barred arc centre #1076 left 
+link 1238 1237 barred 
+link 1239 1240 category 10 
+link 1239 1156 barred 
+link 1240 1241 category 10 
+link 1240 1239 barred 
+link 1241 1242 category 10 speed 30 mph arc centre #1090 
+link 1241 1240 barred 
+link 1242 1243 category 10 
+link 1242 1241 barred arc centre #1090 left 
+link 1243 1242 barred 
+link 1244 2689 category 9 speed 25 mph arc centre #1091 left 
+link 1245 1246 category 8 
+link 1245 2687 barred arc centre #1091 
+link 1246 1272 category 8 
+link 1246 1245 barred 
+link 1247 1248 category 9 
+link 1248 1249 category 9 speed 20 mph arc centre #1092 left 
+link 1248 1247 barred 
+link 1249 1248 barred arc centre #1092 
+link 1249 1250 category 8 
+link 1250 1249 barred 
+link 1250 1184 category 8 
+link 1251 1257 barred 
+link 1251 1252 category 8 
+link 1252 1251 barred 
+link 1252 1253 category 8 
+link 1253 1252 barred 
+link 1253 1254 category 8 
+link 1254 1253 barred 
+link 1254 1255 category 9 
+link 1255 1254 barred 
+link 1255 2884 category 10 
+link 1256 2884 barred 
+link 1257 1259 barred 
+link 1257 1251 category 8 
+link 1257 1258 category 5 
+link 1258 1257 barred 
+link 1258 1184 category 5 
+link 1259 1270 barred 
+link 1259 1263 barred 
+link 1259 1257 category 6 
+link 1260 2865 category 9 
+link 1261 2865 barred 
+link 1261 1262 category 9 speed 25 mph arc centre #1100 left 
+link 1262 1261 barred arc centre #1100 
+link 1262 1263 category 8 
+link 1263 1262 barred 
+link 1263 1259 category 8 
+link 1264 1307 barred 
+link 1264 1265 category 5 
+link 1265 1264 barred 
+link 1265 1266 category 5 
+link 1266 1265 barred 
+link 1266 1267 category 5 
+link 1267 1266 barred 
+link 1267 1268 category 5 
+link 1268 1267 barred 
+link 1268 1269 category 5 
+link 1269 1268 barred 
+link 1269 1270 category 5 
+link 1270 1269 barred 
+link 1270 1259 category 5 
+link 1271 1272 category 5 
+link 1271 1154 barred 
+link 1272 1273 category 6 
+link 1272 1271 barred 
+link 1272 1246 barred 
+link 1273 1274 category 6 
+link 1273 1272 barred 
+link 1274 1287 category 8 
+link 1274 1275 category 5 
+link 1274 1273 barred 
+link 1275 1276 category 5 
+link 1275 1274 barred 
+link 1276 1277 category 5 
+link 1276 1275 barred 
+link 1277 1278 category 5 
+link 1277 1276 barred 
+link 1278 1279 category 5 
+link 1278 1277 barred 
+link 1279 1280 category 6 
+link 1279 1278 barred 
+link 1279 1296 barred 
+link 1280 1281 category 6 
+link 1280 1279 barred 
+link 1281 1282 category 6 force exit 
+on-ramp count 1
+ramp from 2692 length 215.0 ft left min time 1 move out distance 25.8 ft 
+link 1281 1280 barred 
+link 1282 1283 category 6 force exit 
+link 1282 1281 barred 
+link 1283 1297 category 8 
+link 1283 1284 category 5 
+link 1283 1282 barred 
+link 1284 2878 category 5 
+link 1284 1283 barred 
+link 1285 1286 category 1 restriction 1 
+link 1285 1211 barred 
+link 1286 1285 barred 
+link 1287 1288 category 8 
+link 1287 1274 barred 
+link 1288 1289 category 9 
+link 1288 1287 barred 
+link 1289 1290 category 10 speed 30 mph arc centre #1129 left 
+link 1289 1288 barred 
+link 1290 1291 category 10 
+link 1290 1289 barred arc centre #1129 
+link 1291 1290 barred 
+link 1292 2864 category 8 
+link 1293 2864 barred 
+link 1293 1294 category 8 speed 20 mph arc centre #1130 left 
+link 1294 1295 category 8 speed 25 mph arc centre #1131 left 
+link 1294 1293 barred arc centre #1130 
+link 1295 1296 category 8 
+link 1295 1294 barred arc centre #1131 
+link 1296 1279 category 8 
+link 1296 1295 barred 
+link 1297 2887 category 8 
+link 1297 1283 barred 
+link 1298 1300 category 8 
+link 1298 2887 barred 
+link 1300 1301 category 8 
+link 1300 1298 barred 
+link 1301 1302 category 9 
+link 1301 1300 barred 
+link 1302 1303 category 9 
+link 1302 1301 barred 
+link 1303 1302 barred 
+link 1307 1308 barred 
+link 1307 1319 category 8 
+link 1307 1264 category 5 
+link 1308 1309 barred 
+link 1308 1318 barred 
+link 1308 1307 category 6 
+link 1309 1313 barred 
+link 1309 1308 category 5 
+link 1310 2883 category 6 
+link 1311 2883 barred 
+link 1311 1313 category 6 
+link 1313 1311 barred 
+link 1313 1309 category 6 
+link 1314 1315 category 9 
+link 1315 1314 barred 
+link 1315 1316 category 9 speed 20 mph arc centre #1136 left 
+link 1316 1315 barred arc centre #1136 
+link 1316 1317 category 9 
+link 1317 1316 barred 
+link 1317 1318 category 8 
+link 1318 1317 barred 
+link 1318 1308 category 8 
+link 1319 1307 barred 
+link 1319 1325 category 8 
+link 1320 1325 barred 
+link 1320 1321 category 9 
+link 1321 1320 barred 
+link 1321 1322 category 10 
+link 1322 1321 barred 
+link 1322 1323 category 10 speed 20 mph arc centre #1137 left 
+link 1323 1324 category 10 
+link 1323 1322 barred arc centre #1137 
+link 1324 1323 barred 
+link 1325 1319 barred 
+link 1325 1320 category 8 
+link 1327 2861 category 10 
+link 1328 1329 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 1328 2861 barred 
+link 1329 1330 category 8 
+link 1329 1328 barred 
+link 1330 1143 category 8 
+link 1330 1329 barred 
+link 1331 1332 category 1 restriction 1 
+link 1331 1404 barred 
+link 1332 1333 category 1 restriction 1 
+link 1332 1331 barred 
+link 1333 1334 category 1 restriction 1 
+link 1333 1332 barred 
+link 1334 1335 category 1 restriction 1 
+link 1334 1333 barred 
+link 1335 1336 category 1 restriction 1 
+link 1335 1334 barred 
+link 1336 1337 category 1 restriction 1 
+link 1336 1335 barred 
+link 1337 1338 category 1 restriction 1 
+link 1337 1336 barred 
+link 1338 1339 category 1 restriction 1 
+link 1338 1337 barred 
+link 1339 1340 category 1 restriction 1 
+link 1339 1338 barred 
+link 1340 1350 category 1 restriction 1 
+link 1340 1339 barred 
+link 1341 1342 category 3 
+link 1341 1422 barred 
+link 1342 1343 category 3 
+link 1342 1341 barred 
+link 1343 1344 category 3 
+link 1343 1342 barred 
+link 1344 1345 category 3 
+link 1344 1343 barred 
+link 1345 1346 category 3 
+link 1345 1344 barred 
+link 1346 1347 category 3 
+on-ramp count 1
+ramp from 1394 length 400.0 ft left min time 1 move out distance 38.8 ft 
+link 1346 1345 barred 
+link 1347 1348 category 3 
+link 1347 1346 barred 
+link 1348 1349 category 3 
+link 1348 1347 barred 
+link 1349 1350 category 3 
+link 1349 1348 barred 
+link 1350 1351 category 4 lane restriction 1 on lane 4 
+link 1350 1340 barred 
+link 1350 1349 barred 
+link 1351 1352 category 4 lane restriction 1 on lane 4 headway factor 0.60 
+link 1351 1350 barred 
+link 1352 1351 barred 
+link 1352 1354 category 3 headway factor 1.40 
+link 1352 1353 category 1 restriction 1 
+link 1353 1391 category 1 restriction 1 
+link 1353 1352 barred 
+link 1354 1355 category 3 headway factor 0.60 
+on-ramp count 1
+ramp from 1078 length 400.0 ft left min time 1 move out distance 49.0 ft 
+link 1354 1352 barred 
+link 1355 1087 barred 
+link 1355 1356 category 5 force exit headway factor 0.60 
+link 1355 1354 barred 
+link 1356 1355 barred 
+link 1356 1474 category 9 
+link 1356 1499 category 4 headway factor 1.50 
+link 1357 1391 barred 
+link 1357 1358 category 1 restriction 1 
+link 1358 1357 barred 
+link 1358 1359 category 1 restriction 1 
+link 1359 1358 barred 
+link 1359 1360 category 1 restriction 1 
+link 1359 1070 barred 
+link 1360 1359 barred 
+link 1360 1491 category 1 restriction 1 
+link 1361 1362 category 1 restriction 1 
+link 1361 1498 barred 
+link 1362 1070 category 1 restriction 1 
+link 1362 1361 barred 
+link 1362 1363 category 1 restriction 1 
+link 1363 1364 category 1 restriction 1 
+link 1363 1362 barred 
+link 1364 1365 category 1 restriction 1 
+link 1364 1363 barred 
+link 1365 1366 category 1 restriction 1 
+link 1365 1364 barred 
+link 1366 1367 category 1 restriction 1 
+link 1366 1365 barred 
+link 1367 1368 category 4 lane restriction 1 on lane 4 
+link 1367 1366 barred 
+link 1367 1381 barred 
+link 1368 1378 category 1 restriction 1 
+link 1368 1367 barred 
+link 1368 1382 category 3 
+link 1369 1378 barred 
+link 1369 1370 category 1 restriction 1 
+link 1370 1369 barred 
+link 1370 1371 category 1 restriction 1 
+link 1371 1370 barred 
+link 1371 1372 category 1 restriction 1 
+link 1372 1371 barred 
+link 1372 1373 category 1 restriction 1 
+link 1373 1372 barred 
+link 1373 1374 category 1 restriction 1 
+link 1374 1373 barred 
+link 1374 1377 category 1 restriction 1 
+link 1375 1376 barred 
+link 1375 1446 category 1 restriction 1 
+link 1376 1377 barred 
+link 1376 1375 category 1 restriction 1 
+link 1377 1374 barred 
+link 1377 1376 category 1 restriction 1 
+link 1378 1369 category 1 restriction 1 
+link 1378 1368 barred 
+link 1379 1380 category 5 
+link 1379 1528 barred 
+link 1379 1482 barred 
+link 1380 1381 category 4 
+link 1380 1379 barred 
+link 1380 1071 category 2 
+link 1381 1367 category 3 
+link 1381 1380 barred 
+link 1381 1079 category 17 
+link 1382 1384 category 3 
+link 1382 1368 barred 
+link 1383 1384 barred 
+link 1383 1385 category 3 
+link 1384 1383 category 3 
+link 1384 1382 barred 
+link 1384 1057 category 8 
+link 1385 1383 barred 
+link 1385 1386 category 3 
+link 1386 1385 barred 
+link 1386 1387 category 3 
+link 1387 1386 barred 
+link 1387 1388 category 3 
+link 1388 1387 barred 
+link 1388 1066 barred 
+link 1388 1389 category 5 
+link 1389 1388 barred 
+link 1389 1390 category 4 
+link 1390 1389 barred 
+link 1390 1445 category 4 
+link 1391 1357 category 1 restriction 1 
+link 1391 1353 barred 
+link 1392 2698 barred 
+link 1392 1393 category 9 speed 30 mph arc centre #1253 left 
+link 1393 1395 category 8 
+link 1393 1394 category 8 type highway 
+link 1393 1392 barred arc centre #1253 
+link 1394 1393 barred 
+link 1395 1038 category 8 
+link 1395 1393 barred 
+link 1396 1052 category 2 speed 55 mph arc centre #922 left 
+link 1396 1051 barred arc centre #922 
+link 1396 1053 category 8 
+link 1397 1398 barred 
+link 1398 1397 category 10 
+link 1398 1399 barred 
+link 1399 1398 category 9 
+link 1399 1400 barred 
+link 1400 1399 category 9 
+link 1400 1401 barred 
+link 1401 1400 category 9 
+link 1401 1402 barred 
+link 1402 1401 category 9 
+link 1402 1417 barred 
+link 1403 1404 category 1 restriction 1 
+link 1403 1405 barred 
+link 1404 1331 category 1 restriction 1 
+link 1404 1403 barred 
+link 1405 1416 category 4 
+link 1405 1403 category 1 restriction 1 
+link 1405 1406 barred 
+link 1406 1415 barred 
+link 1406 1405 category 5 lane restriction 1 on lane 5 
+link 1406 1407 barred 
+link 1407 1406 category 1 restriction 1 
+link 1407 1408 barred 
+link 1408 1409 barred 
+link 1408 1407 category 1 restriction 1 
+link 1409 1410 barred 
+link 1409 1408 category 1 restriction 1 
+link 1410 2875 barred 
+link 1410 1409 category 1 restriction 1 
+link 1411 2871 barred 
+link 1411 1419 category 5 
+link 1412 1419 barred 
+link 1412 1413 category 5 
+link 1413 1412 barred 
+link 1413 1469 category 8 
+link 1413 1421 category 5 
+link 1414 1421 barred 
+link 1414 1415 category 4 
+link 1415 1406 category 4 
+link 1415 1414 barred 
+link 1416 1456 barred 
+link 1416 1417 category 5 
+link 1416 1405 barred 
+link 1417 1402 category 9 
+link 1417 1418 category 4 
+link 1417 1416 barred 
+link 1418 1422 category 4 
+link 1418 1417 barred 
+link 1419 1411 barred 
+link 1419 1412 category 5 
+link 1421 1413 barred 
+link 1421 1448 category 8 
+link 1421 1414 category 4 
+link 1422 1042 category 2 
+link 1422 1341 category 3 
+link 1422 1418 barred 
+link 1423 2872 category 5 
+link 1423 1425 barred 
+link 1424 1425 category 5 
+link 1424 1428 barred 
+link 1425 1423 category 5 
+link 1425 1424 barred 
+link 1428 1424 category 5 
+link 1428 1430 barred 
+link 1429 1430 category 4 
+link 1429 1438 barred 
+link 1430 1428 category 5 
+link 1430 1429 barred 
+link 1430 1432 barred 
+link 1431 1432 category 8 
+link 1431 1433 barred 
+link 1432 1430 category 8 
+link 1432 1431 barred 
+link 1433 1431 category 9 
+link 1433 1434 barred arc centre #1318 
+link 1434 1433 category 9 speed 15 mph arc centre #1318 left 
+link 1435 2695 category 9 speed 20 mph arc centre #1320 left 
+link 1436 1437 category 8 type highway 
+link 1436 2696 barred arc centre #1320 
+link 1437 1436 barred 
+link 1438 1439 barred 
+link 1438 1429 category 4 
+on-ramp count 1
+ramp from 1437 length 344.8 ft left min time 1 move out distance 5.4 ft 
+link 1439 1441 barred 
+link 1439 1438 category 4 
+link 1439 1440 category 1 restriction 1 
+link 1440 1472 category 1 restriction 1 
+link 1440 1439 barred 
+link 1441 1443 barred 
+link 1441 1442 barred 
+link 1441 1439 category 5 lane restriction 1 on lane 5 
+link 1442 1444 barred 
+link 1442 1457 category 9 
+link 1442 1441 category 4 
+link 1443 1447 barred 
+link 1443 1441 category 1 type urban restriction 1 
+link 1444 1445 barred 
+link 1444 1442 category 5 
+link 1445 1390 barred 
+link 1445 1468 barred 
+link 1445 1444 category 5 
+link 1446 1375 barred 
+link 1446 1447 category 1 restriction 1 
+link 1447 1446 barred 
+link 1447 1443 category 1 restriction 1 
+link 1448 1449 category 8 
+link 1448 1421 barred 
+link 1449 2694 category 8 speed 20 mph arc centre #1265 left 
+link 1449 1448 barred 
+link 1450 2694 barred arc centre #1265 
+link 1451 2697 category 9 speed 40 mph arc centre #1328 
+link 1452 2697 barred arc centre #1328 left 
+link 1452 1453 category 9 
+link 1453 1452 barred 
+link 1453 1454 category 9 
+link 1454 1453 barred 
+link 1454 1455 category 9 
+link 1455 1454 barred 
+link 1455 1456 category 8 
+link 1456 1455 barred 
+link 1456 1416 category 8 
+link 1457 1442 barred 
+link 1457 1458 category 9 
+link 1458 1457 barred 
+link 1458 1459 category 9 
+link 1459 1458 barred 
+link 1459 1460 category 9 
+link 1460 1459 barred 
+link 1460 1461 category 9 
+link 1461 1460 barred 
+link 1461 1462 category 9 
+link 1462 1461 barred 
+link 1462 1463 category 9 
+link 1463 1462 barred 
+link 1463 1464 category 10 
+link 1464 1463 barred 
+link 1464 1465 category 10 
+link 1465 1464 barred 
+link 1466 2699 barred 
+link 1466 1467 category 9 
+link 1467 1468 category 8 
+link 1467 1466 barred 
+link 1468 1445 category 8 
+link 1468 1467 barred 
+link 1469 1470 category 8 
+link 1469 1413 barred 
+link 1470 1471 category 8 
+link 1470 1469 barred 
+link 1471 1470 barred 
+link 1472 2876 category 1 restriction 1 
+link 1472 1440 barred 
+link 1473 2876 barred 
+link 1474 1475 category 9 
+link 1474 1356 barred 
+link 1475 1476 category 9 speed 30 mph arc centre #1337 left 
+link 1475 1474 barred 
+link 1476 2701 category 9 
+link 1476 1475 barred arc centre #1337 
+link 1477 2701 barred 
+link 1478 2702 category 9 
+link 1479 2702 barred 
+link 1479 1480 category 8 speed 20 mph arc centre #1338 left 
+link 1480 1479 barred arc centre #1338 
+link 1480 1481 category 8 
+link 1481 1480 barred 
+link 1481 1501 category 8 
+link 1482 1379 category 8 
+link 1482 1483 barred 
+link 1483 1482 category 8 
+link 1483 1484 barred arc centre #1339 
+link 1484 1483 category 9 speed 30 mph arc centre #1339 left 
+link 1484 1485 barred 
+link 1485 1484 category 9 
+link 1485 2703 barred 
+link 1486 1525 barred 
+link 1486 1487 category 8 
+link 1487 1486 barred 
+link 1487 1490 category 8 speed 30 mph arc centre #1340 left 
+link 1488 1490 barred 
+link 1488 2704 category 10 
+link 1489 2704 barred 
+link 1490 1487 barred arc centre #1340 
+link 1490 1488 category 9 
+link 1491 1360 barred 
+link 1491 1492 category 1 restriction 1 
+link 1492 1493 category 1 restriction 1 
+link 1492 1491 barred 
+link 1493 1494 category 1 restriction 1 
+link 1493 1492 barred 
+link 1494 1529 category 1 restriction 1 
+link 1494 1493 barred 
+link 1495 1534 barred 
+link 1495 1496 category 1 restriction 1 
+link 1496 1495 barred 
+link 1496 1497 category 1 restriction 1 
+link 1497 1496 barred 
+link 1497 1498 category 1 restriction 1 
+link 1498 1497 barred 
+link 1498 1361 category 1 restriction 1 
+link 1499 1356 barred 
+link 1499 1500 category 4 headway factor 1.10 
+link 1500 1499 barred 
+link 1500 1501 category 4 headway factor 1.10 
+link 1501 1481 barred 
+link 1501 1502 category 5 headway factor 1.10 
+link 1501 1500 barred 
+link 1502 1503 category 5 
+link 1502 1501 barred 
+link 1503 1504 category 8 
+link 1503 1529 category 4 
+link 1503 1502 barred 
+link 1504 1505 category 9 speed 25 mph arc centre #1344 left 
+link 1504 1503 barred 
+link 1505 2710 category 9 
+link 1505 1504 barred arc centre #1344 
+link 1505 2709 category 8 speed 25 mph arc centre #1345 left 
+link 1506 2710 barred 
+link 1507 2709 barred arc centre #1345 
+link 1508 2712 category 8 speed 30 mph arc centre #1349 left 
+link 1509 2711 barred 
+link 1509 2712 barred arc centre #1349 
+link 1509 1510 category 9 
+link 1510 1509 barred 
+link 1510 1511 category 8 
+link 1511 1512 category 8 
+link 1511 1510 barred 
+link 1512 1513 category 8 type highway 
+link 1512 1511 barred 
+link 1513 1512 barred 
+link 1514 1540 barred 
+link 1514 1515 category 8 
+link 1515 1514 barred 
+link 1515 1516 category 9 
+link 1516 1515 barred 
+link 1516 1517 category 9 
+link 1517 1516 barred 
+link 1517 1518 category 9 
+link 1518 1517 barred 
+link 1518 2707 category 9 
+link 1519 2705 category 8 speed 25 mph arc centre #1354 left 
+link 1520 1522 category 8 
+link 1520 1521 barred arc centre #1355 
+link 1521 1520 category 9 speed 25 mph arc centre #1355 left 
+link 1521 2706 barred 
+link 1521 2705 barred arc centre #1354 
+link 1522 1520 barred 
+link 1522 1523 category 8 
+link 1523 1522 barred 
+link 1523 1524 category 8 
+link 1524 1534 barred 
+link 1524 1523 barred 
+link 1524 1525 category 5 
+link 1525 1524 barred 
+link 1525 1486 category 8 
+link 1525 1526 category 4 
+link 1526 1525 barred 
+link 1526 1527 category 4 
+link 1527 1526 barred 
+link 1527 1528 category 4 
+link 1528 1379 category 4 
+link 1528 1527 barred 
+link 1529 1530 category 5 
+link 1529 1494 barred 
+link 1529 1503 barred 
+link 1530 1531 category 5 
+link 1530 1529 barred 
+link 1531 1545 category 5 
+link 1531 1530 barred 
+link 1532 2707 barred 
+link 1533 2706 category 8 
+link 1534 1535 barred 
+link 1534 1524 category 4 
+link 1534 1495 category 1 restriction 1 
+link 1535 1536 barred 
+link 1535 1534 category 5 lane restriction 1 on lane 5 
+link 1536 1537 barred 
+link 1536 1535 category 5 lane restriction 1 on lane 5 
+link 1537 1539 barred 
+link 1537 1538 barred 
+link 1537 1536 category 5 lane restriction 1 on lane 5 
+link 1538 1540 barred 
+link 1538 1537 category 4 
+link 1539 1541 barred 
+link 1539 1537 category 1 restriction 1 
+link 1540 1542 barred 
+link 1540 1514 category 8 
+link 1540 1538 category 4 
+link 1541 1543 barred 
+link 1541 1539 category 1 restriction 1 
+link 1542 1549 barred 
+link 1542 1540 category 4 
+link 1543 1549 barred 
+link 1543 1541 category 1 restriction 1 
+link 1544 2711 category 8 
+link 1545 1546 category 5 
+on-ramp count 1
+ramp from 1513 length 700.0 ft left min time 1 move out distance 169.0 ft 
+link 1545 1531 barred 
+link 1546 1547 category 5 
+link 1546 1545 barred 
+link 1547 1548 category 5 
+link 1547 1546 barred 
+link 1548 1551 category 8 
+link 1548 1578 category 5 
+link 1548 1547 barred 
+link 1549 1550 barred 
+link 1549 1542 category 4 
+link 1549 1543 category 1 restriction 1 
+link 1550 1580 barred 
+link 1550 1549 category 5 lane restriction 1 on lane 5 
+on-ramp count 1
+ramp from 1556 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 1551 1552 category 8 
+link 1551 1548 barred 
+link 1552 1553 category 9 
+link 1552 1551 barred 
+link 1553 1554 category 9 
+link 1553 1552 barred 
+link 1554 1555 category 9 
+link 1554 1553 barred 
+link 1555 1554 barred 
+link 1556 1577 barred 
+link 1557 1558 barred arc centre #1423 
+link 1557 1577 category 9 
+link 1558 1557 category 8 speed 25 mph arc centre #1423 left 
+link 1558 2713 barred 
+link 1559 2714 category 8 
+link 1560 2717 barred arc centre #1424 
+link 1560 1561 category 8 
+link 1561 1560 barred 
+link 1561 2708 category 8 type highway 
+link 1562 1563 category 8 
+link 1562 1578 barred 
+link 1563 1564 category 8 speed 20 mph arc centre #1428 left 
+link 1563 1562 barred 
+link 1564 2715 category 11 
+link 1564 1563 barred arc centre #1428 
+link 1565 2715 barred 
+link 1566 2716 category 9 
+link 1567 2716 barred 
+link 1567 1568 category 8 
+link 1568 1569 category 8 type highway 
+link 1568 1567 barred 
+link 1569 1568 barred 
+link 1570 1581 barred 
+link 1570 1571 category 8 
+link 1571 1570 barred 
+link 1571 1572 category 9 
+link 1572 1571 barred 
+link 1572 1573 category 9 
+link 1573 1572 barred 
+link 1573 1574 category 9 
+link 1574 1573 barred 
+link 1574 1575 category 10 speed 35 mph arc centre #1429 
+link 1575 1576 category 11 
+link 1575 1574 barred arc centre #1429 left 
+link 1576 1575 barred 
+link 1577 1557 barred 
+link 1577 1556 category 8 type highway 
+link 1578 1562 category 8 
+link 1578 1579 category 5 
+link 1578 1548 barred 
+link 1579 1611 category 5 
+on-ramp count 1
+ramp from 1569 length 600.0 ft left min time 1 move out distance 110.4 ft 
+link 1579 1578 barred 
+link 1580 1581 barred 
+link 1580 1550 category 5 
+on-ramp count 1
+ramp from 2708 length 307.8 ft left [ headway factor 0.80 ] min time 1 move out distance 10.0 ft 
+link 1581 1582 barred 
+link 1581 1570 category 8 
+link 1581 1580 category 5 
+link 1582 1615 barred 
+link 1582 1583 barred 
+link 1582 1581 category 5 
+link 1583 1584 barred 
+link 1583 1582 category 8 
+link 1584 1585 barred 
+link 1584 1583 category 8 
+link 1585 1586 barred arc centre #1475 
+link 1585 1584 category 8 
+link 1586 1585 category 8 arc centre #1475 left 
+link 1586 2723 barred 
+link 1587 1588 category 8 
+link 1587 1611 barred 
+link 1588 1589 category 8 arc centre #1459 left 
+link 1588 1587 barred 
+link 1589 1590 category 9 
+link 1589 1588 barred arc centre #1459 
+link 1590 1591 category 10 
+link 1590 1589 barred 
+link 1591 1592 category 11 
+link 1591 1590 barred 
+link 1592 1593 category 11 
+link 1592 1591 barred 
+link 1593 1592 barred 
+link 1594 2719 category 8 speed 25 mph arc centre #1464 left 
+link 1595 1596 category 8 type highway 
+link 1595 2718 barred arc centre #1464 
+link 1596 1595 barred 
+link 1597 2720 barred 
+link 1597 1598 category 8 arc centre #1468 left 
+link 1598 1599 category 8 
+link 1598 1597 barred arc centre #1468 
+link 1599 1613 category 8 
+link 1599 1598 barred 
+link 1600 1615 barred 
+link 1600 1601 category 9 
+link 1601 1600 barred 
+link 1601 1602 category 9 speed 30 mph arc centre #1488 left 
+link 1602 1601 barred arc centre #1488 
+link 1602 1603 category 10 
+link 1603 1602 barred 
+link 1603 1616 category 8 
+link 1603 1604 category 9 speed 25 mph arc centre #1490 
+link 1604 1603 barred arc centre #1490 left 
+link 1604 2724 category 9 
+link 1605 2724 barred 
+link 1606 1616 barred 
+link 1606 1607 category 8 speed 25 mph arc centre #1489 left 
+link 1607 1606 barred arc centre #1489 
+link 1608 2722 barred 
+link 1608 2721 category 8 speed 25 mph arc centre #1484 left 
+link 1609 2721 barred arc centre #1484 
+link 1609 1610 category 8 type highway 
+link 1610 1609 barred 
+link 1611 1587 category 8 
+link 1611 1612 category 4 
+link 1611 1579 barred 
+link 1612 1613 category 4 
+on-ramp count 1
+ramp from 1596 length 500.0 ft left min time 1 move out distance 141.2 ft 
+link 1612 1611 barred 
+link 1613 1614 category 5 
+link 1613 1612 barred 
+link 1613 1599 barred 
+link 1614 1618 category 2 
+link 1614 1621 category 4 
+link 1614 1613 barred 
+link 1615 1617 barred 
+link 1615 1600 category 9 
+link 1615 1582 category 4 
+on-ramp count 1
+ramp from 1610 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 1616 1603 barred 
+link 1616 1606 category 8 
+link 1617 1679 barred 
+link 1617 1643 barred 
+link 1617 1615 category 5 
+link 1618 1619 category 2 
+link 1618 1614 barred 
+link 1619 2897 category 2 speed 65 mph arc centre #1510 
+link 1619 1618 barred 
+link 1620 2897 barred arc centre #1510 left 
+link 1620 2033 category 2 
+link 1621 1644 category 2 
+link 1621 1663 category 3 
+link 1621 1614 barred 
+link 1622 1623 category 2 
+link 1622 2073 barred 
+link 1623 1624 category 2 
+link 1623 1622 barred 
+link 1624 1640 category 17 
+on-ramp count 1
+ramp from 2041 length 400.0 ft left min time 1 move out distance 25.4 ft 
+link 1624 1625 category 17 
+link 1624 1623 barred 
+link 1625 1626 category 17 
+link 1625 1624 barred 
+link 1626 1627 category 17 
+link 1626 1625 barred 
+link 1627 1628 category 17 
+link 1627 1626 barred 
+link 1628 1629 category 17 
+link 1628 1627 barred 
+link 1629 2900 category 17 arc centre #1511 
+link 1629 1628 barred 
+link 1630 1631 category 17 
+link 1630 2900 barred arc centre #1511 left 
+link 1631 1634 category 8 
+link 1631 1632 category 17 
+link 1631 1630 barred 
+link 1632 1633 category 17 
+link 1632 1631 barred 
+link 1633 1665 category 17 
+link 1633 1632 barred 
+link 1634 1635 category 8 
+link 1634 1631 barred 
+link 1635 2725 category 9 
+link 1635 1637 barred 
+link 1635 1634 barred 
+link 1636 2725 barred 
+link 1637 1635 category 8 
+link 1637 1638 barred 
+link 1638 1637 category 8 
+link 1638 1639 barred 
+link 1639 1638 category 8 
+link 1639 1664 barred 
+link 1640 2898 category 17 arc centre #1522 left 
+link 1640 1624 barred 
+link 1641 2898 barred arc centre #1522 
+link 1641 1642 category 17 
+link 1642 1641 barred 
+link 1642 1643 category 17 
+link 1643 1642 barred 
+link 1643 1617 category 17 
+link 1644 1645 category 2 
+link 1644 1621 barred 
+link 1645 1646 category 2 
+link 1645 1644 barred 
+link 1646 1647 category 2 
+link 1646 1645 barred 
+link 1647 1648 category 3 
+link 1647 1646 barred 
+link 1648 1649 category 3 
+link 1648 1647 barred 
+link 1649 1650 category 3 
+link 1649 1648 barred 
+link 1650 1651 category 3 
+link 1650 1649 barred 
+link 1651 1652 category 3 
+link 1651 1650 barred 
+link 1652 1653 category 3 
+link 1652 1651 barred 
+link 1653 1654 category 3 
+link 1653 1652 barred 
+link 1654 1657 category 9 
+link 1654 1655 category 17 
+link 1654 1653 barred 
+link 1655 1656 category 17 
+link 1655 1654 barred 
+link 1656 1655 barred 
+link 1657 1658 category 10 
+link 1657 1654 barred 
+link 1657 1662 barred 
+link 1658 1657 barred 
+link 1659 1660 category 8 
+link 1659 1723 barred 
+link 1660 1666 category 8 
+link 1660 1659 barred 
+link 1662 1657 category 8 
+link 1662 1666 barred 
+link 1663 1664 category 3 
+link 1663 1621 barred 
+link 1664 1639 category 8 
+link 1664 1665 category 3 
+link 1664 1663 barred 
+link 1665 1693 category 4 
+link 1665 1664 barred 
+link 1665 1633 barred 
+link 1666 1662 category 8 
+link 1666 1660 barred 
+link 1668 1918 barred 
+link 1668 1669 category 17 
+link 1669 1668 barred 
+link 1669 1670 category 17 
+link 1670 1669 barred 
+link 1670 1671 category 17 
+link 1671 1670 barred 
+link 1671 1672 category 17 
+link 1672 1671 barred 
+link 1672 1673 category 17 
+link 1673 1672 barred 
+link 1673 2899 category 17 arc centre #1537 
+link 1674 2899 barred arc centre #1537 left 
+link 1674 1675 category 17 
+link 1675 1674 barred 
+link 1675 1676 category 17 
+link 1676 1675 barred 
+link 1676 1677 category 17 
+link 1677 1676 barred 
+link 1677 1679 category 17 
+link 1678 1680 barred 
+link 1678 1681 category 17 
+link 1678 1679 category 3 
+on-ramp count 1
+ramp from 1691 length 800.0 ft left min time 1 move out distance 200.0 ft 
+link 1679 1678 barred 
+link 1679 1677 barred 
+link 1679 1617 category 4 
+link 1680 1728 barred 
+link 1680 1678 category 4 
+link 1681 1678 barred 
+link 1681 1682 category 17 
+link 1682 1681 barred 
+link 1682 1683 category 17 
+link 1683 1682 barred 
+link 1683 1684 category 17 
+on-ramp count 1
+ramp from 1695 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 1684 1683 barred 
+link 1684 1685 category 17 
+link 1685 1684 barred 
+link 1685 1686 category 17 
+link 1686 1685 barred 
+link 1686 1687 category 17 
+link 1687 1686 barred 
+link 1687 1688 category 17 
+link 1688 1687 barred 
+link 1688 2045 category 17 
+link 1689 2726 category 9 
+link 1690 1694 barred 
+link 1690 1691 category 8 type highway 
+link 1691 1690 barred 
+link 1692 1694 barred 
+link 1692 1695 category 8 type highway 
+link 1693 1727 category 4 
+link 1693 1665 barred 
+link 1694 2726 barred 
+link 1694 1692 category 8 
+link 1694 1690 category 8 
+link 1695 1692 barred 
+link 1696 1716 barred 
+link 1696 1901 barred 
+link 1696 1697 category 5 lane restriction 1 on lane 5 
+link 1697 1696 barred 
+link 1697 1699 category 4 
+link 1697 1698 category 1 restriction 1 
+link 1698 1697 barred 
+link 1698 1700 category 1 restriction 1 
+link 1699 1697 barred 
+link 1699 1701 category 4 
+link 1700 1698 barred 
+link 1700 1702 category 1 restriction 1 
+link 1701 1699 barred 
+link 1701 1703 category 4 
+link 1702 1700 barred 
+link 1702 1704 category 1 restriction 1 
+link 1703 1701 barred 
+link 1703 1705 category 4 
+link 1704 1702 barred 
+link 1704 2046 category 1 restriction 1 
+link 1705 1703 barred 
+link 1705 2045 category 4 
+link 1706 1707 category 1 restriction 1 
+link 1706 1715 barred 
+link 1707 1708 category 1 restriction 1 
+link 1707 1706 barred 
+link 1708 1709 category 1 restriction 1 
+link 1708 1707 barred 
+link 1709 1710 category 1 restriction 1 
+link 1709 1708 barred 
+link 1710 1725 category 1 restriction 1 
+link 1710 1709 barred 
+link 1711 1712 category 1 restriction 1 
+link 1711 2072 barred 
+link 1712 1713 category 1 restriction 1 
+link 1712 1711 barred 
+link 1713 1714 category 1 restriction 1 
+link 1713 1712 barred 
+link 1714 1715 category 1 restriction 1 
+link 1714 1713 barred 
+link 1715 1706 category 1 restriction 1 
+link 1715 1714 barred 
+link 1716 1884 barred 
+link 1716 1696 category 1 restriction 1 
+link 1717 1718 category 4 
+link 1717 2073 barred 
+link 1718 1719 category 4 
+link 1718 1717 barred 
+link 1719 1720 category 4 
+link 1719 1718 barred 
+link 1720 1721 category 4 
+link 1720 1719 barred 
+link 1721 1722 category 4 
+link 1721 1720 barred 
+link 1722 1723 category 4 
+link 1722 1721 barred 
+link 1723 1659 category 8 
+link 1723 1724 category 4 
+link 1723 1722 barred 
+link 1724 1725 category 5 
+on-ramp count 1
+ramp from 1656 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 1724 1723 barred 
+link 1725 1726 category 6 lane restriction 1 on lane 6 
+on-ramp count 1
+ramp from 1877 length 500.0 ft left min time 1 move out distance 160.0 ft 
+link 1725 1710 barred 
+link 1725 1724 barred 
+link 1726 1851 category 5 
+link 1726 1850 category 1 restriction 1 
+link 1726 1725 barred 
+link 1727 1729 category 2 
+link 1727 1733 category 3 
+link 1727 1693 barred 
+link 1728 1771 barred 
+link 1728 1777 barred 
+link 1728 1680 category 4 
+link 1729 1730 category 2 
+on-ramp count 1
+ramp from 2731 length 400.0 ft left min time 1 move out distance 86.1 ft 
+link 1729 1727 barred 
+link 1730 2901 category 2 speed 65 mph arc centre #1608 
+link 1730 1729 barred 
+link 1731 2901 barred arc centre #1608 left 
+link 1731 1732 category 2 
+link 1732 1731 barred 
+link 1732 1809 category 2 
+link 1733 1734 category 3 
+link 1733 1727 barred 
+link 1734 1735 category 3 
+on-ramp count 1
+ramp from 2737 length 300.0 ft left min time 1 move out distance 60.0 ft 
+link 1734 1733 barred 
+link 1735 1736 category 4 
+link 1735 1734 barred 
+link 1735 1824 barred 
+link 1736 1737 category 5 
+link 1736 1735 barred 
+link 1736 1785 barred 
+link 1737 1738 category 9 
+link 1737 1741 category 4 
+link 1737 1736 barred 
+link 1738 1739 category 9 
+link 1738 1737 barred 
+link 1739 2739 category 9 
+link 1739 1738 barred 
+link 1740 1742 category 4 
+link 1740 1741 barred 
+link 1741 1740 category 4 
+link 1741 1737 barred 
+link 1742 1743 category 4 
+link 1742 1740 barred 
+link 1743 1838 category 4 
+on-ramp count 1
+ramp from 1847 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 1743 1742 barred 
+link 1744 1845 barred 
+link 1744 1745 category 4 headway factor 0.50 
+link 1745 1744 barred 
+link 1745 1746 category 4 headway factor 0.60 
+link 1746 1745 barred 
+link 1746 1787 barred 
+link 1746 1747 category 5 headway factor 0.50 
+link 1747 1746 barred 
+link 1747 1748 category 2 headway factor 0.50 
+link 1747 1758 category 4 headway factor 0.50 
+link 1748 1747 barred 
+link 1748 1749 category 2 headway factor 0.50 
+link 1749 1748 barred 
+link 1749 1750 category 17 
+link 1749 1751 category 2 
+link 1750 1749 barred 
+link 1750 1755 category 17 
+link 1751 1749 barred 
+link 1751 1752 category 2 
+link 1752 1751 barred 
+link 1752 2902 category 2 speed 65 mph arc centre #1613 
+link 1753 1780 category 2 
+link 1753 2902 barred arc centre #1613 left 
+link 1754 1800 category 17 
+link 1754 1779 barred 
+link 1755 1750 barred 
+link 1755 2903 category 17 arc centre #1607 left 
+link 1756 2903 barred arc centre #1607 
+link 1756 1757 category 17 
+link 1757 1756 barred 
+link 1758 1747 barred 
+link 1758 1759 category 4 headway factor 0.50 
+link 1759 1758 barred 
+link 1759 1760 category 8 
+link 1759 1770 category 3 
+link 1760 1759 barred 
+link 1760 1761 category 8 
+link 1761 1760 barred 
+link 1761 1762 category 8 
+link 1762 1761 barred 
+link 1762 1763 category 8 
+link 1763 1762 barred 
+link 1763 1764 category 8 
+link 1764 1763 barred 
+link 1764 1765 category 8 
+link 1765 1764 barred 
+link 1765 1766 category 8 
+link 1766 1765 barred 
+link 1766 1769 category 8 
+link 1767 1769 barred 
+link 1767 2727 category 9 
+link 1768 2727 barred 
+link 1769 1778 barred 
+link 1769 1766 barred 
+link 1769 1767 category 9 
+link 1770 1759 barred 
+link 1770 1771 category 3 
+link 1771 1770 barred 
+link 1771 1728 category 3 
+link 1772 1773 category 2 
+link 1772 1793 barred 
+link 1773 1774 category 2 speed 55 mph arc centre #1602 left 
+link 1773 1772 barred 
+link 1774 1773 barred arc centre #1602 
+link 1774 1775 category 2 
+link 1775 1774 barred 
+link 1775 1778 category 2 
+link 1776 1778 barred 
+link 1776 1777 category 2 
+link 1777 1776 barred 
+link 1777 1728 category 17 
+link 1778 1775 barred 
+link 1778 1769 category 8 
+link 1778 1776 category 2 
+link 1779 1754 category 2 
+link 1779 1780 barred 
+link 1780 1779 category 2 
+link 1780 1753 barred 
+link 1781 1806 barred 
+link 1781 1782 category 17 
+link 1782 1781 barred 
+link 1782 1783 category 17 arc centre #1616 left 
+link 1783 1784 category 17 
+link 1783 1782 barred arc centre #1616 
+link 1784 1785 category 17 
+link 1784 1783 barred 
+link 1785 1736 category 17 
+link 1785 1784 barred 
+link 1786 2738 barred 
+link 1786 1787 category 9 
+link 1787 1786 barred 
+link 1787 1746 category 8 
+link 1788 1789 category 3 headway factor 0.60 
+link 1788 2007 barred 
+link 1789 1790 category 3 headway factor 0.40 
+link 1789 1788 barred 
+link 1790 1791 category 4 headway factor 0.40 
+link 1790 1789 barred 
+link 1790 1828 barred 
+link 1791 1792 category 4 headway factor 0.40 
+link 1791 1790 barred 
+link 1792 1793 category 2 
+link 1792 1794 category 3 
+link 1792 1791 barred 
+link 1793 1772 category 2 
+link 1793 1792 barred 
+link 1794 1795 category 17 
+link 1794 1796 category 3 
+link 1794 1792 barred 
+link 1795 1819 category 17 
+link 1795 1794 barred 
+link 1796 1797 category 3 
+link 1796 1794 barred 
+link 1797 1798 category 3 
+link 1797 1796 barred 
+link 1798 1799 category 3 
+link 1798 1797 barred 
+link 1799 1800 category 3 
+link 1799 1798 barred 
+link 1800 1801 category 4 
+link 1800 1799 barred 
+link 1800 1754 barred 
+link 1801 1825 category 8 
+link 1801 1802 category 3 
+link 1801 1800 barred 
+link 1802 2656 category 3 
+link 1802 1801 barred 
+link 1803 2005 barred 
+link 1803 1804 category 3 
+link 1804 1803 barred 
+link 1804 1818 barred 
+link 1804 1805 category 4 
+link 1805 1804 barred 
+link 1805 1806 category 4 
+link 1806 1805 barred 
+link 1806 1781 category 17 
+link 1806 1807 category 3 
+link 1807 1806 barred 
+link 1807 1808 category 3 
+link 1808 1807 barred 
+link 1808 1809 category 3 headway factor 0.60 
+on-ramp count 1
+ramp from 1757 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 1809 1808 barred 
+link 1809 1732 barred 
+link 1809 1810 category 5 headway factor 0.60 
+link 1810 1809 barred 
+link 1810 1811 category 9 
+link 1810 1814 category 4 headway factor 0.60 
+link 1811 1810 barred 
+link 1811 1812 category 9 
+link 1812 1811 barred 
+link 1812 1813 category 9 
+link 1813 1812 barred 
+link 1814 1810 barred 
+link 1814 1815 category 4 
+link 1815 1814 barred 
+link 1815 2020 category 4 
+link 1816 2748 category 9 
+link 1817 2748 barred 
+link 1817 1818 category 8 
+link 1818 1817 barred 
+link 1818 1804 category 8 
+link 1819 1820 category 17 
+link 1819 1795 barred 
+link 1820 1821 category 17 
+link 1820 1819 barred 
+link 1821 1822 category 17 
+link 1821 1820 barred 
+link 1822 1823 category 17 
+link 1822 1821 barred 
+link 1823 2877 category 17 arc centre #1625 left 
+link 1823 1822 barred 
+link 1824 1735 category 17 
+link 1824 2877 barred arc centre #1625 
+link 1825 1826 category 9 
+link 1825 1801 barred 
+link 1826 1827 category 10 
+link 1826 1825 barred 
+link 1827 1826 barred 
+link 1828 1790 category 8 
+link 1828 2006 barred 
+link 1829 1832 barred 
+link 1829 1830 category 8 
+link 1829 1845 category 4 headway factor 0.60 
+link 1830 1829 barred 
+link 1830 1831 category 8 
+link 1831 1830 barred 
+link 1831 2741 category 8 
+link 1832 1833 barred 
+link 1832 1829 category 5 headway factor 0.60 
+link 1833 1834 barred 
+link 1833 1848 barred 
+link 1833 1832 category 5 headway factor 0.60 
+link 1834 1835 barred 
+link 1834 1833 category 4 headway factor 0.60 
+link 1835 1836 barred 
+link 1835 1834 category 4 
+link 1836 2745 barred 
+link 1836 1835 category 4 
+link 1837 2745 category 4 
+link 1838 1839 category 9 
+link 1838 1841 category 3 
+link 1838 1743 barred 
+link 1839 1840 category 9 
+link 1839 1838 barred 
+link 1840 2743 category 9 
+link 1840 1839 barred 
+link 1841 1843 category 3 
+link 1841 1838 barred 
+link 1842 2744 category 3 
+link 1842 1843 barred 
+link 1843 1842 category 3 
+link 1843 1841 barred 
+link 1844 2744 barred 
+link 1845 1829 barred 
+link 1845 1744 category 4 headway factor 0.50 
+link 1846 2746 category 8 type highway 
+link 1846 2740 barred 
+link 1847 2746 barred 
+link 1848 1849 barred 
+link 1848 1833 category 8 
+link 1849 2742 barred 
+link 1849 1848 category 9 
+link 1850 1855 category 1 restriction 1 
+link 1850 1726 barred 
+link 1851 1852 category 5 
+on-ramp count 1
+ramp from 1875 length 555.2 ft left min time 1 move out distance 200.0 ft 
+link 1851 1726 barred 
+link 1852 1853 category 5 
+link 1852 1851 barred 
+link 1853 1856 category 8 
+link 1853 1854 category 4 
+link 1853 1852 barred 
+link 1854 1872 category 4 
+link 1854 1853 barred 
+link 1855 1878 category 1 restriction 1 
+link 1855 1850 barred 
+link 1856 1857 category 8 
+link 1856 1853 barred 
+link 1857 1859 category 8 
+link 1857 1856 barred 
+link 1859 1864 category 8 
+link 1859 1857 barred 
+link 1864 1865 category 8 
+link 1864 1859 barred 
+link 1865 1866 category 8 
+link 1865 1864 barred 
+link 1866 1867 category 8 
+link 1866 1865 barred 
+link 1867 2657 category 8 
+link 1867 1868 category 8 
+link 1867 1866 barred 
+link 1868 1869 category 8 
+link 1868 1867 barred 
+link 1869 1870 category 8 
+link 1869 1868 barred 
+link 1870 1871 category 9 
+link 1870 1910 barred 
+link 1870 1869 barred 
+link 1871 2667 category 9 
+link 1871 1870 barred 
+link 1872 1873 category 4 
+link 1872 1854 barred 
+link 1873 1989 category 4 
+link 1873 1872 barred 
+link 1874 2794 category 8 type highway 
+link 1874 2787 barred 
+link 1875 2794 barred 
+link 1876 2788 barred 
+link 1876 2791 category 8 type highway speed 25 mph arc centre #1694 left 
+link 1877 2792 barred arc centre #1694 
+link 1878 1879 category 1 restriction 1 
+link 1878 1855 barred 
+link 1879 1880 category 1 restriction 1 
+link 1879 1878 barred 
+link 1880 1919 category 1 restriction 1 
+link 1880 1879 barred 
+link 1881 1903 barred 
+link 1881 1882 category 1 restriction 1 
+link 1882 1881 barred 
+link 1882 1883 category 1 restriction 1 
+link 1883 1882 barred 
+link 1883 1884 category 1 restriction 1 
+link 1884 1883 barred 
+link 1884 1716 category 1 restriction 1 
+link 1885 2793 category 8 speed 25 mph arc centre #1739 left 
+link 1885 2789 barred 
+link 1886 2793 barred arc centre #1739 
+link 1886 1887 category 8 type highway 
+link 1887 1886 barred 
+link 1888 1897 barred 
+link 1888 1889 category 9 
+link 1889 1888 barred 
+link 1889 1890 category 10 arc centre #1714 left 
+link 1890 1889 barred arc centre #1714 
+link 1890 1891 category 10 
+link 1891 1890 barred 
+link 1891 1892 category 11 speed 30 mph arc centre #1715 
+link 1892 1891 barred arc centre #1715 left 
+link 1892 2790 category 11 
+link 1893 2004 barred 
+link 1893 1894 category 8 
+link 1894 1893 barred 
+link 1894 1896 category 8 
+link 1895 1903 barred 
+link 1895 1896 category 4 headway factor 0.40 
+link 1896 1895 barred 
+link 1896 1894 barred 
+link 1896 1897 category 5 headway factor 0.40 
+link 1897 1896 barred 
+link 1897 1888 category 9 
+link 1897 1898 category 4 headway factor 0.40 
+link 1898 1897 barred 
+link 1898 1899 category 4 headway factor 0.40 
+link 1899 1898 barred 
+link 1899 1900 category 4 headway factor 0.40 
+link 1900 1899 barred 
+link 1900 1918 category 4 headway factor 0.40 
+on-ramp count 1
+ramp from 1887 length 600.0 ft left min time 1 move out distance -49.4 ft 
+link 1901 1918 barred 
+link 1901 1696 category 4 
+link 1902 1904 barred 
+link 1902 1905 barred 
+link 1902 1903 category 5 lane restriction 1 on lane 5 headway factor 0.40 
+link 1903 1902 barred 
+link 1903 1895 category 4 
+link 1903 1881 category 1 restriction 1 
+link 1904 1956 barred 
+link 1904 1902 category 1 restriction 1 
+link 1905 1957 barred 
+link 1905 1902 category 4 
+link 1906 2920 barred 
+link 1906 1907 category 2 
+link 1907 1906 barred 
+link 1907 1908 category 2 speed 65 mph arc centre #1727 left 
+link 1908 1907 barred arc centre #1727 
+link 1908 1909 category 2 
+link 1909 1908 barred 
+link 1909 1997 barred 
+link 1909 2005 category 3 
+link 1910 1870 category 8 
+link 1910 1912 barred 
+link 1911 1989 category 3 
+link 1911 1912 barred 
+link 1912 1910 category 8 
+link 1912 1911 category 3 
+link 1912 1913 barred arc centre #1728 left 
+link 1913 1912 category 3 speed 60 mph arc centre #1728 
+link 1913 1917 barred 
+link 1914 1916 category 2 speed 45 mph arc centre #2312 
+link 1914 1915 barred 
+link 1915 1914 category 2 
+link 1915 1917 barred 
+link 1916 2660 category 9 
+link 1916 1914 barred arc centre #2312 left 
+link 1917 1915 category 2 
+link 1917 1913 category 3 
+link 1917 2656 barred 
+link 1918 1900 barred 
+link 1918 1668 category 17 
+link 1918 1901 category 4 headway factor 0.60 
+link 1919 1920 category 7 lane restriction 1 on lane 7 
+link 1919 1880 barred 
+link 1919 1989 barred 
+link 1920 1921 category 7 lane restriction 1 on lane 7 
+link 1920 1919 barred 
+link 1921 1922 category 6 lane restriction 1 on lane 6 
+link 1921 1920 barred 
+link 1922 1923 category 6 lane restriction 1 on lane 6 
+link 1922 1921 barred 
+link 1923 1924 category 6 lane restriction 1 on lane 6 
+on-ramp count 1
+ramp from 2666 length 362.2 ft left min time 1 move out distance 8.0 ft 
+link 1923 1922 barred 
+link 1924 1925 category 6 lane restriction 1 on lane 6 
+link 1924 1923 barred 
+link 1925 1926 category 5 
+link 1925 1927 category 1 restriction 1 
+link 1925 1924 barred 
+link 1926 1928 category 6 
+link 1926 1925 barred 
+link 1926 1980 barred 
+link 1927 1938 category 1 restriction 1 
+link 1927 1925 barred 
+link 1928 1929 category 6 
+link 1928 1926 barred 
+link 1929 1930 category 6 
+link 1929 1928 barred 
+link 1930 1931 category 6 
+link 1930 1929 barred 
+link 1931 1932 category 6 
+link 1931 1930 barred 
+link 1932 1933 category 6 
+link 1932 1931 barred 
+link 1933 2805 category 6 
+link 1933 1932 barred 
+link 1934 2805 barred 
+link 1935 2885 category 6 
+link 1936 2804 barred 
+link 1936 2807 barred 
+link 1936 1937 category 7 lane restriction 1 on lane 7 headway factor 0.40 
+link 1937 1936 barred 
+link 1937 1944 category 7 lane restriction 1 on lane 7 headway factor 0.40 
+link 1938 1939 category 1 restriction 1 
+link 1938 1927 barred 
+link 1939 1940 category 1 restriction 1 
+link 1939 1938 barred 
+link 1940 1942 category 1 restriction 1 
+link 1940 1939 barred 
+link 1942 2806 category 1 restriction 1 
+link 1942 1940 barred 
+link 1943 2806 barred 
+link 1944 1937 barred 
+link 1944 1959 category 8 
+link 1944 1945 category 6 lane restriction 1 on lane 6 headway factor 0.40 
+link 1945 1944 barred 
+link 1945 1946 category 5 headway factor 0.40 
+link 1945 1975 category 1 restriction 1 
+link 1946 1945 barred 
+link 1946 1947 category 6 headway factor 0.40 
+link 1947 1946 barred 
+link 1947 1948 category 6 headway factor 0.40 
+on-ramp count 1
+ramp from 2921 length 231.1 ft left min time 1 move out distance 0.0 ft 
+link 1948 1947 barred 
+link 1948 1949 category 6 headway factor 0.40 
+link 1949 1948 barred 
+link 1949 1950 category 6 headway factor 0.40 
+link 1950 1949 barred 
+link 1950 1951 category 6 headway factor 0.40 
+on-ramp count 1
+ramp from 1972 length 272.1 ft left min time 1 move out distance -1.1 ft 
+link 1951 1950 barred 
+link 1951 1952 category 6 headway factor 0.40 
+link 1952 1951 barred 
+link 1952 1953 category 6 headway factor 0.40 
+link 1953 1952 barred 
+link 1953 1954 category 6 headway factor 0.40 
+link 1954 1953 barred 
+link 1954 1955 category 6 headway factor 0.40 
+link 1955 1954 barred 
+link 1955 2920 category 2 
+link 1955 1957 category 4 headway factor 1.10 
+link 1956 2919 barred 
+link 1956 1904 category 1 restriction 1 
+link 1957 1955 barred 
+link 1957 1905 category 4 
+link 1959 1944 barred 
+link 1959 1960 category 8 
+link 1960 1959 barred 
+link 1960 1961 category 8 
+link 1961 1960 barred 
+link 1961 1962 category 8 
+link 1962 1961 barred 
+link 1962 1963 category 11 
+link 1963 1962 barred 
+link 1963 1964 category 11 
+link 1964 1963 barred 
+link 1964 1965 category 11 arc centre #1796 
+link 1965 1964 barred arc centre #1796 left 
+link 1965 1966 category 11 
+link 1966 1965 barred 
+link 1967 2803 category 8 speed 25 mph arc centre #1797 left 
+link 1967 2800 barred 
+link 1968 2922 barred arc centre #1797 
+link 1968 2921 category 8 type highway 
+link 1969 1970 category 8 
+link 1970 1969 barred 
+link 1970 1971 category 8 speed 30 mph arc centre #1811 left 
+link 1971 1970 barred arc centre #1811 
+link 1971 1972 category 8 type highway 
+link 1972 1971 barred 
+link 1973 2804 category 1 restriction 1 
+link 1975 1945 barred 
+link 1975 1976 category 1 restriction 1 
+link 1976 1975 barred 
+link 1976 2916 category 1 restriction 1 
+link 1977 2920 barred 
+link 1977 2797 category 10 
+link 1978 2797 barred 
+link 1979 2801 barred 
+link 1979 2908 category 9 speed 25 mph arc centre #1801 left 
+link 1980 1926 category 8 
+link 1980 2909 barred arc centre #1801 
+link 1981 1983 category 9 
+link 1981 2670 barred 
+link 1983 1984 category 9 
+link 1983 1981 barred 
+link 1984 1985 category 9 
+link 1984 1983 barred 
+link 1985 1986 category 10 
+link 1985 1984 barred 
+link 1986 1987 category 10 speed 40 mph arc centre #1812 
+link 1986 1985 barred 
+link 1987 1988 category 10 
+link 1987 1986 barred arc centre #1812 left 
+link 1988 1987 barred 
+link 1989 1919 category 7 
+link 1989 1873 barred 
+link 1989 1911 barred 
+link 1990 2661 category 9 
+link 1990 2798 barred 
+link 1991 2798 category 9 
+link 1992 2796 barred 
+link 1992 2004 category 9 
+link 1993 2004 barred 
+link 1993 1994 category 8 
+link 1994 1993 barred 
+link 1994 1995 category 8 
+link 1995 1994 barred 
+link 1995 1996 category 8 
+link 1996 1995 barred 
+link 1996 1997 category 8 
+link 1997 1996 barred 
+link 1997 1909 category 8 
+link 1998 2005 barred 
+link 1998 1999 category 8 
+link 1999 1998 barred 
+link 1999 2000 category 9 
+link 2000 1999 barred 
+link 2000 2001 category 9 
+link 2001 2000 barred 
+link 2002 2747 category 8 
+link 2004 1992 barred 
+link 2004 1993 category 8 
+link 2004 1893 category 8 
+link 2005 1909 barred 
+link 2005 1998 category 8 
+link 2005 1803 category 3 
+link 2006 1828 category 9 
+link 2007 1788 category 3 
+link 2007 2008 barred 
+link 2008 2007 category 3 
+link 2008 2009 barred 
+link 2009 2031 category 8 
+link 2009 2008 category 3 
+link 2009 2010 barred 
+link 2010 2009 category 4 
+link 2010 2011 barred 
+link 2010 2028 barred 
+link 2011 2010 category 3 
+link 2011 2012 barred 
+link 2012 2011 category 3 
+link 2012 2013 barred 
+link 2013 2012 category 3 
+link 2014 2015 barred 
+link 2015 2016 barred 
+link 2015 2014 category 3 
+link 2016 2017 barred 
+link 2016 2015 category 3 
+link 2017 2018 barred 
+link 2017 2016 category 3 
+link 2018 2019 barred 
+link 2018 2023 category 8 
+link 2018 2017 category 3 
+link 2019 2020 barred 
+link 2019 2018 category 4 
+link 2020 1815 barred 
+link 2020 2021 category 9 
+link 2020 2019 category 3 
+link 2021 2020 barred 
+link 2021 2867 category 9 
+link 2022 2867 barred 
+link 2023 2018 barred 
+link 2023 2024 category 8 
+link 2024 2023 barred 
+link 2024 2025 category 8 
+link 2025 2024 barred 
+link 2026 2882 category 8 
+link 2027 2028 category 8 
+link 2027 2882 barred 
+link 2028 2010 category 8 
+link 2028 2027 barred 
+link 2028 2030 barred 
+link 2029 2888 category 9 speed 20 mph arc centre #1832 left 
+link 2030 2028 category 8 
+link 2030 2905 barred arc centre #1832 
+link 2031 2032 category 8 
+link 2031 2009 barred 
+link 2032 2031 barred 
+link 2033 1620 barred 
+link 2033 2034 category 17 
+link 2033 2065 category 17 
+link 2034 2033 barred 
+link 2034 2035 category 8 
+link 2035 2034 barred 
+link 2035 2036 category 8 
+link 2036 2035 barred 
+link 2036 2786 category 8 
+link 2037 2786 barred 
+link 2038 2039 category 8 
+link 2039 2038 barred 
+link 2039 2040 category 8 speed 30 mph arc centre #1888 
+link 2040 2044 category 17 
+link 2040 2039 barred arc centre #1888 left 
+link 2041 2042 barred 
+link 2042 2041 category 17 
+link 2042 2043 barred 
+link 2043 2042 category 17 
+link 2043 2044 barred 
+link 2044 2043 category 17 
+link 2044 2040 barred 
+link 2045 1705 barred 
+link 2045 1688 barred 
+link 2045 2062 category 5 
+link 2046 1704 barred 
+link 2046 2047 category 1 restriction 1 
+link 2047 2046 barred 
+link 2047 2048 category 1 restriction 1 
+link 2048 2047 barred 
+link 2048 2049 category 1 restriction 1 
+link 2049 2048 barred 
+link 2049 2050 category 1 restriction 1 
+link 2050 2049 barred 
+link 2050 2051 category 1 restriction 1 
+link 2051 2050 barred 
+link 2051 2052 category 1 restriction 1 
+link 2052 2051 barred 
+link 2052 2053 barred 
+link 2052 2059 category 6 lane restriction 1 on lane 6 
+link 2053 2058 barred 
+link 2053 2054 category 9 
+link 2053 2052 category 5 
+link 2054 2053 barred 
+link 2054 2055 category 9 
+link 2055 2054 barred 
+link 2055 2056 category 9 speed 35 mph arc centre #1854 left 
+link 2056 2784 category 10 
+link 2056 2055 barred arc centre #1854 
+link 2057 2784 barred 
+link 2058 2064 barred 
+link 2058 2053 category 6 
+link 2059 2052 barred 
+link 2059 2061 category 5 
+link 2059 2060 category 1 restriction 1 
+link 2060 2059 barred 
+link 2060 2099 category 1 restriction 1 
+link 2061 2059 barred 
+link 2061 2096 category 5 
+link 2062 2045 barred 
+link 2062 2063 category 5 
+link 2063 2062 barred 
+link 2063 2064 category 5 
+link 2064 2063 barred 
+link 2064 2065 barred 
+link 2064 2058 category 6 
+link 2065 2033 barred 
+link 2065 2064 category 17 
+link 2066 2067 category 9 
+link 2067 2066 barred 
+link 2067 2783 category 9 speed 30 mph arc centre #1889 left 
+link 2068 2069 category 8 
+link 2068 2783 barred arc centre #1889 
+link 2069 2070 category 17 
+link 2069 2068 barred 
+link 2070 2073 category 6 
+link 2070 2071 barred 
+link 2070 2069 barred 
+link 2071 2070 category 5 
+link 2071 2072 category 1 restriction 1 
+link 2071 2074 barred 
+link 2072 1711 category 1 restriction 1 
+link 2072 2071 barred 
+link 2073 1622 category 2 
+link 2073 1717 category 4 
+link 2073 2070 barred 
+link 2074 2071 category 6 lane restriction 1 on lane 6 
+link 2074 2085 barred 
+link 2074 2075 barred 
+link 2075 2076 category 8 
+link 2075 2074 category 5 
+link 2075 2077 barred 
+link 2076 2078 category 8 
+link 2076 2075 barred 
+link 2077 2075 category 6 
+link 2077 2092 barred 
+link 2078 2079 category 8 
+link 2078 2076 barred 
+link 2079 2080 category 8 
+link 2079 2078 barred 
+link 2080 2081 category 9 
+link 2080 2079 barred 
+link 2081 2082 category 10 
+link 2081 2080 barred 
+link 2082 2083 category 10 
+link 2082 2081 barred 
+link 2083 2084 category 11 
+link 2083 2082 barred 
+link 2084 2083 barred 
+link 2085 2074 category 1 restriction 1 
+link 2085 2094 barred 
+link 2086 2785 barred 
+link 2086 2087 category 9 speed 40 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2395 left 
+link 2087 2086 barred arc centre #2395 
+link 2087 2088 category 8 
+link 2088 2087 barred 
+link 2088 2096 category 8 
+link 2089 2097 barred 
+link 2089 2090 category 9 
+link 2090 2089 barred 
+link 2090 2163 category 9 
+link 2091 2092 category 5 
+link 2091 2192 barred 
+link 2092 2077 category 6 
+link 2092 2091 barred 
+link 2092 2093 barred 
+link 2093 2092 category 17 
+link 2093 2159 barred 
+link 2094 2085 category 1 restriction 1 
+link 2094 2781 barred 
+link 2095 2781 category 1 restriction 1 
+link 2095 2201 barred 
+link 2096 2061 barred 
+link 2096 2088 barred 
+link 2096 2097 category 6 
+link 2097 2096 barred 
+link 2097 2089 category 9 
+link 2097 2098 category 5 
+link 2098 2097 barred 
+link 2098 2186 category 5 
+on-ramp count 1
+ramp from 2193 length 500.0 ft left min time 1 move out distance 200.0 ft 
+link 2099 2060 barred 
+link 2099 2100 category 1 restriction 1 
+link 2100 2099 barred 
+link 2100 2194 category 1 restriction 1 
+link 2101 2104 category 1 restriction 1 
+link 2101 510 barred 
+link 2102 2103 category 13 
+link 2102 412 barred 
+link 2103 2104 category 4 
+link 2103 526 barred 
+link 2103 2102 barred 
+link 2104 2115 category 5 lane restriction 1 on lane 5 
+link 2104 2101 barred 
+link 2104 2103 barred 
+link 2105 2106 category 6 lane restriction 1 on lane 6 
+link 2105 2115 barred 
+link 2106 2107 category 6 lane restriction 1 on lane 6 
+link 2106 2105 barred 
+link 2107 2109 category 17 
+link 2107 2108 category 5 lane restriction 1 on lane 5 
+link 2107 2106 barred 
+link 2108 2262 category 4 
+link 2108 2261 category 1 restriction 1 
+link 2108 2107 barred 
+link 2109 2225 category 17 
+link 2109 2107 barred 
+link 2111 2112 category 9 speed 25 mph arc centre #1991 left 
+link 2111 2749 barred 
+link 2112 2113 category 8 type highway 
+link 2112 2111 barred arc centre #1991 
+link 2113 2112 barred 
+link 2114 2754 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2114 2753 barred 
+link 2115 2105 category 6 lane restriction 1 on lane 6 
+on-ramp count 1
+ramp from 2113 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 2115 2104 barred 
+link 2115 2754 barred 
+link 2116 2117 category 9 
+link 2116 514 barred 
+link 2116 524 barred 
+link 2117 2752 category 9 
+link 2117 2116 barred 
+link 2118 2751 barred 
+link 2118 2119 category 9 speed 20 mph arc centre #1992 left 
+link 2119 2118 barred arc centre #1992 
+link 2119 2120 category 9 
+link 2120 2119 barred 
+link 2120 2121 category 8 
+link 2121 2120 barred 
+link 2121 2141 category 8 type highway 
+link 2122 2755 barred arc centre #1985 
+link 2122 2137 category 8 
+link 2123 2755 category 9 speed 25 mph arc centre #1985 left 
+link 2123 2750 barred 
+link 2124 2127 barred 
+link 2124 2125 category 10 
+link 2125 2124 barred 
+link 2125 2126 category 10 
+link 2126 2125 barred 
+link 2127 2128 barred 
+link 2127 2124 category 10 
+link 2128 2129 barred 
+link 2128 2127 category 9 
+link 2129 2130 barred 
+link 2129 2128 category 9 
+link 2130 2134 barred 
+link 2130 2129 category 9 
+link 2131 2132 barred 
+link 2131 2136 category 4 
+link 2131 2135 category 1 restriction 1 
+link 2132 2133 barred 
+link 2132 2134 barred 
+link 2132 2131 category 5 lane restriction 1 on lane 5 
+link 2133 2139 barred 
+link 2133 2132 category 1 restriction 1 
+link 2134 2140 barred 
+link 2134 2130 category 9 
+link 2134 2132 category 4 
+link 2135 2131 barred 
+link 2135 511 category 1 restriction 1 
+link 2136 2131 barred 
+link 2136 2138 category 4 
+link 2137 2122 barred 
+link 2137 2138 category 8 
+link 2138 2136 barred 
+link 2138 2137 barred 
+link 2138 527 category 5 
+on-ramp count 1
+ramp from 2141 length 454.3 ft left min time 1 move out distance 200.0 ft 
+link 2139 2151 barred 
+link 2139 2133 category 1 restriction 1 
+link 2140 2157 barred 
+link 2140 2142 barred 
+link 2140 2134 category 5 
+link 2141 2121 barred 
+link 2142 2144 barred 
+link 2142 2140 category 17 
+link 2143 2154 barred 
+link 2144 2145 barred 
+link 2144 2142 category 17 
+on-ramp count 1
+ramp from 2143 length 400.0 ft left min time 1 move out distance 68.6 ft 
+link 2145 2146 barred 
+link 2145 2144 category 13 
+link 2146 2147 barred 
+link 2146 2145 category 13 
+link 2147 2229 barred 
+link 2147 2223 category 17 
+link 2147 2146 category 8 
+link 2148 2153 barred 
+link 2148 2237 barred 
+link 2148 2158 category 5 lane restriction 1 on lane 5 
+link 2149 2153 barred 
+link 2149 2150 category 1 restriction 1 
+link 2150 2149 barred 
+link 2150 2151 category 1 restriction 1 
+link 2151 2150 barred 
+link 2151 2157 barred 
+link 2151 2139 category 1 restriction 1 
+link 2152 2252 barred 
+link 2152 2153 category 1 restriction 1 
+link 2153 2152 barred 
+link 2153 2148 category 1 restriction 1 
+link 2153 2149 category 1 restriction 1 
+link 2154 2155 barred arc centre #1996 
+link 2154 2143 category 17 
+link 2155 2156 barred 
+link 2155 2154 category 17 arc centre #1996 left 
+link 2156 2456 barred 
+link 2156 2155 category 17 
+link 2157 2158 barred 
+link 2157 2140 category 4 
+link 2157 2151 category 1 restriction 1 
+link 2158 2148 barred 
+link 2158 2157 category 5 lane restriction 1 on lane 5 
+link 2159 2093 category 8 
+link 2159 2160 barred 
+link 2160 2159 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2160 2161 barred arc centre #2013 
+link 2161 2160 category 9 speed 30 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2013 left 
+link 2161 2779 barred 
+link 2162 2779 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2163 2090 barred 
+link 2163 2164 category 9 
+link 2164 2163 barred 
+link 2164 2165 category 10 
+link 2165 2164 barred 
+link 2165 2166 category 11 
+link 2166 2165 barred 
+link 2167 2780 category 8 speed 25 mph arc centre #2012 left 
+link 2167 2777 barred 
+link 2168 2780 barred arc centre #2012 
+link 2168 2193 category 8 type highway 
+link 2169 2776 barred 
+link 2169 2170 category 9 speed 30 mph arc centre #2015 left 
+link 2170 2169 barred arc centre #2015 
+link 2170 2171 category 9 speed 20 mph arc centre #2016 left 
+link 2171 2172 category 8 type highway 
+link 2171 2170 barred arc centre #2016 
+link 2172 2171 barred 
+link 2173 2174 category 9 
+link 2173 2189 barred 
+link 2174 2175 category 9 
+link 2174 2173 barred 
+link 2175 2176 category 10 
+link 2175 2174 barred 
+link 2176 2177 category 11 
+link 2176 2175 barred 
+link 2177 2178 category 11 
+link 2177 2176 barred 
+link 2178 2177 barred 
+link 2179 2778 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2180 2778 barred 
+link 2180 2181 category 9 speed 30 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2014 left 
+link 2181 2180 barred arc centre #2014 
+link 2181 2182 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2182 2181 barred 
+link 2182 2183 category 8 type highway 
+link 2183 2182 barred 
+link 2184 2185 barred 
+link 2184 2202 category 5 
+link 2185 2186 barred 
+link 2185 2184 category 5 
+on-ramp count 1
+ramp from 2183 length 600.0 ft left min time 1 move out distance 192.9 ft 
+link 2186 2098 barred 
+link 2186 2185 category 5 
+link 2187 2188 category 5 headway factor 0.60 
+link 2187 2207 barred 
+link 2188 2189 category 6 headway factor 0.60 
+link 2188 2187 barred 
+link 2189 2173 category 9 
+link 2189 2190 category 5 
+link 2189 2188 barred 
+link 2190 2191 category 5 
+link 2190 2189 barred 
+link 2191 2192 category 5 
+on-ramp count 1
+ramp from 2172 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 2191 2190 barred 
+link 2192 2091 category 5 
+link 2192 2191 barred 
+link 2193 2168 barred 
+link 2194 2100 barred 
+link 2194 2195 category 1 restriction 1 
+link 2195 2194 barred 
+link 2195 2196 category 1 restriction 1 
+link 2196 2195 barred 
+link 2196 2202 category 1 restriction 1 
+link 2197 2198 category 1 restriction 1 
+link 2197 2207 barred 
+link 2198 2199 category 1 restriction 1 
+link 2198 2197 barred 
+link 2199 2200 category 1 restriction 1 
+link 2199 2198 barred 
+link 2200 2201 category 1 restriction 1 
+link 2200 2199 barred 
+link 2201 2095 category 1 restriction 1 
+link 2201 2200 barred 
+link 2202 2196 barred 
+link 2202 2184 barred 
+link 2202 2203 category 6 lane restriction 1 on lane 6 
+link 2203 2202 barred 
+link 2203 2205 category 5 
+link 2203 2204 category 1 restriction 1 
+link 2204 2203 barred 
+link 2204 2208 category 1 restriction 1 
+link 2205 2203 barred 
+link 2205 2209 category 5 
+link 2206 2207 category 6 lane restriction 1 on lane 6 headway factor 0.60 
+link 2206 2336 barred 
+link 2206 2335 barred 
+link 2207 2187 category 5 headway factor 0.60 
+link 2207 2197 category 1 restriction 1 
+link 2207 2206 barred 
+link 2208 2204 barred 
+link 2208 2380 category 1 restriction 1 
+link 2209 2205 barred 
+link 2209 2371 category 5 
+link 2210 2211 category 3 
+link 2210 2480 barred 
+link 2211 2212 category 3 
+link 2211 2210 barred 
+link 2212 2213 category 3 
+on-ramp count 1
+ramp from 2227 length 397.8 ft left min time 1 move out distance 109.7 ft 
+link 2212 2211 barred 
+link 2213 2214 category 17 
+link 2213 2216 category 2 
+link 2213 2212 barred 
+link 2214 2891 category 17 arc centre #2043 left 
+link 2214 2213 barred 
+link 2215 2891 barred arc centre #2043 
+link 2215 2229 category 17 
+link 2216 2457 category 2 
+link 2216 2213 barred 
+link 2217 2218 barred 
+link 2217 2476 category 3 
+link 2218 2219 barred 
+link 2218 2217 category 3 
+link 2219 2220 barred 
+link 2219 2218 category 3 
+link 2220 2221 barred 
+link 2220 2224 barred 
+link 2220 2219 category 3 
+link 2221 2222 barred 
+link 2221 2220 category 2 
+link 2222 2466 barred 
+link 2222 2221 category 2 
+link 2223 2147 barred 
+link 2223 2892 category 17 arc centre #2055 left 
+link 2224 2892 barred arc centre #2055 
+link 2224 2220 category 17 
+link 2225 2890 category 17 arc centre #2044 left 
+link 2225 2109 barred 
+link 2226 2890 barred arc centre #2044 
+link 2226 2227 category 17 
+link 2227 2226 barred 
+link 2228 2250 barred 
+link 2228 2229 category 13 
+link 2229 2228 barred 
+link 2229 2215 barred 
+link 2229 2147 category 9 
+link 2230 2456 barred 
+link 2230 2889 category 17 arc centre #2208 
+link 2231 2906 category 17 
+link 2231 2889 barred arc centre #2208 left 
+link 2232 2306 category 2 
+link 2232 2906 barred 
+link 2234 2235 category 17 arc centre #2074 left 
+link 2234 2481 barred 
+link 2235 2906 category 17 
+link 2235 2234 barred arc centre #2074 
+link 2237 2238 barred 
+link 2237 2148 category 4 
+link 2238 2247 barred 
+link 2238 2237 category 4 
+link 2239 2246 barred 
+link 2239 2251 category 17 
+link 2239 2250 category 17 
+link 2240 2251 barred 
+link 2240 2241 category 17 
+link 2241 2240 barred 
+link 2241 2242 category 17 
+link 2242 2241 barred 
+link 2242 2243 category 17 
+link 2243 2242 barred 
+link 2243 2244 category 17 
+link 2244 2243 barred 
+link 2244 2245 category 17 
+link 2245 2244 barred 
+link 2245 2459 category 17 
+link 2246 2248 barred 
+link 2246 2239 category 17 
+link 2246 2247 category 4 
+link 2247 2246 barred 
+link 2247 2238 category 4 
+link 2248 2249 barred 
+link 2248 2246 category 5 
+link 2249 2322 barred 
+link 2249 2248 category 5 
+link 2250 2239 barred 
+link 2250 2228 category 13 
+link 2251 2239 barred 
+link 2251 2240 category 17 
+link 2252 2253 barred 
+link 2252 2152 category 1 restriction 1 
+link 2253 2254 barred 
+link 2253 2252 category 1 restriction 1 
+link 2254 2255 barred 
+link 2254 2253 category 1 restriction 1 
+link 2255 2256 barred 
+link 2255 2254 category 1 restriction 1 
+link 2256 2257 barred 
+link 2256 2255 category 1 restriction 1 
+link 2257 2258 barred 
+link 2257 2256 category 1 restriction 1 
+link 2258 2259 barred 
+link 2258 2257 category 1 restriction 1 
+link 2259 2260 barred 
+link 2259 2258 category 1 restriction 1 
+link 2260 2276 barred 
+link 2260 2259 category 1 restriction 1 
+on-ramp count 1
+ramp from 2319 length 400.0 ft left min time 1 move out distance 34.2 ft 
+link 2261 2264 category 1 restriction 1 
+link 2261 2108 barred 
+link 2262 2263 category 4 
+link 2262 2108 barred 
+link 2263 2285 category 4 
+link 2263 2262 barred 
+link 2264 2265 category 1 restriction 1 
+link 2264 2261 barred 
+link 2265 2266 category 1 restriction 1 
+link 2265 2264 barred 
+link 2266 2267 category 1 restriction 1 
+link 2266 2265 barred 
+link 2267 2268 category 1 restriction 1 
+link 2267 2266 barred 
+link 2268 2269 category 1 restriction 1 
+link 2268 2267 barred 
+link 2269 2270 category 1 restriction 1 
+link 2269 2268 barred 
+link 2270 2271 category 1 restriction 1 
+link 2270 2269 barred 
+link 2271 2272 category 1 restriction 1 
+link 2271 2270 barred 
+link 2272 2290 category 1 restriction 1 
+link 2272 2273 category 1 restriction 1 
+link 2272 2271 barred 
+link 2273 2274 category 1 restriction 1 
+link 2273 2272 barred 
+link 2274 2275 category 1 restriction 1 
+link 2274 2273 barred 
+link 2275 2284 category 1 restriction 1 
+on-ramp count 1
+ramp from 2329 length 400.0 ft left min time 1 move out distance 143.1 ft 
+link 2275 2274 barred 
+link 2276 2277 barred 
+link 2276 2260 category 1 restriction 1 
+link 2277 2278 barred 
+link 2277 2318 category 1 restriction 1 
+link 2277 2276 category 1 restriction 1 
+link 2278 2279 barred 
+link 2278 2277 category 1 restriction 1 
+link 2279 2280 barred 
+link 2279 2278 category 1 restriction 1 
+link 2280 2408 barred 
+link 2280 2279 category 1 restriction 1 
+link 2281 2401 category 1 restriction 1 
+link 2281 2282 barred 
+link 2282 2281 category 1 restriction 1 
+link 2282 2283 barred 
+link 2283 2282 category 1 restriction 1 
+link 2283 2284 barred 
+link 2284 2283 category 1 restriction 1 
+link 2284 2275 barred 
+link 2285 2308 category 5 
+link 2285 2263 barred 
+link 2285 2306 barred 
+link 2287 2288 category 4 
+link 2287 2308 barred 
+link 2288 2289 category 4 
+link 2288 2287 barred 
+link 2289 2291 category 8 
+link 2289 2290 category 4 
+link 2289 2288 barred 
+link 2290 2309 category 5 lane restriction 1 on lane 5 
+link 2290 2272 barred 
+link 2290 2289 barred 
+link 2291 2292 category 8 
+link 2291 2289 barred 
+link 2292 2293 category 8 speed 30 mph arc centre #2095 left 
+link 2292 2291 barred 
+link 2293 2294 category 9 
+link 2293 2292 barred arc centre #2095 
+link 2294 2295 category 9 
+link 2294 2293 barred 
+link 2295 2296 category 9 
+link 2295 2294 barred 
+link 2296 2295 barred 
+link 2297 2757 category 9 
+link 2298 2757 barred 
+link 2298 2760 category 9 speed 25 mph arc centre #2144 left 
+link 2299 2300 category 8 type highway 
+link 2299 2760 barred arc centre #2144 
+link 2300 2299 barred 
+link 2301 2756 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2302 2303 category 9 speed 35 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2145 left 
+link 2302 2756 barred 
+link 2303 2304 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2303 2302 barred arc centre #2145 
+link 2304 2305 category 8 type highway 
+link 2304 2303 barred 
+link 2305 2304 barred 
+link 2306 2285 category 2 
+link 2306 2232 barred 
+link 2308 2287 category 5 
+link 2308 2285 barred 
+link 2309 2331 category 4 
+link 2309 2329 category 1 restriction 1 
+link 2309 2290 barred 
+link 2310 2432 barred 
+link 2310 2311 category 4 
+link 2311 2310 barred 
+link 2311 2313 category 4 
+link 2312 2313 barred 
+link 2312 2323 category 8 
+link 2313 2311 barred 
+link 2313 2312 category 8 
+link 2313 2318 category 4 
+link 2314 2759 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2096 left 
+link 2314 2758 barred 
+link 2315 2759 barred arc centre #2096 
+link 2315 2316 category 8 
+link 2316 2315 barred 
+link 2316 2320 category 8 
+link 2317 2318 barred 
+link 2317 2320 category 4 
+link 2317 2319 category 1 restriction 1 
+link 2318 2277 barred 
+link 2318 2313 barred 
+link 2318 2317 category 5 lane restriction 1 on lane 5 
+link 2319 2317 barred 
+link 2320 2317 barred 
+link 2320 2316 barred 
+link 2320 2321 category 5 
+link 2321 2320 barred 
+link 2321 2322 category 5 
+link 2322 2321 barred 
+link 2322 2249 category 5 
+link 2323 2312 barred 
+link 2323 2324 category 9 
+link 2324 2323 barred 
+link 2324 2325 category 9 
+link 2325 2324 barred 
+link 2325 2326 category 9 
+link 2326 2325 barred 
+link 2326 2327 category 9 
+link 2327 2326 barred 
+link 2327 2328 category 9 
+link 2328 2327 barred 
+link 2329 2309 barred 
+link 2330 2332 category 4 
+on-ramp count 1
+ramp from 2305 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 2330 2331 barred 
+link 2331 2330 category 4 
+on-ramp count 1
+ramp from 2300 length 500.0 ft left min time 1 move out distance 109.3 ft 
+link 2331 2309 barred 
+link 2332 2333 category 4 
+link 2332 2330 barred 
+link 2333 2334 category 4 
+link 2333 2332 barred 
+link 2334 2440 category 4 
+link 2334 2333 barred 
+link 2335 2206 category 5 headway factor 0.60 
+link 2335 2343 barred 
+link 2336 2206 category 1 restriction 1 
+link 2336 2337 barred 
+link 2337 2336 category 1 restriction 1 
+link 2337 2338 barred 
+link 2338 2337 category 1 restriction 1 
+link 2338 2339 barred 
+link 2339 2338 category 1 restriction 1 
+link 2339 2340 barred 
+link 2340 2339 category 1 restriction 1 
+link 2340 2347 barred 
+link 2341 2342 category 4 headway factor 0.60 
+link 2341 2349 barred 
+link 2342 2343 category 5 headway factor 0.60 
+link 2342 2341 barred 
+link 2342 2357 barred 
+link 2343 2335 category 5 headway factor 0.60 
+on-ramp count 1
+ramp from 2362 length 500.0 ft left min time 1 move out distance 154.4 ft 
+link 2343 2342 barred 
+link 2344 2345 category 5 lane restriction 1 on lane 5 
+link 2344 2384 barred 
+link 2344 2385 barred 
+link 2345 2346 category 5 lane restriction 1 on lane 5 
+link 2345 2344 barred 
+link 2346 2347 category 5 lane restriction 1 on lane 5 
+link 2346 2345 barred 
+link 2347 2348 category 4 
+link 2347 2340 category 1 restriction 1 
+link 2347 2346 barred 
+link 2348 2349 category 4 
+link 2348 2347 barred 
+link 2349 2350 category 8 
+link 2349 2341 category 4 headway factor 0.60 
+link 2349 2348 barred 
+link 2350 2351 category 8 
+link 2350 2349 barred 
+link 2351 2352 category 9 
+link 2351 2350 barred 
+link 2352 2353 category 9 
+link 2352 2351 barred 
+link 2353 2773 category 10 
+link 2353 2352 barred 
+link 2354 2773 barred 
+link 2355 2768 barred 
+link 2355 2775 category 9 speed 20 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2157 left 
+link 2356 2357 category 8 
+link 2356 2775 barred arc centre #2157 
+link 2357 2342 category 8 
+link 2357 2356 barred 
+link 2358 2770 category 9 
+link 2359 2360 category 9 speed 25 mph arc centre #2170 left 
+link 2359 2770 barred 
+link 2360 2361 category 9 
+link 2360 2359 barred arc centre #2170 
+link 2361 2362 category 8 type highway 
+link 2361 2360 barred 
+link 2362 2361 barred 
+link 2363 2371 barred 
+link 2363 2364 category 9 
+link 2364 2363 barred 
+link 2364 2365 category 9 
+link 2365 2364 barred 
+link 2365 2366 category 9 
+link 2366 2365 barred 
+link 2366 2367 category 10 
+link 2367 2366 barred 
+link 2367 2772 category 10 
+link 2368 2772 barred 
+link 2369 2774 category 8 speed 25 mph arc centre #2152 left 
+link 2369 2769 barred 
+link 2370 2774 barred arc centre #2152 
+link 2370 2374 category 8 type highway 
+link 2372 2371 barred 
+link 2372 2373 category 4 
+on-ramp count 1
+ramp from 2379 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 2373 2372 barred 
+link 2373 2394 category 4 
+link 2371 2209 barred 
+link 2371 2363 category 9 
+link 2371 2372 category 4 
+on-ramp count 1
+ramp from 2374 length 500.0 ft left min time 1 move out distance 200.0 ft 
+link 2374 2370 barred 
+link 2375 2771 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2376 2771 barred 
+link 2376 2377 category 9 speed 30 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2156 left 
+link 2377 2376 barred arc centre #2156 
+link 2377 2378 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2378 2377 barred 
+link 2378 2379 category 8 type highway 
+link 2379 2378 barred 
+link 2380 2208 barred 
+link 2380 2381 category 1 restriction 1 
+link 2381 2380 barred 
+link 2381 2382 category 1 restriction 1 
+link 2382 2381 barred 
+link 2382 2383 category 1 restriction 1 
+link 2383 2382 barred 
+link 2383 2393 category 1 restriction 1 
+link 2384 2344 category 1 restriction 1 
+link 2384 2395 barred 
+link 2385 2344 category 4 
+link 2385 2433 barred 
+link 2386 2389 barred 
+link 2386 2388 category 4 
+link 2386 2387 category 1 restriction 1 
+link 2387 2386 barred 
+link 2387 2402 category 1 restriction 1 
+link 2388 2386 barred 
+link 2388 2409 category 4 
+link 2389 2390 barred 
+link 2389 2386 category 5 lane restriction 1 on lane 5 
+link 2390 2391 barred 
+link 2390 2389 category 5 lane restriction 1 on lane 5 
+link 2391 2392 barred 
+link 2391 2390 category 5 lane restriction 1 on lane 5 
+link 2392 2393 barred 
+link 2392 2394 barred 
+link 2392 2391 category 5 lane restriction 1 on lane 5 
+link 2393 2383 barred 
+link 2393 2392 category 1 restriction 1 
+link 2394 2373 barred 
+link 2394 2392 category 4 
+link 2395 2384 category 1 restriction 1 
+link 2395 2396 barred 
+link 2396 2395 category 1 restriction 1 
+link 2396 2397 barred 
+link 2397 2396 category 1 restriction 1 
+link 2397 2398 barred 
+link 2398 2397 category 1 restriction 1 
+link 2398 2399 barred 
+link 2399 2398 category 1 restriction 1 
+link 2399 2400 barred 
+link 2400 2399 category 1 restriction 1 
+link 2400 2401 barred 
+link 2401 2400 category 1 restriction 1 
+link 2401 2281 barred 
+link 2402 2387 barred 
+link 2402 2403 category 1 restriction 1 
+link 2403 2402 barred 
+link 2403 2404 category 1 restriction 1 
+link 2404 2403 barred 
+link 2404 2405 category 1 restriction 1 
+link 2405 2404 barred 
+link 2405 2406 category 1 restriction 1 
+link 2406 2405 barred 
+link 2406 2407 category 1 restriction 1 
+link 2407 2406 barred 
+link 2407 2408 category 1 restriction 1 
+link 2408 2407 barred 
+link 2408 2280 category 1 restriction 1 
+link 2409 2388 barred 
+link 2409 2410 category 4 
+link 2410 2409 barred 
+link 2410 2411 category 8 
+link 2410 2427 category 4 
+link 2411 2410 barred 
+link 2411 2412 category 8 
+link 2412 2411 barred 
+link 2412 2413 category 8 
+link 2413 2412 barred 
+link 2413 2414 category 9 
+link 2414 2413 barred 
+link 2414 2415 category 9 
+link 2415 2414 barred 
+link 2415 2416 category 9 
+link 2416 2415 barred 
+link 2417 2766 category 8 speed 25 mph arc centre #2187 left 
+link 2417 2767 barred 
+link 2418 2766 barred arc centre #2187 
+link 2418 2419 category 8 type highway 
+link 2419 2418 barred 
+link 2420 2765 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2421 2765 barred 
+link 2421 2422 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2422 2421 barred 
+link 2422 2423 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2423 2422 barred 
+link 2423 2424 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2424 2423 barred 
+link 2424 2425 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2425 2424 barred 
+link 2425 2426 category 8 type highway 
+link 2426 2425 barred 
+link 2427 2410 barred 
+link 2427 2428 category 4 
+on-ramp count 1
+ramp from 2419 length 500.0 ft left min time 1 move out distance 200.0 ft 
+link 2428 2427 barred 
+link 2428 2429 category 4 
+on-ramp count 1
+ramp from 2426 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 2429 2428 barred 
+link 2429 2430 category 4 
+link 2430 2429 barred 
+link 2430 2431 category 4 
+link 2431 2430 barred 
+link 2431 2432 category 4 
+link 2432 2431 barred 
+link 2432 2310 category 4 
+link 2433 2385 category 4 
+link 2433 2434 barred 
+link 2434 2433 category 4 
+link 2434 2435 barred 
+link 2435 2434 category 4 headway factor 1.60 
+on-ramp count 1
+ramp from 2453 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 2435 2436 barred 
+link 2436 2435 category 4 headway factor 1.60 
+on-ramp count 1
+ramp from 2448 length 500.0 ft left min time 1 move out distance 200.0 ft 
+link 2436 2437 barred 
+link 2437 2436 category 4 headway factor 1.60 
+link 2437 2438 barred 
+link 2438 2441 category 8 
+link 2438 2437 category 4 headway factor 1.60 
+link 2438 2439 barred 
+link 2439 2438 category 4 headway factor 1.60 
+link 2439 2440 barred 
+link 2440 2439 category 4 
+link 2440 2334 barred 
+link 2441 2442 category 8 
+link 2441 2438 barred 
+link 2442 2443 category 8 
+link 2442 2441 barred 
+link 2443 2444 category 9 
+link 2443 2442 barred 
+link 2444 2761 category 9 
+link 2444 2443 barred 
+link 2445 2761 barred 
+link 2446 2764 barred 
+link 2446 2763 category 8 speed 25 mph arc centre #2198 left 
+link 2447 2448 category 8 type highway 
+link 2447 2763 barred arc centre #2198 
+link 2448 2447 barred 
+link 2449 2762 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2450 2451 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2203 left 
+link 2450 2762 barred 
+link 2451 2452 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2451 2450 barred arc centre #2203 
+link 2452 2453 category 8 type highway 
+link 2452 2451 barred 
+link 2453 2452 barred 
+link 2454 2464 barred 
+link 2454 2455 category 17 
+link 2455 2454 barred 
+link 2455 2456 category 2 speed 30 mph arc centre #2073 left 
+link 2456 2455 barred arc centre #2073 
+link 2456 2156 category 17 
+link 2456 2230 category 17 
+link 2457 2462 category 17 
+link 2457 2216 barred 
+link 2458 2866 category 17 
+link 2458 2462 barred 
+link 2459 2245 barred 
+link 2459 2460 category 17 
+link 2460 2459 barred 
+link 2460 2461 category 17 
+link 2461 2460 barred 
+link 2462 2458 category 17 
+on-ramp count 1
+ramp from 2461 length 400.0 ft left min time 1 move out distance 187.2 ft 
+link 2462 2457 barred 
+link 2463 2868 barred 
+link 2463 2464 category 17 
+link 2464 2463 barred 
+link 2464 2454 category 17 
+link 2464 2465 category 2 
+link 2465 2464 barred 
+link 2465 2466 category 2 
+link 2466 2465 barred 
+link 2466 2222 category 2 
+link 2467 2476 barred 
+link 2467 2468 category 9 
+link 2468 2467 barred 
+link 2468 2469 category 9 speed 30 mph arc centre #2218 left 
+link 2469 2468 barred arc centre #2218 
+link 2469 2470 category 9 
+link 2470 2469 barred 
+link 2470 2471 category 10 
+link 2471 2470 barred 
+link 2472 2808 category 8 
+link 2473 2474 category 8 speed 25 mph arc centre #2219 left 
+link 2473 2808 barred 
+link 2474 2473 barred arc centre #2219 
+link 2474 2475 category 8 
+link 2475 2474 barred 
+link 2475 2477 category 8 
+link 2476 2217 barred 
+link 2476 2467 category 9 
+link 2476 2477 category 2 
+link 2477 2476 barred 
+link 2477 2475 barred 
+link 2477 2478 category 3 
+link 2478 2477 barred 
+link 2478 2494 category 3 
+link 2479 2480 category 3 headway factor 1.10 
+on-ramp count 1
+ramp from 2484 length 500.0 ft left min time 1 move out distance 200.0 ft 
+link 2479 2487 barred 
+link 2480 2481 category 17 
+link 2480 2210 category 2 
+link 2480 2479 barred 
+link 2481 2234 category 17 
+link 2481 2480 barred 
+link 2483 2811 category 8 speed 30 mph arc centre #2221 left 
+link 2483 2809 barred 
+link 2484 2485 barred 
+link 2485 2484 category 8 type highway 
+link 2485 2811 barred arc centre #2221 
+link 2486 2487 category 4 
+link 2486 648 barred 
+link 2486 642 barred 
+link 2487 2479 category 3 
+link 2487 2486 barred 
+link 2488 2810 barred 
+link 2488 2489 category 9 
+link 2489 2488 barred 
+link 2489 2490 category 8 
+link 2490 2489 barred 
+link 2490 2491 category 8 
+link 2491 2490 barred 
+link 2491 2492 category 8 
+link 2492 2491 barred 
+link 2492 660 category 8 
+link 2493 2495 barred 
+link 2493 660 category 2 
+link 2494 2478 barred 
+link 2494 2495 category 3 
+link 2495 2494 barred 
+link 2495 2493 category 2 
+link 2495 665 category 2 
+link 2496 2497 category 9 
+link 2496 654 barred 
+link 2496 637 barred 
+link 2497 2498 category 9 
+link 2497 2496 barred 
+link 2498 2499 category 9 
+link 2498 2497 barred 
+link 2499 2500 category 9 
+link 2499 2498 barred 
+link 2500 2501 category 10 
+link 2500 2499 barred 
+link 2501 2502 category 10 
+link 2501 2500 barred 
+link 2502 2503 category 11 
+link 2502 2501 barred 
+link 2503 2502 barred 
+link 2504 699 barred 
+link 2504 2505 category 2 
+link 2505 2504 barred 
+link 2505 2506 category 2 
+link 2506 2505 barred 
+link 2506 2507 category 2 
+link 2507 2506 barred 
+link 2507 2508 category 2 
+link 2508 2507 barred 
+link 2508 2510 category 8 
+link 2508 2509 category 2 
+link 2509 2508 barred 
+link 2509 2515 category 2 
+link 2510 2508 barred 
+link 2510 2511 category 8 
+link 2511 2510 barred 
+link 2511 2512 category 9 
+link 2512 2511 barred 
+link 2512 2513 category 9 
+link 2513 2512 barred 
+link 2513 2812 category 9 
+link 2514 2812 barred 
+link 2515 2509 barred 
+link 2515 2516 category 2 
+link 2516 2515 barred 
+link 2516 2518 category 2 
+link 2517 2518 barred 
+link 2517 2519 category 3 
+link 2518 2516 barred 
+link 2518 2544 barred 
+link 2518 2517 category 3 
+link 2519 2517 barred 
+link 2519 2520 category 3 
+on-ramp count 1
+ramp from 2548 length 600.0 ft left min time 1 move out distance 200.0 ft 
+link 2520 2519 barred 
+link 2520 2818 category 3 
+link 2521 2522 category 3 
+link 2521 2819 barred 
+link 2522 2523 category 9 
+link 2522 2527 category 2 
+link 2522 2521 barred 
+link 2523 2524 category 9 
+link 2523 2522 barred 
+link 2524 2525 category 9 
+link 2524 2523 barred 
+link 2525 2815 category 10 
+link 2525 2524 barred 
+link 2526 2815 barred 
+link 2527 2528 category 2 
+link 2527 2522 barred 
+link 2528 2529 category 2 
+link 2528 2527 barred 
+link 2529 2530 category 2 
+link 2529 2528 barred 
+link 2530 2535 category 2 
+link 2530 2529 barred 
+link 2531 2816 category 10 
+link 2532 2533 category 9 
+link 2532 2816 barred 
+link 2533 2534 category 8 type highway 
+link 2533 2532 barred 
+link 2534 2533 barred 
+link 2535 2536 category 2 
+link 2535 2530 barred 
+link 2536 2537 category 2 
+on-ramp count 1
+ramp from 2534 length 593.0 ft left min time 1 move out distance 200.0 ft 
+link 2536 2535 barred 
+link 2537 2538 category 2 
+link 2537 2536 barred 
+link 2538 2539 category 2 
+link 2538 2537 barred 
+link 2539 2540 category 2 
+link 2539 2538 barred 
+link 2540 2541 category 2 
+link 2540 2539 barred 
+link 2541 677 category 3 
+link 2541 2540 barred 
+link 2542 2813 category 8 
+link 2543 2813 barred 
+link 2543 2817 category 8 speed 25 mph arc centre #2240 left 
+link 2544 2817 barred arc centre #2240 
+link 2544 2518 category 8 
+link 2545 2546 category 9 speed 30 mph arc centre #2255 left 
+link 2545 2814 barred 
+link 2546 2545 barred arc centre #2255 
+link 2546 2547 category 9 
+link 2547 2546 barred 
+link 2547 2548 category 8 type highway 
+link 2548 2547 barred 
+link 2549 2550 category 4 
+link 2550 2549 barred 
+link 2550 2551 category 9 
+link 2550 2552 category 3 
+link 2551 2550 barred 
+link 2551 2553 category 9 
+link 2552 2550 barred 
+link 2552 2561 category 3 
+link 2553 2551 barred 
+link 2553 2554 category 9 
+link 2554 2553 barred 
+link 2554 2555 category 9 
+link 2555 2554 barred 
+link 2555 2556 category 9 
+link 2556 2555 barred 
+link 2556 2557 category 9 
+link 2557 2556 barred 
+link 2557 2558 category 10 
+link 2558 2557 barred 
+link 2558 2559 category 10 
+link 2559 2558 barred 
+link 2561 2552 barred 
+link 2561 2562 category 2 
+link 2562 2561 barred 
+link 2562 2563 category 2 
+link 2563 2562 barred 
+link 2563 2564 category 2 
+link 2564 2563 barred 
+link 2564 2565 category 2 
+link 2565 2564 barred 
+link 2565 2566 category 2 
+link 2566 2565 barred 
+link 2566 2567 category 2 
+link 2567 2566 barred 
+link 2567 2568 category 2 
+link 2568 2567 barred 
+link 2568 2570 category 8 
+link 2568 2569 category 2 
+link 2569 2568 barred 
+link 2569 2575 category 2 
+link 2570 2568 barred 
+link 2570 2571 category 8 
+link 2571 2570 barred 
+link 2571 2572 category 9 
+link 2572 2571 barred 
+link 2572 2573 category 10 
+link 2573 2572 barred 
+link 2573 2574 category 10 
+link 2574 2573 barred 
+link 2575 2569 barred 
+link 2575 2576 category 3 
+link 2576 2575 barred 
+link 2576 2577 category 3 
+link 2577 2576 barred 
+link 2577 2578 category 3 
+link 2578 2577 barred 
+link 2578 2580 category 9 
+link 2578 2579 category 2 
+link 2579 2578 barred 
+link 2579 2581 category 2 
+link 2580 2578 barred 
+link 2580 2602 category 9 
+link 2581 2579 barred 
+link 2581 2582 category 2 
+link 2582 2581 barred 
+link 2582 2583 category 2 
+link 2583 2582 barred 
+link 2583 2607 barred 
+link 2583 2584 category 3 
+link 2584 2583 barred 
+link 2584 2592 category 8 
+link 2584 2585 category 3 
+link 2585 2584 barred 
+link 2585 2586 category 3 
+link 2586 2585 barred 
+link 2586 2587 category 3 
+link 2587 2586 barred 
+link 2587 2588 category 3 
+link 2588 2587 barred 
+link 2588 2589 category 3 
+link 2589 2588 barred 
+link 2589 2590 category 3 
+link 2590 2589 barred 
+link 2590 2591 category 3 
+on-ramp count 1
+ramp from 2598 length 500.0 ft left min time 1 move out distance 200.0 ft 
+link 2591 2590 barred 
+link 2591 2856 category 3 
+link 2592 2584 barred 
+link 2592 2854 category 9 
+link 2593 2854 barred 
+link 2594 2595 category 9 
+link 2595 2594 barred 
+link 2595 2596 category 9 
+link 2596 2595 barred 
+link 2596 2597 category 9 
+link 2597 2596 barred 
+link 2597 2598 category 8 type highway 
+link 2598 2597 barred 
+link 2599 2600 category 9 
+link 2600 2599 barred 
+link 2600 2601 category 8 
+link 2601 2600 barred 
+link 2601 2602 category 8 
+link 2602 2580 barred 
+link 2602 2601 barred 
+link 2602 2603 category 10 
+link 2603 2602 barred 
+link 2603 2604 category 10 
+link 2604 2603 barred 
+link 2604 2605 category 9 
+link 2605 2604 barred 
+link 2605 2606 category 8 
+link 2606 2605 barred 
+link 2606 2607 category 8 
+link 2607 2606 barred 
+link 2607 2583 category 8 
+link 2608 2609 category 2 
+link 2608 2857 barred 
+link 2609 2610 category 8 
+link 2609 2611 category 2 
+link 2609 2608 barred 
+link 2610 2626 category 8 
+link 2610 2609 barred 
+link 2611 2612 category 3 
+link 2611 2609 barred 
+link 2612 2613 category 3 
+link 2612 2611 barred 
+link 2613 2614 category 3 
+link 2613 2612 barred 
+link 2614 2615 category 3 
+link 2614 2613 barred 
+link 2615 2617 category 9 
+link 2615 2616 category 2 
+link 2615 2614 barred 
+link 2616 2618 category 2 
+link 2616 2615 barred 
+link 2617 2619 category 9 
+link 2617 2615 barred 
+link 2618 2627 category 2 
+link 2618 2616 barred 
+link 2619 2628 category 10 
+link 2619 2617 barred 
+link 2619 2620 barred 
+link 2620 2619 category 8 
+link 2620 2621 barred 
+link 2621 2620 category 8 
+link 2621 2855 barred 
+link 2622 2855 category 9 
+link 2623 2624 barred 
+link 2624 2623 category 10 
+link 2624 2625 barred 
+link 2625 2624 category 9 
+link 2625 2626 barred 
+link 2626 2625 category 9 
+link 2626 2610 barred 
+link 2627 2631 category 2 
+link 2627 2618 barred 
+link 2628 2629 category 10 
+link 2628 2619 barred 
+link 2629 2630 category 9 
+link 2629 2628 barred 
+link 2630 2632 category 8 
+link 2630 2629 barred 
+link 2631 2632 category 2 type urban 
+link 2631 2627 barred 
+link 2632 2633 category 3 
+link 2632 2631 barred 
+link 2632 2630 barred 
+link 2633 2634 category 8 
+link 2633 2635 category 3 
+link 2633 2632 barred 
+link 2634 2640 category 9 
+link 2634 2633 barred 
+link 2635 2636 category 3 
+link 2635 2633 barred 
+link 2636 2637 category 3 
+link 2636 2635 barred 
+link 2637 2638 category 2 
+link 2637 2636 barred 
+link 2638 2639 category 2 
+link 2638 2637 barred 
+link 2639 2646 category 2 
+link 2639 2638 barred 
+link 2640 2641 category 9 
+link 2640 2634 barred 
+link 2641 2642 category 10 
+link 2641 2640 barred 
+link 2642 2641 barred 
+link 2643 2850 category 9 
+link 2644 2645 category 8 type highway 
+link 2644 2850 barred 
+link 2645 2644 barred 
+link 2646 2647 category 2 
+link 2646 2639 barred 
+link 2647 2648 category 2 
+on-ramp count 1
+ramp from 2645 length 500.0 ft left min time 1 move out distance 100.0 ft 
+link 2647 2646 barred 
+link 2648 2649 category 2 
+link 2648 2647 barred 
+link 2649 2650 category 2 
+link 2649 2648 barred 
+link 2650 2651 category 2 
+link 2650 2649 barred 
+link 2651 2652 category 2 
+link 2651 2650 barred 
+link 2652 2653 category 2 
+link 2652 2651 barred 
+link 2653 2654 category 2 
+link 2653 2652 barred 
+link 2654 2886 category 2 
+link 2654 2653 barred 
+link 2655 2886 barred 
+link 2656 1917 category 4 
+link 2656 1802 barred 
+link 2656 2747 barred 
+link 2657 2658 category 10 
+link 2657 1867 barred 
+link 2657 2660 barred 
+link 2658 2799 category 11 
+link 2658 2657 barred 
+link 2659 2799 barred 
+link 2660 2657 category 9 
+link 2660 1916 barred 
+link 2661 2662 category 9 
+link 2661 1990 barred 
+link 2662 2663 category 8 
+link 2662 2661 barred 
+link 2663 2664 category 8 
+link 2663 2662 barred 
+link 2664 2665 category 8 
+link 2664 2663 barred 
+link 2665 2666 category 8 type highway 
+link 2665 2664 barred 
+link 2666 2665 barred 
+link 2667 2668 category 9 
+link 2667 1871 barred 
+link 2668 2669 category 9 
+link 2668 2667 barred 
+link 2669 2670 category 9 
+link 2669 2668 barred 
+link 2670 1981 category 9 
+link 2670 2669 barred 
+link 2671 577 category 9 release 40 arrival 0 
+link 2672 578 category 9 speed 20 mph arc centre #429 left 
+link 2672 577 barred arc centre #429 
+link 2673 2674 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2674 2677 category 9 speed 40 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2336 
+link 2674 2673 barred 
+link 2675 2676 barred 
+link 2676 2675 category 8 type highway 
+link 2676 2677 barred arc centre #2339 
+link 2677 2676 category 8 speed 30 mph arc centre #2339 left 
+link 2677 2674 barred arc centre #2336 left 
+link 2678 2911 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #611 left 
+link 2678 2910 barred arc centre #611 
+link 2679 859 barred arc centre #656 
+link 2679 860 category 8 speed 25 mph arc centre #656 left 
+link 2680 932 barred arc centre #735 
+link 2680 933 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #735 left 
+link 2681 943 barred arc centre #783 
+link 2681 944 category 8 speed 25 mph arc centre #783 left 
+link 2682 947 barred 
+link 2682 948 category 8 type highway 
+link 2683 997 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2683 998 barred 
+link 2684 989 barred 
+link 2684 990 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2685 1034 category 9 
+link 2685 1033 barred 
+link 2686 1097 barred 
+link 2686 1098 category 9 
+link 2687 2689 barred arc centre #1091 
+link 2687 1245 category 9 speed 25 mph arc centre #1091 left 
+link 2689 1244 barred arc centre #1091 
+link 2689 2687 category 9 speed 25 mph arc centre #1091 left 
+link 2688 2690 category 9 
+link 2688 2693 barred 
+link 2690 2691 category 9 
+link 2690 2688 barred 
+link 2691 2692 category 8 type highway 
+link 2691 2690 barred 
+link 2692 2691 barred 
+link 2693 2688 category 9 
+link 2694 1449 barred arc centre #1265 
+link 2694 1450 category 8 speed 20 mph arc centre #1265 left 
+link 2695 1435 barred arc centre #1320 
+link 2695 2696 category 9 speed 20 mph arc centre #1320 left 
+link 2696 1436 category 9 speed 20 mph arc centre #1320 left 
+link 2696 2695 barred arc centre #1320 
+link 2697 1451 barred arc centre #1328 left 
+link 2697 1452 category 9 speed 40 mph arc centre #1328 
+link 2698 1392 category 9 
+link 2699 1466 category 9 
+link 2700 1061 barred 
+link 2700 1062 category 10 
+link 2701 1477 category 9 
+link 2701 1476 barred 
+link 2702 1478 barred 
+link 2702 1479 category 9 
+link 2703 1485 category 9 
+link 2704 1488 barred 
+link 2704 1489 category 10 
+link 2705 1519 barred arc centre #1354 
+link 2705 1521 category 8 speed 25 mph arc centre #1354 left 
+link 2706 1521 category 8 
+link 2706 1533 barred 
+link 2707 1518 barred 
+link 2707 1532 category 9 
+link 2709 1505 barred arc centre #1345 
+link 2709 1507 category 8 speed 25 mph arc centre #1345 left 
+link 2710 1506 category 9 
+link 2710 1505 barred 
+link 2711 1509 category 8 
+link 2711 1544 barred 
+link 2712 1508 barred arc centre #1349 
+link 2712 1509 category 8 speed 30 mph arc centre #1349 left 
+link 2708 1561 barred 
+link 2713 1558 category 8 
+link 2714 1559 barred 
+link 2714 2717 category 8 speed 25 mph arc centre #1424 left 
+link 2715 1565 category 11 
+link 2715 1564 barred 
+link 2716 1566 barred 
+link 2716 1567 category 9 
+link 2717 1560 category 8 speed 25 mph arc centre #1424 left 
+link 2717 2714 barred arc centre #1424 
+link 2718 2719 barred arc centre #1464 
+link 2718 1595 category 8 speed 25 mph arc centre #1464 left 
+link 2719 2718 category 8 speed 25 mph arc centre #1464 left 
+link 2719 1594 barred arc centre #1464 
+link 2720 1597 category 8 
+link 2721 1609 category 8 speed 25 mph arc centre #1484 left 
+link 2721 1608 barred arc centre #1484 
+link 2722 1608 category 8 
+link 2723 1586 category 8 
+link 2724 1604 barred 
+link 2724 1605 category 9 
+link 2725 1636 category 9 
+link 2725 1635 barred 
+link 2726 1689 barred 
+link 2726 1694 category 9 
+link 2727 1767 barred 
+link 2727 1768 category 9 
+link 2728 2729 category 9 
+link 2729 2730 category 9 
+link 2729 2728 barred 
+link 2730 2732 category 9 
+link 2730 2729 barred 
+link 2731 2732 barred 
+link 2732 2733 category 8 
+link 2732 2731 category 8 type highway 
+link 2732 2730 barred 
+link 2733 2734 category 8 
+link 2733 2732 barred 
+link 2734 2735 category 8 
+link 2734 2733 barred 
+link 2735 2736 category 8 
+link 2735 2734 barred 
+link 2736 2737 category 8 type highway 
+link 2736 2735 barred 
+link 2737 2736 barred 
+link 2739 1739 barred 
+link 2738 1786 category 9 
+link 2740 1846 category 8 
+link 2741 1831 barred 
+link 2742 1849 category 9 
+link 2743 1840 barred 
+link 2744 1844 category 3 
+link 2744 1842 barred 
+link 2745 1837 barred 
+link 2745 1836 category 4 
+link 2746 1847 category 8 type highway 
+link 2746 1846 barred 
+link 2747 2656 category 8 
+link 2747 2002 barred 
+link 2748 1816 barred 
+link 2748 1817 category 9 
+link 2750 2123 category 9 
+link 2751 2118 category 9 
+link 2752 2117 barred 
+link 2753 2114 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2749 2111 category 9 
+link 2754 2115 category 8 
+link 2754 2114 barred 
+link 2755 2123 barred arc centre #1985 
+link 2755 2122 category 9 speed 25 mph arc centre #1985 left 
+link 2756 2302 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2756 2301 barred 
+link 2757 2297 barred 
+link 2757 2298 category 9 
+link 2758 2314 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2759 2314 barred arc centre #2096 
+link 2759 2315 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2096 left 
+link 2760 2299 category 9 speed 25 mph arc centre #2144 left 
+link 2760 2298 barred arc centre #2144 
+link 2761 2445 category 9 
+link 2761 2444 barred 
+link 2762 2450 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2762 2449 barred 
+link 2763 2446 barred arc centre #2198 
+link 2763 2447 category 8 speed 25 mph arc centre #2198 left 
+link 2764 2446 category 8 
+link 2765 2420 barred 
+link 2765 2421 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2766 2417 barred arc centre #2187 
+link 2766 2418 category 8 speed 25 mph arc centre #2187 left 
+link 2767 2417 category 8 
+link 2768 2355 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2769 2369 category 8 
+link 2770 2359 category 9 
+link 2770 2358 barred 
+link 2771 2375 barred 
+link 2771 2376 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2772 2367 barred 
+link 2772 2368 category 10 
+link 2773 2354 category 10 
+link 2773 2353 barred 
+link 2774 2369 barred arc centre #2152 
+link 2774 2370 category 8 speed 25 mph arc centre #2152 left 
+link 2775 2355 barred arc centre #2157 
+link 2775 2356 category 9 speed 20 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #2157 left 
+link 2776 2169 category 9 
+link 2777 2167 category 8 
+link 2778 2179 barred 
+link 2778 2180 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2779 2161 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2779 2162 barred 
+link 2780 2167 barred arc centre #2012 
+link 2780 2168 category 8 speed 25 mph arc centre #2012 left 
+link 2781 2094 category 1 restriction 1 
+link 2781 2095 barred 
+link 2782 2785 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2783 2068 category 9 speed 30 mph arc centre #1889 left 
+link 2783 2067 barred arc centre #1889 
+link 2784 2057 category 10 
+link 2784 2056 barred 
+link 2785 2782 barred 
+link 2785 2086 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2786 2036 barred 
+link 2786 2037 category 8 
+link 2787 1874 category 8 
+link 2788 1876 category 8 
+link 2789 1885 category 8 
+link 2790 1892 barred 
+link 2791 1876 barred arc centre #1694 
+link 2791 2792 category 8 type highway speed 25 mph arc centre #1694 left 
+link 2792 1877 category 8 type highway speed 25 mph arc centre #1694 left 
+link 2792 2791 barred arc centre #1694 
+link 2793 1885 barred arc centre #1739 
+link 2793 1886 category 8 speed 25 mph arc centre #1739 left 
+link 2794 1875 category 8 type highway 
+link 2794 1874 barred 
+link 2796 1992 category 9 
+link 2797 1977 barred 
+link 2797 1978 category 10 
+link 2798 1990 category 9 
+link 2798 1991 barred 
+link 2799 2659 category 11 
+link 2799 2658 barred 
+link 2800 1967 category 8 
+link 2801 1979 category 9 
+link 2802 2908 barred arc centre #1801 
+link 2802 2909 category 9 speed 25 mph arc centre #1801 left 
+link 2803 2922 category 8 speed 25 mph arc centre #1797 left 
+link 2803 1967 barred arc centre #1797 
+link 2804 1973 barred 
+link 2804 1936 category 1 restriction 1 
+link 2805 1934 category 6 
+link 2805 1933 barred 
+link 2806 1943 category 1 restriction 1 
+link 2806 1942 barred 
+link 2807 2885 barred 
+link 2807 1936 category 6 headway factor 0.40 
+link 2808 2473 category 8 
+link 2808 2472 barred 
+link 2810 2488 category 9 
+link 2809 2483 category 8 
+link 2811 2483 barred arc centre #2221 
+link 2811 2485 category 8 speed 30 mph arc centre #2221 left 
+link 2812 2513 barred 
+link 2812 2514 category 9 
+link 2813 2542 barred 
+link 2813 2543 category 8 
+link 2814 2545 category 9 
+link 2815 2526 category 10 
+link 2815 2525 barred 
+link 2816 2532 category 10 
+link 2816 2531 barred 
+link 2817 2544 category 8 speed 25 mph arc centre #2240 left 
+link 2817 2543 barred arc centre #2240 
+link 2818 2520 barred 
+link 2819 2521 category 3 
+link 2820 89 category 9 
+link 2821 107 category 9 
+link 2822 65 category 8 
+link 2822 55 barred 
+link 2823 154 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2824 125 category 9 
+link 2825 112 category 9 
+link 2826 2907 barred 
+link 2826 232 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2827 231 category 10 
+link 2827 230 barred 
+link 2828 240 category 9 
+link 2829 279 category 9 
+link 2830 266 category 9 
+link 2831 300 category 11 
+link 2831 299 barred 
+link 2832 380 category 9 
+link 2833 321 category 9 
+link 2834 311 category 8 
+link 2835 393 barred 
+link 2835 394 category 10 
+link 2836 397 category 9 
+link 2837 422 category 9 
+link 2838 456 category 11 
+link 2838 455 barred 
+link 2839 613 barred 
+link 2840 599 category 1 restriction 4 
+link 2841 746 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2842 744 barred 
+link 2842 745 category 8 
+link 2843 816 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2844 797 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2845 785 barred 
+link 2846 800 category 8 
+link 2847 859 category 8 
+link 2848 904 category 8 
+link 2848 903 barred 
+link 2849 932 category 9 release 50 arrival 0 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2851 937 category 9 release 50 arrival 0 
+link 2852 943 category 8 
+link 2853 945 barred 
+link 2853 946 category 8 
+link 2850 2644 category 9 
+link 2850 2643 barred 
+link 2854 2592 barred 
+link 2854 2593 category 9 
+link 2855 2621 category 9 
+link 2855 2622 barred 
+link 2856 2591 barred 
+link 2857 2608 category 2 
+link 2858 959 barred arc centre #798 
+link 2858 960 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #798 left 
+link 2859 994 category 9 
+link 2859 995 barred 
+link 2860 992 barred 
+link 2860 991 category 9 
+link 2861 1328 category 10 
+link 2861 1327 barred 
+link 2862 1188 category 8 restriction 4 
+link 2863 1195 barred 
+link 2864 1292 barred 
+link 2864 1293 category 8 
+link 2865 1260 barred 
+link 2865 1261 category 9 
+link 2867 2021 barred 
+link 2867 2022 category 9 
+link 2866 2458 barred 
+link 2868 2463 category 17 
+link 2869 50 barred 
+link 2870 0 category 4 
+link 2871 2873 barred 
+link 2871 1411 category 5 
+link 2872 1423 barred 
+link 2873 2871 category 5 
+link 2875 1410 category 1 restriction 1 
+link 2876 1473 category 1 restriction 1 
+link 2876 1472 barred 
+link 2878 2879 category 5 
+link 2878 1284 barred 
+link 2879 2878 barred 
+link 2880 2881 barred 
+link 2880 1225 category 1 restriction 1 
+link 2881 2880 category 1 restriction 1 
+link 2883 1310 barred 
+link 2883 1311 category 6 
+link 2884 1255 barred 
+link 2884 1256 category 10 
+link 2885 1935 barred 
+link 2885 2807 category 6 headway factor 0.40 
+link 2886 2655 category 2 
+link 2886 2654 barred 
+link 2887 1298 category 8 
+link 2887 1297 barred 
+link 2874 1237 category 9 speed 25 mph arc centre #1076 
+link 2874 1232 barred arc centre #1076 left 
+link 2877 1823 barred arc centre #1625 
+link 2877 1824 category 17 arc centre #1625 left 
+link 2882 2027 category 8 
+link 2882 2026 barred 
+link 2888 2029 barred arc centre #1832 
+link 2888 2905 category 9 speed 20 mph arc centre #1832 left 
+link 2889 2231 category 17 arc centre #2208 
+link 2889 2230 barred arc centre #2208 left 
+link 2890 2225 barred arc centre #2044 
+link 2890 2226 category 17 arc centre #2044 left 
+link 2891 2215 category 17 arc centre #2043 left 
+link 2891 2214 barred arc centre #2043 
+link 2892 2224 category 17 arc centre #2055 left 
+link 2892 2223 barred arc centre #2055 
+link 2893 422 barred arc centre #312 
+link 2893 423 category 9 speed 25 mph arc centre #312 left 
+link 2894 398 category 9 speed 25 mph arc centre #294 left 
+link 2894 397 barred arc centre #294 
+link 2895 702 barred arc centre #481 left 
+link 2895 701 category 2 arc centre #481 
+link 2896 704 category 2 arc centre #487 left 
+link 2896 705 barred arc centre #487 
+link 2897 1619 barred arc centre #1510 left 
+link 2897 1620 category 2 speed 65 mph arc centre #1510 
+link 2898 1641 category 17 arc centre #1522 left 
+link 2898 1640 barred arc centre #1522 
+link 2899 1673 barred arc centre #1537 left 
+link 2899 1674 category 17 arc centre #1537 
+link 2900 1630 category 17 arc centre #1511 
+link 2900 1629 barred arc centre #1511 left 
+link 2901 1731 category 2 speed 65 mph arc centre #1608 
+link 2901 1730 barred arc centre #1608 left 
+link 2902 1752 barred arc centre #1613 left 
+link 2902 1753 category 2 speed 65 mph arc centre #1613 
+link 2903 1755 barred arc centre #1607 
+link 2903 1756 category 17 arc centre #1607 left 
+link 2904 2915 barred arc centre #939 
+link 2904 1077 category 17 arc centre #939 left 
+link 2905 2030 category 9 speed 20 mph arc centre #1832 left 
+link 2905 2888 barred arc centre #1832 
+link 2906 2232 category 2 
+link 2906 2231 barred 
+link 2906 2235 barred 
+link 2907 2826 category 9 lane restriction 3 on lane 1 lane restriction 4 on lane 2 
+link 2908 1979 barred arc centre #1801 
+link 2908 2802 category 9 speed 25 mph arc centre #1801 left 
+link 2909 1980 category 9 speed 25 mph arc centre #1801 left 
+link 2909 2802 barred arc centre #1801 
+link 2910 797 barred arc centre #611 
+link 2910 2678 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #611 left 
+link 2911 798 category 9 speed 25 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #611 left 
+link 2911 2678 barred arc centre #611 
+link 2912 467 category 1 restriction 1 
+link 2912 2913 barred 
+link 2913 2912 category 1 restriction 1 
+link 2913 361 barred 
+link 2914 1098 barred 
+link 2915 1076 barred arc centre #939 
+link 2915 2904 category 17 arc centre #939 left 
+link 2916 1976 barred 
+link 2916 2917 category 1 restriction 1 
+link 2917 2916 barred 
+link 2917 2918 category 1 restriction 1 
+link 2918 2917 barred 
+link 2918 2919 category 1 restriction 1 
+link 2919 2918 barred 
+link 2919 1956 category 1 restriction 1 
+link 2920 1955 barred 
+link 2920 1977 category 8 
+link 2920 1906 category 2 
+link 2921 1968 barred 
+link 2922 2803 barred arc centre #1797 
+link 2922 1968 category 8 speed 25 mph arc centre #1797 left 
+link 2923 154 barred arc centre #74 
+link 2923 164 category 9 speed 20 mph lane restriction 3 on lane 1 lane restriction 4 on lane 2 arc centre #74 left 

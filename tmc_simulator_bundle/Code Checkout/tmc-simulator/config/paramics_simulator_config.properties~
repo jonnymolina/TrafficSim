@@ -1,0 +1,4 @@
+WorkingDirectory    = C:/paramics/
+IncidentUpdateFile  = exchange.xml
+ParamicsStatusFile  = paramics_status.xml
+CameraStatusFile    = camera_status.xml

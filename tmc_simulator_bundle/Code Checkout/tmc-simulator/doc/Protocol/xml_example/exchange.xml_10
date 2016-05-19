@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<CAD_DATA>
+  <Basic>
+     <Comm_Interval>30</Comm_Interval>
+     <Network_ID>1</Network_ID>
+     <Simulation>TRUE</Simulation>
+     <Incident>TRUE</Incident>
+  </Basic>
+  <Simulation_Data>
+     <Simulation_speed>1</Simulation_speed>
+     <CAD_clock>
+        <hour>7</hour>
+        <minute>4</minute>
+        <second>0</second>
+     </CAD_clock>
+  </Simulation_Data>
+  <CAD_Incidents>
+     <Incident>
+        <Status>ON_GOING</Status>
+        <Location>
+           <Route>I405</Route>
+           <Direction>NB</Direction>
+           <Type>ML</Type>
+           <Postmile>1.8</Postmile>
+        </Location>
+        <Event_time>
+           <hour>7</hour>
+           <minute>2</minute>
+           <second>0</second>
+        </Event_time>
+        <Type>LANE_BREAKDOWN</Type>
+        <Lanes>
+           <Lane_number>1</Lane_number>
+        </Lanes>        
+     </Incident>
+  </CAD_Incidents>
+  <Management>
+     <Diversion>
+	<From>N5</From>
+	<To>N405</To>
+	<Diversion_path>
+	   <Identifier>N5_ALTON_N405</Identifier>
+	   <Percentage>15</Percentage>
+	</Diversion_path>
+     </Diversion>  
+     <Diversion>
+	<From>N5</From>
+	<To>N405</To>
+	<Diversion_path>
+	   <Identifier>SR133_ARTERIAL_N405</Identifier>
+	   <Percentage>20</Percentage>
+	</Diversion_path>
+     </Diversion>
+  </Management>
+</CAD_DATA>

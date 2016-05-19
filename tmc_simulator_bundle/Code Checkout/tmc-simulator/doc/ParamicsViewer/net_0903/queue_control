@@ -1,0 +1,86 @@
+total number of queuing-controlled on-ramps is 	7
+checking control file				no
+control cycle					30
+algorithm activation time 			06:00:00
+algorithm deactivation time			09:00:00
+report queuing condition			yes
+
+on-ramp signal			33
+queue detector			405n0.93orspill
+override occupancy threshold 	0.5
+override control plan		METER_ON with 1 veh per 4 sec			
+
+on-ramp signal			36
+queue detector			405n1.11orspill
+override occupancy threshold 	0.5
+override control plan		METER_ON with 1 veh per 4 sec			
+
+on-ramp signal			65
+queue detector			405n2.99orspill 
+override occupancy threshold 	0.5              
+override control plan		METER_ON with 1 veh per 4 sec			
+
+on-ramp signal			73
+queue detector			405n3.86orspill 
+override occupancy threshold 	0.5              
+override control plan		METER_ON with 1 veh per 4 sec			
+
+on-ramp signal			76
+queue detector			405n4.03orspill 
+override occupancy threshold 	0.5              
+override control plan		METER_OFF			
+
+on-ramp signal			95
+queue detector			405n5.55orspill
+override occupancy threshold 	0.5
+override control plan		METER_ON with 1 veh per 4 sec			
+
+on-ramp signal			92
+queue detector			405n5.74orspill 
+override occupancy threshold 	0.5              
+override control plan		METER_OFF			
+
+on-ramp signal			315
+queue detector 			405s5.69orspill
+override occupancy threshold 	0.5              
+override control plan		METER_ON with 1 veh per 4 sec			
+
+on-ramp signal			312
+queue detector 			405s5.5orspill
+override occupancy threshold 	0.5              
+override control plan		METER_ON with 1 veh per 4 sec			
+
+on-ramp signal			299
+queue detector 			405s4.03orspill
+override occupancy threshold 	0.5              
+override control plan		METER_ON with 1 veh per 4 sec			
+
+on-ramp signal			306
+queue detector 			405s3.84orspill
+override occupancy threshold 	0.5              
+override control plan		METER_OFF			
+
+on-ramp signal			290
+queue detector 			405s2.88orspill
+override occupancy threshold 	0.5              
+override control plan		METER_ON with 1 veh per 4 sec			
+
+on-ramp signal			273
+queue detector 			405s0.96orspill
+override occupancy threshold 	0.5              
+override control plan		METER_OFF
+
+on-ramp signal			268
+queue detector 			405s0.77orspill
+override occupancy threshold 	0.5              
+override control plan		METER_OFF			
+
+on-ramp signal			231
+queue detector 			5n22.1orspill
+override occupancy threshold 	0.5              
+override control plan		METER_ON with 1 veh per 4 sec			
+
+on-ramp signal			235
+queue detector 			5n22.2orspill
+override occupancy threshold 	0.5              
+override control plan		METER_ON with 1 veh per 4 sec			

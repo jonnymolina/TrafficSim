@@ -1,0 +1,1114 @@
+Zone Count 106
+
+zone 1 4 
+41991 ft 19475 ft
+41439 ft 19475 ft
+41439 ft 19833 ft
+41991 ft 19833 ft
+max 41991 ft 19833 ft
+min 41439 ft 19475 ft
+centroid 41715 ft 19654 ft
+
+zone 2 4 
+41755 ft 19890 ft
+41681 ft 19888 ft
+41702 ft 20158 ft
+41743 ft 20167 ft
+max 41755 ft 20167 ft
+min 41681 ft 19888 ft
+centroid 41720 ft 20026 ft
+
+zone 3 6 
+40661 ft 23538 ft
+40268 ft 23486 ft
+40283 ft 23578 ft
+40810 ft 23774 ft
+40768 ft 22995 ft
+40709 ft 22970 ft
+max 40810 ft 23774 ft
+min 40268 ft 22970 ft
+centroid 40583 ft 23390 ft
+
+zone 4 9 
+36183 ft 25946 ft
+36067 ft 25914 ft
+36113 ft 25860 ft
+35991 ft 25788 ft
+35974 ft 25979 ft
+36052 ft 26146 ft
+35958 ft 26170 ft
+36071 ft 26475 ft
+36261 ft 26063 ft
+max 36261 ft 26475 ft
+min 35958 ft 25788 ft
+centroid 36074 ft 26038 ft
+
+zone 5 5 
+31150 ft 29441 ft
+31077 ft 29386 ft
+30849 ft 29478 ft
+30838 ft 29539 ft
+31192 ft 29647 ft
+max 31192 ft 29647 ft
+min 30838 ft 29386 ft
+centroid 31021 ft 29498 ft
+
+zone 6 6 
+27786 ft 34237 ft
+27383 ft 34090 ft
+27330 ft 34294 ft
+27548 ft 34377 ft
+27524 ft 34460 ft
+27696 ft 34503 ft
+max 27786 ft 34503 ft
+min 27330 ft 34090 ft
+centroid 27545 ft 34327 ft
+
+zone 7 9 
+24897 ft 37894 ft
+24521 ft 37933 ft
+24376 ft 38073 ft
+24350 ft 37994 ft
+24209 ft 37995 ft
+24242 ft 38107 ft
+24431 ft 38112 ft
+24455 ft 38191 ft
+24933 ft 38136 ft
+max 24933 ft 38191 ft
+min 24209 ft 37894 ft
+centroid 24490 ft 38048 ft
+
+zone 8 10 
+20588 ft 43972 ft
+20197 ft 43951 ft
+20239 ft 44223 ft
+20102 ft 44221 ft
+20084 ft 44181 ft
+20007 ft 44180 ft
+20031 ft 44260 ft
+20315 ft 44303 ft
+20341 ft 44372 ft
+20682 ft 44301 ft
+max 20682 ft 44372 ft
+min 20007 ft 43951 ft
+centroid 20259 ft 44196 ft
+
+zone 9 11 
+22398 ft 58705 ft
+22343 ft 58753 ft
+22331 ft 58920 ft
+22263 ft 58982 ft
+22217 ft 58962 ft
+22158 ft 59044 ft
+22303 ft 59077 ft
+22395 ft 58985 ft
+22422 ft 58992 ft
+22450 ft 59000 ft
+22595 ft 58747 ft
+max 22595 ft 59077 ft
+min 22158 ft 58705 ft
+centroid 22352 ft 58924 ft
+
+zone 10 4 
+24034 ft 61243 ft
+23760 ft 61319 ft
+23881 ft 61480 ft
+24216 ft 61358 ft
+max 24216 ft 61480 ft
+min 23760 ft 61243 ft
+centroid 23973 ft 61350 ft
+
+zone 11 4 
+22133 ft 59438 ft
+21889 ft 59112 ft
+21823 ft 59153 ft
+22065 ft 59471 ft
+max 22133 ft 59471 ft
+min 21823 ft 59112 ft
+centroid 21978 ft 59294 ft
+
+zone 12 4 
+15634 ft 52628 ft
+15486 ft 52750 ft
+15534 ft 52825 ft
+15717 ft 52708 ft
+max 15717 ft 52825 ft
+min 15486 ft 52628 ft
+centroid 15593 ft 52728 ft
+
+zone 13 9 
+13229 ft 57370 ft
+12523 ft 56858 ft
+12396 ft 56834 ft
+12408 ft 56776 ft
+12330 ft 56742 ft
+12306 ft 56834 ft
+12822 ft 57420 ft
+12796 ft 57453 ft
+12907 ft 57542 ft
+max 13229 ft 57542 ft
+min 12306 ft 56742 ft
+centroid 12635 ft 57092 ft
+
+zone 14 8 
+8541 ft 63460 ft
+8445 ft 63458 ft
+8347 ft 63621 ft
+8360 ft 63710 ft
+8313 ft 64411 ft
+8237 ft 64476 ft
+8375 ft 64645 ft
+8673 ft 64470 ft
+max 8673 ft 64645 ft
+min 8237 ft 63458 ft
+centroid 8411 ft 64031 ft
+
+zone 15 4 
+9249 ft 69361 ft
+9089 ft 69524 ft
+9379 ft 70184 ft
+9628 ft 70130 ft
+max 9628 ft 70184 ft
+min 9089 ft 69361 ft
+centroid 9336 ft 69800 ft
+
+zone 16 4 
+12673 ft 74699 ft
+12579 ft 74758 ft
+12883 ft 75214 ft
+13056 ft 75150 ft
+max 13056 ft 75214 ft
+min 12579 ft 74699 ft
+centroid 12798 ft 74955 ft
+
+zone 17 4 
+13511 ft 77677 ft
+12944 ft 77677 ft
+12944 ft 78045 ft
+13511 ft 78045 ft
+max 13511 ft 78045 ft
+min 12944 ft 77677 ft
+centroid 13228 ft 77861 ft
+
+zone 18 4 
+12321 ft 75148 ft
+12244 ft 75165 ft
+12530 ft 75866 ft
+12676 ft 75813 ft
+max 12676 ft 75866 ft
+min 12244 ft 75148 ft
+centroid 12443 ft 75498 ft
+
+zone 19 4 
+8996 ft 70200 ft
+8608 ft 69815 ft
+8543 ft 69878 ft
+8924 ft 70291 ft
+max 8996 ft 70291 ft
+min 8543 ft 69815 ft
+centroid 8768 ft 70046 ft
+
+zone 20 10 
+4597 ft 67878 ft
+4669 ft 67564 ft
+4587 ft 67530 ft
+4428 ft 67748 ft
+4279 ft 67628 ft
+4297 ft 67598 ft
+4212 ft 67543 ft
+4292 ft 67767 ft
+4243 ft 67833 ft
+4482 ft 68036 ft
+max 4669 ft 68036 ft
+min 4212 ft 67530 ft
+centroid 4409 ft 67712 ft
+
+zone 21 4 
+1710 ft 69980 ft
+1531 ft 70129 ft
+1613 ft 70236 ft
+1897 ft 70164 ft
+max 1897 ft 70236 ft
+min 1531 ft 69980 ft
+centroid 1688 ft 70127 ft
+
+zone 22 4 
+-1964 ft 72452 ft
+-2248 ft 72704 ft
+-2203 ft 72733 ft
+-1921 ft 72493 ft
+max -1921 ft 72733 ft
+min -2248 ft 72452 ft
+centroid -2084 ft 72595 ft
+
+zone 23 4 
+-4376 ft 73886 ft
+-4498 ft 73930 ft
+-4483 ft 73969 ft
+-4371 ft 73989 ft
+max -4371 ft 73989 ft
+min -4498 ft 73886 ft
+centroid -4432 ft 73943 ft
+
+zone 24 4 
+-7107 ft 77686 ft
+-7164 ft 77703 ft
+-7120 ft 77895 ft
+-7054 ft 77895 ft
+max -7054 ft 77895 ft
+min -7164 ft 77686 ft
+centroid -7111 ft 77795 ft
+
+zone 25 6 
+-6501 ft 81841 ft
+-6584 ft 81851 ft
+-6616 ft 81998 ft
+-6716 ft 81872 ft
+-6817 ft 82150 ft
+-6471 ft 82148 ft
+max -6471 ft 82150 ft
+min -6817 ft 81841 ft
+centroid -6617 ft 81977 ft
+
+zone 26 5 
+-6707 ft 87650 ft
+-6928 ft 87650 ft
+-7150 ft 87650 ft
+-7150 ft 87937 ft
+-6707 ft 87937 ft
+max -6707 ft 87937 ft
+min -7150 ft 87650 ft
+centroid -6928 ft 87765 ft
+
+zone 27 4 
+-6905 ft 87471 ft
+-6967 ft 87474 ft
+-6970 ft 87617 ft
+-6896 ft 87616 ft
+max -6896 ft 87617 ft
+min -6970 ft 87471 ft
+centroid -6935 ft 87545 ft
+
+zone 28 5 
+-7087 ft 81858 ft
+-7304 ft 81855 ft
+-7366 ft 81854 ft
+-7354 ft 82540 ft
+-7018 ft 82550 ft
+max -7018 ft 82550 ft
+min -7366 ft 81854 ft
+centroid -7226 ft 82131 ft
+
+zone 29 4 
+-7482 ft 77748 ft
+-7575 ft 77714 ft
+-7463 ft 78123 ft
+-7365 ft 78095 ft
+max -7365 ft 78123 ft
+min -7575 ft 77714 ft
+centroid -7471 ft 77920 ft
+
+zone 30 4 
+-10349 ft 77653 ft
+-10455 ft 77625 ft
+-10574 ft 77948 ft
+-10493 ft 77959 ft
+max -10349 ft 77959 ft
+min -10574 ft 77625 ft
+centroid -10468 ft 77796 ft
+
+zone 31 6 
+-13085 ft 80659 ft
+-13335 ft 80570 ft
+-13178 ft 80548 ft
+-13259 ft 80444 ft
+-13574 ft 80824 ft
+-13086 ft 80824 ft
+max -13085 ft 80824 ft
+min -13574 ft 80444 ft
+centroid -13253 ft 80645 ft
+
+zone 32 9 
+-15726 ft 81941 ft
+-15815 ft 81946 ft
+-15830 ft 82102 ft
+-15964 ft 82058 ft
+-15967 ft 82014 ft
+-16082 ft 82015 ft
+-16293 ft 82172 ft
+-16268 ft 82215 ft
+-15813 ft 82228 ft
+max -15726 ft 82228 ft
+min -16293 ft 81941 ft
+centroid -15973 ft 82077 ft
+
+zone 33 4 
+-17771 ft 85170 ft
+-17859 ft 85127 ft
+-18054 ft 85485 ft
+-17845 ft 85513 ft
+max -17771 ft 85513 ft
+min -18054 ft 85127 ft
+centroid -17882 ft 85324 ft
+
+zone 34 4 
+-18223 ft 85661 ft
+-18579 ft 85527 ft
+-18753 ft 85779 ft
+-18296 ft 85971 ft
+max -18223 ft 85971 ft
+min -18753 ft 85527 ft
+centroid -18463 ft 85734 ft
+
+zone 35 4 
+-18125 ft 85223 ft
+-18189 ft 85205 ft
+-18310 ft 85442 ft
+-18241 ft 85471 ft
+max -18125 ft 85471 ft
+min -18310 ft 85205 ft
+centroid -18216 ft 85335 ft
+
+zone 36 4 
+-17898 ft 84092 ft
+-18064 ft 84092 ft
+-18064 ft 84199 ft
+-17898 ft 84199 ft
+max -17898 ft 84199 ft
+min -18064 ft 84092 ft
+centroid -17981 ft 84146 ft
+
+zone 37 4 
+-16273 ft 81390 ft
+-16412 ft 81341 ft
+-16467 ft 81494 ft
+-16305 ft 81495 ft
+max -16273 ft 81495 ft
+min -16467 ft 81341 ft
+centroid -16364 ft 81430 ft
+
+zone 38 4 
+-13729 ft 79942 ft
+-13945 ft 79942 ft
+-13918 ft 80072 ft
+-13798 ft 80100 ft
+max -13729 ft 80100 ft
+min -13945 ft 79942 ft
+centroid -13848 ft 80014 ft
+
+zone 39 4 
+-13207 ft 79971 ft
+-13336 ft 79971 ft
+-13336 ft 80055 ft
+-13207 ft 80055 ft
+max -13207 ft 80055 ft
+min -13336 ft 79971 ft
+centroid -13272 ft 80013 ft
+
+zone 40 4 
+-10760 ft 77804 ft
+-10827 ft 77771 ft
+-10955 ft 78021 ft
+-10866 ft 78032 ft
+max -10760 ft 78032 ft
+min -10955 ft 77771 ft
+centroid -10852 ft 77907 ft
+
+zone 41 4 
+-10449 ft 76781 ft
+-10511 ft 76751 ft
+-10995 ft 77515 ft
+-10745 ft 77515 ft
+max -10449 ft 77515 ft
+min -10995 ft 76751 ft
+centroid -10675 ft 77140 ft
+
+zone 42 4 
+-8257 ft 71567 ft
+-8460 ft 71567 ft
+-8460 ft 71698 ft
+-8257 ft 71698 ft
+max -8257 ft 71698 ft
+min -8460 ft 71567 ft
+centroid -8358 ft 71633 ft
+
+zone 43 4 
+-8393 ft 69803 ft
+-8933 ft 69803 ft
+-8933 ft 70152 ft
+-8393 ft 70152 ft
+max -8393 ft 70152 ft
+min -8933 ft 69803 ft
+centroid -8663 ft 69978 ft
+
+zone 44 5 
+-12640 ft 64258 ft
+-13870 ft 63299 ft
+-14031 ft 63296 ft
+-13180 ft 64607 ft
+-12640 ft 64607 ft
+max -12640 ft 64607 ft
+min -14031 ft 63296 ft
+centroid -13272 ft 64013 ft
+
+zone 45 10 
+-16443 ft 60083 ft
+-16359 ft 60041 ft
+-16318 ft 60069 ft
+-16259 ft 60006 ft
+-16428 ft 60005 ft
+-16648 ft 60173 ft
+-16705 ft 60082 ft
+-16734 ft 60225 ft
+-16447 ft 60299 ft
+-16363 ft 60252 ft
+max -16259 ft 60299 ft
+min -16734 ft 60005 ft
+centroid -16470 ft 60123 ft
+
+zone 46 11 
+-22351 ft 55831 ft
+-22815 ft 55831 ft
+-23207 ft 56232 ft
+-23375 ft 56044 ft
+-23325 ft 56038 ft
+-23388 ft 55878 ft
+-23467 ft 55889 ft
+-23480 ft 55948 ft
+-23286 ft 56325 ft
+-22815 ft 56131 ft
+-22351 ft 56131 ft
+max -22351 ft 56325 ft
+min -23480 ft 55831 ft
+centroid -23078 ft 56025 ft
+
+zone 47 4 
+-29912 ft 56032 ft
+-30271 ft 56037 ft
+-30269 ft 56220 ft
+-29912 ft 56220 ft
+max -29912 ft 56220 ft
+min -30271 ft 56032 ft
+centroid -30091 ft 56127 ft
+
+zone 48 6 
+-33405 ft 56768 ft
+-33659 ft 56626 ft
+-33537 ft 56597 ft
+-33575 ft 56489 ft
+-33864 ft 56837 ft
+-33393 ft 56862 ft
+max -33393 ft 56862 ft
+min -33864 ft 56489 ft
+centroid -33572 ft 56697 ft
+
+zone 49 4 
+-37491 ft 58090 ft
+-37827 ft 58216 ft
+-37648 ft 58511 ft
+-37413 ft 58401 ft
+max -37413 ft 58511 ft
+min -37827 ft 58090 ft
+centroid -37595 ft 58304 ft
+
+zone 50 4 
+-37243 ft 58108 ft
+-37404 ft 58176 ft
+-37390 ft 58234 ft
+-37223 ft 58153 ft
+max -37223 ft 58234 ft
+min -37404 ft 58108 ft
+centroid -37315 ft 58168 ft
+
+zone 51 9 
+-33555 ft 55721 ft
+-33869 ft 55753 ft
+-33867 ft 55962 ft
+-33629 ft 56062 ft
+-33767 ft 56107 ft
+-33721 ft 56200 ft
+-33515 ft 56119 ft
+-33617 ft 55872 ft
+-33527 ft 55842 ft
+max -33515 ft 56200 ft
+min -33869 ft 55721 ft
+centroid -33674 ft 55960 ft
+
+zone 52 4 
+-28191 ft 55570 ft
+-30257 ft 55656 ft
+-30248 ft 55749 ft
+-28188 ft 55681 ft
+max -28188 ft 55749 ft
+min -30257 ft 55570 ft
+centroid -29221 ft 55664 ft
+
+zone 53 4 
+-25932 ft 53453 ft
+-26113 ft 53609 ft
+-26027 ft 53669 ft
+-25893 ft 53497 ft
+max -25893 ft 53669 ft
+min -26113 ft 53453 ft
+centroid -25991 ft 53557 ft
+
+zone 54 4 
+-25772 ft 48647 ft
+-27245 ft 46914 ft
+-27283 ft 46952 ft
+-25833 ft 48702 ft
+max -25772 ft 48702 ft
+min -27283 ft 46914 ft
+centroid -26533 ft 47804 ft
+
+zone 55 4 
+-29605 ft 43909 ft
+-29671 ft 43946 ft
+-29587 ft 44025 ft
+-29532 ft 43997 ft
+max -29532 ft 44025 ft
+min -29671 ft 43909 ft
+centroid -29599 ft 43969 ft
+
+zone 56 4 
+-31887 ft 40697 ft
+-32236 ft 40853 ft
+-31887 ft 41200 ft
+-31659 ft 41092 ft
+max -31659 ft 41200 ft
+min -32236 ft 40697 ft
+centroid -31917 ft 40960 ft
+
+zone 57 4 
+-29716 ft 43388 ft
+-29774 ft 43242 ft
+-29851 ft 43345 ft
+-29758 ft 43410 ft
+max -29716 ft 43410 ft
+min -29851 ft 43242 ft
+centroid -29775 ft 43346 ft
+
+zone 58 4 
+-26784 ft 46887 ft
+-27314 ft 46294 ft
+-27379 ft 46342 ft
+-26874 ft 46927 ft
+max -26784 ft 46927 ft
+min -27379 ft 46294 ft
+centroid -27088 ft 46613 ft
+
+zone 59 4 
+-20817 ft 47026 ft
+-20975 ft 46956 ft
+-21219 ft 47268 ft
+-21130 ft 47306 ft
+max -20817 ft 47306 ft
+min -21219 ft 46956 ft
+centroid -21035 ft 47139 ft
+
+zone 60 4 
+-18646 ft 45124 ft
+-19081 ft 45517 ft
+-19014 ft 45568 ft
+-18696 ft 45304 ft
+max -18646 ft 45568 ft
+min -19081 ft 45124 ft
+centroid -18859 ft 45378 ft
+
+zone 61 4 
+-16729 ft 43544 ft
+-16869 ft 43512 ft
+-16941 ft 43720 ft
+-16869 ft 43733 ft
+max -16729 ft 43733 ft
+min -16941 ft 43512 ft
+centroid -16852 ft 43627 ft
+
+zone 62 4 
+-16551 ft 43255 ft
+-16804 ft 43672 ft
+-16631 ft 43757 ft
+-16302 ft 43348 ft
+max -16302 ft 43757 ft
+min -16804 ft 43255 ft
+centroid -16572 ft 43508 ft
+
+zone 63 4 
+-16420 ft 43712 ft
+-16651 ft 43846 ft
+-16610 ft 43916 ft
+-16341 ft 43816 ft
+max -16341 ft 43916 ft
+min -16651 ft 43712 ft
+centroid -16506 ft 43822 ft
+
+zone 64 4 
+-16698 ft 44204 ft
+-16906 ft 44270 ft
+-16840 ft 44418 ft
+-16653 ft 44293 ft
+max -16653 ft 44418 ft
+min -16906 ft 44204 ft
+centroid -16774 ft 44296 ft
+
+zone 65 4 
+-18812 ft 45640 ft
+-20828 ft 47341 ft
+-20691 ft 47460 ft
+-18649 ft 45767 ft
+max -18649 ft 47460 ft
+min -20828 ft 45640 ft
+centroid -19745 ft 46552 ft
+
+zone 66 4 
+-20636 ft 53780 ft
+-21422 ft 52792 ft
+-21490 ft 52856 ft
+-20728 ft 53829 ft
+max -20636 ft 53829 ft
+min -21490 ft 52792 ft
+centroid -21069 ft 53314 ft
+
+zone 67 4 
+-15002 ft 53809 ft
+-16386 ft 54762 ft
+-16361 ft 54798 ft
+-14958 ft 54016 ft
+max -14958 ft 54798 ft
+min -16386 ft 53809 ft
+centroid -15677 ft 54346 ft
+
+zone 68 4 
+-14718 ft 52993 ft
+-14943 ft 53154 ft
+-14841 ft 53318 ft
+-14645 ft 53237 ft
+max -14645 ft 53318 ft
+min -14943 ft 52993 ft
+centroid -14787 ft 53176 ft
+
+zone 69 9 
+-10764 ft 51433 ft
+-11192 ft 51104 ft
+-11249 ft 51663 ft
+-11158 ft 51717 ft
+-11000 ft 51585 ft
+-10935 ft 51630 ft
+-10959 ft 51715 ft
+-10838 ft 51756 ft
+-10849 ft 51553 ft
+max -10764 ft 51756 ft
+min -11249 ft 51104 ft
+centroid -10994 ft 51573 ft
+
+zone 70 7 
+-4639 ft 48686 ft
+-4858 ft 48925 ft
+-4788 ft 48987 ft
+-4568 ft 48948 ft
+-4625 ft 49038 ft
+-4507 ft 49110 ft
+-4458 ft 48858 ft
+max -4458 ft 49110 ft
+min -4858 ft 48686 ft
+centroid -4635 ft 48936 ft
+
+zone 71 10 
+3739 ft 46354 ft
+3626 ft 46240 ft
+3526 ft 46597 ft
+3624 ft 46641 ft
+3772 ft 46572 ft
+3866 ft 46645 ft
+3788 ft 46687 ft
+3863 ft 46793 ft
+3971 ft 46698 ft
+3703 ft 46418 ft
+max 3971 ft 46793 ft
+min 3526 ft 46240 ft
+centroid 3748 ft 46564 ft
+
+zone 72 7 
+9155 ft 44546 ft
+8951 ft 44408 ft
+8753 ft 44594 ft
+8810 ft 44625 ft
+8999 ft 44585 ft
+8974 ft 44663 ft
+9128 ft 44664 ft
+max 9155 ft 44664 ft
+min 8753 ft 44408 ft
+centroid 8967 ft 44584 ft
+
+zone 73 4 
+14286 ft 39992 ft
+13993 ft 39992 ft
+13993 ft 40182 ft
+14286 ft 40182 ft
+max 14286 ft 40182 ft
+min 13993 ft 39992 ft
+centroid 14139 ft 40087 ft
+
+zone 74 8 
+19053 ft 40805 ft
+18713 ft 40885 ft
+18709 ft 40977 ft
+18796 ft 41041 ft
+18725 ft 41084 ft
+18796 ft 41166 ft
+18984 ft 40896 ft
+19044 ft 40905 ft
+max 19053 ft 41166 ft
+min 18709 ft 40805 ft
+centroid 18853 ft 40970 ft
+
+zone 75 9 
+22988 ft 38054 ft
+22711 ft 38089 ft
+22500 ft 38321 ft
+22844 ft 38322 ft
+22925 ft 38173 ft
+23033 ft 38174 ft
+23063 ft 38241 ft
+23169 ft 38220 ft
+23092 ft 38117 ft
+max 23169 ft 38322 ft
+min 22500 ft 38054 ft
+centroid 22925 ft 38190 ft
+
+zone 76 8 
+26048 ft 34274 ft
+25639 ft 34305 ft
+25639 ft 34694 ft
+25846 ft 34690 ft
+25829 ft 34422 ft
+26006 ft 34411 ft
+26003 ft 34477 ft
+26129 ft 34464 ft
+max 26129 ft 34694 ft
+min 25639 ft 34274 ft
+centroid 25892 ft 34467 ft
+
+zone 77 6 
+30004 ft 29459 ft
+30545 ft 29132 ft
+30555 ft 29071 ft
+30425 ft 28929 ft
+29792 ft 29460 ft
+29920 ft 29547 ft
+max 30555 ft 29547 ft
+min 29792 ft 28929 ft
+centroid 30207 ft 29266 ft
+
+zone 78 10 
+35983 ft 25102 ft
+35828 ft 25023 ft
+35694 ft 25161 ft
+35742 ft 25228 ft
+35890 ft 25387 ft
+35828 ft 25424 ft
+35905 ft 25505 ft
+35972 ft 25370 ft
+35949 ft 25258 ft
+35925 ft 25147 ft
+max 35983 ft 25505 ft
+min 35694 ft 25023 ft
+centroid 35872 ft 25261 ft
+
+zone 79 5 
+40330 ft 23026 ft
+40290 ft 22965 ft
+39989 ft 22854 ft
+39805 ft 23015 ft
+39916 ft 23083 ft
+max 40330 ft 23083 ft
+min 39805 ft 22854 ft
+centroid 40066 ft 22989 ft
+
+zone 80 4 
+19927 ft 43531 ft
+19703 ft 43531 ft
+19518 ft 43856 ft
+19764 ft 43898 ft
+max 19927 ft 43898 ft
+min 19518 ft 43531 ft
+centroid 19728 ft 43704 ft
+
+zone 81 4 
+18465 ft 45930 ft
+18413 ft 46009 ft
+18463 ft 46031 ft
+18501 ft 45976 ft
+max 18501 ft 46031 ft
+min 18413 ft 45930 ft
+centroid 18461 ft 45987 ft
+
+zone 82 4 
+16126 ft 45188 ft
+15840 ft 45188 ft
+15840 ft 45373 ft
+16126 ft 45373 ft
+max 16126 ft 45373 ft
+min 15840 ft 45188 ft
+centroid 15983 ft 45280 ft
+
+zone 83 4 
+16259 ft 44603 ft
+15964 ft 44679 ft
+16002 ft 44783 ft
+16294 ft 44815 ft
+max 16294 ft 44815 ft
+min 15964 ft 44603 ft
+centroid 16130 ft 44720 ft
+
+zone 84 8 
+19412 ft 41276 ft
+19042 ft 41398 ft
+19066 ft 41457 ft
+18413 ft 41974 ft
+18260 ft 41974 ft
+18260 ft 42172 ft
+18566 ft 42172 ft
+19428 ft 41337 ft
+max 19428 ft 42172 ft
+min 18260 ft 41276 ft
+centroid 18806 ft 41720 ft
+
+zone 85 7 
+15525 ft 45431 ft
+15067 ft 45605 ft
+15269 ft 45858 ft
+15346 ft 45823 ft
+15290 ft 45599 ft
+15361 ft 45556 ft
+15423 ft 45614 ft
+max 15525 ft 45858 ft
+min 15067 ft 45431 ft
+centroid 15326 ft 45641 ft
+
+zone 86 4 
+15246 ft 51965 ft
+15107 ft 52166 ft
+15140 ft 52199 ft
+15290 ft 51987 ft
+max 15290 ft 52199 ft
+min 15107 ft 51965 ft
+centroid 15196 ft 52079 ft
+
+zone 87 4 
+12341 ft 55319 ft
+12204 ft 55255 ft
+12155 ft 55380 ft
+12322 ft 55397 ft
+max 12341 ft 55397 ft
+min 12155 ft 55255 ft
+centroid 12256 ft 55338 ft
+
+zone 88 10 
+7752 ft 63408 ft
+7462 ft 63398 ft
+7421 ft 63694 ft
+7489 ft 63752 ft
+7745 ft 63710 ft
+7777 ft 63765 ft
+7727 ft 63810 ft
+7770 ft 63860 ft
+7824 ft 63687 ft
+7675 ft 63557 ft
+max 7824 ft 63860 ft
+min 7421 ft 63398 ft
+centroid 7664 ft 63664 ft
+
+zone 89 4 
+3250 ft 66259 ft
+3062 ft 66329 ft
+3137 ft 66665 ft
+3463 ft 66570 ft
+max 3463 ft 66665 ft
+min 3062 ft 66259 ft
+centroid 3228 ft 66456 ft
+
+zone 90 7 
+3690 ft 66927 ft
+3736 ft 66862 ft
+3523 ft 66702 ft
+3471 ft 67138 ft
+3771 ft 67146 ft
+3740 ft 67207 ft
+3845 ft 67237 ft
+max 3845 ft 67237 ft
+min 3471 ft 66702 ft
+centroid 3682 ft 67031 ft
+
+zone 91 4 
+998 ft 69078 ft
+811 ft 69280 ft
+948 ft 69418 ft
+1186 ft 69356 ft
+max 1186 ft 69418 ft
+min 811 ft 69078 ft
+centroid 986 ft 69283 ft
+
+zone 92 5 
+-2142 ft 72244 ft
+-2461 ft 72510 ft
+-2436 ft 72539 ft
+-2411 ft 72568 ft
+-2095 ft 72277 ft
+max -2095 ft 72568 ft
+min -2461 ft 72244 ft
+centroid -2309 ft 72428 ft
+
+zone 93 4 
+-4662 ft 73578 ft
+-4829 ft 73652 ft
+-4783 ft 73737 ft
+-4627 ft 73655 ft
+max -4627 ft 73737 ft
+min -4829 ft 73578 ft
+centroid -4725 ft 73656 ft
+
+zone 94 4 
+-6980 ft 71242 ft
+-7246 ft 71281 ft
+-7221 ft 71398 ft
+-6980 ft 71398 ft
+max -6980 ft 71398 ft
+min -7246 ft 71242 ft
+centroid -7107 ft 71330 ft
+
+zone 95 4 
+-7708 ft 69463 ft
+-7858 ft 69534 ft
+-7926 ft 69817 ft
+-7449 ft 69817 ft
+max -7449 ft 69817 ft
+min -7926 ft 69463 ft
+centroid -7735 ft 69658 ft
+
+zone 96 8 
+-12734 ft 63182 ft
+-12817 ft 63183 ft
+-12855 ft 63322 ft
+-12900 ft 63278 ft
+-13017 ft 63381 ft
+-12713 ft 63414 ft
+-12704 ft 63458 ft
+-12569 ft 63475 ft
+max -12569 ft 63475 ft
+min -13017 ft 63182 ft
+centroid -12789 ft 63337 ft
+
+zone 97 10 
+-15874 ft 59554 ft
+-15945 ft 59533 ft
+-15969 ft 59635 ft
+-15788 ft 59690 ft
+-15624 ft 59383 ft
+-15566 ft 59429 ft
+-15477 ft 59350 ft
+-15613 ft 59230 ft
+-15686 ft 59332 ft
+-15828 ft 59425 ft
+max -15477 ft 59690 ft
+min -15969 ft 59230 ft
+centroid -15737 ft 59456 ft
+
+zone 98 4 
+-14336 ft 54359 ft
+-14531 ft 54401 ft
+-14373 ft 54593 ft
+-14265 ft 54467 ft
+max -14265 ft 54593 ft
+min -14531 ft 54359 ft
+centroid -14376 ft 54455 ft
+
+zone 99 8 
+-10073 ft 52148 ft
+-10173 ft 52081 ft
+-10393 ft 52193 ft
+-10388 ft 52105 ft
+-10540 ft 52110 ft
+-10234 ft 52489 ft
+-10307 ft 52546 ft
+-10158 ft 52625 ft
+max -10073 ft 52625 ft
+min -10540 ft 52081 ft
+centroid -10283 ft 52287 ft
+
+zone 100 8 
+-3831 ft 49582 ft
+-3915 ft 49536 ft
+-4060 ft 49557 ft
+-4006 ft 49482 ft
+-4219 ft 49474 ft
+-3995 ft 49689 ft
+-4079 ft 49757 ft
+-3957 ft 49837 ft
+max -3831 ft 49837 ft
+min -4219 ft 49474 ft
+centroid -4008 ft 49614 ft
+
+zone 101 9 
+4719 ft 47393 ft
+4664 ft 47349 ft
+4446 ft 47357 ft
+4522 ft 47308 ft
+4407 ft 47211 ft
+4428 ft 47391 ft
+4631 ft 47571 ft
+4514 ft 47662 ft
+4719 ft 47694 ft
+max 4719 ft 47694 ft
+min 4407 ft 47211 ft
+centroid 4561 ft 47437 ft
+
+zone 102 6 
+9807 ft 45211 ft
+9695 ft 45089 ft
+9591 ft 45267 ft
+9685 ft 45375 ft
+9625 ft 45419 ft
+9694 ft 45456 ft
+max 9807 ft 45456 ft
+min 9591 ft 45089 ft
+centroid 9683 ft 45303 ft
+
+zone 103 4 
+-21161 ft 53753 ft
+-21233 ft 53776 ft
+-21020 ft 54046 ft
+-20944 ft 54004 ft
+max -20944 ft 54046 ft
+min -21233 ft 53753 ft
+centroid -21090 ft 53895 ft
+
+zone 104 7 
+-23364 ft 55141 ft
+-23537 ft 55129 ft
+-23530 ft 55286 ft
+-23420 ft 55402 ft
+-23485 ft 55416 ft
+-23484 ft 55484 ft
+-23285 ft 55468 ft
+max -23285 ft 55484 ft
+min -23537 ft 55129 ft
+centroid -23444 ft 55332 ft
+
+zone 105 4 
+-25488 ft 53632 ft
+-25570 ft 53586 ft
+-25778 ft 53897 ft
+-25685 ft 53959 ft
+max -25488 ft 53959 ft
+min -25778 ft 53586 ft
+centroid -25630 ft 53768 ft
+
+zone 106 4 
+2122 ft 63577 ft
+1354 ft 63396 ft
+2012 ft 64282 ft
+2279 ft 64208 ft
+max 2279 ft 64282 ft
+min 1354 ft 63396 ft
+centroid 1942 ft 63866 ft

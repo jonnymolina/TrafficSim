@@ -14,6 +14,7 @@ import javax.swing.UIManager;
 
 import tmcsim.common.SimulationException;
 import tmcsim.common.CADEnums.PARAMICS_STATUS;
+import tmcsim.common.ScriptException;
 
 /**
  * Simulation Manager is the main class for this module.  The Simulation Manager
@@ -135,15 +136,15 @@ public class SimulationManager {
 
         theSimManagerView.addWindowListener(new WindowListener() {
             public void windowClosed(WindowEvent e)  {}
-            public void windowOpened(WindowEvent e)  {}            
-            public void windowIconified(WindowEvent e)  {}         
-            public void windowDeiconified(WindowEvent e)  {}    
-            public void windowActivated(WindowEvent e)  {}                             
-            public void windowDeactivated(WindowEvent e)  {}         
-            public void windowClosing(WindowEvent e)  {     
+            public void windowOpened(WindowEvent e)  {}
+            public void windowIconified(WindowEvent e)  {}
+            public void windowDeiconified(WindowEvent e)  {}
+            public void windowActivated(WindowEvent e)  {}
+            public void windowDeactivated(WindowEvent e)  {}
+            public void windowClosing(WindowEvent e)  {
                 theSimManagerModel.disconnect();
                 System.exit(0);
-            }           
+            }
         });
 
         if(Boolean.parseBoolean(simManagerProperties.getProperty(
@@ -154,6 +155,17 @@ public class SimulationManager {
 
         //Show the SimulationManager
         theSimManagerView.setVisible(true);        
+    }
+    
+    /** Load a simulation script from the specified file.
+     * 
+     * @param scriptFile the file containing the XML simulation control script to be run.
+     * @throws ScriptException if the script throws an exception
+     * @throws SimulationException if the simulation throws an exception
+     */
+    public void loadScript(File scriptFile) throws ScriptException, SimulationException
+    {
+        theSimManagerModel.loadScript(scriptFile);
     }
     
     /**

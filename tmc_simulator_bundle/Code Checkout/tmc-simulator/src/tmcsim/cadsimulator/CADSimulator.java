@@ -21,9 +21,7 @@ import tmcsim.cadsimulator.managers.IncidentManager;
 import tmcsim.cadsimulator.managers.MediaManager;
 import tmcsim.cadsimulator.managers.ParamicsSimulationManager;
 import tmcsim.cadsimulator.managers.SimulationControlManager;
-import tmcsim.cadsimulator.viewer.MediaStatusPanel;
 import tmcsim.cadsimulator.viewer.model.CADSimulatorModel;
-import tmcsim.cadsimulator.viewer.model.SimulationStatusPanelModel;
 import tmcsim.common.SimulationException;
 import tmcsim.interfaces.CADViewer;
 
@@ -111,7 +109,7 @@ public class CADSimulator {
         
             
     /** CADSimulatorViewer instance. */
-    protected static CADViewer theViewer;
+    public static CADViewer theViewer;
 
     /** Coordinator instance. */
     public static  Coordinator theCoordinator;
@@ -123,7 +121,7 @@ public class CADSimulator {
     protected static  SimulationControlManager theSimulationCntrlMgr = null;
     
     /**  ParamicsSimulationManager instance. */
-    protected static  ParamicsSimulationManager theParamicsSimMgr = null;
+    public static ParamicsSimulationManager theParamicsSimMgr = null;
     
     /** IncidentManager instance. */
     protected static  IncidentManager theIncidentMgr = null;
@@ -361,7 +359,7 @@ public class CADSimulator {
      * @param args Command line arguments.
      */
     public static void main(String[] args) {//-DCAD_SIM_PROPERTIES="config/cad_simulator_config.properties"
-//        System.setProperty("CAD_SIM_PROPERTIES",  "config/cad_simulator_config.properties");
+        System.setProperty("CAD_SIM_PROPERTIES",  "config/cad_simulator_config.properties");
         
         try 
         {

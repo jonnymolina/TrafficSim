@@ -1,0 +1,86 @@
+categories 1 to 17
+
+category 1  lanes 1  speed 75 mph  width 12.0 ft  colour 0x00ffce87  type highway  major 
+	median width 0.0 ft  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 2000.0 ft,3.3 ft
+
+category 2  lanes 2  speed 70 mph  width 24.0 ft  colour 0x000000ff  type highway  major 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 2000.0 ft,3.3 ft
+
+category 3  lanes 3  speed 70 mph  width 36.0 ft  colour 0x000000ff  type highway  major 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 2000.0 ft,3.3 ft
+
+category 4  lanes 4  speed 70 mph  width 48.0 ft  colour 0x000000ff  type highway  major 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 2000.0 ft,3.3 ft
+
+category 5  lanes 5  speed 70 mph  width 60.0 ft  colour 0x000000ff  type highway  major 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 2000.0 ft,3.3 ft
+
+category 6  lanes 6  speed 70 mph  width 72.0 ft  colour 0x000000ff  type highway  major 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 2000.0 ft,3.3 ft
+
+category 7  lanes 7  speed 70 mph  width 84.0 ft  colour 0x000000ff  type highway  major 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 2000.0 ft,3.3 ft
+
+category 8  lanes 1  speed 45 mph  width 12.0 ft  colour 0x00008b00  type urban   major 
+	median width 0.0 ft  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 820.2 ft,3.3 ft
+
+category 9  lanes 2  speed 45 mph  width 24.0 ft  colour 0x00008b00  type urban   major 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 820.2 ft,3.3 ft
+
+category 10  lanes 3  speed 45 mph  width 36.0 ft  colour 0x00008b00  type urban   major 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 820.2 ft,3.3 ft
+
+category 11  lanes 4  speed 45 mph  width 48.0 ft  colour 0x00008b00  type urban   major 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 820.2 ft,3.3 ft
+
+category 12  lanes 5  speed 45 mph  width 60.0 ft  colour 0x00008b00  type urban   major 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 820.2 ft,3.3 ft
+
+category 13  lanes 1  speed 60 mph  width 12.0 ft  colour 0x00ff0000  type highway  minor 
+	median width 0.0 ft  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.333
+	signpost 820.2 ft,3.3 ft
+
+category 14  lanes 2  speed 60 mph  width 24.0 ft  colour 0x00ff0000  type highway  minor 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.333
+	signpost 820.2 ft,3.3 ft
+
+category 15  lanes 3  speed 60 mph  width 36.0 ft  colour 0x00ff0000  type highway  minor 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.333
+	signpost 820.2 ft,3.3 ft
+
+category 16  lanes 4  speed 60 mph  width 48.0 ft  colour 0x00ff0000  type highway  minor 
+	median width 0.0 ft  inside overtaking  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.333
+	signpost 820.2 ft,3.3 ft
+
+category 17  lanes 1  speed 70 mph  width 12.0 ft  colour 0x000000ff  type highway  major 
+	median width 0.0 ft  
+	headway factor 1.000  curve speed factor 0.0  toll 0.000  cost factor 1.000
+	signpost 2000.0 ft,3.3 ft

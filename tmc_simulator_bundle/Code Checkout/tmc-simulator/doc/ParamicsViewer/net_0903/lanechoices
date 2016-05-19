@@ -1,0 +1,127 @@
+link 292:296 to 297 to 301 
+	lane  2  70 %
+	lane  3  30 %
+
+link 292:296 to 297 to 302 
+	lane  3  16 %
+	lane  4  21 %
+	lane  5  21 %
+	lane  6  21 %
+	lane  7  21 %
+
+link 296:297 to 301   
+	lane  1  70 %
+	lane  2  30 %
+
+link 296:297 to 302   
+	lane  2  16 %
+	lane  3  21 %
+	lane  4  21 %
+	lane  5  21 %
+	lane  6  21 %
+
+link 366:367 to 371 to 468 
+	lane  4  33 %
+	lane  5  33 %
+	lane  6  34 %
+
+link 366:367 to 372 to 373 
+	lane  1  33 %
+	lane  2  34 %
+	lane  3  33 %
+
+link 1029:1099 to 1050   
+	lane  1  70 %
+	lane  2  30 %
+
+link 1029:1099 to 1100 to 1075 
+	lane  2  80 %
+	lane  3  20 %
+
+link 1029:1099 to 1100 to 1103 
+	lane  2   7 %
+	lane  3  11 %
+	lane  4  27 %
+	lane  5  27 %
+	lane  6  28 %
+
+link 1094:1093 to 1084   
+	lane  1  65 %
+	lane  2  35 %
+
+link 1094:1093 to 1091   
+	lane  2   8 %
+	lane  3  23 %
+	lane  4  23 %
+	lane  5  23 %
+	lane  6  23 %
+
+link 1354:1355 to 1356   
+	lane  1  20 %
+	lane  2  40 %
+	lane  3  40 %
+
+link 1355:1356 to 1499   
+	lane  1   5 %
+	lane  2  25 %
+	lane  3  24 %
+	lane  4  23 %
+	lane  5  23 %
+
+link 1746:1747 to 1758   
+	lane  2  15 %
+	lane  3  20 %
+	lane  4  35 %
+	lane  5  30 %
+
+link 1746:1747 to 1748   
+	lane  1  65 %
+	lane  2  35 %
+
+link 1791:1792 to 1793   
+	lane  1  70 %
+	lane  2  30 %
+
+link 1791:1792 to 1794   
+	lane  2  17 %
+	lane  3  41 %
+	lane  4  42 %
+
+link 1896:1897 to 1898   
+	lane  1   2 %
+	lane  2  20 %
+	lane  3  25 %
+	lane  4  27 %
+	lane  5  26 %
+
+link 1937:1944 to 1959   
+	lane  1 100 %
+
+link 1937:1944 to 1945   
+	lane  2  16 %
+	lane  3  17 %
+	lane  4  18 %
+	lane  5  18 %
+	lane  6  17 %
+	lane  7  14 %
+
+link 1954:1955 to 2920   
+	lane  1  50 %
+	lane  2  50 %
+
+link 1954:1955 to 1957   
+	lane  3  25 %
+	lane  4  25 %
+	lane  5  25 %
+	lane  6  25 %
+
+link 2070:2073 to 1717   
+	lane  3  25 %
+	lane  4  25 %
+	lane  5  25 %
+	lane  6  25 %
+
+link 2070:2073 to 1622   
+	lane  1  50 %
+	lane  2  50 %
+

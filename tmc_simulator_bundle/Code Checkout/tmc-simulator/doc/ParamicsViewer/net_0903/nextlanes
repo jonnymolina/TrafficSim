@@ -1,0 +1,156 @@
+Next Lanes
+link 51:52
+lane 1 next 0 5
+link 308:309
+lane 1 next 1
+lane 2 next 2
+lane 3 next 3
+lane 4 next 4,5
+lane 5 next 6
+link 310:383
+lane 1 next 0 3
+lane 2 next 0 4
+link 329:327
+lane 1 next 0 0
+link 366:367
+lane 1 next 1 0
+lane 2 next 2 0
+lane 3 next 3 1
+lane 4 next 0 1
+lane 5 next 0 2
+lane 6 next 0 3
+link 382:383
+lane 1 next 1 0
+lane 2 next 2 0
+link 477:481
+lane 1 next 0 2
+lane 2 next 0 3
+lane 3 next 0 4
+link 485:481
+lane 1 next 1 0
+lane 2 next 2 0
+link 532:530
+lane 1 next 1 0
+lane 2 next 2 1
+lane 3 next 0 2
+lane 4 next 0 3
+link 541:543
+lane 1 next 0 2
+lane 2 next 0 3
+lane 3 next 0 4
+lane 4 next 0 5
+link 584:543
+lane 1 next 1 0
+lane 2 next 2 0
+link 602:553
+lane 1 next 0 2
+lane 2 next 0 3
+lane 3 next 0 4
+lane 4 next 0 5
+lane 5 next 0 6
+link 608:553
+lane 1 next 1 0
+lane 2 next 2 0
+link 1029:1099
+lane 1 next 1 0
+lane 2 next 2 1
+lane 3 next 0 2
+lane 4 next 0 3
+lane 5 next 0 4
+lane 6 next 0 5
+link 1034:1017
+lane 1 next 1,3 0
+link 1039:1038
+lane 1 next 1 0
+lane 2 next 2 0
+link 1099:1100
+lane 1 next 1 0
+lane 2 next 0 1
+lane 3 next 0 2
+lane 4 next 0 3
+lane 5 next 0 4
+link 1132:1095
+lane 1 next 1 0
+lane 2 next 2 0
+lane 3 next 3,4 0
+lane 4 next 5 0
+lane 5 next 6 0
+lane 6 next 0 1
+link 1263:1259
+lane 1 next 1 0
+link 1318:1308
+lane 1 next 1 0
+link 1355:1356
+lane 1 next 1 0
+lane 2 next 2 1
+lane 3 next 0 2
+lane 4 next 0 3
+lane 5 next 0 4
+link 1395:1038
+lane 1 next 0 2
+link 1481:1501
+lane 1 next 1 0
+link 1482:1379
+lane 1 next 1 0
+link 1500:1501
+lane 1 next 0 2
+lane 2 next 0 3
+lane 3 next 0 4
+lane 4 next 0 5
+link 1523:1524
+lane 1 next 1 0
+link 1787:1746
+lane 1 next 1 0
+link 1789:1790
+lane 1 next 0 2
+lane 2 next 0 3
+lane 3 next 0 4
+link 1828:1790
+lane 1 next 1 0
+link 1867:2657
+lane 1 next 0 3
+link 1880:1919
+lane 1 next 0 7
+link 1920:1921
+lane 1 next 1
+lane 2 next 2
+lane 3 next 3
+lane 4 next 4
+lane 5 next 5
+lane 6 next 5
+lane 7 next 6
+link 1937:1944
+lane 1 next 0 0
+lane 2 next 0 0
+lane 3 next 0 0
+lane 4 next 0 0
+lane 5 next 0 0
+lane 6 next 0 0
+lane 7 next 0 0
+link 1945:1946
+lane 1 next 2
+lane 2 next 3
+lane 3 next 4
+lane 4 next 5
+lane 5 next 6
+link 1955:2920
+lane 1 next 0 1
+lane 2 next 0 2
+link 1989:1919
+lane 1 next 0 0
+lane 2 next 0 0
+lane 3 next 0 0
+lane 4 next 4,5 0
+lane 5 next 4,5 0
+lane 6 next 5 0
+lane 7 next 6 0
+link 1997:1909
+lane 1 next 1 0
+link 2263:2285
+lane 1 next 0 2
+lane 2 next 0 3
+lane 3 next 0 4
+lane 4 next 0 5
+link 2306:2285
+lane 1 next 1 0
+lane 2 next 2 0

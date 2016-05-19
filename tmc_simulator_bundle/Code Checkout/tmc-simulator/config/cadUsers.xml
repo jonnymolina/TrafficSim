@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<CAD_USERS>
+    <USER>
+        <ID>A12345</ID>
+        <PERMISSION_LEVEL>CHP</PERMISSION_LEVEL>
+    </USER>
+    <USER>
+        <ID>A11111</ID>
+        <PERMISSION_LEVEL>TMC</PERMISSION_LEVEL>
+    </USER>
+    <USER>
+        <ID>A22222</ID>
+        <PERMISSION_LEVEL>TMC</PERMISSION_LEVEL>
+    </USER>
+    <USER>
+        <ID>A33333</ID>
+        <PERMISSION_LEVEL>TMC</PERMISSION_LEVEL>
+    </USER>
+    <USER>
+        <ID>A44444</ID>
+        <PERMISSION_LEVEL>TMC</PERMISSION_LEVEL>
+    </USER>
+    <USER>
+        <ID>A55555</ID>
+        <PERMISSION_LEVEL>TMC</PERMISSION_LEVEL>
+    </USER>
+</CAD_USERS>

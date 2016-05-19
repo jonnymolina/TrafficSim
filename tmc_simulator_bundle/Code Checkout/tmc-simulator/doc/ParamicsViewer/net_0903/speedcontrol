@@ -1,0 +1,121 @@
+speed control
+
+limit 1 :
+	  Max Speed 5.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Breakdown 1"
+
+limit 2 :
+	  Max Speed 10.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Breakdown Next 2"
+
+limit 3 :
+	  Max Speed 15.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Breakdown Next 3"
+
+limit 4 :
+	  Max Speed 20.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Breakdown Next 4"
+
+limit 5 :
+	  Max Speed 25.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Breakdown Next 5"
+
+limit 6 :
+	  Max Speed 30.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Breakdown Next 6"
+
+limit 7 :
+	  Max Speed 35.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Breakdown Next 7"
+
+limit 8 :
+	  Max Speed 40.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Breakdown Next 8"
+
+limit 9 :
+	  Max Speed 40.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Breakdown Next 9"
+
+limit 10 :
+	  Max Speed 40.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Breakdown Next 10"
+
+limit 11 :
+	  Max Speed 10.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Obstruction 1"
+
+limit 12 :
+	  Max Speed 15.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Obstruction Next 2"
+
+limit 13 :
+	  Max Speed 25.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Obstruction Next 3"
+
+limit 14 :
+	  Max Speed 30.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Obstruction Next 4"
+
+limit 15 :
+	  Max Speed 35.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Obstruction Next 5"
+
+limit 16 :
+	  Max Speed 40.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Obstruction Next 6"
+
+limit 17 :
+	  Max Speed 40.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Obstruction Next 7"
+
+limit 18 :
+	  Max Speed 40.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Obstruction Next 8"
+
+limit 19 :
+	  Max Speed 45.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Obstruction Next 9"
+
+limit 20 :
+	  Max Speed 45.0 mph
+	  All Types
+	  colour 0x00e2915d  fill style 3
+	  name "Lane Obstruction Next 10"

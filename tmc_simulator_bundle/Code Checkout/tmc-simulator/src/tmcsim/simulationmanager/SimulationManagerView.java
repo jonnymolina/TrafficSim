@@ -737,6 +737,7 @@ public class SimulationManagerView extends JFrame {
         simulationStatus     = new JLabel("Simulation Status");
         simulationStatusText = new JLabel("No Script");
         simulationStatusText.setFont(new Font("Geneva", Font.BOLD, 14));
+        simulationStatusText.setName("simulationStatusText");
         
         simulationTime.setLayout(new BorderLayout());       
         simulationClock.setPreferredSize(new Dimension(100, 60));
@@ -847,6 +848,7 @@ public class SimulationManagerView extends JFrame {
         paramicsStatusBox       = new Box(BoxLayout.X_AXIS);        
         paramicsStatusLabel     = new JLabel("Status:");
         paramicsStatusInfoLabel = new JLabel("Unknown");
+        paramicsStatusInfoLabel.setName("paramicsStatusInfoLabel");
         paramicsStatusBox.add(paramicsStatusLabel);
         paramicsStatusBox.add(Box.createHorizontalStrut(10));
         paramicsStatusBox.add(paramicsStatusInfoLabel);
@@ -858,8 +860,10 @@ public class SimulationManagerView extends JFrame {
         networkIDSpinner.setMaximumSize(new Dimension(60, 30));
         
         connectToParamicsButton = new JButton(new ConnectToParamicsAction(this));
+        connectToParamicsButton.setName("connectToParamicsButton");
 
         loadParamicsNetworkButton = new JButton(new LoadParamicsNetworkAction(this));
+        loadParamicsNetworkButton.setName("loadParamicsNetworkButton");
         loadParamicsNetworkButton.setEnabled(false);
         loadParamicsNetworkButton.getAction().putValue(
                 LoadParamicsNetworkAction.NETWORK_ID_SPINNER, networkIDSpinner);
@@ -1189,7 +1193,7 @@ public class SimulationManagerView extends JFrame {
      */            
     private void addSimulationTab() {
         
-    simulationRightSideBox = new Box(BoxLayout.Y_AXIS);             
+        simulationRightSideBox = new Box(BoxLayout.Y_AXIS);             
         simulationRightSideBox.add(Box.createVerticalStrut(10));
         simulationRightSideBox.add(eventHistoryBox);
         simulationRightSideBox.add(Box.createVerticalStrut(10));    

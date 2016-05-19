@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<TMC_SCRIPT title="Project 3 System Test">          
+    <SCRIPT_EVENT>
+        <TIME_INDEX>00:00:00</TIME_INDEX>
+        <INCIDENT LogNum="187">Project 3 System Test</INCIDENT>
+        
+        <CAD_DATA>  
+            <CAD_INCIDENT_EVENT>
+                <DETAIL>14-13 10-97 1125, EMS 10-97, HAY TRK VS 2 VEH, #1,2,3 LNS BLCKD REQ ADDL UNITS</DETAIL> 
+                <UNIT UnitNum="14-14" Status="1097" Primary="true" Active="true"/>
+                <AUDIO Length = "41" Path = "187/18701.mp3" />  
+            </CAD_INCIDENT_EVENT>       
+        </CAD_DATA>         
+        
+        <CHP_RADIO RadioFile="18701.mp3">
+            <DIALOG>
+                <LINE Role="Field">14-14 Santa Lucia</LINE>
+                <LINE Role="Dispatch">Santa Lucia 14-14 go ahead</LINE>
+                <LINE Role="Field">14-14 Santa Lucia 11-25. Stalled DOT Truck. Southbound 55 overpass at 405.</LINE>
+                <LINE Role="Dispatch">Santa Lucia 14-14 10-4. In route from 55 at Dire Road.</LINE>
+                <LINE Role="Field">14-14 Santa Lucia copies. In route from 55 at Dire Road.</LINE>
+            </DIALOG>
+        </CHP_RADIO>
+        
+        <CAD_EVALUATION>
+            <EXPECTED_ACTION>
+            Should try to verify incident using CAD.
+            </EXPECTED_ACTION>
+        </CAD_EVALUATION>     
+        <ACTIVITY_LOG_EVALUATION>
+            <EXPECTED_ACTION>Should fax and page information</EXPECTED_ACTION>
+        </ACTIVITY_LOG_EVALUATION>  
+        
+        <TMT_RADIO>>Earliest expected time for request of sign trucks. Send truck/s if 
+              requested. Have units arrive 10 minutes after time of request.
+        </TMT_RADIO>
+    </SCRIPT_EVENT>
+</TMC_SCRIPT>

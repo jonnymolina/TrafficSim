@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<CAD_DATA>
+  <Basic>
+     <Comm_Interval>30</Comm_Interval>
+     <Network_ID>1</Network_ID>
+     <Simulation>TRUE</Simulation>
+     <Incident>FALSE</Incident>
+  </Basic>
+  <Simulation_Data>
+     <Simulation_speed>1</Simulation_speed>
+     <CAD_clock>
+        <hour>7</hour>
+        <minute>0</minute>
+        <second>0</second>
+     </CAD_clock>
+  </Simulation_Data>
+</CAD_DATA>

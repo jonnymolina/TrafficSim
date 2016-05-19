@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<STILL_IMAGES>
+    <CCTV id="24" atms_id="1200079" dir="S">
+        <RANGE min_speed="0" max_speed="20" filename="CAM24_STOPPED"/>
+        <RANGE min_speed="20" max_speed="35" filename="CAM24_SLOW"/>
+        <RANGE min_speed="35" max_speed="1000" filename="CAM24_FREEFLOW"/>
+        <INCIDENT log_num="187" filename="CAM24_INCIDENT_187"/>
+    </CCTV>
+    <CCTV id="97" atms_id="1213015" dir="N">
+        <RANGE min_speed="0" max_speed="20" filename="CAM97_STOPPED"/>
+        <RANGE min_speed="20" max_speed="35" filename="CAM97_SLOW"/>
+        <RANGE min_speed="35" max_speed="1000" filename="CAM97_FREEFLOW"/>
+        <INCIDENT log_num="188" filename="CAM97_INCIDENT_188"/>
+    </CCTV>
+    <CCTV id="28" atms_id="1200083" dir="N">
+        <RANGE min_speed="0" max_speed="20" filename="CAM28_STOPPED"/>
+        <RANGE min_speed="20" max_speed="35" filename="CAM28_SLOW"/>
+        <RANGE min_speed="35" max_speed="1000" filename="CAM28_FREEFLOW"/>
+        <INCIDENT log_num="189" filename="CAM28_INCIDENT_189"/>
+    </CCTV>
+    <CCTV id="16" atms_id="1200061" dir="S">
+        <RANGE min_speed="0" max_speed="20" filename="CAM16_STOPPED"/>
+        <RANGE min_speed="20" max_speed="35" filename="CAM16_SLOW"/>
+        <RANGE min_speed="35" max_speed="1000" filename="CAM16_FREEFLOW"/>
+        <INCIDENT log_num="190" filename="CAM16_INCIDENT_190"/>
+    </CCTV>
+    <CCTV id="166" atms_id="1213007" dir="S">
+        <RANGE min_speed="0" max_speed="20" filename="CAM166_STOPPED"/>
+        <RANGE min_speed="20" max_speed="35" filename="CAM166_SLOW"/>
+        <RANGE min_speed="35" max_speed="1000" filename="CAM166_FREEFLOW"/>
+        <INCIDENT log_num="191" filename="CAM166_INCIDENT_191"/>
+    </CCTV>
+</STILL_IMAGES>

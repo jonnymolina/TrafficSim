@@ -1,0 +1,1096 @@
+
+actions 77
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 30.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 30.00
+red phase 0.00
+fill
+all barred except
+from 81 to 78 major 
+
+actions 90
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 89 to 91 major 
+
+actions 155
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 164 to 156 major 
+
+actions 203
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 202 to 204 major 
+
+actions 234
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 232 to 233 major 
+
+actions 242
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 241 to 245 major 
+
+actions 266
+from 265 to 267 barred 
+
+actions 368
+from 363 to 500 barred 
+
+actions 370
+from 506 to 507 barred 
+
+actions 381
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 380 to 382 major 
+
+actions 543
+from 584 to 585 medium 
+
+actions 578
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2672 to 579 major 
+
+actions 583
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 582 to 584 major 
+
+actions 748
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 747 to 749 major 
+
+actions 798
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2911 to 799 major 
+
+actions 802
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 801 to 803 major 
+
+actions 816
+from 815 to 817 barred 
+
+actions 818
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 817 to 819 major 
+
+actions 852
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 839 to 840 major 
+
+actions 856
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 858 to 857 major 
+
+actions 860
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2679 to 861 major 
+
+actions 906
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 905 to 907 major 
+
+actions 933
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2680 to 914 major 
+
+actions 939
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 938 to 940 major 
+
+actions 960
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2858 to 931 major 
+
+actions 973
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 972 to 974 major 
+
+actions 990
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2684 to 986 major 
+
+actions 997
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2683 to 1007 major 
+
+actions 1017
+from 1034 to 1029 medium 
+
+actions 1034
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2685 to 1017 major 
+
+actions 1070
+from 1362 to 1359 barred 
+
+actions 1098
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2686 to 2914 major 
+
+actions 1127
+from 1126 to 1125 barred 
+
+actions 1245
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2687 to 1246 major 
+
+actions 1249
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1248 to 1250 major 
+
+actions 1262
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1261 to 1263 major 
+
+actions 1317
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1316 to 1318 major 
+
+actions 1329
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1328 to 1330 major 
+
+actions 1431
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1433 to 1432 major 
+
+actions 1436
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2696 to 1437 major 
+
+actions 1455
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1454 to 1456 major 
+
+actions 1467
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1466 to 1468 major 
+
+actions 1479
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2702 to 1480 major 
+
+actions 1483
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1484 to 1482 major 
+
+actions 1510
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1509 to 1511 major 
+
+actions 1520
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1521 to 1522 major 
+
+actions 1560
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2717 to 1561 major 
+
+actions 1567
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2716 to 1568 major 
+
+actions 1577
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1557 to 1556 major 
+
+actions 1585
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1586 to 1584 major 
+
+actions 1595
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2718 to 1596 major 
+
+actions 1598
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 1597 to 1599 major 
+
+actions 1609
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2721 to 1610 major 
+
+actions 2068
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2783 to 2069 major 
+
+actions 2087
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2086 to 2088 major 
+
+actions 2112
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2111 to 2113 major 
+
+actions 2120
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2119 to 2121 major 
+
+actions 2122
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2755 to 2137 major 
+
+actions 2159
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2160 to 2093 major 
+
+actions 2168
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2780 to 2193 major 
+
+actions 2171
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2170 to 2172 major 
+
+actions 2182
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2181 to 2183 major 
+
+actions 2304
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2303 to 2305 major 
+
+actions 2315
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2759 to 2316 major 
+
+actions 2356
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2775 to 2357 major 
+
+actions 2361
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2360 to 2362 major 
+
+actions 2370
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2774 to 2374 major 
+
+actions 2378
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2377 to 2379 major 
+
+actions 2418
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2766 to 2419 major 
+
+actions 2425
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2424 to 2426 major 
+
+actions 2447
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2763 to 2448 major 
+
+actions 2452
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2451 to 2453 major 
+
+actions 2677
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2674 to 2676 major 
+
+actions 2691
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2690 to 2692 major 
+
+actions 2754
+phase offset 0.00 sec
+phase 1
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+phase 2
+	0.00
+	max 40.00
+red phase 0.00
+fill
+all barred except
+from 2114 to 2115 major 

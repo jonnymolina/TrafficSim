@@ -1,0 +1,359 @@
+junction 51:52
+out 1 lanes 1 
+out 2 lanes 1 
+junction 66:67
+out 1 lanes 1 2 3 4 
+out 2 lanes 5 
+junction 89:90
+out 1 lanes 1 2 
+junction 93:84
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 138:149
+out 1 lanes 1 
+out 2 lanes 1 
+junction 164:155
+out 1 lanes 1 2 
+junction 168:167
+out 1 lanes 1 2 
+out 2 lanes 3 4 5 6 
+junction 198:199
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 202:203
+out 1 lanes 1 2 
+junction 232:234
+out 1 lanes 1 2 
+junction 241:242
+out 1 lanes 1 2 
+junction 257:258
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 296:297
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 339:338
+out 1 lanes 1 2 
+out 2 lanes 3 
+junction 366:367
+out 1 lanes 1 2 3 
+out 2 lanes 4 5 6 
+junction 387:388
+out 1 lanes 1 2 
+out 2 lanes 3 4 
+junction 404:405
+out 1 lanes 1 2 
+out 2 lanes 3 4 
+junction 428:429
+out 1 lanes 1 
+out 2 lanes 2 3 4 
+junction 527:528
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 
+junction 532:530
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 
+junction 550:554
+out 1 lanes 1 
+out 2 lanes 2 
+junction 551:550
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 587:588
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 609:610
+out 1 lanes 1 
+out 2 lanes 2 
+junction 677:678
+out 1 lanes 1 2 
+out 2 lanes 2 3 
+junction 687:688
+out 1 lanes 1 2 3 
+out 2 lanes 2 3 
+junction 717:718
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 747:748
+out 1 lanes 1 2 
+junction 752:753
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 774:775
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 801:802
+out 1 lanes 1 2 
+junction 808:821
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 817:818
+out 1 lanes 1 2 
+junction 858:856
+out 1 lanes 1 2 
+junction 896:897
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 901:902
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 916:917
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 924:925
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 938:939
+out 1 lanes 1 2 
+junction 972:973
+out 1 lanes 1 2 
+junction 981:982
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 985:979
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 1011:1006
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 1020:1021
+out 1 lanes 1 
+out 2 lanes 1 2 
+junction 1029:1099
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 1091:1090
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 
+junction 1094:1093
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 1099:1100
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 
+junction 1132:1095
+out 1 lanes 1 2 3 4 5 
+out 2 lanes 6 
+junction 1140:1139
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 1149:1150
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 1248:1249
+out 1 lanes 1 2 
+junction 1259:1257
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 1261:1262
+out 1 lanes 1 2 
+junction 1273:1274
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 1282:1283
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 1308:1307
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 
+junction 1316:1317
+out 1 lanes 1 2 
+junction 1328:1329
+out 1 lanes 1 2 
+junction 1355:1356
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 1379:1380
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 1380:1381
+out 1 lanes 1 
+out 2 lanes 2 3 4 
+junction 1416:1417
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 1418:1422
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 
+junction 1424:1425
+out 1 lanes 1 2 
+junction 1433:1431
+out 1 lanes 1 2 
+junction 1454:1455
+out 1 lanes 1 2 
+junction 1466:1467
+out 1 lanes 1 2 
+junction 1484:1483
+out 1 lanes 1 2 
+junction 1509:1510
+out 1 lanes 1 2 
+junction 1521:1520
+out 1 lanes 1 2 
+junction 1557:1577
+out 1 lanes 1 2 
+junction 1579:1611
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 
+junction 1582:1581
+out 1 lanes 1 
+out 2 lanes 1 2 3 4 5 
+junction 1613:1614
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 1614:1621
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 
+junction 1617:1615
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 1653:1654
+out 1 lanes 1 2 
+out 2 lanes 3 
+junction 1680:1678
+out 1 lanes 1 
+out 2 lanes 2 3 4 
+junction 1693:1727
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 
+junction 1736:1737
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 1743:1838
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 
+junction 1746:1747
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 1791:1792
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 
+junction 1800:1801
+out 1 lanes 1 
+out 2 lanes 2 3 4 
+junction 1805:1806
+out 1 lanes 1 
+out 2 lanes 2 3 4 
+junction 1809:1810
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 1832:1829
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 
+junction 1896:1897
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 1913:1912
+out 1 lanes 1 
+out 2 lanes 1 2 3 
+junction 1919:1920
+out 1 lanes 1 
+junction 1937:1944
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 6 7 
+junction 1955:2920
+out 1 lanes 1 
+out 2 lanes 1 2 
+junction 1955:1957
+out 1 lanes 1 2 
+junction 2058:2053
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 2070:2073
+out 1 lanes 1 2 
+out 2 lanes 3 4 5 6 
+junction 2086:2087
+out 1 lanes 1 2 
+junction 2096:2097
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 2111:2112
+out 1 lanes 1 2 
+junction 2114:2754
+out 1 lanes 1 2 
+junction 2140:2134
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 2160:2159
+out 1 lanes 1 2 
+junction 2170:2171
+out 1 lanes 1 2 
+junction 2181:2182
+out 1 lanes 1 2 
+junction 2188:2189
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 6 
+junction 2209:2371
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 5 
+junction 2212:2213
+out 1 lanes 1 
+out 2 lanes 2 3 
+junction 2217:2476
+out 1 lanes 1 2 
+out 2 lanes 2 3 
+junction 2248:2246
+out 1 lanes 1 
+out 2 lanes 2 3 4 5 
+junction 2303:2304
+out 1 lanes 1 2 
+junction 2360:2361
+out 1 lanes 1 2 
+junction 2377:2378
+out 1 lanes 1 2 
+junction 2424:2425
+out 1 lanes 1 2 
+junction 2451:2452
+out 1 lanes 1 2 
+junction 2479:2480
+out 1 lanes 1 
+out 2 lanes 2 3 
+junction 2494:2495
+out 1 lanes 1 2 
+out 2 lanes 2 3 
+junction 2521:2522
+out 1 lanes 1 2 
+out 2 lanes 2 3 
+junction 2549:2550
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 
+junction 2577:2578
+out 1 lanes 1 2 
+out 2 lanes 2 3 
+junction 2614:2615
+out 1 lanes 1 2 
+out 2 lanes 2 3 
+junction 2656:1917
+out 1 lanes 1 2 
+out 2 lanes 2 3 4 
+junction 2672:578
+out 1 lanes 1 2 
+junction 2674:2677
+out 1 lanes 1 2 
+junction 2680:933
+out 1 lanes 1 2 
+junction 2683:997
+out 1 lanes 1 2 
+junction 2684:990
+out 1 lanes 1 2 
+junction 2685:1034
+out 1 lanes 1 2 
+junction 2687:1245
+out 1 lanes 1 2 
+junction 2690:2691
+out 1 lanes 1 2 
+junction 2696:1436
+out 1 lanes 1 2 
+junction 2702:1479
+out 1 lanes 1 2 
+junction 2716:1567
+out 1 lanes 1 2 
+junction 2759:2315
+out 1 lanes 1 2 
+junction 2775:2356
+out 1 lanes 1 2 
+junction 2783:2068
+out 1 lanes 1 2 
+junction 2858:960
+out 1 lanes 1 2 
+junction 2911:798
+out 1 lanes 1 2 

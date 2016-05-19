@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<DVD_PLAYERS>
+     <DVD_PLAYER type="PioneerV5000" host="192.168.251.9" port="3001">
+        <CCTV id="24" dir="S"/>
+        <INCIDENT log_num="187" title="4"/>
+        <RANGE min_speed="0" max_speed="20" title="3"/>
+        <RANGE min_speed="20" max_speed="35" title="2"/>
+        <RANGE min_speed="35" max_speed="1000" title="1"/>
+     </DVD_PLAYER>
+     <DVD_PLAYER type="PioneerV5000" host="192.168.251.9" port="3002">
+        <CCTV id="97" dir="N"/>
+        <INCIDENT log_num="188" title="4"/>
+        <RANGE min_speed="0" max_speed="20" title="3"/>
+        <RANGE min_speed="20" max_speed="35" title="2"/>
+        <RANGE min_speed="35" max_speed="1000" title="1"/>
+     </DVD_PLAYER>
+     <DVD_PLAYER type="PioneerV5000" host="192.168.251.9" port="3003">
+        <CCTV id="28" dir="S"/>
+        <INCIDENT log_num="189" title="4"/>
+        <RANGE min_speed="0" max_speed="20" title="3"/>
+        <RANGE min_speed="20" max_speed="35" title="2"/>
+        <RANGE min_speed="35" max_speed="1000" title="1"/>
+     </DVD_PLAYER>
+     <DVD_PLAYER type="PioneerV5000" host="192.168.251.9" port="3004">
+        <CCTV id="16" dir="S"/>
+        <INCIDENT log_num="190" title="4"/>
+        <RANGE min_speed="0" max_speed="20" title="3"/>
+        <RANGE min_speed="20" max_speed="35" title="2"/>
+        <RANGE min_speed="35" max_speed="1000" title="1"/>
+     </DVD_PLAYER>
+     <DVD_PLAYER type="PioneerV5000" host="192.168.251.9" port="3005">
+        <CCTV id="171" dir="S"/>
+        <INCIDENT log_num="191" title="4"/>
+        <RANGE min_speed="0" max_speed="20" title="3"/>
+        <RANGE min_speed="20" max_speed="35" title="2"/>
+        <RANGE min_speed="35" max_speed="1000" title="1"/>
+     </DVD_PLAYER>
+</DVD_PLAYERS>

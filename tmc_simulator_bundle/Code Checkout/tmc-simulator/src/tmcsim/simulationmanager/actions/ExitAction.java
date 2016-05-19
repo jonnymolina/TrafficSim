@@ -30,12 +30,12 @@ public class ExitAction extends AbstractAction {
     
 
     public void actionPerformed(ActionEvent evt) {
-        
-        if(JOptionPane.showConfirmDialog(
-                null, "Exit Simulation Manager?", "Confirm Exit",
-                JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) 
-        {   
-            theSimManagerView.dispose();    
-        }   
+        theSimManagerView.dispose();
+//        if(JOptionPane.showConfirmDialog(
+//                null, "Exit Simulation Manager?", "Confirm Exit",
+//                JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) 
+//        {   
+//                theSimManagerView.dispose();
+//        }   
     }
 }

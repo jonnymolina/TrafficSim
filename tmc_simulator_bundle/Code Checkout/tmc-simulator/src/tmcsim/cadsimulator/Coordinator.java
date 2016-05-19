@@ -167,7 +167,7 @@ public class Coordinator extends UnicastRemoteObject
                         long sleepTime = ((60 * 1000) - (currentATMSTime % (60 * 1000))) % (30 * 1000);
                         coorLogger.logp(Level.INFO, "Coordinator", "StartSimulation",
                                 "Sleeping for " + sleepTime / 1000 + " seconds.");
-                        Thread.sleep(sleepTime);
+                        //Thread.sleep(sleepTime);
 
                         //currentATMSTime += sleepTime;                 
                         //ParamicsCommunicator.getInstance().serverTime.setTimeInMillis(currentATMSTime);                                       

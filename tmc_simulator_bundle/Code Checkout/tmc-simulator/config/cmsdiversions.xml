@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DIVERSION_LIST>
+
+    <CMS>
+        <ID>95 - NB 5 @ El Toro</ID>
+        <POSTMILE>19.0</POSTMILE>
+        <INIT_ROUTE>NB 5</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>NB 5</ORIG_PATH>
+            <NEW_PATH>NB 405</NEW_PATH>
+            <DIV_PATH>N5_N5_N405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 405</ORIG_PATH>
+            <NEW_PATH>NB 5</NEW_PATH>
+            <DIV_PATH>N5_N405_N5</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    <CMS>
+        <ID>04 - NB 5 JSO Alton</ID>
+        <POSTMILE>22.0</POSTMILE>
+        <INIT_ROUTE>NB 5</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>NB 55</ORIG_PATH>
+            <NEW_PATH>NB 5</NEW_PATH>
+            <DIV_PATH>N5_N55_N5</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION> 
+            <ORIG_PATH>NB 5</ORIG_PATH>
+            <NEW_PATH>NB 55</NEW_PATH>
+            <DIV_PATH>N5_N5_N55</DIV_PATH>
+            <MAX_DIVERSION>5</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION> 
+            <ORIG_PATH>NB 133</ORIG_PATH>
+            <NEW_PATH>NB 5</NEW_PATH>
+            <DIV_PATH>N5_N133_N5</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION> 
+            <ORIG_PATH>NB 5</ORIG_PATH>
+            <NEW_PATH>NB 133</NEW_PATH>
+            <DIV_PATH>N5_N5_N133</DIV_PATH>
+            <MAX_DIVERSION>5</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    <CMS>
+        <ID>75 - SB 5 @ Jeffery</ID>
+        <POSTMILE>24.99</POSTMILE>
+        <INIT_ROUTE>SB 5</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 5</ORIG_PATH>
+            <NEW_PATH>SB 133</NEW_PATH>
+            <DIV_PATH>S5_S5_S133</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 5</ORIG_PATH>
+            <NEW_PATH>NB 133</NEW_PATH>
+            <DIV_PATH>S5_S5_N133</DIV_PATH>
+            <MAX_DIVERSION>10</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 133</ORIG_PATH>
+            <NEW_PATH>SB 5</NEW_PATH>
+            <DIV_PATH>S5_N133_S5</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+
+    <CMS>
+        <ID>65 - SB 55 @ Santa Clara</ID>
+        <POSTMILE>12.3</POSTMILE>
+        <INIT_ROUTE>SB 55</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>S55_S405_S55</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 5</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>S55_S5_S55</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>SB 405</NEW_PATH>
+            <DIV_PATH>S55_S55_S405</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>SB 5</NEW_PATH>
+            <DIV_PATH>S55_S55_S5</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+
+    <CMS>
+        <ID>92 - SB 5 @ 17th</ID>
+        <POSTMILE>32.4</POSTMILE>
+        <INIT_ROUTE>SB 5</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 5</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>S5_S5_S55</DIV_PATH>
+            <MAX_DIVERSION>30</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>SB 5</NEW_PATH>
+            <DIV_PATH>S5_S55_S5</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    <CMS>
+        <ID>72 - SB 55 @ Warner</ID>
+        <POSTMILE>8.6</POSTMILE>
+        <INIT_ROUTE>SB 55</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>S55_S405_S55</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 405</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>S55_N405_S55</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>SB 405</NEW_PATH>
+            <DIV_PATH>S55_S55_S405</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>NB 405</NEW_PATH>
+            <DIV_PATH>S55_S55_N405</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    <CMS>
+        <ID>94 - NB 55 @ Dyer</ID>
+        <POSTMILE>8.51</POSTMILE>
+        <INIT_ROUTE>NB 55</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 5</ORIG_PATH>
+            <NEW_PATH>NB 55</NEW_PATH>
+            <DIV_PATH>N55_S5_N55</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 5</ORIG_PATH>
+            <NEW_PATH>NB 55</NEW_PATH>
+            <DIV_PATH>N55_N5_N55</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 55</ORIG_PATH>
+            <NEW_PATH>SB 5</NEW_PATH>
+            <DIV_PATH>N55_N55_S5</DIV_PATH>
+            <MAX_DIVERSION>30</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 55</ORIG_PATH>
+            <NEW_PATH>NB 5</NEW_PATH>
+            <DIV_PATH>N55_N55_N5</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+
+    <CMS>           
+        <ID>01 - SB 405 @ Harbor</ID>
+        <POSTMILE>11.92</POSTMILE>
+        <INIT_ROUTE>SB 405</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>SB 405</NEW_PATH>
+            <DIV_PATH>S405_S55_S405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 55</ORIG_PATH>
+            <NEW_PATH>SB 405</NEW_PATH>
+            <DIV_PATH>S405_N55_S405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 73</ORIG_PATH>
+            <NEW_PATH>SB 405</NEW_PATH>
+            <DIV_PATH>S405_S73_S405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>SB 73</NEW_PATH>
+            <DIV_PATH>S405_S405_S73</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>S405_S405_S55</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>NB 55</NEW_PATH>
+            <DIV_PATH>S405_S405_N55</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    
+    <CMS>
+        <ID>89 - SB 405 @ Von Karmen</ID>
+        <POSTMILE>7.4</POSTMILE>
+        <INIT_ROUTE>SB 405</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 133</ORIG_PATH>
+            <NEW_PATH>SB 405</NEW_PATH>
+            <DIV_PATH>S405_S133_S405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>    
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 133</ORIG_PATH>
+            <NEW_PATH>SB 405</NEW_PATH>
+            <DIV_PATH>S405_N133_S405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>   
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>SB 133</NEW_PATH>
+            <DIV_PATH>S405_S405_S133</DIV_PATH>
+            <MAX_DIVERSION>10</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>NB 133</NEW_PATH>
+            <DIV_PATH>S405_S405_N133</DIV_PATH>
+            <MAX_DIVERSION>10</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+
+    <CMS>
+        <ID>76 - SB 405 @ Jeffery</ID>
+        <POSTMILE>4.0</POSTMILE>
+        <INIT_ROUTE>SB 405</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>NB 133</NEW_PATH>
+            <DIV_PATH>S405_S405_N133</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>SB 133</NEW_PATH>
+            <DIV_PATH>S405_S405_S133</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 133</ORIG_PATH>
+            <NEW_PATH>SB 405</NEW_PATH>
+            <DIV_PATH>S405_N133_S405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 133</ORIG_PATH>
+            <NEW_PATH>SB 405</NEW_PATH>
+            <DIV_PATH>S405_S133_S405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    <CMS>
+        <ID>87 - NB 405 @ Harvard</ID>
+        <POSTMILE>7.3</POSTMILE>
+        <INIT_ROUTE>NB 405</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>NB 405</NEW_PATH>
+            <DIV_PATH>N405_S55_N405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 55</ORIG_PATH>
+            <NEW_PATH>NB 405</NEW_PATH>
+            <DIV_PATH>N405_N55_N405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 405</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>N405_N405_S55</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 405</ORIG_PATH>
+            <NEW_PATH>NB 55</NEW_PATH>
+            <DIV_PATH>N405_N405_N55</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+
+
+    <CMS>
+        <ID>93 - NB 5 S/O Redhill</ID>
+        <POSTMILE>28.6</POSTMILE>
+        <INIT_ROUTE>NB 5</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>NB 5</ORIG_PATH>
+            <NEW_PATH>NB 55</NEW_PATH>
+            <DIV_PATH>N5_N5_N55</DIV_PATH>
+            <MAX_DIVERSION>30</MAX_DIVERSION>
+        </DIVERSION>    
+        <DIVERSION>
+            <ORIG_PATH>NB 5</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>N5_N5_S55</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>    
+        <DIVERSION>
+            <ORIG_PATH>NB 55</ORIG_PATH>
+            <NEW_PATH>NB 5</NEW_PATH>
+            <DIV_PATH>N5_N55_N5</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>    
+        <DIVERSION>
+            <ORIG_PATH>SB 5</ORIG_PATH>
+            <NEW_PATH>NB 5</NEW_PATH>
+            <DIV_PATH>N5_S55_N5</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+
+    <CMS>
+        <ID>88 - NB 405 @ Irvine Center Drive</ID>
+        <POSTMILE>0.85</POSTMILE>
+        <INIT_ROUTE>NB 405</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>NB 405</ORIG_PATH>
+            <NEW_PATH>SB 133</NEW_PATH>
+            <DIV_PATH>N405_N405_S133</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 133</ORIG_PATH>
+            <NEW_PATH>NB 405</NEW_PATH>
+            <DIV_PATH>N405_S133_N405</DIV_PATH>
+            <MAX_DIVERSION>50</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 405</ORIG_PATH>
+            <NEW_PATH>NB 55</NEW_PATH>
+            <DIV_PATH>N405_N405_N55</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 55</ORIG_PATH>
+            <NEW_PATH>NB 405</NEW_PATH>
+            <DIV_PATH>N405_N55_N405</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    
+    <CMS>
+        <ID>86 - SB 405 @ New Hampshire</ID>
+        <POSTMILE>11.92</POSTMILE>
+        <INIT_ROUTE>SB 405</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>S405_S405_S55</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>SB 405</NEW_PATH>
+            <DIV_PATH>S405_S55_S405</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 405</ORIG_PATH>
+            <NEW_PATH>SB 73</NEW_PATH>
+            <DIV_PATH>S405_S405_S73</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    <CMS>
+        <ID>97 - SB 55 @ Katella</ID>
+        <POSTMILE>14.73</POSTMILE>
+        <INIT_ROUTE>SB 55</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>SB 5</NEW_PATH>
+            <DIV_PATH>S55_S55_S5</DIV_PATH>
+            <MAX_DIVERSION>25</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>NB 5</NEW_PATH>
+            <DIV_PATH>S55_S55_N5</DIV_PATH>
+            <MAX_DIVERSION>5</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 5</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>S55_S5_S55</DIV_PATH>
+            <MAX_DIVERSION>25</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    <CMS>
+        <ID>90 - SB 5 @ Broadway</ID>
+        <POSTMILE>38.68</POSTMILE>
+        <INIT_ROUTE>SB 5</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 5</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>S5_S5_S55</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>SB 5</NEW_PATH>
+            <DIV_PATH>S5_S55_S5</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    <CMS>
+        <ID>44 - SB 5 @ Anaheim</ID>
+        <POSTMILE>35.6</POSTMILE>
+        <INIT_ROUTE>SB 5</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>SB 5</ORIG_PATH>
+            <NEW_PATH>SB 55</NEW_PATH>
+            <DIV_PATH>S5_S5_S55</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>SB 55</ORIG_PATH>
+            <NEW_PATH>SB 5</NEW_PATH>
+            <DIV_PATH>S5_S55_S5</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    <CMS>
+        <ID>31 - NB 5 @ Aeropuerto</ID>
+        <POSTMILE>7.84</POSTMILE>
+        <INIT_ROUTE>NB 5</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>NB 5</ORIG_PATH>
+            <NEW_PATH>NB 405</NEW_PATH>
+            <DIV_PATH>N5_N5_N405</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 405</ORIG_PATH>
+            <NEW_PATH>NB 5</NEW_PATH>
+            <DIV_PATH>N5_N405_N5</DIV_PATH>
+            <MAX_DIVERSION>40</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+    <CMS>
+        <ID>74 - NB 5 @ Vista Hermosa</ID>
+        <POSTMILE>7.84</POSTMILE>
+        <INIT_ROUTE>NB 5</INIT_ROUTE>
+        <DIVERSION>
+            <ORIG_PATH>NB 5</ORIG_PATH>
+            <NEW_PATH>NB 405</NEW_PATH>
+            <DIV_PATH>N5_N5_N405</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>
+        <DIVERSION>
+            <ORIG_PATH>NB 405</ORIG_PATH>
+            <NEW_PATH>NB 5</NEW_PATH>
+            <DIV_PATH>N5_N405_N5</DIV_PATH>
+            <MAX_DIVERSION>20</MAX_DIVERSION>
+        </DIVERSION>
+    </CMS>
+    
+</DIVERSION_LIST>

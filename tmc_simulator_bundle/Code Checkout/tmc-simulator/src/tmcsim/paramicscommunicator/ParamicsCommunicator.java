@@ -427,7 +427,7 @@ public class ParamicsCommunicator extends Observable implements Observer, Runnab
      * Construct the ParamicsCommunicator with the properties file path, 
      * either from the command line arguments or default.
      * 
-     * @param args Command line arguments.
+     * @param args Command line arguments.192.168.251.45
      */
     public static void main(String[] args) {
         System.setProperty("PARAMICS_COMM_PROPERTIES",  "config/paramics_communicator_config.properties");

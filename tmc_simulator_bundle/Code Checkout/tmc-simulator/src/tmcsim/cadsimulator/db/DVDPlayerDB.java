@@ -202,6 +202,7 @@ public class DVDPlayerDB extends Observable implements Observer {
                 for(DVDController controller : dvdPlayerMap.values()) {
                     try {
                         controller.connect();
+                        throw new IOException();
                     }
                     catch (IOException ioe) {
                         dvdLogger.logp(Level.SEVERE, "DVDPlayerDB", "loadFromXML:runnable", 

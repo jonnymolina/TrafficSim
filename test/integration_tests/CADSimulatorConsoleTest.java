@@ -1,6 +1,7 @@
 package integration_tests;
 
 import java.io.File;
+import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.rmi.RemoteException;
 import java.util.logging.Level;
@@ -65,41 +66,41 @@ public class CADSimulatorConsoleTest extends TestCase
             "DVDPlayerDB.loadFromXML:runnable = IOException in connecting DVD 192.168.251.9:3003\n" +
             "DVDPlayerDB.loadFromXML:runnable = IOException in connecting DVD 192.168.251.9:3002\n" +
             "DVDPlayerDB.loadFromXML:runnable = IOException in connecting DVD 192.168.251.9:3005\n";
-//        PrintWriter pWriter = new PrintWriter(cadSimConfigFileName);
-//        pWriter.print(
-//            "CADClientPort          = 4444 \n" +
-//            "CoordinatorRMIPort     = 4445 \n" +
-//            "CADRmiPort             = 4446\n" +
-//            "CMSDiversionXML        = " + cmsDivsersionsXML() + "\n" +
-//            "AudioFileLocation      = " + audioDir() + "\n" +
-//            "ParamicsProperties     = " + cadSimParamicsConfigFileName + "\n" +
-//            "ATMSProperties         = "+ cadSimATMSConfigFileName +"\n" +
-//            "MediaProperties        = " + cadSimMediaConfigFileName + "\n" +
-//            "UserInterface          = tmcsim.cadsimulator.viewer.CADConsoleViewer");
-//        pWriter.close();
-//        pWriter = new PrintWriter(cadSimParamicsConfigFileName);
-//        pWriter.print(
-//            "ParamicsCommHost       = 192.168.251.45\n" +
-//            "ParamicsCommPort       = 4450\n" +
-//            "IncidentUpdateInterval = 30\n" +
-//            "IncidentUpdateFile     = exchange.xml\n" +
-//            "ParamicsStatusInterval = 15\n" +
-//            "ParamicsStatusFile     = paramics_status.xml\n" +
-//            "CameraStatusInterval   = 30\n" +
-//            "CameraStatusFile       = camera_status.xml");
-//        pWriter.close();
-//        pWriter = new PrintWriter(cadSimATMSConfigFileName);
-//        pWriter.print(
-//            "ATMSHost = 192.168.251.27\n" +
-//            "Username = atms_mgr\n" +
-//            "Password = atms_d12uci1\n" +
-//            "ImageDir = /opt/d12uci/user_config/cctv\n");
-//        pWriter.close();
-//        pWriter = new PrintWriter(cadSimMediaConfigFileName);
-//        pWriter.print(
-//            "DVDPlayerXML           = config/dvdplayers.xml\n" +
-//            "StillImagesXML         = config/stillimages.xml");
-//        pWriter.close();
+        PrintWriter pWriter = new PrintWriter(cadSimConfigFileName);
+        pWriter.print(
+            "CADClientPort          = 4444 \n" +
+            "CoordinatorRMIPort     = 4445 \n" +
+            "CADRmiPort             = 4446\n" +
+            "CMSDiversionXML        = " + cmsDivsersionsXML() + "\n" +
+            "AudioFileLocation      = " + audioDir() + "\n" +
+            "ParamicsProperties     = " + cadSimParamicsConfigFileName + "\n" +
+            "ATMSProperties         = "+ cadSimATMSConfigFileName +"\n" +
+            "MediaProperties        = " + cadSimMediaConfigFileName + "\n" +
+            "UserInterface          = tmcsim.cadsimulator.viewer.CADConsoleViewer");
+        pWriter.close();
+        pWriter = new PrintWriter(cadSimParamicsConfigFileName);
+        pWriter.print(
+            "ParamicsCommHost       = 192.168.251.45\n" +
+            "ParamicsCommPort       = 4450\n" +
+            "IncidentUpdateInterval = 30\n" +
+            "IncidentUpdateFile     = exchange.xml\n" +
+            "ParamicsStatusInterval = 15\n" +
+            "ParamicsStatusFile     = paramics_status.xml\n" +
+            "CameraStatusInterval   = 30\n" +
+            "CameraStatusFile       = camera_status.xml");
+        pWriter.close();
+        pWriter = new PrintWriter(cadSimATMSConfigFileName);
+        pWriter.print(
+            "ATMSHost = 192.168.251.27\n" +
+            "Username = atms_mgr\n" +
+            "Password = atms_d12uci1\n" +
+            "ImageDir = /opt/d12uci/user_config/cctv\n");
+        pWriter.close();
+        pWriter = new PrintWriter(cadSimMediaConfigFileName);
+        pWriter.print(
+            "DVDPlayerXML           = config/dvdplayers.xml\n" +
+            "StillImagesXML         = config/stillimages.xml");
+        pWriter.close();
         writer = new StringWriter();
         cadSim = new CADSimulator(cadSimConfigFileName);
         view = (CADConsoleViewer) CADSimulator.theViewer;
@@ -272,7 +273,7 @@ public class CADSimulatorConsoleTest extends TestCase
         // Wait for error messages to populate
         view.setWriter(writer);
         view.setVisible(true);
-        Thread.sleep(1000);
+        Thread.sleep(30000);
         
         // Testing initial state
         assertTrue(writer.toString().endsWith(initialState));
