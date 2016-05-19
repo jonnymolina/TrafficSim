@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="cad.css"> 
+    <link rel="stylesheet" type="text/css" href="cadpad.css"> 
+    <script type="text/javascript" src="cad.js"></script> 
+  </head>
+  <body onLoad="setupCad()">
+	<div id="cadpadwrap">
+		<div id="cadpadcontent">
+			<div id="cadpadmain">
+			    <!-- The CAD Client Terminal -->
+			    <table class="cadClient" height=500>
+			      <!-- The header box -->
+			      <tr id="cadHeader" height=25><td height=25></td></tr>
+			
+			      <!-- The main body box -->
+			      <tr id="cadBody" height=400><td height=400></td></tr>
+			
+			      <!-- The footer box -->
+			      <tr id="cadFooter" height=75><td height=75></td></tr>
+			    </table>
+			
+			    <form name=cadInput>
+				<table class="cadInputBox">
+			        <tr>
+			          <td class="cadInputLineBox">
+			          	<input type=text name=cadLine value="" class=cadInputLine>
+			          </td>
+			          <td class="cadInputSubmitBox">
+			          	<input type=button name=cadSubmit value="Transmit" onClick=sendCadLine() 
+			          		   id=cadSubmitButton>
+			          </td>
+			        </tr>
+			    </table>
+			    </form>
+			</div>
+			<div id="cadpadside">
+			    <!-- CAD Input Controls -->
+			    <form name=cadButtons>
+			   		<div id="cadpadsidea">
+		              <input type=button name=nextScreen value="Next Screen" onClick=cadNextScreen() class=cadButton>
+		              <input type=button name=refreshScreen value="Refresh Screen" onClick=cadRefreshScreen() class=cadButton>
+		              <input type=button name=clearScreen value="Clear Screen" onClick=cadClearScreen() class=cadButton>
+					</div>
+			   		<div id="cadpadsideb">
+			          <input type=button name=nextScreen value="Next Message" onClick=cadNextMessage() class=cadButton>
+			          <input type=button name=nextScreen value="Prev Message" onClick=cadPrevMessage() class=cadButton>
+			          <input type=button name=nextScreen value="Clear Message" onClick=cadClearMessage() class=cadButton>
+			        </div>
+			        <div id="cadpadsidec">
+			            <input type=button name=nextScreen value="Page Up" onClick=cadPageUp() class=cadButton>			        
+			            <input type=button name=nextScreen value="Page Down" onClick=cadPageDown() class=cadButton>
+			            <input type=button name=nextScreen value="Get Summary" onClick=cadGetSummary() class=cadButton>
+			       		<select id=cadSelect>
+			              <option>100 - Media</option>
+			              <option>187 - Stalled Truck</option>
+			            </select>
+			            <input type=button name=nextScreen value="Get Incident Info" onClick=cadIncidentInfo() class=cadButton>        
+			        </div>
+			   </form>
+			</div>
+		</div>
+    </div>
+  </body>
+</html>

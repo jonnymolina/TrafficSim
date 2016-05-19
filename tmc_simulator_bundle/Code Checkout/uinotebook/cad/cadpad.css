@@ -1,0 +1,120 @@
+/* Landscape mode (default) 
+#cadpadwrap 
+{
+	margin:0 auto;
+	width:900px;
+	position:relative;
+	overflow:hidden;
+	text-align:left;
+	background:#fff;
+}
+
+#cadpadcontent 
+{
+	float:left;
+	width:900px;
+	background:#fff;
+	position:relative;
+	left:768px;
+}
+
+#cadpadmain 
+{
+	float:left;
+	width:608px;
+	position:relative;
+	right:738px;
+}
+
+#cadpadside 
+{
+	float:right;
+	width:116px;
+	position:relative;
+	right:788px;
+	padding:20px 0;
+}
+
+#cadpadsidea,
+#cadpadsideb,
+#cadpadsidec 
+{
+	clear:left;
+	float:left;
+	width:116px;
+}
+
+#cadpadfooter 
+{
+	clear:both;
+	float:left;
+	width:824px;
+	border-top:1px solid #000;
+	background:#ddd;
+}
+
+#cadpadfooter p 
+{
+	padding:20px 30px;
+}
+*/
+/* portrait mode 
+@media only screen and (orientation:portrait)
+{*/
+	#cadpadheader,
+	#cadpadwrap,
+	#cadpadfooter 
+	{
+		width:668px;
+	}
+	
+	#cadpadcontent 
+	{
+		left:0;
+		background:#fff;
+	}
+	
+	#cadpadmain 
+	{
+		float:left;
+		width:668px;
+		position:relative;
+		right:0;
+		left:10px;
+	}
+	
+	#cadpadside 
+	{
+		clear:left;
+		float:left;
+		width:668px;
+		right:0;
+	}
+	
+	#cadpadsidea 
+	{
+		clear:none;
+		width:183px;
+		float:left;
+		position:relative;
+		left:60px;
+	}
+	
+	#cadpadsideb 
+	{
+		clear:none;
+		width:183px;
+		float:left;
+		position:relative;
+		left:90px;
+	}
+	
+	#cadpadsidec 
+	{
+		clear:none;
+		width:183px;
+		float:right;
+		position:relative;
+		right:0px;
+	}
+/*}*/

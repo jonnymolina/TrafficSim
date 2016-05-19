@@ -1,0 +1,127 @@
+number of freeways 14
+
+freeway 	5
+direction 	NB
+type		ML
+start link 	2870:0
+end link	2878:2879
+start postmile	15.7
+uni-direction	TRUE
+HOV lane	FALSE
+
+freeway 	5
+direction 	SB
+type		ML
+start link 	1310:2883
+end link	50:2869
+start postmile	33.3
+uni-direction	FALSE
+HOV lane	FALSE
+
+freeway 	405
+direction 	NB
+type		ML
+start link 	377:515
+end link	2805:1934
+start postmile	0.15
+uni-direction	TRUE
+HOV lane	FALSE
+
+freeway 	405
+direction 	SB
+type		ML
+start link 	1935:2885
+end link	430:431
+start postmile	12.4
+uni-direction	FALSE
+HOV lane	FALSE
+
+freeway 	55
+direction 	NB
+type		ML
+start link 	1837:2745
+end link	1423:2872
+start postmile	2.3
+uni-direction	TRUE
+HOV lane	FALSE
+
+freeway 	55
+direction 	SB
+type		ML
+start link 	2873:2871
+end link	2744:1844
+start postmile	12.85
+uni-direction	FALSE
+HOV lane	FALSE
+
+freeway 	133
+direction 	NB
+type		ML
+start link 	2868:2463
+end link	2520:2818
+start postmile	8.3
+uni-direction	TRUE
+HOV lane	FALSE
+
+freeway 	133
+direction 	SB
+type		ML
+start link 	2819:2521
+end link	2458:2866
+start postmile	12.9
+uni-direction	FALSE
+HOV lane	FALSE
+
+freeway 	405
+direction 	NB
+type		HV
+start link 	369:370
+end link	2806:1943
+start postmile	0.15
+uni-direction	TRUE
+HOV lane	FALSE
+
+freeway 	405
+direction 	SB
+type		HV
+start link 	1973:2804
+end link	506:370
+start postmile	12.33
+uni-direction	FALSE
+HOV lane	TRUE
+
+freeway 	5
+direction 	NB
+type		HV
+start link 	13:14
+end link	360:361
+start postmile	15.77
+uni-direction	TRUE
+HOV lane	TRUE
+
+freeway 	5p
+direction 	NB
+type		HV
+start link 	361:2913
+end link	1285:1286
+start postmile	20.44
+uni-direction	TRUE
+HOV lane	TRUE
+
+freeway 	5
+direction 	SB
+type		HV
+start link 	2881:2880
+end link	1126:1127
+start postmile	33.22
+uni-direction	FALSE
+HOV lane	TRUE
+
+freeway 	5ps
+direction 	SB
+type		HV
+start link 	1127:1128
+end link	38:39
+start postmile	31.3
+uni-direction	FALSE
+HOV lane	TRUE

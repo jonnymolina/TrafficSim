@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <title>Instructor Electronic Notebook</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=0;">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" type="text/css" href="notebook.css"> 
+    <link rel="stylesheet" type="text/css" href="ipadapp.css">
+    <script type="text/javascript" src="scripts/cookies.js"></script>
+    <script type="text/javascript" src="scripts/Events.js"></script>
+    <script type="text/javascript" src="scripts/Evaluation.js"></script>
+    <script type="text/javascript" src="scripts/Event.js"></script>
+    <script type="text/javascript" src="scripts/Property.js"></script>
+    <script type="text/javascript" src="scripts/Properties.js"></script>
+    <script type="text/javascript" src="scripts/Evaluations.js"></script>
+    <script type="text/javascript" src="scripts/Time.js"></script>
+    <script type="text/javascript" src="scripts/Incident.js"></script>
+    <script type="text/javascript" src="scripts/Incidents.js"></script>
+    <script type="text/javascript" src="scripts/PopulateIncidents.js"></script>
+    <script type="text/javascript" src="scripts/PopulateEvents.js"></script>
+    <script type="text/javascript" src="summary/summary.js"></script> 
+    <script type="text/javascript" src="notebook.js"></script> 
+  </head>
+  <body onLoad="setupNotebook(); run();">
+    
+    <table class="notebook">
+      <tr>
+        <td>
+          <!-- The header which contains the number of evaluations, simulation status, 
+               and time -->
+          <table class="header">     
+            <tr>
+            
+              <!-- New Evaluations Counter -->
+              <td class="updateStatusBox">
+                <table>
+                  <tr>
+                    <td class="updateStatus" id="updateStatus">New Event</td>
+                  </tr>
+                </table>
+              </td>
+        
+              <!-- Simulation Status Box -->
+              <td class="statusBox">
+                <center><table>
+                  <tr>
+                    <td class="simulationStatus" id="simulationStatus">NOT STARTED</td>
+                  </tr>
+                </table></center>
+              </td> 
+
+              <!-- Simulation Time Box -->
+              <td class="simulationTime" id="simulationTime">
+                0:00:00
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan='3' class="tabMenu">
+        
+        <div class='tabMenuWrapper'>
+        
+          <!-- The menu for selecting which tabbed page to view -->
+          <ul class="tabMenu">
+            <li class="activeTab" id="summaryTab"  
+            	onClick="changeTab(this.id); showContent('summaryPageContent')">
+              Simulation Summary
+            </li>
+            <li class="notActive" id="scriptTab" 
+            	onClick="changeTab(this.id); showContent('scriptPageContent')">
+              Simulation Script
+            </li>
+            <li class="notActive" id="CADTab" 
+            	onClick="changeTab(this.id); showContent('cadPageContent')">
+              CAD Terminal
+            </li>
+            <li class="notActive" id="mapsTab" 
+            	onClick="changeTab(this.id); showContent('mapsPageContent')">
+             Maps
+            </li>
+          </ul>
+        
+        </div> 
+        
+        </td>
+      </tr>
+      
+      <!-- The tabbed page currently displayed -->
+      <tr>
+            <td class='tabPageContent' id='summaryPageContent' style="display:inline;">
+            <iframe id='summaryTabPage' src='summary/summary.html' frameborder='0' scrolling='yes'
+		    height='100%' width='100%'
+		    onLoad='incidents.doc = getDocumentFromFrame(&quot;summaryTabPage&quot;);
+		    window.frames[&quot;summaryTabPage&quot;].loadSummary(incidents);'></iframe>
+		  </td>
+          <td class='tabPageContent' id='scriptPageContent' style="display:none;">
+            <iframe id='tabPage' src='script/script.html' frameborder='0' 
+            scrolling='yes' height='100%' width='100%' 
+            onLoad='window.frames[&quot;tabPage&quot;].loadScript(events, incidents);'>
+		    </iframe>
+		  </td>
+		  <td class='tabPageContent' id='cadPageContent' style="display:none;">
+		    <iframe src='cad/index.html' frameborder='0' 
+                             scrolling='yes' "height='100%' width='100%' >
+		    </iframe>
+		  </td>
+          <td class='tabPageContent' id='mapsPageContent' style="display:none;">
+            <iframe src='maps/index.html' frameborder='0' 
+                             scrolling='yes' "height='100%' width='100%' >
+		    </iframe>
+          </td>
+	    </td>
+      </tr>
+    </table>
+    
+  </body>
+</html>

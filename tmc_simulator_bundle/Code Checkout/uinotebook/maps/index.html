@@ -1,0 +1,26 @@
+<html>
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="maps.css"> 
+    <link href="../ipadapp.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="maps.js"></script> 
+
+  </head>
+  <body onLoad="setupMaps()">
+    <!-- Map Selection -->  
+    <center>
+	    <div id="mapSelect">
+	      <table><tr>
+	        <td><button disabled=true class=mapButton>Google Map</button></td><td>
+	        <td><button onClick="showMap(\'ATMS Map\')" class=mapButton>ATMS Map</button></td>
+	      </tr></table>
+	    </div>
+	
+	    <!-- The Map -->
+	    <div id="googleMapContent" style="display:inline;"><iframe frameborder=0 width=700 height=600 
+	    	scrolling=no src=googleMap.html marginheight=0 marginwidth=0></iframe></div>
+        <div id="atmsMapContent" style="display:none;"><iframe frameborder=0 width=740 height=480 
+        	scrolling=no src=atmsMap.html marginheight=0 marginwidth=0></iframe></div>
+    </center>
+  </body>
+</html>

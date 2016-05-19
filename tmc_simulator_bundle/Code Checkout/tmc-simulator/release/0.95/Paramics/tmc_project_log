@@ -1,0 +1,19 @@
+1. Delete LDS 1201117 and 1204637 because there is no corresponding Line 
+number and drop number.
+2. When fep_reply_xfer_32_arg.answers.fep_answer_list_u.shortp.count = 20, 
+crash at clnt_call()
+
+void * fep_reply_xfer_32(fep_reply *argp, void *clnt)
+{
+	static char res;
+	memset((char *)&res, 0x0, sizeof(res));
+	if (clnt_call ((HCLIENT *)clnt, FEP_REPLY_XFER, 
+		(xdr_proc) xdr_fep_reply, argp,
+		(xdr_proc) xdr_void, &res, 
+		TIMEOUT) != RPC_SUCCESS) 
+	{
+		return (NULL);
+	}
+	return ((void *)&res);
+}
+

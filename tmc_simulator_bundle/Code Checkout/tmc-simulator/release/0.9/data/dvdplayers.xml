@@ -1,0 +1,8 @@
+<DVD_PLAYERS>
+     <DVD_PLAYER type="PioneerV5000" host="129.65.189.120" port="3001">
+     	<CCTV id="1" dir="S"/>
+        <RANGE min="0" max="5" title="1"/>
+        <RANGE min="5" max="10" title="2"/>
+        <RANGE min="10" max="30" title="3"/>
+     </DVD_PLAYER>
+</DVD_PLAYERS>

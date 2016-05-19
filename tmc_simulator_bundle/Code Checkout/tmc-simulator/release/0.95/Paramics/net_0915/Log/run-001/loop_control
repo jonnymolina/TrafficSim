@@ -1,0 +1,7 @@
+detector count 1
+report cycle 30
+activation time 	06:00:00
+deactivation time	09:00:00
+gather smoothed data no
+
+name 405n5.74ml

@@ -1,0 +1,10 @@
+<STILL_IMAGES>
+     <CCTV id="1" dir="S">
+     	<IMAGE min_speed="0" max_speed="10" filename="idunno1.gif"/>
+     	<IMAGE min_speed="10" max_speed="20" filename="idunno2.gif"/>
+     	<IMAGE min_speed="20" max_speed="30" filename="idunno3.gif"/>
+     </CCTV>
+     <CCTV id="2" dir="N">
+     	<IMAGE min_speed="0" max_speed="10" filename="idunno4.gif"/>
+     </CCTV>
+</STILL_IMAGES>

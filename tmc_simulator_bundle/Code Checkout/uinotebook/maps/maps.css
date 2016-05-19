@@ -1,0 +1,32 @@
+/*************************
+ *    Simulation Page    *
+ *************************/
+body
+{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color:#FFFFFF;
+}
+
+/*************************
+ *   Google Maps Find    *
+ *************************/
+#incidentForm
+{
+   font-size: 2em;
+}
+
+#mapSelect
+{
+   padding: 5px;
+}
+
+/*************************
+ *     Maps Buttons      *
+ *************************/
+.mapButton
+{
+   width: 200px;
+   height: 40px;
+   margin: 0px 50px 10px 50px;
+   font-size: 1.2em;
+}

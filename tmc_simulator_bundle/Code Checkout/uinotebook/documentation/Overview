@@ -1,0 +1,78 @@
+Cookies.js
+  * Provides support for reading, creating, changing, and deleting cookies.
+
+Evaluation.js
+  * Provides a class that represents a single evaluation.
+  * Provides functionality for generating the HTML for itself.
+  * Provides functionality for remembering user input.
+
+Evaluations.js
+  * Provides a class that represents the collection of evaluations belonging to a single
+    event.
+  * Provides functionality for generating the HTML for itself.
+  * Provides functionality for expanding/collapsing its evaluations.
+
+Event.js
+  * Provides a class that represents an event containing a properties and evaluations.
+  * Provides functionality for generating the HTML for itself.
+  * Provides functionality for expanding/collapsing its evaluations. 
+
+Events.js
+  * Provides a class that is a collection of events.
+  * Provides functionality for adding and retreiving events.
+  * Provides functionality for collapsing/expanding events, properties and evalautions.
+  * Provides functionality for retreiving properties and evaluations.
+  * No two events can have the same time.
+  * Stores the document and window references for the window which the events and their
+    components are displayed on.
+    * These references are used in Event, Evaluations, Evaluation, Properties, and Property
+      to get html elements by ID in order to perform features that expanding/collapsing an
+      event.
+    * These references should be set before the 'html' method of Event, Evaluations,
+      Evaluation, Properties, or Property has been called.
+
+PopulateEvents.js
+  * This script inputs the data for the events.
+  
+PopulateIncidents.js
+  * This script inputs the data for the incidents.
+
+Property.js
+  * Provides a class that represents an occurrence in an event. For example, a message to 
+    Paramics.
+  * Provides functionality for generating the HTML for itself.
+  
+Properties.js
+  * Provides a class that represents a collection the properties belongs to a single event.
+  * Provides functionality for generating the HTML for itself.
+  * Provides functionality for expanding/collapsing its properties.
+
+Script.html
+  * Provides html content for the buttons for manipulating and navigating the events.
+  * Provides the frame in which the events are displayed.
+
+Script.js
+  * Provides functionality for highlighting the current event and displaying the events
+  * Provides functionality for sizing the frame that displays the events.
+  * Provides functionality for jumping to the current event and highlighting the current 
+    event.
+    
+Scripts.html
+  * Provides the html container that events are displayed in.
+
+Scripts.js
+  * Holds a reference for the events. 
+    * When the event html is displayed on Scripts.html, the 'events' reference is used in
+      html element's javascript attributes.
+
+Summary.html
+  * Provides the html document base for displaying the incidents overview.
+  
+Summary.js
+  * Provides functionality for displaying the html of the incidents overview on summary.html.
+ 
+Time.js
+  * Provides a class that stores and formats time.
+
+
+  

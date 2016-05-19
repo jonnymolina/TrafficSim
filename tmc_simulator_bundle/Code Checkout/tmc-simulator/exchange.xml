@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CAD_DATA>
+    <Basic>
+        <Comm_Interval>30</Comm_Interval>
+        <Network_ID>1</Network_ID>
+        <Simulation>FALSE</Simulation>
+        <Incident>FALSE</Incident>
+    </Basic>
+</CAD_DATA>

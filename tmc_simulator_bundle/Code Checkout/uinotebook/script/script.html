@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="script.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../scripts/Time.js"></script> 
+    <script type="text/javascript" src="script.js"></script> 
+    <script type="text/javascript" src="../scripts/cookies.js"></script>
+    <title>Script</title>
+  </head>
+  <body>
+    <select id='domain'>
+      <option value=''>All</option>
+      <option value='Events'>Events</option>
+      <option value='Properties'>Properties</option>
+      <option value='Evaluations'>Evaluations</option>
+    </select>
+    <button onclick="collapse();">Collapse</button>
+    <button onclick="expand();">Expand</button>
+
+   
+    <button class="jumpToCurrentEvent" 
+            onclick="jumpToLastExecutedEvent()">Jump to Current Event</button>
+    <button onclick="jumpToTime();">Jump To Time</button> 
+    <input class='timeText' id="timeTextHours" size='2' maxlength='2' type="text"
+           value="00" onFocus="highlightTextField(this);"
+           onBlur="formatTimeTextfield(this);">
+    <label for="timeText2">:</label> 
+    <input class='timeText' id="timeTextMinutes" size='2' maxlength='2' type="text"
+           value="00" onFocus="highlightTextField(this);"
+           onBlur="formatTimeTextfield(this);">
+    <label for="timeText3">:</label>
+    <input class='timeText' id="timeTextSeconds" size='2' maxlength='2' type="text"
+           value="00" onFocus="highlightTextField(this);"', 100);"
+           onBlur="formatTimeTextfield(this);">      
+     
+
+
+    <iframe id='view' src='scripts.html' frameborder='0' scrolling='yes'
+            width='100%'></iframe>
+  </body>
+</html>

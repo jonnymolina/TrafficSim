@@ -1,0 +1,472 @@
+total number of controlled entrance ramps is   	67
+control cycle of ramp metering			30
+
+on-ramp signal			77
+name 				5n La Paz 1
+demand detector  		5n16.52orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			90
+name 				5n La Paz 2
+demand detector  		5n16.6orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			155
+name 				5n Alicia 1
+demand detector  		5n17.44orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 2 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 3 sec
+
+on-ramp signal			203
+name 				5n Alicia 2
+demand detector  		5n17.64orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 3 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			234
+name 				5n El Toro 1
+demand detector  		5n18.62orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 2 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 2 sec
+
+on-ramp signal			242
+name 				5n El Toro 2
+demand detector  		5n18.82orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 4 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 4 sec
+
+on-ramp signal			381
+name 				5n Lake Forest
+demand detector  		5n20orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 5 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 4 sec
+
+on-ramp signal			578
+name 				5n Alton 1
+demand detector  		5n22.1orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 4 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 10 sec
+
+on-ramp signal			583
+name 				5n Alton 2
+demand detector  		5n22.2orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 4 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 10 sec
+
+on-ramp signal			2677
+name 				5n Sand Canyon (imputed)
+demand detector  		5n24.05orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 8 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			748
+name 				5s Sand Canyon
+demand detector  		5s23.69orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 8 sec
+
+on-ramp signal			798
+name 				5n Jeffery 1
+demand detector  		5n25.08orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 3 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 3 sec
+
+on-ramp signal			802
+name 				5n Jeffery 2
+demand detector  		5n25.15orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 10 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 10 sec
+
+on-ramp signal			818
+name 				5s Jeffery
+demand detector  		5s24.84orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 4 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 7 sec
+
+on-ramp signal			856
+name 				5n Culver 1
+demand detector  		5n26.56orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 8 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 8 sec
+
+on-ramp signal			906
+name 				5n Culver 2
+demand detector  		5n26.81orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 5 sec
+
+on-ramp signal			860
+name 				5s Culver 1
+demand detector  		5s26.66orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 8 sec
+
+on-ramp signal			852
+name 				5s Culver 2
+demand detector  		5s26.35orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 8 sec
+
+on-ramp signal			933
+name 				5n Jamboree 1 (imputed)
+demand detector  		5n27.55orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 3 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			939
+name 				5n Jamboree 2
+demand detector  		5n27.56orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 10 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 12 sec
+
+on-ramp signal			973
+name 				5n Tustin Ranch
+demand detector  		5n28.1orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 4 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 4 sec
+
+on-ramp signal			960
+name 				5s Tustin Ranch
+demand detector  		5s28.35orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_OFF
+from 15:0 to 19:0 		METER_ON with 1 veh per 4 sec
+
+on-ramp signal			997
+name 				5n Red Hill
+demand detector  		5n29.24orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 5 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 5 sec
+
+on-ramp signal			990
+name 				5s Red Hill
+demand detector  		5s29.02orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 5 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 5 sec
+
+on-ramp signal			1034
+name 				5n Newport
+demand detector  		5n29.79orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			1098
+name 				5s First
+demand detector  		5s30.9orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			1329
+name 				5n Fourth
+demand detector  		5n31.23orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 3 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			1245
+name 				5n Grand
+demand detector  		5n31.9orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 8 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 8 sec
+
+on-ramp signal			1249
+name 				5s Grand
+demand detector  		5s32orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 8 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 8 sec
+
+on-ramp signal			2691
+name 				5n 17th 2
+demand detector  		5n32.6orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 4 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 4 sec
+
+on-ramp signal			1262
+name 				5s 17th
+demand detector  		5s32.25orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			1317
+name 				5s Main
+demand detector  		5s33orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 4 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 4 sec
+
+on-ramp signal			1436
+name 				55n 17th 1
+demand detector  		55n11.74orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 4 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 4 sec
+
+on-ramp signal			1431
+name 				55n 17th 2
+demand detector  		55n12orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 4 sec
+from 15:0 to 19:0 		METER_OFF
+
+on-ramp signal			1455
+name 				55s 17th
+demand detector  		55s11.62orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 5.5 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 7.5 sec
+
+on-ramp signal			1467
+name 				55n Irvine
+demand detector  		55n11.1orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			1483
+name 				55n McFadden
+demand detector  		55n10orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 3 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 3 sec
+
+on-ramp signal			1479
+name 				55s McFadden
+demand detector  		55s10orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			1520
+name 				55n Edienger
+demand detector  		55n9.41orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 7.5 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 7.5 sec
+
+on-ramp signal			1510
+name 				55s Edienger
+demand detector  		55s9.19orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			1560
+name 				55n Dyer 1
+demand detector  		55n7.85orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 5 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 5 sec
+
+on-ramp signal			1577
+name 				55n Dyer 2
+demand detector  		55n8.12orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			1567
+name 				55s Dyer
+demand detector  		55s7.62orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 5 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 5 sec
+
+on-ramp signal			1609
+name 				55n MacArthur 1
+demand detector  		55n6.94orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 3 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 3 sec
+
+on-ramp signal			1585
+name 				55n MacArthur 2
+demand detector  		55n7.16orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_OFF
+from 15:0 to 19:0 		METER_OFF
+
+on-ramp signal			1595
+name 				55s MacArthur 1
+demand detector  		55s7.03orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_OFF 
+from 15:0 to 19:0 		METER_OFF
+
+on-ramp signal			1598
+name 				55s MacArthur 2
+demand detector  		55s6.88orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_OFF
+from 15:0 to 19:0 		METER_OFF
+
+on-ramp signal			2068
+name 				405n MacArthur
+demand detector  		405n7.73orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 5.5 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 5.5 sec
+
+on-ramp signal			2087
+name 				405s MacArthur 
+demand detector  		55s6.88orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_OFF
+from 15:0 to 19:0 		METER_OFF
+
+on-ramp signal			2171
+name 				405n Jamboree 1
+demand detector  		405n7.73orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 2 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 2 sec
+
+on-ramp signal			2159
+name 				405n Jamboree 2
+demand detector  		405n7.07orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_OFF
+from 15:0 to 19:0 		METER_OFF
+
+on-ramp signal			2168
+name 				405s Jamboree 1
+demand detector  		405s7.01orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 5.5 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			2182
+name 				405s Jamboree 2
+demand detector  		405s6.8orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_OFF
+from 15:0 to 19:0 		METER_OFF
+
+on-ramp signal			2356
+name 				405n Culver 1
+demand detector  		405n5.55orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6.6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6.6 sec
+
+on-ramp signal			2361
+name 				405n Culver 2
+demand detector  		405n5.74orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 7.5 sec 
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec 
+
+on-ramp signal			2370
+name 				405s Culver 1
+demand detector  		405s5.69orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6.7 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 7.5 sec
+
+on-ramp signal			2378
+name 				405s Culver 2
+demand detector  		405s5.5orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 7.5 sec 
+from 15:0 to 19:0 		METER_ON with 1 veh per 7.5 sec 
+
+on-ramp signal			2447
+name 				405n Jeffery 1
+demand detector  		405n3.86orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 7 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 7 sec
+ 
+on-ramp signal			2452
+name 				405n Jeffery 2
+demand detector  		405n4.03orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 5 sec 
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec 
+
+on-ramp signal			2418
+name 				405s Jeffery 1
+demand detector  		405s4.03orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 10 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 10 sec
+
+on-ramp signal			2425
+name 				405s Jeffery 2
+demand detector  		405s3.84orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 7.5 sec 
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec 
+
+on-ramp signal			2304
+name 				405n Sand Canyon
+demand detector  		405n2.99orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 6 sec
+
+on-ramp signal			2315
+name 				405s Sand Canyon
+demand detector  		405n5.74orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_OFF 
+from 15:0 to 19:0 		METER_OFF 
+
+on-ramp signal			2754
+name 				405n ICD 1
+demand detector  		405n0.9orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 6 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 10 sec
+
+on-ramp signal			2112
+name 				405n ICD 2
+demand detector  		405n5.74orb
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 8.5 sec 
+from 15:0 to 19:0 		METER_ON with 1 veh per 8.5 sec 
+
+on-ramp signal			2122
+name 				405s ICD 1
+demand detector  		405s0.96orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_ON with 1 veh per 10 sec
+from 15:0 to 19:0 		METER_ON with 1 veh per 10 sec
+
+on-ramp signal			2120
+name 				405s ICD 2
+demand detector  		405s0.77orb 
+number of control plans 	2
+from 06:0 to 09:0 		METER_OFF
+from 15:0 to 19:0 		METER_OFF
+

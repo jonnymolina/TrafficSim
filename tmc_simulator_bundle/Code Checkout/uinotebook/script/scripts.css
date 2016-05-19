@@ -1,0 +1,186 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Verdana, sans-serif;	
+}
+
+/*=========================== Event =======================*/
+
+button.eventExpandButton {
+	width:2em;	
+	text-align:center;
+	font-size:12pt;
+}
+
+table.event {
+	padding:0px; 
+	border:0px solid black;
+	width:100%;
+	border-collapse:collapse;
+	margin-bottom:30px;
+}
+
+table.eventHeader {
+	width:100%;
+}
+
+td.eventHeader {
+	margin-bottom:0px; 
+	border:2px solid black;	
+}
+
+td.eventData {
+	padding-left:2em;
+}
+
+tr.eventHeader {
+	font-size:medium; 
+	font-weight:bold;
+}
+
+td.eventTitle {
+	text-align:left;
+	width:40%
+}
+
+td.eventExpandOption {
+	text-align:left;
+	width:10%
+}
+
+td.eventNumber {
+	text-align:left;
+	width:20%
+}
+
+td.eventTime {
+	text-align:left;
+	width:30%
+}
+
+/*=============================== Evaluation ======================*/
+
+table.evaluation {
+	border:0px solid black;
+	margin-bottom:0px;
+	width:100%;
+}
+
+table.evaluationInner2
+{
+	width:100%;
+}
+
+th.evaluationType {
+	text-align:left;
+	font-size:11pt;
+}
+
+td.evaluationLabel {
+	padding-left:2em;
+	font-style:italic;
+	font-size:11pt;
+	vertical-align:top;
+}
+
+td.evaluationCriteria {
+	text-align:left;
+	font-size:11pt;
+}
+
+td.evaluationResponse {
+	padding-left:1em;
+	width:100%;
+	
+}
+
+input.evaluationResponseText {
+	width:100%;	
+}
+
+table.evaluationScale {
+	
+}
+
+td.evaluationScale {
+	font-size:12px;
+}
+
+td.evaluationRadioButtonSmallScale {
+	padding-right:1em; 
+	padding-left:1em;
+	text-align:center;
+}
+	
+/*=============================== Evaluations ======================*/
+
+button.evaluationsExpandButton {
+	width:27px;	
+	text-align:center;
+	font-size:10pt;
+}
+
+table.evaluationsInner {
+	border:0px solid black;
+	width:100%;	
+}
+
+table.evaluationsOuter {
+	border:0px solid black;
+	width:100%;	
+}
+
+td.evaluationsExpandOption {
+	font-size:12pt;
+}
+
+td.evaluations {
+	padding-left:2em;
+}
+
+/*=============================== Properties ======================*/
+
+button.propertiesExpandButton {
+	width:2em;	
+	text-align:center;
+	font-size:10pt;
+}
+
+td.propertiesExpandOption {
+	font-size:12pt;
+}
+
+td.properties {
+	padding-left:2em;
+}
+
+/*=============================== Property ======================*/
+
+table.property {
+	border:0px solid black;
+	margin-bottom:-5px;
+}
+
+th.propertyType {
+	font-size:11pt;
+	text-align:left;
+}
+
+td.propertyContent {
+	padding-left:2em;
+	font-style:italic;
+	font-size:11pt;
+}
+
+td.propertyLabel {
+	font-size:11pt;
+	padding-left:2em; 
+	padding-right:1em;
+	font-style:italic;
+	vertical-align:top;
+}
+
+td.propertyValue {
+	padding-left:1em;
+	font-size:11pt;
+}

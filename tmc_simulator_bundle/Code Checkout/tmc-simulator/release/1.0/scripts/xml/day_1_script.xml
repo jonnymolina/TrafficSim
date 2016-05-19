@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE TMC_SCRIPT SYSTEM "script.dtd">
+
+<TMC_SCRIPT title="Practice Simulation">
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:00:00</TIME_INDEX>
+		<INCIDENT LogNum="100">Media Log</INCIDENT>		
+		
+		<CAD_DATA>
+			<HEADER_INFO>
+				<Type>Media</Type>
+				<Beat>
+				</Beat>
+				<TruncLoc>
+				</TruncLoc>
+				<FullLoc>
+				</FullLoc>
+			</HEADER_INFO>			
+			
+			<CAD_INCIDENT_EVENT>	
+			</CAD_INCIDENT_EVENT>		
+			
+		</CAD_DATA>				
+		
+	</SCRIPT_EVENT>	
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:00:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>
+			<HEADER_INFO>
+				<Type>1179</Type>
+				<Beat>14-13</Beat>
+				<TruncLoc>NB405 AT MACARTHUR</TruncLoc>
+				<FullLoc>NB405 AT MACARTHUR</FullLoc>
+			</HEADER_INFO>
+			
+			<LOCATION_INFO ID="181_N_405_ML">
+				<Route>405</Route>
+				<Direction>NB</Direction>
+				<Postmile>7.8</Postmile>
+				<Location_type>ML</Location_type>					
+			</LOCATION_INFO>
+			
+			<CAD_INCIDENT_EVENT>
+				<PARAMICS LocationID="181_N_405_ML">
+					<Status>NEW</Status>
+					<Incident_type>LANE_BREAKDOWN</Incident_type>
+					<Lane_number>1</Lane_number>
+					<Lane_number>2</Lane_number>
+					<Lane_number>3</Lane_number>
+				</PARAMICS>				
+			</CAD_INCIDENT_EVENT>	
+		</CAD_DATA>		
+		
+		<GENERAL_INFO>
+			<TITLE>Incident Description</TITLE>
+			<TEXT>This is a three-vehicle collision involving a hay truck and two 
+			  cars blocking the #1, 2, and 3 lanes on NB 405 just south of 
+			  MacArthur Boulevard. The truck spills hay over the #2 and 3 lanes. 
+			  There is one 11-44 and two minor injured. Ambulance, fire, 
+			  paramedics, additional units, Maintenance, and coroner are 
+			  requested on this incident.</TEXT>
+		</GENERAL_INFO>
+		
+		<ATMS_EVALUATION>
+			<EXPECTED_ACTION>
+		Should be attempting to verify via CCTV.
+			</EXPECTED_ACTION>
+		</ATMS_EVALUATION>
+		
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:00:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>ENRT FROM NB 405 AT JEFFREY</DETAIL>	
+				<UNIT UnitNum="14-13" Status="ENRT" Primary="true" Active="true"/>
+				<AUDIO Length = "29" Path = "181/18101.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>		 	
+		
+		<CHP_RADIO RadioFile="18101.wav">
+			<DIALOG>
+				<LINE Role="Dispatch">14-13 Santa Lucia</LINE>
+				<LINE Role="Field">Santa Lucia 14-13 go ahead</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia 11-79 NB 405 JSO MacArthur Blvd.</LINE>				
+				<LINE Role="Field">14-13 Santa Lucia 10-4, enroute from NB 405 at Jeffrey Road.</LINE>			
+				<LINE Role="Dispatch">14-13 Santa Lucia 10-4, enroute from NB 405 at Jeffrey Road.</LINE>
+			</DIALOG>
+		</CHP_RADIO>		
+		
+		<MAINTENANCE_RADIO>Size of Cleanup: 50 bales of hay.</MAINTENANCE_RADIO>
+
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:03:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>14-13 10-97 1125, EMS 10-97, HAY TRK VS 2 VEH, #1,2,3 LNS BLCKD REQ ADDL UNITS</DETAIL>	
+				<UNIT UnitNum="14-13" Status="1097" Primary="true" Active="true"/>
+				<AUDIO Length = "41" Path = "181/18102.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18102.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia 14-13 10-97 11-79 11-25. Paramedics 
+							   and fire 10-97. Collision between a hay truck and 
+							   two vehicles blocking the left three lanes. The 
+							   hay truck is on its side, will be out checking. 
+							   Request a couple units to assist.</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia copies 10-97 11-79 11-25. 
+								  Fire and paramedics 10-97. Collision involves 
+								  hay truck and two vehicles in three lanes. Hay 
+								  truck on its side, will be out checking. 
+								  Requesting units.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+		
+		<CAD_EVALUATION>
+			<EXPECTED_ACTION>
+		    Should try to verify incident using CAD.
+			</EXPECTED_ACTION>
+		</CAD_EVALUATION>	  
+		<ACTIVITY_LOG_EVALUATION>
+			<EXPECTED_ACTION>Should fax and page information</EXPECTED_ACTION>
+		</ACTIVITY_LOG_EVALUATION>	
+		
+		<TMT_RADIO>>Earliest expected time for request of sign trucks. Send truck/s if 
+			  requested. Have units arrive 10 minutes after time of request.
+		</TMT_RADIO>
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:04:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>14-7 ENRT FROM SB 405 AT BROOKHURST </DETAIL>
+				<DETAIL>14-21 ENRT FROM 55 AT MACARTHUR</DETAIL>	
+				<UNIT UnitNum="14-7" Status="ENRT" Primary="false" Active="true"/>
+				<UNIT UnitNum="14-21" Status="ENRT" Primary="false" Active="true"/>
+				<AUDIO Length = "40" Path = "181/18103.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18103.wav">
+			<DIALOG>
+				<LINE Role="Dispatch">14-7, 14-21 Santa Lucia</LINE>
+				<LINE Role="Field">Santa Lucia 14-7 go ahead</LINE>
+				<LINE Role="Field">14-21, go ahead</LINE>
+				<LINE Role="Dispatch">14-7 and 14-21 assist 14-13 with 11-79 11-25 
+								  northbound 405 just south of MacArthur</LINE>
+				<LINE Role="Field">Santa Lucia 14-7 10-4, enroute from southbound 
+							   405 at Brookhurst Street.</LINE>
+				<LINE Role="Field">Santa Lucia 14-21 copied enroute from 55 at 
+							   Macarthur</LINE>
+				<LINE Role="Dispatch">Santa Lucia copies 14-7 enroute from 405 at 
+								  Brookhurst and 14-21 enroute from 55 at 
+								  Macarthur.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+		
+		<TELEPHONE>
+			<INSTRUCTOR Role="Radio Reporter #1">Hello, this is Bill Bradley at KTCR 
+											radio.</INSTRUCTOR>
+			<INSTRUCTOR Role="Radio Reporter #1">We just heard over the scanner that 
+											there was an accident and a spill on NB 405.</INSTRUCTOR>
+			<STUDENT>(pause for confirmation)</STUDENT>
+			<INSTRUCTOR Role="Radio Reporter #1">Our computers are down. Do you have 
+											any details on that?</INSTRUCTOR>
+			
+		</TELEPHONE>
+		
+		
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:05:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>1144 IN HAY TRK, 2 1181S, REQ CORONER</DETAIL>	
+				<DETAIL>REQ DOT TO REMOVE HAY SPILLED IN SB LANES</DETAIL>					
+				<AUDIO Length = "29" Path = "181/18104.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>				
+		
+		<CHP_RADIO RadioFile="18104.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia, 11-44 in hay truck and two 11-81's 
+							   from other vehicles. Request coroner. Also 
+							   request Caltrans, there's hay bales spilled over 
+							   the two right lanes.</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia copied 11-44 in hay truck 
+								  and two 11-81's. Requesting coroner and 
+								  Caltrans to clean up spilled hay bales.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+		
+		<FACILITATOR_EVALUATION>
+			<EXPECTED_ACTION>Should be alert to the situation</EXPECTED_ACTION>
+		</FACILITATOR_EVALUATION>
+		<RADIO_EVALUATION>
+			<EXPECTED_ACTION>
+			Earliest expected call from TMC for Maintenance.
+			</EXPECTED_ACTION>
+		</RADIO_EVALUATION>
+		
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:07:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>14-7 REQ 1185 BIG RIG AND 2 ROT 1185</DETAIL>		
+				<UNIT UnitNum="14-7" Status="1097" Primary="false" Active="true"/>			
+				<AUDIO Length = "25" Path = "181/18105.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>					
+		
+		<CHP_RADIO RadioFile="18105.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-7</LINE>
+				<LINE Role="Dispatch">14-7 go ahead to Santa Lucia</LINE>
+				<LINE Role="Field">Santa Lucia 14-7 10-97 11-80 11-25. Roll a 11-85 
+							   big rig and two rotational 11-85's.</LINE>
+				<LINE Role="Dispatch">14-7 Santa Lucia copied 10-97 11-80 11-25. 
+								  Roll 11-85 big rig and two 11-85's 
+								  rotational</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+		
+		<TELEPHONE>
+			<INSTRUCTOR Role="Radio Reporter #2">"Hello, this is John Sinclair at 
+											KNIN radio."</INSTRUCTOR>
+			<INSTRUCTOR Role="Radio Reporter #2">"I heard that there was a big 
+											accident on NB 405 at Macarthur."
+			</INSTRUCTOR>
+			<STUDENT>(pause for confirmation)</STUDENT>
+			<INSTRUCTOR Role="Radio Reporter #2">"What is going on there?"
+			</INSTRUCTOR>
+		</TELEPHONE>
+		
+		
+		
+		<ATMS_EVALUATION>
+			<EXPECTED_ACTION>HAR should note incident.</EXPECTED_ACTION>
+		</ATMS_EVALUATION>
+		<CMS_EVALUATION cmsID="87" type="new"> 
+			<LOCATION>NB 405 @ HARVARD</LOCATION>
+			<SAMPLE_MESSAGE>
+				<CMS_LINE>ACCIDENT AHEAD</CMS_LINE>
+				<CMS_LINE>AT MACARTHUR BLVD</CMS_LINE>
+				<CMS_LINE>3 LT LANES BLKD</CMS_LINE>
+			</SAMPLE_MESSAGE>
+		</CMS_EVALUATION>	
+		
+		
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:08:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<TELEPHONE>
+			<INSTRUCTOR Role="Radio Reporter #1">"Hello, this is Bill Bradley at KTCR 
+											radio."</INSTRUCTOR>
+			<INSTRUCTOR Role="Radio Reporter #1">"We heard over the scanner that 
+											there was an accident and a spill on 
+											NB 405."</INSTRUCTOR>
+			<STUDENT>(pause for confirmation)</STUDENT>
+			<INSTRUCTOR Role="Radio Reporter #1">"Our computers are down. Do you have 
+											any details on that?"</INSTRUCTOR>
+		</TELEPHONE>
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:09:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>10-39 COLLEGE OAK FOR BIG RIG AND CYCLE FOR ROT</DETAIL>		
+				<AUDIO Length = "24" Path = "181/18106.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>		
+		
+		<CHP_RADIO RadioFile="18106.wav">
+			<DIALOG>
+				<LINE Role="Dispatch">14-13 Santa Lucia information</LINE>
+				<LINE Role="Field">Santa Lucia 14-13 go ahead</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia 10-39 College Oak for big 
+								  rig 11-85 and Cycle Tow for 11-85 rotational.
+				</LINE>
+				<LINE Role="Field">Santa Lucia 9-9 copied 10-39 College Oak and 
+							   Cycle Tow.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+		
+		<MAINTENANCE_RADIO>If Maintenance has not by requested by this time, have someone 
+			  call as CHP Dispatch and make a request for them.
+		</MAINTENANCE_RADIO>
+	</SCRIPT_EVENT>
+
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:11:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>14-21 1097 PROV 1184 TRF BACKING QUICKLY</DETAIL>		
+				<UNIT UnitNum="14-21" Status="1097" Primary="false" Active="true"/>			
+				<AUDIO Length = "26" Path = "181/18107.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18107.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-21</LINE>
+				<LINE Role="Dispatch">14-21 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia 14-21 10-97 11-80 11-25. Assisting in 
+							   11-84, traffic is backing quickly.</LINE>
+				<LINE Role="Dispatch">14-21 Santa Lucia copies 10-97 11-80 11-25 and 
+								  assisting in 11-84, traffic is backing 
+								  quickly.</LINE>
+			</DIALOG>
+		</CHP_RADIO>		
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:12:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>VEH KNOCKED HAY BALES ONTO VON KARMAN AVENUE ADV CITY</DETAIL>			
+				<AUDIO Length = "21" Path = "181/18108.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18108.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia, one of the vehicles knocked a couple 
+							   of hay bales onto Airport Loop Drive below. 
+							   Notify the city about the bales.</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia 10-4. Hay bales knocked onto 
+								  Airport Loop Drive. City will be notified.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:15:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>		
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>1181 TRANSPORTED REQ ETA FOR CORONER</DETAIL>	
+				<DETAIL>ETA FOR CORONER 10</DETAIL>		
+				<AUDIO Length = "19" Path = "181/18109.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18109.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia, 11-81's transported. What's the 
+							   coroner's ETA?</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia 10-4. 11-81's transported, 
+								  coroner's ETA 10 minutes.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+		
+		<TMT_RADIO>Queue update</TMT_RADIO>
+		
+	</SCRIPT_EVENT>
+
+
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:17:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<TELEPHONE>
+			<INSTRUCTOR Role="CHP Dispatch">"Hello, this is CHP Dispatch."</INSTRUCTOR>
+			<INSTRUCTOR Role="CHP Dispatch">"Has the city has been notified of the 
+										hay spilled onto one of their streets?"
+			</INSTRUCTOR>
+			<STUDENT>(If they haven't been notified, say the following)
+			</STUDENT>
+			<INSTRUCTOR Role="CHP Dispatch">"Could you notify the city of the spill 
+										onto Airport Loop Drive?"</INSTRUCTOR>
+		</TELEPHONE>
+	</SCRIPT_EVENT>
+
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:18:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>14-13 1185 1097, #3 LN WILL OPEN 5-10</DETAIL>	
+				<TOW Company="College Oak" ConfNum="(949)555-2990" PubNum="(949)555-5758" Beat=""/>
+				<TOW Company="Cycle" ConfNum="(949)555-2281" PubNum="(949)555-7162" Beat=""/>
+				<AUDIO Length = "25" Path = "181/18110.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18110.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia, 11-85's 10-97. Clearing the #3 lane 
+							   and opening it in 5 to 10 minutes.</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia 10-4,11-85's 10-97. Clearing 
+								  the #3 lane and opening it in 5 to 10 minutes.
+				</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+		
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:19:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<TELEPHONE>
+			<INSTRUCTOR Role="TV Reporter #1">"Hi, My name is Jay Stevens with KCLY 
+										 news 2, and I was wondering if you had 
+										 the latest info on the incident on the 
+										 405."</INSTRUCTOR>
+			<STUDENT>(note information given)</STUDENT>
+			<INSTRUCTOR Role="TV Reporter #1">"OK, thanks!"</INSTRUCTOR>
+		</TELEPHONE>		
+		
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:20:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>DOT 1097 TO REMOVE BALES</DETAIL>	
+				<AUDIO Length = "19" Path = "181/18111.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18111.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 go ahead to Santa Lucia</LINE>
+				<LINE Role="Field">Santa Lucia, Caltrans is 10-97 and beginning 
+							   cleanup of the bales. </LINE>
+				<LINE Role="Dispatch">Santa Lucia copies Caltrans 10-97 and 
+								  beginning cleanup.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:22:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<TELEPHONE>
+			<INSTRUCTOR Role="Radio Reporter #3">"Hello, this is Jack Crew at KCOW 
+											radio"</INSTRUCTOR>
+			<INSTRUCTOR Role="Radio Reporter #3">"We just heard over the scanner that 
+											there was a mud slide on the PCH."
+			</INSTRUCTOR>
+			<STUDENT>(pause for confirmation)</STUDENT>
+			<INSTRUCTOR Role="Radio Reporter #3">"Do you have any details on the mud 
+											slide?"</INSTRUCTOR>
+			<STUDENT>(pause for answer)</STUDENT>
+			<INSTRUCTOR Role="Radio Reporter #3">"Has anyone been killed?"</INSTRUCTOR>
+			<STUDENT>(pause for answer)</STUDENT>
+		</TELEPHONE>
+		
+	</SCRIPT_EVENT>
+	
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:23:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>CORONER 1097</DETAIL>	
+				<AUDIO Length = "16" Path = "181/18112.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18112.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 go ahead to Santa Lucia</LINE>
+				<LINE Role="Field">Coroner 10-97.</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia 10-4 Coroner 10-97.</LINE>
+			</DIALOG>
+		</CHP_RADIO>	
+		
+	</SCRIPT_EVENT>	
+
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:25:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>#3 LN CLEARED OPENING NOW</DETAIL>	
+				<AUDIO Length = "17" Path = "181/18113.wav" />	
+				
+				<PARAMICS LocationID="181_N_405_ML">
+					<Status>CHANGED</Status>
+					<Incident_type>LANE_BREAKDOWN</Incident_type>
+					<Lane_number>1</Lane_number>
+					<Lane_number>2</Lane_number>
+				</PARAMICS>						
+				
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18113.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 go ahead to Santa Lucia</LINE>
+				<LINE Role="Field">Santa Lucia, the #3 lane has been cleared and 
+							   were opening it now.</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia 10-4. #3 lane cleared and 
+								  opening it.</LINE>	
+			</DIALOG>
+		</CHP_RADIO>
+		
+		<CMS_EVALUATION cmsID="87" type="update"> 
+			<LOCATION>NB 405 @ HARVARD</LOCATION>
+			<SAMPLE_MESSAGE>
+				<CMS_LINE>ACCIDENT AHEAD</CMS_LINE>
+				<CMS_LINE>AT MACARTHUR BLVD</CMS_LINE>
+				<CMS_LINE>2 LT LANES BLKD</CMS_LINE>
+			</SAMPLE_MESSAGE>
+		</CMS_EVALUATION>	
+		
+		<MAINTENANCE_RADIO>TMC, M31. Were halfway done with the bale cleanup. We should be finished in 
+			 5 to 10 minutes.
+		</MAINTENANCE_RADIO>
+	</SCRIPT_EVENT>
+
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:28:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>CORONER CONFIRMED 1144, VEHS READY FOR TOW, HAY NEARLY CLEARED, ALL LANES OPEN IN 15</DETAIL>	
+				<AUDIO Length = "30" Path = "181/18114.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18114.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia, the coroner has confirmed the 11-44. 
+							   The two vehicles are ready to be towed and the 
+							   hay bales are nearly cleared. We should have all 
+							   lanes open in 15 minutes.</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia copies 11-44 confirmed. The 
+								  two vehicles are ready for tow and hay bales 
+								  nearly cleared. Lanes open in 15 minutes.</LINE>
+				
+			</DIALOG>
+		</CHP_RADIO>		
+
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:30:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>WTNSSES, JOHN/BETTY JONES SAW HAY TRUCK LOSE CONTROL, FLIP OVER, 2 VEH HIT</DETAIL>
+				<AUDIO Length = "30" Path = "181/18115.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>				
+		
+		<CHP_RADIO RadioFile="18115.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia, witnesses John and Betty Rogers saw 
+							   the hay truck lose control, flip over, and the 
+							   two vehicles hit it.</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia 10-4. Witnesses John and 
+								  Betty Rogers saw hay truck lose control, flip 
+								  over, and the two vehicles hit it.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+		
+		<MAINTENANCE_RADIO>Done cleaning up the hay.  10-98 units</MAINTENANCE_RADIO>
+
+	</SCRIPT_EVENT>
+
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:32:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>HAY TRK READY FOR TOW, 2 VEHS TOWED, DOT CLEARED HAY BALES, LANES OPEN IN 10</DETAIL>	
+				<AUDIO Length = "28" Path = "181/18116.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>			
+		
+		<CHP_RADIO RadioFile="18116.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia, the truck is being prepared for tow 
+							   and the two vehicles have been towed. Caltrans 
+							   has finished cleaning up the bales of hay. Lanes 
+							   open in 10.</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia copies truck being prepared 
+								  for tow and two vehicles have been towed. 
+								  Caltrans finished cleaning up the bales of 
+								  hay. Lanes open in 10.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+		
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:36:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>		
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>LANES OPEN IN 5</DETAIL>	
+				<AUDIO Length = "20" Path = "181/18117.wav" />	
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>
+		
+		<CHP_RADIO RadioFile="18117.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia, we're nearly finished with cleanup. 
+							   Lanes open in 5 minutes.</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia copied nearly finished with 
+								  cleanup. Lanes open in 5.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:41:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<CAD_DATA>	
+			<CAD_INCIDENT_EVENT>
+				<DETAIL>14-13 14-7 14-21 1098, TRK TOWED, ALL LNS CLR</DETAIL>	
+				<UNIT UnitNum="14-13" Status="1098" Primary="true" Active="false"/>		
+				<UNIT UnitNum="14-7" Status="1098" Primary="false" Active="false"/>		
+				<UNIT UnitNum="14-21" Status="1098" Primary="false" Active="false"/>		
+				<AUDIO Length = "19" Path = "181/18118.wav" />	
+				
+				<PARAMICS LocationID="181_N_405_ML">
+					<Status>CLEARED</Status>
+				</PARAMICS>						
+			</CAD_INCIDENT_EVENT>		
+		</CAD_DATA>
+		
+		<CHP_RADIO RadioFile="18118.wav">
+			<DIALOG>
+				<LINE Role="Field">Santa Lucia 14-13</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia go ahead</LINE>
+				<LINE Role="Field">Santa Lucia, the truck as been towed and the 
+							   lanes are clear. All units are 10-98</LINE>
+				<LINE Role="Dispatch">14-13 Santa Lucia 10-4. 14-13, 14-7, and 14-21 
+								  10-98.</LINE>
+			</DIALOG>
+		</CHP_RADIO>
+		
+		
+		<CMS_EVALUATION cmsID="87" type="update"> 
+			<LOCATION>NB 405 @ HARVARD</LOCATION>
+			<SAMPLE_MESSAGE>
+				<CMS_LINE>ACCIDENT CLEARED</CMS_LINE>
+				<CMS_LINE>AT MACARTHUR BLVD</CMS_LINE>
+			</SAMPLE_MESSAGE>
+		</CMS_EVALUATION>		
+	</SCRIPT_EVENT>
+
+	<SCRIPT_EVENT>
+		<TIME_INDEX>00:50:00</TIME_INDEX>
+		<INCIDENT LogNum="181">Overturned Hay Truck</INCIDENT>
+		
+		<TMT_RADIO>Queue Update.  TMT 10-98</TMT_RADIO>
+	</SCRIPT_EVENT>
+
+</TMC_SCRIPT>

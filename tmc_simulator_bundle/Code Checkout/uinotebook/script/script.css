@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: Verdana, sans-serif;	
+}
+
+/*=============================== Button Panel ======================*/
+
+button.expandButton {
+	width:100px;
+}
+
+button.collapseButton {
+	width:100px;
+}
+
+input.timeText {
+	padding-left:0px; 
+	padding-right:0px; 
+	margin-left:0px; 
+	margin-right:0px;  
+	width:1.5em;
+}
+
+td.buttonPanel {
+	padding:1px;
+}
+
+table.buttonTable
+{
+	margin:0px;
+	padding:0px;
+}

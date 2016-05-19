@@ -1,0 +1,76 @@
+.cadClient
+{
+   text-align: center;
+   background-color: black;
+   color: yellow;
+   height: 500px;
+   width: 720px;
+   font-family: "Courier";
+   font-size: .80em;
+}
+
+#cadHeader
+{
+   vertical-align: top;
+   height: 5%;
+}
+
+#cadBody
+{
+   vertical-align: top;
+   height: 80%;
+}
+
+#cadFooter
+{
+   vertical-align: top;
+   height: 15%;
+}
+
+.cadInputBox
+{
+   width: 720px;
+}
+
+.cadInputLineBox
+{
+   width: 80%;
+}
+
+.cadInputSubmitBox
+{
+   width: 20%;
+   margin-bottom: 40px;
+}
+
+.cadInputLine
+{
+   width: 100%; 
+   background-color: #000000; 
+   color: yellow;
+   font-family: "Courier New", Courier, monospace;
+   padding: 0px 10px;
+   border: 5px solid black;
+   height: 40px;
+}
+
+#cadSubmitButton
+{
+   height: 100%;
+   width: 100%;
+   font-size: 1.03em;
+}
+
+.cadButton
+{
+   width: 100%;
+   height: 40px;
+   font-size: 1.1em;
+}
+
+#cadSelect
+{
+   margin-top: 30px;
+   width: 100%;
+   font-size: 1.1em;
+}

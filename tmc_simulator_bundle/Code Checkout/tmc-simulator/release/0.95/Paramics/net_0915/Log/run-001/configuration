@@ -1,0 +1,33 @@
+start time  06:00:00
+simulation time  03:00:00
+demand weight  100.0
+seed  0
+demand matrix tuning level  0
+generator  0
+loop length  6.000 ft
+speed memory  3
+closest origin carpark  disabled
+closest destination carpark  enabled
+file time  "-"
+curve speed factor  5.000
+amber time  3.000
+speed drift 5
+maximum diversion 300
+right hand drive
+units us
+timestep detail  4
+mean headway  0.800
+mean reaction time  0.800
+gap  3.000 ft
+cost coefficients  1.000, 0.000 mins per mile, 0.000
+queue speed  4.470 mph
+queue distance  32.810 ft
+weight heavy  2.950 ton
+feedback 00:00:00
+feedback smoothing factor 0.500
+feedback decay factor 0.995
+perturbation enabled
+algorithm percentage
+
+
+

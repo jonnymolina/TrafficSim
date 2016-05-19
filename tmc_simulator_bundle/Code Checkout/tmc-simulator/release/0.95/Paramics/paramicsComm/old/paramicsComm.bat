@@ -1,0 +1,1 @@
+java chpcad.paramicscommunicator.ParamicsCommunicator paramicsComm.properties

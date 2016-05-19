@@ -1,0 +1,21 @@
+restrictions
+
+restriction 1 :
+	  Type Except 11 12 13 14 15 26 27 28 29 30 Barred
+	  colour 0x00e22b8a  fill style 1
+	  name "HOV"
+
+restriction 2 :
+	  Type Except 7 8 9 10 Barred
+	  colour 0x000a8de2  fill style 1
+	  name "Truck"
+
+restriction 3 :
+	  Type 11 12 13 14 15 Barred
+	  colour 0x008ff6ff  fill style 1
+	  name "SOV"
+
+restriction 4 :
+	  Type Except 11 12 13 14 15 26 27 28 29 30 Barred
+	  colour 0x00ff00ff  fill style 1
+	  name "HOV Ramp"

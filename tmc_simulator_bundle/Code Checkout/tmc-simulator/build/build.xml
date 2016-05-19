@@ -1,0 +1,148 @@
+<project name="TMC Simulator Software" default="usage" basedir=".">
+
+	<property name="build.dir" value="../bin" />
+	<property name="src.dir" value="../src" />
+	<property name="src.lib.dir" value="../lib" />
+	<property name="install.dir" value="../installers" />
+	<property name="deploy.dir" value="../deployment" />
+
+	<taskdef name="exe4j" classname="com.exe4j.Exe4JTask" 
+      classpath="C:\Program Files\exe4j\bin\ant.jar"/>
+
+	   <path id="master-classpath">
+	        <fileset dir="${src.lib.dir}">
+	            <include name="xerces-2_8_0/xercesImpl.jar" />
+	        </fileset>
+	   </path>
+	
+    <pathconvert property="lib.manifest.classpath"  pathsep=" ">
+        <path refid="master-classpath"/>
+        <chainedmapper>
+            <flattenmapper/>
+            <globmapper from="*" to="lib/*"/>
+        </chainedmapper>
+    </pathconvert>  
+	
+	<target name="usage">
+		<echo message="" />
+		<echo message="${name} build file" />
+		<echo message="-----------------------------------" />
+		<echo message="" />
+		<echo message="Available targets are:" />
+		<echo message="" />
+        <echo message="build   --> Create application JAR files for each tool" />
+		<echo message="jar     --> Create application JAR files for each tool" />
+		<echo message="exe     --> Create application JAR files for each tool" />
+		<echo message="clean   --> Remove binary class files for all tools" />
+		<echo message="" />
+	</target>
+
+    <target name="clean" description="create all source files">
+        <delete>
+        	<fileset dir=".">
+        	    <include name="cadclient.jar"/>
+                <include name="CADClient.exe"/>
+                <include name="cadmodels.jar"/>
+                <include name="CADSimulator.exe"/>
+                <include name="cadsimulator.jar"/>
+                <include name="common.jar"/>
+                <include name="interfaces.jar"/>
+                <include name="ParamicsCommunicator.exe"/>
+                <include name="paramicscommunicator.jar"/>
+                <include name="simmanager.jar"/>
+                <include name="SimulationManager.exe"/>
+        	</fileset>
+        </delete>
+
+    </target>
+	
+    <target name="build" depends="clean" description="create all source files">
+    	
+        <compile destination="${build.dir}">
+            <resolvepath>
+                <classpath refid="master-classpath" />
+            </resolvepath>               
+            <sources>
+                <pathelement location="${src.dir}" />
+            </sources>
+        </compile>
+    </target>
+
+	<target name="jar" depends="build" description="create all jar files">
+
+		<jar jarfile="cadmodels.jar" 
+	        basedir="${build.dir}"
+	        includes="tmcsim/cadmodels/**" >
+		</jar>
+
+		<jar jarfile="cadsimulator.jar" 
+	        basedir="${build.dir}"
+	        includes="tmcsim/cadsimulator/**" >
+		</jar>
+
+		<jar jarfile="cadclient.jar" 
+	        basedir="${build.dir}"
+	        includes="tmcsim/client/**" >
+		</jar>
+
+		<jar jarfile="common.jar" 
+	        basedir="${build.dir}"
+	        includes="tmcsim/common/**" >
+		</jar>
+
+		<jar jarfile="interfaces.jar" 
+	        basedir="${build.dir}"
+	        includes="tmcsim/interfaces/*.class" >
+		</jar>
+
+		<jar jarfile="paramicscommunicator.jar" 
+	        basedir="${build.dir}"
+	        includes="tmcsim/paramicscommunicator/**" >
+		</jar>
+
+		<jar jarfile="simmanager.jar" 
+	        basedir="${build.dir}"
+	        includes="tmcsim/simulationmanager/**" >
+		</jar>
+	</target>
+
+	<target name="exe" depends="jar" description="Create executables for all components." >
+		<exe4j projectfile="CADClient.exe4j"/>
+		<exe4j projectfile="CADSimulator.exe4j"/>
+		<exe4j projectfile="SimManager.exe4j"/>
+		<exe4j projectfile="ParamicsComm.exe4j"/>
+	</target>
+
+	<target name="install" depends="exe" description="Create installer file for the CAD software.">
+		<exec executable="C:\Program Files\NSIS\makensis.exe" >
+			<arg file="${install.dir}/setup.nsi"/>
+		</exec>
+	</target>
+
+	<target name="deploy" depends="install" description="do it">
+		<copy file="${install.dir}/setup.exe" todir="${deploy.dir}" />
+	</target>
+	
+    <macrodef name="compile">
+        <attribute name="destination"
+                   description="the destination of the build" />
+        <element name="resolvepath" optional="false" />
+        <element name="sources" optional="false" />
+        <sequential>
+
+            <echo>Building using javac</echo>
+
+            <javac destdir="@{destination}"
+                   fork="true"
+                   debug="true"
+                   debuglevel="lines,vars,source">
+                <resolvepath />
+                <src>
+                    <sources/>
+                </src>
+            </javac>
+        </sequential>
+    </macrodef> 
+
+
+</project>

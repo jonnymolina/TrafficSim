@@ -1,0 +1,30 @@
+<html>
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="maps.css"> 
+    <link href="../ipadapp.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="maps.js"></script> 
+
+  </head>
+  <body onLoad="setupGoogleMaps()">
+    
+    <!-- Find Incident Dropdown -->
+    <div id="incidentForm">
+      <form name="findIncidentForm">
+        <select name="findIncidentMenu" onChange="showIncident(document.findIncidentForm.findIncidentMenu.value)" width=700 style="width: 700px">
+          <option>Find Incident...</option>
+          <option>181 - Tomato Truck Spill</option>
+          <option>182 - Haytruck Crash</option>
+          <option>183 - Car Stalled on Freeway</option>
+        </select>
+      </form>
+    </div>
+    
+    <!-- The Map -->
+    <div id="Default" style="display:inline;"><img src="images/irvine.png"></div>
+    <div id="Find Incident..." style="display:inline;"><img src="images/irvine.png"></div>
+    <div id="181 - Tomato Truck Spill" style="display:none;"><img src="images/181.png"></div>
+    <div id="182 - Haytruck Crash" style="display:none;"><img src="images/182.png"></div>
+    <div id="183 - Car Stalled on Freeway" style="display:none;"><img src="images/183.png"></div>
+  </body>
+</html>
